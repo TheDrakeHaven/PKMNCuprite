@@ -1,4 +1,4 @@
-=======
+
 # PKMNMagnesium
 Pokemon Magensium Project
 >>>>>>> 6429b4fecbb67d73d872589a69bd865e98d21ede
