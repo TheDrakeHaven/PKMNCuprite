@@ -87,10 +87,10 @@ VerdanturfTown_Text_AirCleanHere:
 	.string "frail and sickly people.$"
 
 VerdanturfTown_Text_MakeBattleTentDebut:
-	.string "My POKéMON and I, we've been riding\n"
-	.string "a hot winning streak.\p"
-	.string "So I decided to make my BATTLE TENT\n"
-	.string "debut in this town.$"
+	.string "I'm waiting for my\n"
+	.string "girl friend to be ready.\p"
+	.string "I've been waiting here\n"
+	.string "for days.$"
 
 VerdanturfTown_Text_GuyTryingToBustThroughCave:
 	.string "Did you see the cave next to the\n"

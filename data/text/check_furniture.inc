@@ -16,7 +16,8 @@ Text_Vase:
 	.string "But, it was empty.$"
 
 Text_EmptyTrashCan:
-	.string "It's empty.$"
+	.string "It's trash.\n"
+	.string "Very smelly...$"
 
 Text_ShopShelf:
 	.string "The shelves brim with all sorts of\n"

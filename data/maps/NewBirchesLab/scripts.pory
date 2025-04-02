@@ -1,0 +1,512 @@
+mapscripts NewBirchesLab_MapScripts{
+    MAP_SCRIPT_ON_TRANSITION:NewBircheslab_EventScript_Pokeball 
+}
+
+script NewBircheslab_EventScript_Pokeball{
+    setvar(VAR_UNUSED_0x40F7,0)
+}
+
+script NewProfessor_EventScript_Birch{
+    lockall
+    faceplayer
+    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+        msgbox("Would you like to change the type?", MSGBOX_YESNO)
+        if(var(VAR_RESULT) == YES){
+            if(var(VAR_UNUSED_0x40F7) != 2){
+                addvar(VAR_UNUSED_0x40F7, 1)
+            }
+            else{
+                setvar(VAR_UNUSED_0x40F7, 0)
+            }
+            msgbox("This type is better")
+        }
+        else{
+            msgbox("Choose your Pokemon wisely")
+        }
+    }
+    else{
+        msgbox("That's the only free one")
+    }
+    waitmessage
+    releaseall
+    end
+}
+ 
+
+ 
+script NewProfessor_EventScript_Totodile{
+    showmonpic(SPECIES_TOTODILE, 10,3)
+    msgbox("Do you want to choose Totodile?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_TOTODILE, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Totodile")
+            removeobject(1)
+            setflag(FLAG_UNUSED_0x022)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Totodile")
+            removeobject(1)
+            setflag(FLAG_UNUSED_0x022)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+ 
+script NewProfessor_EventScript_Squirtle{
+    showmonpic(SPECIES_SQUIRTLE, 10,3)
+    msgbox("Do you want to choose Squirtle?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_SQUIRTLE, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Squirtle")
+            removeobject(1)
+            setflag(FLAG_UNUSED_0x021)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Squirtle")
+            removeobject(1)
+            setflag(FLAG_UNUSED_0x021)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+ 
+script NewProfessor_EventScript_Chikorita{
+    showmonpic(SPECIES_CHIKORITA, 10,3)
+    msgbox("Do you want to choose Chikorita?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_CHIKORITA, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Chikorita")
+            removeobject(2)
+            setflag(FLAG_UNUSED_0x022)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Chikorita")
+            removeobject(2)
+            setflag(FLAG_UNUSED_0x022)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+ 
+script NewProfessor_EventScript_Bulbasaur{
+    showmonpic(SPECIES_BULBASAUR, 10,3)
+    msgbox("Do you want to choose Bulbasaur?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_BULBASAUR, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Bulbasaur")
+            removeobject(2)
+            setflag(FLAG_UNUSED_0x021)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Bulbasaur")
+            removeobject(2)
+            setflag(FLAG_UNUSED_0x021)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+script NewProfessor_EventScript_Cyndaquil{
+    showmonpic(SPECIES_CYNDAQUIL, 10,3)
+    msgbox("Do you want to choose Cyndaquil?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_CYNDAQUIL, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Cyndaquil")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x022)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Cyndaquil")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x022)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+
+ 
+script NewProfessor_EventScript_Turtwig{
+    showmonpic(SPECIES_TURTWIG, 10,3)
+    msgbox("Do you want to choose Turtwig?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_TURTWIG, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Turtwig")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x020)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Turtwig")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x020)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+
+script NewProfessor_EventScript_Chimchar{
+    showmonpic(SPECIES_CHIMCHAR, 10,3)
+    msgbox("Do you want to choose Chimchar?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_CHIMCHAR, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Chimchar")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x020)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Chimchar")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x020)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+script NewProfessor_EventScript_Piplup{
+    showmonpic(SPECIES_PIPLUP, 10,3)
+    msgbox("Do you want to choose Piplup?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_PIPLUP, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Piplup")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x020)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Piplup")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x020)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+
+}
+
+script NewProfessor_EventScript_Snivy{
+    showmonpic(SPECIES_SNIVY, 10,3)
+    msgbox("Do you want to choose Snivy?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_SNIVY, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Snivy")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x023)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Snivy")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x023)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+
+script NewProfessor_EventScript_Charmander{
+    showmonpic(SPECIES_CHARMANDER, 10,3)
+    msgbox("Do you want to choose Charmander?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_CHARMANDER, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Charmander")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x021)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Charmander")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x021)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+ 
+script NewProfessor_EventScript_Tepig{
+    showmonpic(SPECIES_TEPIG, 10,3)
+    msgbox("Do you want to choose Tepig?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_TEPIG, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Tepig")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x023)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Tepig")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x023)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+script NewProfessor_EventScript_Oshawott{
+    showmonpic(SPECIES_OSHAWOTT, 10,3)
+    msgbox("Do you want to choose Oshawott?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        givemon(SPECIES_OSHAWOTT, 5, ITEM_EXP_SHARE)
+        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Oshawott")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x023)
+            call(NicknamePartyMon)
+        }
+        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+            playfanfare(MUS_OBTAIN_ITEM)
+            msgbox("Recieved Oshawott")
+            removeobject(3)
+            setflag(FLAG_UNUSED_0x023)
+            call(NicknameBoxMon)
+        }
+        else{
+            hidemonpic
+            msgbox("No More Room")
+        }
+    }
+    else{
+        hidemonpic
+        msgbox(NewProfessor_NotChosen)
+    }
+ 
+}
+script NewProfessor_EventScript_PokeballOne{
+    lockall
+    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+        if(var(VAR_UNUSED_0x40F7) == 0){
+            call(NewProfessor_EventScript_Piplup)
+        }
+        elif(var(VAR_UNUSED_0x40F7) == 1){
+            call(NewProfessor_EventScript_Chimchar)
+        }
+        elif(var(VAR_UNUSED_0x40F7) == 2){
+            call(NewProfessor_EventScript_Turtwig)
+        }
+    }
+    else{
+        msgbox("Don't Take Another")
+    }
+    waitmessage
+    releaseall
+    end
+}
+ 
+script NewProfessor_EventScript_PokeballTwo{
+    lockall
+    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+        if(var(VAR_UNUSED_0x40F7) == 0){
+            call(NewProfessor_EventScript_Squirtle)
+        }
+        elif(var(VAR_UNUSED_0x40F7) == 1){
+            call(NewProfessor_EventScript_Charmander)
+        }
+        elif(var(VAR_UNUSED_0x40F7) == 2){
+            call(NewProfessor_EventScript_Bulbasaur)
+        }
+    }
+    else{
+        msgbox("Don't Take Another")
+    }
+    waitmessage
+    releaseall
+    end
+}
+ 
+script NewProfessor_EventScript_PokeballThree{
+    lockall
+    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+        if(var(VAR_UNUSED_0x40F7) == 0){
+            call(NewProfessor_EventScript_Totodile)
+        }
+        elif(var(VAR_UNUSED_0x40F7) == 1){
+            call(NewProfessor_EventScript_Cyndaquil)
+        }
+        elif(var(VAR_UNUSED_0x40F7) == 2){
+            call(NewProfessor_EventScript_Chikorita)
+        }
+    }
+    else{
+        msgbox("Don't Take Another")
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script NewProfessor_EventScript_PokeballFour{
+    lockall
+    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+        if(var(VAR_UNUSED_0x40F7) == 0){
+            call(NewProfessor_EventScript_Oshawott)
+        }
+        elif(var(VAR_UNUSED_0x40F7) == 1){
+            call(NewProfessor_EventScript_Tepig)
+        }
+        elif(var(VAR_UNUSED_0x40F7) == 2){
+            call(NewProfessor_EventScript_Snivy)
+        }
+    }
+    else{
+        msgbox("Don't Take Another")
+    }
+    waitmessage
+    releaseall
+    end
+}
+
+script NicknamePartyMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+ 
+ 
+}
+ 
+script NicknameBoxMon{
+    msgbox("Give a nickname?", MSGBOX_YESNO)
+    hidemonpic
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_NameReceivedBoxMon)
+    }
+    msgbox("Transferred to PC")
+}
+ 
+text NewProfessor_NotChosen{
+    "You did not choose the Pokemon"
+}

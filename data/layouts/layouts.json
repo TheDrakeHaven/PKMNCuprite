@@ -94,7 +94,7 @@
     {
       "id": "LAYOUT_LITTLEROOT_TOWN",
       "name": "LittlerootTown_Layout",
-      "width": 20,
+      "width": 32,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -124,7 +124,7 @@
     {
       "id": "LAYOUT_LAVARIDGE_TOWN",
       "name": "LavaridgeTown_Layout",
-      "width": 20,
+      "width": 25,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lavaridge",
@@ -154,7 +154,7 @@
     {
       "id": "LAYOUT_PACIFIDLOG_TOWN",
       "name": "PacifidlogTown_Layout",
-      "width": 20,
+      "width": 30,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
@@ -205,7 +205,7 @@
       "id": "LAYOUT_ROUTE105",
       "name": "Route105_Layout",
       "width": 40,
-      "height": 80,
+      "height": 63,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/Route105/border.bin",
@@ -214,7 +214,7 @@
     {
       "id": "LAYOUT_ROUTE106",
       "name": "Route106_Layout",
-      "width": 80,
+      "width": 76,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
@@ -224,7 +224,7 @@
     {
       "id": "LAYOUT_ROUTE107",
       "name": "Route107_Layout",
-      "width": 60,
+      "width": 45,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
@@ -234,7 +234,7 @@
     {
       "id": "LAYOUT_ROUTE108",
       "name": "Route108_Layout",
-      "width": 60,
+      "width": 42,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Slateport",
@@ -264,7 +264,7 @@
     {
       "id": "LAYOUT_ROUTE111",
       "name": "Route111_Layout",
-      "width": 40,
+      "width": 50,
       "height": 140,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
@@ -274,7 +274,7 @@
     {
       "id": "LAYOUT_ROUTE112",
       "name": "Route112_Layout",
-      "width": 40,
+      "width": 50,
       "height": 60,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lavaridge",
@@ -284,7 +284,7 @@
     {
       "id": "LAYOUT_ROUTE113",
       "name": "Route113_Layout",
-      "width": 100,
+      "width": 112,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fallarbor",
@@ -395,7 +395,7 @@
       "id": "LAYOUT_ROUTE124",
       "name": "Route124_Layout",
       "width": 80,
-      "height": 80,
+      "height": 65,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route124/border.bin",
@@ -415,7 +415,7 @@
       "id": "LAYOUT_ROUTE126",
       "name": "Route126_Layout",
       "width": 80,
-      "height": 80,
+      "height": 73,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route126/border.bin",
@@ -425,7 +425,7 @@
       "id": "LAYOUT_ROUTE127",
       "name": "Route127_Layout",
       "width": 80,
-      "height": 80,
+      "height": 69,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route127/border.bin",
@@ -434,8 +434,8 @@
     {
       "id": "LAYOUT_ROUTE128",
       "name": "Route128_Layout",
-      "width": 120,
-      "height": 40,
+      "width": 95,
+      "height": 36,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route128/border.bin",
@@ -444,7 +444,7 @@
     {
       "id": "LAYOUT_ROUTE129",
       "name": "Route129_Layout",
-      "width": 80,
+      "width": 57,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
@@ -464,7 +464,7 @@
     {
       "id": "LAYOUT_ROUTE131",
       "name": "Route131_Layout",
-      "width": 60,
+      "width": 46,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
@@ -474,7 +474,7 @@
     {
       "id": "LAYOUT_ROUTE132",
       "name": "Route132_Layout",
-      "width": 80,
+      "width": 64,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
@@ -484,7 +484,7 @@
     {
       "id": "LAYOUT_ROUTE133",
       "name": "Route133_Layout",
-      "width": 80,
+      "width": 54,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Pacifidlog",
@@ -2624,7 +2624,7 @@
     {
       "id": "LAYOUT_ROUTE130",
       "name": "Route130_Layout",
-      "width": 80,
+      "width": 45,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
@@ -4410,6 +4410,36 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BIRCHES_LAB",
+      "name": "NewBirchesLab_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_RustboroGym",
+      "border_filepath": "data/layouts/NewBirchesLab/border.bin",
+      "blockdata_filepath": "data/layouts/NewBirchesLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_PACIFIDLOG_TOWN_HOUSE6",
+      "name": "PacifidlogTown_House6_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/PacifidlogTown_House6/border.bin",
+      "blockdata_filepath": "data/layouts/PacifidlogTown_House6/map.bin"
+    },
+    {
+      "id": "LAYOUT_PACIFIDLOG_TOWN_HOUSE7",
+      "name": "PacifidlogTown_House7_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/PacifidlogTown_House7/border.bin",
+      "blockdata_filepath": "data/layouts/PacifidlogTown_House7/map.bin"
     }
   ]
 }

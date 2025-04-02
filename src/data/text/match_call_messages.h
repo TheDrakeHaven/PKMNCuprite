@@ -457,7 +457,7 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_WALLY_VR] = MCFLAVOR(PkmnTrainer_Wally),
     [REMATCH_ROXANNE] = MCFLAVOR(RockinWhiz_Roxanne),
     [REMATCH_BRAWLY] = MCFLAVOR(TheBigHit_Brawly),
-    [REMATCH_WATTSON] = MCFLAVOR(SwellShock_Wattson),
+    [REMATCH_SAM] = MCFLAVOR(SwellShock_Wattson),
     [REMATCH_FLANNERY] = MCFLAVOR(PassionBurn_Flannery),
     [REMATCH_NORMAN] = MCFLAVOR(ReliableOne_Dad),
     [REMATCH_WINONA] = MCFLAVOR(SkyTamer_Winona),

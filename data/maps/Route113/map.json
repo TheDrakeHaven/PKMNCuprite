@@ -32,7 +32,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
-      "x": 66,
+      "x": 72,
       "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
@@ -110,7 +110,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 79,
+      "x": 91,
       "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -136,7 +136,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
-      "x": 71,
+      "x": 83,
       "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BURIED",
@@ -188,7 +188,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
-      "x": 75,
+      "x": 85,
       "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -201,7 +201,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
-      "x": 71,
+      "x": 83,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -255,7 +255,7 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 88,
+      "x": 99,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
@@ -293,21 +293,21 @@
     },
     {
       "type": "weather",
-      "x": 86,
+      "x": 98,
       "y": 9,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
     },
     {
       "type": "weather",
-      "x": 85,
+      "x": 97,
       "y": 10,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
     },
     {
       "type": "weather",
-      "x": 85,
+      "x": 97,
       "y": 11,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
@@ -342,29 +342,29 @@
     },
     {
       "type": "weather",
-      "x": 94,
+      "x": 103,
       "y": 8,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 94,
+      "x": 103,
       "y": 9,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 94,
-      "y": 10,
+      "x": 103,
+      "y": 7,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
     {
       "type": "weather",
-      "x": 94,
-      "y": 11,
+      "x": 103,
+      "y": 10,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
@@ -377,21 +377,21 @@
     },
     {
       "type": "weather",
-      "x": 87,
+      "x": 99,
       "y": 8,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
     },
     {
       "type": "weather",
-      "x": 87,
+      "x": 101,
       "y": 6,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
     },
     {
       "type": "weather",
-      "x": 87,
+      "x": 100,
       "y": 7,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_VOLCANIC_ASH"
@@ -400,7 +400,7 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 85,
+      "x": 97,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -439,7 +439,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 66,
+      "x": 71,
       "y": 3,
       "elevation": 3,
       "item": "ITEM_ETHER",
@@ -455,7 +455,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 73,
+      "x": 78,
       "y": 3,
       "elevation": 3,
       "item": "ITEM_NUGGET",

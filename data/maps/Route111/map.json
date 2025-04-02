@@ -409,8 +409,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
-      "x": 32,
-      "y": 29,
+      "x": 33,
+      "y": 36,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_RIGHT_AND_LEFT",
       "movement_range_x": 1,
@@ -591,8 +591,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FOSSIL",
-      "x": 20,
-      "y": 53,
+      "x": 40,
+      "y": 58,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -604,7 +604,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 19,
+      "x": 34,
       "y": 53,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -652,15 +652,15 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 19,
+      "x": 34,
       "y": 58,
       "elevation": 0,
       "dest_map": "MAP_MIRAGE_TOWER_1F",
       "dest_warp_id": "0"
     },
     {
-      "x": 31,
-      "y": 113,
+      "x": 35,
+      "y": 34,
       "elevation": 0,
       "dest_map": "MAP_TRAINER_HILL_ENTRANCE",
       "dest_warp_id": "0"
@@ -1016,15 +1016,15 @@
     },
     {
       "type": "secret_base",
-      "x": 34,
-      "y": 50,
+      "x": 39,
+      "y": 47,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_YELLOW_CAVE3_1"
     },
     {
       "type": "secret_base",
-      "x": 33,
-      "y": 34,
+      "x": 37,
+      "y": 40,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_YELLOW_CAVE1_1"
     },
@@ -1089,7 +1089,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 19,
+      "x": 34,
       "y": 55,
       "elevation": 0,
       "item": "ITEM_PROTEIN",

@@ -1,11 +1,11 @@
 Route102_Text_CalvinIntro:
-	.string "If you have POKéMON with you, then\n"
-	.string "you're an official POKéMON TRAINER!\l"
+	.string "Am I your first wild TRAINER?\n"
+	.string "I won't go easy!\l"
 	.string "You can't say no to my challenge!$"
 
 Route102_Text_CalvinDefeated:
-	.string "Arrgh, I lost…\n"
-	.string "I should have trained mine more…$"
+	.string "Arrgh, curse the devs…\n"
+	.string "They wouldn't make me stronger…$"
 
 Route102_Text_CalvinPostBattle:
 	.string "Listen, you. If you're strong,\n"
@@ -39,23 +39,24 @@ Route102_Text_AllenIntro:
 	.string "We're both beginners!$"
 
 Route102_Text_AllenDefeated:
-	.string "I called you because I thought\n"
+	.string "I battled you because I thought\n"
 	.string "I could beat you…$"
 
 Route102_Text_AllenPostBattle:
 	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
+	.string "Guess I'll give up…$"
 
 Route102_Text_RickIntro:
 	.string "Hahah! Our eyes met!\n"
-	.string "I'll take you on with my BUG POKéMON!$"
+	.string "I'll take you on with my cool POKéMON!$"
 
 Route102_Text_RickDefeated:
 	.string "Ow! Down and out!$"
 
 Route102_Text_RickPostBattle:
 	.string "If you lock eyes with a TRAINER,\n"
-	.string "you have to challenge! It's a rule!$"
+	.string "you have to challenge!\p"
+	.string "Or maybe its love at first sight!$"
 
 Route102_Text_TianaIntro:
 	.string "I'm going to keep winning and aim\n"

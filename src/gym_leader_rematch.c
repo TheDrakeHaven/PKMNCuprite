@@ -12,7 +12,7 @@ static s32 GetRematchIndex(u32 trainerIdx);
 static const u16 GymLeaderRematches_AfterNewMauville[] = {
     REMATCH_ROXANNE,
     REMATCH_BRAWLY,
-    REMATCH_WATTSON,
+    REMATCH_SAM,
     REMATCH_FLANNERY,
     REMATCH_NORMAN,
     REMATCH_WINONA,
@@ -35,7 +35,7 @@ void UpdateGymLeaderRematch(void)
 {
     if (FlagGet(FLAG_SYS_GAME_CLEAR) && (Random() % 100) <= 30)
     {
-        if (FlagGet(FLAG_WATTSON_REMATCH_AVAILABLE))
+        if (FlagGet(FLAG_SAM_REMATCH_AVAILABLE))
             UpdateGymLeaderRematchFromArray(GymLeaderRematches_AfterNewMauville, ARRAY_COUNT(GymLeaderRematches_AfterNewMauville), 5);
         else
             UpdateGymLeaderRematchFromArray(GymLeaderRematches_BeforeNewMauville, ARRAY_COUNT(GymLeaderRematches_BeforeNewMauville), 1);

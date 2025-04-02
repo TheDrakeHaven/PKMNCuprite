@@ -38,7 +38,9 @@ LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPCMon:
 
 LilycoveCity_DepartmentStore_1F_Text_NoNumbersMatched:
 	.string "I'm sorry.\n"
-	.string "None of the numbers matched.$"
+	.string "None of the numbers matched.\n"
+	.string "90% of gamblers quit before\l"
+	.string "they hit it big!$"
 
 LilycoveCity_DepartmentStore_1F_Text_TwoDigitsMatched:
 	.string "Two digits matched, so you win the\n"

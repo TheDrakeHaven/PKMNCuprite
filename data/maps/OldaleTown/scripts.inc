@@ -344,8 +344,8 @@ OldaleTown_Movement_ReturnToOriginalPosition:
 	step_end
 
 OldaleTown_Text_SavingMyProgress:
-	.string "I want to take a rest, so I'm saving my\n"
-	.string "progress.$"
+	.string "Ash to Gary, Dust to \n"
+	.string "Dust.$"
 
 OldaleTown_Text_IWorkAtPokemonMart:
 	.string "Hi!\n"
@@ -353,17 +353,17 @@ OldaleTown_Text_IWorkAtPokemonMart:
 	.string "Can I get you to come with me?$"
 
 OldaleTown_Text_ThisIsAPokemonMart:
-	.string "This is a POKéMON MART.\n"
-	.string "Just look for our blue roof.\p"
-	.string "We sell a variety of goods including\n"
-	.string "POKé BALLS for catching POKéMON.\p"
+	.string "I lied, this is my house\n"
+	.string "Just look for my brown roof.\p"
+	.string "I sell a variety of goods including\n"
+	.string "Steriods for bulking POKéMON.\p"
 	.string "Here, I'd like you to have this as\n"
 	.string "a promotional item.$"
 
 OldaleTown_Text_PotionExplanation:
 	.string "A POTION can be used anytime, so it's\n"
 	.string "even more useful than a POKéMON CENTER\l"
-	.string "in certain situations.$"
+	.string "if you are dumb.$"
 
 OldaleTown_Text_WaitDontComeInHere:
 	.string "Aaaaah! Wait!\n"
@@ -391,11 +391,11 @@ OldaleTown_Text_MayLetsGoBack:
 	.string "Let's hurry home!$"
 
 OldaleTown_Text_BrendanLetsGoBack:
-	.string "BRENDAN: I'm heading back to my dad's\n"
+	.string "BRENDAN: I'm heading back to the\n"
 	.string "LAB now.\l"
-	.string "{PLAYER}, you should hustle back, too.$"
+	.string "{PLAYER}, last one there sucks eggs.$"
 
 OldaleTown_Text_TownSign:
 	.string "OLDALE TOWN\n"
-	.string "“Where things start off scarce.”$"
+	.string "“We forgot to finish this town.”$"
 
