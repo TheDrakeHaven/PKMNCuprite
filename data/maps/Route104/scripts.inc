@@ -230,19 +230,19 @@ Route104_EventScript_BrendanDefeated::
 	end
 
 Route104_EventScript_BattleBrendanTreecko::
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TREECKO, Route104_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO, Route104_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 	goto Route104_EventScript_BrendanDefeated
 	end
 
 Route104_EventScript_BattleBrendanTorchic::
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TORCHIC, Route104_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO, Route104_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 	goto Route104_EventScript_BrendanDefeated
 	end
 
 Route104_EventScript_BattleBrendanMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_MUDKIP, Route104_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO, Route104_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 	goto Route104_EventScript_BrendanDefeated
 	end
@@ -355,20 +355,14 @@ Route104_EventScript_SailToDewford::
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerBoardBoat
 	waitmovement 0
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
-	call Common_EventScript_PlayBrineysBoatMusic
 	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordNoCall
 	goto_if_unset FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordDadCalls
 	end
 
 Route104_EventScript_SailToDewfordNoCall::
-	applymovement LOCALID_BOAT_R104, Route104_Movement_SailToDewford
-	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_SailToDewford
-	waitmovement 0
 	goto Route104_EventScript_ArriveInDewford
 
 Route104_EventScript_SailToDewfordDadCalls::
-	applymovement LOCALID_BOAT_R104, Route104_Movement_SailToDewfordBeforeDadCalls
-	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_SailToDewfordBeforeDadCalls
 	waitmovement 0
 	pokenavcall Route104_Text_DadPokenavCall
 	waitmessage
@@ -379,17 +373,13 @@ Route104_EventScript_SailToDewfordDadCalls::
 	closemessage
 	delay 30
 	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
-	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_SailToDewfordAfterDadCalls
-	applymovement LOCALID_BOAT_R104, Route104_Movement_SailToDewfordAfterDadCalls, MAP_ROUTE104
-	waitmovement LOCALID_BOAT_R104, MAP_ROUTE104
-	waitmovement 0
 	goto Route104_EventScript_ArriveInDewford
 
 Route104_EventScript_ArriveInDewford::
 	delay 50
+	warp MAP_DEWFORD_TOWN, 11, 9
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerExitBoat
 	waitmovement 0
-	call Common_EventScript_StopBrineysBoatMusic
 	showobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerMoveForBriney
 	waitmovement 0
@@ -400,8 +390,6 @@ Route104_EventScript_ArriveInDewford::
 	applymovement LOCALID_BRINEY_DEWFORD, Route104_Movement_BrineyExitBoat
 	waitmovement 0
 	addobject LOCALID_BOAT_DEWFORD
-	clearflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
-	call Common_EventScript_StopBrineysBoatMusic
 	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
 	hideobjectat LOCALID_BOAT_R104, MAP_ROUTE104
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
@@ -411,6 +399,7 @@ Route104_EventScript_ArriveInDewford::
 	setvar VAR_BOARD_BRINEY_BOAT_STATE, 0
 	goto_if_unset FLAG_DELIVERED_STEVEN_LETTER, Route104_EventScript_DeliverLetterReminder
 	goto_if_set FLAG_DELIVERED_STEVEN_LETTER, Route104_EventScript_LandedInDewford
+
 	end
 
 Route104_EventScript_DeliverLetterReminder::
@@ -524,18 +513,14 @@ Route104_Movement_SailToDewfordBeforeDadCalls:
 	step_end
 
 Route104_Movement_SailToDewfordAfterDadCalls:
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
 	walk_faster_down
 	walk_faster_down
 	walk_faster_down
@@ -554,6 +539,84 @@ Route104_Movement_SailToDewfordAfterDadCalls:
 	walk_fast_down
 	walk_fast_right
 	walk_fast_right
+	walk_faster_right
+	walk_faster_right
+	walk_faster_right
+	walk_faster_right
+	walk_faster_right
+	walk_faster_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_faster_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
 	walk_fast_right
 	walk_fast_right
 	walk_faster_right
@@ -562,15 +625,25 @@ Route104_Movement_SailToDewfordAfterDadCalls:
 	walk_faster_right
 	walk_faster_right
 	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_down
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
 	walk_faster_right
 	walk_faster_right
 	walk_faster_right
@@ -604,15 +677,6 @@ Route104_Movement_SailToDewfordAfterDadCalls:
 	walk_right
 	walk_down
 	walk_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
 	walk_fast_down
 	walk_fast_down
 	walk_fast_down
@@ -721,53 +785,40 @@ Route104_Movement_SailToDewford:
 	walk_faster_down
 	walk_faster_down
 	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_faster_down
-	walk_fast_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
 	walk_fast_down
 	walk_fast_down
 	walk_fast_down
 	walk_fast_right
 	walk_fast_right
+	walk_faster_right
+	walk_faster_right
+	walk_faster_right
+	walk_faster_right
+	walk_faster_right
+	walk_faster_right
 	walk_fast_right
 	walk_fast_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
+	walk_fast_right
+	walk_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_down
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
 	walk_faster_right
 	walk_faster_right
 	walk_faster_right
@@ -801,15 +852,6 @@ Route104_Movement_SailToDewford:
 	walk_right
 	walk_down
 	walk_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
-	walk_fast_down
 	walk_fast_down
 	walk_fast_down
 	walk_fast_down

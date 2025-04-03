@@ -132,10 +132,6 @@ DewfordTown_EventScript_SailToPetalburg::
 	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_PlayerBoardBoat
 	waitmovement 0
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
-	call Common_EventScript_PlayBrineysBoatMusic
-	applymovement LOCALID_BOAT_DEWFORD, DewfordTown_Movement_SailToPetalburg
-	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_SailToPetalburg
-	waitmovement 0
 	showobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
 	call Common_EventScript_StopBrineysBoatMusic
 	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_ExitBoatPetalburg
@@ -164,11 +160,6 @@ DewfordTown_EventScript_SailToSlateport::
 	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_PlayerBoardBoat
 	waitmovement 0
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
-	call Common_EventScript_PlayBrineysBoatMusic
-	applymovement LOCALID_BOAT_DEWFORD, DewfordTown_Movement_SailToSlateport
-	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_SailToSlateport
-	waitmovement 0
-	call Common_EventScript_StopBrineysBoatMusic
 	showobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
 	applymovement OBJ_EVENT_ID_PLAYER, DewfordTown_Movement_ExitBoatSlateport
 	waitmovement 0
@@ -200,289 +191,11 @@ DewfordTown_EventScript_LandedSlateport::
 	msgbox DewfordTown_Text_BrineyLandedInSlateport, MSGBOX_DEFAULT
 	return
 
-DewfordTown_Movement_SailToPetalburg:
-	walk_up
-	walk_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_up
-	walk_up
-	walk_left
-	walk_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_left
-	walk_fast_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_faster_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_up
-	walk_fast_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_faster_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	step_end
 
 DewfordTown_Movement_SailToSlateport:
 	walk_right
 	walk_fast_right
 	walk_fast_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
-	walk_faster_right
 	walk_faster_right
 	walk_faster_right
 	walk_faster_right
@@ -577,9 +290,6 @@ DewfordTown_Movement_PlayerBoardBoat:
 	step_end
 
 DewfordTown_Movement_ExitBoatPetalburg:
-	walk_up
-	walk_up
-	walk_up
 	step_end
 
 DewfordTown_Movement_ExitBoatSlateport:

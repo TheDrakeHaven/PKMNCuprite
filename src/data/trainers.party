@@ -1562,7 +1562,7 @@ Ambipom
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_SAMUEL ===
+=== TRAINER_SAMMY ===
 Name: SAMMY
 Class: Cooltrainer
 Pic: Cooltrainer M
@@ -9784,11 +9784,19 @@ IVs: 0 SpA
 - Taunt  
 - Acrobatics  
 - Knock Off  
-- Poison Tail  
+- Poison Tail 
 
+Metang 
+Ability: Clear Body
+Level: 24
+Jolly Nature
+-Zen Headbutt
+-Metal Claw
+-Hone Claws
+-Magnet Rise
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
-Name: SAM
+Name: SAMUEL
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9834,7 +9842,7 @@ Jolly Nature
 - Zen Headbutt  
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
-Name: SAM
+Name: SAMUEL
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9852,7 +9860,7 @@ IVs: 0 Atk
 - Growl 
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
-Name: SAM
+Name: SAMUEL
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9892,7 +9900,7 @@ IVs: 0 SpA
 
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
-Name: SAM
+Name: SAMUEL
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9938,7 +9946,7 @@ Jolly Nature
 - Zen Headbutt  
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
-Name: SAM
+Name: SAMUEL
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9956,7 +9964,7 @@ IVs: 0 Atk
 - Growl 
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
-Name: SAM
+Name: SAMUEL
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -9996,7 +10004,7 @@ IVs: 0 SpA
 
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
-Name: SAM
+Name: SAMUEL
 Class: Rival
 Pic: Brendan
 Gender: Male
@@ -11217,7 +11225,7 @@ Jigglypuff
 Level: 52
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BRENDAN_RUSTBORO_TREECKO ===
+=== TRAINER_BRENDAN_RUSTBORO ===
 Name: SAMUEL
 Class: Rival
 Pic: Brendan
@@ -11245,6 +11253,13 @@ Relaxed Nature
 - Stun Spore  
 - Astonish  
 
+Gligar @ Razor Fang
+Ability: Hyper Cutter
+Level: 16
+Careful Nature
+-Fury Cutter
+-Poison Sting
+-Knock Off
 
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===

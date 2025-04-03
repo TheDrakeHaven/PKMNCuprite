@@ -164,8 +164,6 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_NormanAddressWallyWest
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_NormanAddressWallyEast
 	msgbox PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon, MSGBOX_DEFAULT
-	msgbox PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall, MSGBOX_DEFAULT
-	msgbox PetalburgCity_Gym_Text_WallyOhWowThankYou, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, PetalburgCity_Gym_EventScript_NormanFaceDoorSouth
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_NormanFaceDoorNorth
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_NormanFaceDoorWest
@@ -174,8 +172,6 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	call_if_eq VAR_0x8008, 1, PetalburgCity_Gym_EventScript_WallyFaceDown
 	call_if_eq VAR_0x8008, 2, PetalburgCity_Gym_EventScript_WallyFacePlayer
 	call_if_eq VAR_0x8008, 3, PetalburgCity_Gym_EventScript_WallyFacePlayer
-	msgbox PetalburgCity_Gym_Text_WouldYouReallyComeWithMe, MSGBOX_DEFAULT
-	closemessage
 	setflag FLAG_DONT_TRANSITION_MUSIC
 	playbgm MUS_FOLLOW_ME, FALSE
 	call_if_eq VAR_0x8008, 0, PetalburgCity_Gym_EventScript_ExitGymWithWallySouth
@@ -640,9 +636,9 @@ PetalburgCity_Gym_Movement_WallyArriveNorth:
 	walk_up
 	delay_16
 	delay_8
-	walk_up
 	walk_right
 	walk_up
+		walk_up
 	walk_up
 	walk_in_place_faster_left
 	step_end
@@ -1160,15 +1156,12 @@ PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 	.string "DAD: Hm? You're… Uh… Oh, right.\n"
-	.string "You're WALLY, right?$"
+	.string "You're SAMUEL, right?$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
-	.string "WALLY: I'm going to go stay with my\n"
-	.string "relatives in VERDANTURF TOWN.\p"
-	.string "I thought I would be lonely by myself,\n"
-	.string "so I wanted to take a POKéMON along.\p"
-	.string "But I've never caught a POKéMON before.\n"
-	.string "I don't know how…$"
+	.string "SAMUEL:I want to battle the first gym\n"
+	.string "but I need to catch another POKEMON.\p"
+	.string "You want me to show you how?$"
 
 PetalburgCity_Gym_Text_DadHmISee:
 	.string "DAD: Hm. I see.$"
@@ -1176,41 +1169,21 @@ PetalburgCity_Gym_Text_DadHmISee:
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 	.string "DAD: {PLAYER}, you heard that,\n"
 	.string "right?\p"
-	.string "Go with WALLY and make sure that he\n"
-	.string "safely catches a POKéMON.$"
+	.string "Go with SAMUEL and make sure that he\n"
+	.string "catches a POKéMON.$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
-	.string "WALLY, here, I'll loan you my POKéMON.\p"
-	.string "WALLY received a ZIGZAGOON!$"
-
-PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
-	.string "WALLY: Oh, wow!\n"
-	.string "A POKéMON!\p"
-	.string "DAD: Hm. I'll give you a POKé BALL, too.\n"
-	.string "Go for it!\p"
-	.string "WALLY received a POKé BALL!$"
-
-PetalburgCity_Gym_Text_WallyOhWowThankYou:
-	.string "WALLY: Oh, wow!\n"
-	.string "Thank you!$"
-
-PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
-	.string "{PLAYER}… Would you really come\n"
-	.string "with me?$"
+	.string "Here, I'll loan you my POKéBALL.\p"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
-	.string "DAD: So, did it work out?$"
+	.string " $"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
-	.string "WALLY: Thank you, yes, it did.\n"
-	.string "Here's your POKéMON back.\p"
 	.string "{PLAYER}, thank you for coming along\n"
 	.string "with me.\p"
-	.string "You two are why I was able to catch\n"
-	.string "my POKéMON.\p"
-	.string "I promise I'll take really good\n"
-	.string "care of it.\p"
-	.string "Oh! My mom's waiting for me,\n"
+	.string "I promise I'm gonna stun spore\n"
+	.string "everyone with it.\p"
+	.string "Oh! The gym leader is waiting for me,\n"
 	.string "so I have to go!\p"
 	.string "Bye, {PLAYER}!$"
 
@@ -1221,8 +1194,8 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "Head for RUSTBORO CITY beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
-	.string "the GYM LEADER, ROXANNE.\p"
-	.string "After her, go on to other POKéMON\n"
+	.string "the GYM LEADER, ALEC.\p"
+	.string "After him, go on to other POKéMON\n"
 	.string "GYMS and defeat their LEADERS.\p"
 	.string "Collect BADGES from them,\n"
 	.string "understood?\p"

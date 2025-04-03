@@ -84,7 +84,7 @@
 #define TRAINER_WILTON_1                     78
 #define TRAINER_EDGAR                        79
 #define TRAINER_ALBERT                       80
-#define TRAINER_SAMUEL                       81
+#define TRAINER_SAMMY                        81
 #define TRAINER_VITO                         82
 #define TRAINER_OWEN                         83
 #define TRAINER_WILTON_2                     84
@@ -595,7 +595,7 @@
 #define TRAINER_GRUNT_SPACE_CENTER_6        589
 #define TRAINER_GRUNT_SPACE_CENTER_7        590
 #define TRAINER_MACEY                       591
-#define TRAINER_BRENDAN_RUSTBORO_TREECKO    592
+#define TRAINER_BRENDAN_RUSTBORO            592
 #define TRAINER_BRENDAN_RUSTBORO_MUDKIP     593
 #define TRAINER_PAXTON                      594
 #define TRAINER_ISABELLA                    595

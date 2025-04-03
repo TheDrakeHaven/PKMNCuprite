@@ -585,7 +585,7 @@ RustboroCity_Gym_EventScript_GiveEevee::
 # 296 "data/maps/RustboroCity_Gym/scripts.pory"
 	giveitem ITEM_MOON_STONE
 # 297 "data/maps/RustboroCity_Gym/scripts.pory"
-	givemon SPECIES_EEVEE, 15, ITEM_ABILITY_PATCH
+	givemon SPECIES_EEVEE, 15, ITEM_SOOTHE_BELL
 # 298 "data/maps/RustboroCity_Gym/scripts.pory"
 	compare VAR_RESULT, MON_GIVEN_TO_PARTY
 	goto_if_eq RustboroCity_Gym_EventScript_GiveEevee_1
