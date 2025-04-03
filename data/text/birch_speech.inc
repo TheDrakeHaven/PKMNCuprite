@@ -32,29 +32,23 @@ gText_Birch_AndYouAre::
 	.string "Gamer!$"
 
 gText_Birch_BoyOrGirl::
-	.string "Pick girl or the story breaks.\n"
 	.string "So are you a girl?$"
 
 gText_Birch_WhatsYourName::
-	.string "Make sure you're a girl.\n"
 	.string "What's your name?$"
 
 gText_Birch_SoItsPlayer::
-	.string "So it's lass {PLAYER}-chan?$"
+	.string "So it's {PLAYER}?$"
 
 gText_Birch_YourePlayer::
 	.string "Nice!\p"
-	.string "You're {PLAYER}-chan who's accepted\n"
+	.string "You're {PLAYER} who's accepted\n"
 	.string "my challenge.\p"
 	.string "Good luck!\p"
 	.string "$"
 
 gText_Birch_AreYouReady::
 	.string "All right, are you ready?\p"
-	.string "Your very own adventure is about\n"
-	.string "to unfold.\p"
-	.string "Take courage, and leap into the\n"
-	.string "world of POKéMON where dreams,\l"
-	.string "adventure, and friendships await!\p"
-	.string "Well, I'll be expecting you later.\p"
+	.string "Well, I'll be expecting you in\l"
+	.string "Ever Grande City!\p"
 	.string "$"

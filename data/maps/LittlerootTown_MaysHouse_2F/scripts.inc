@@ -348,7 +348,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "My name's SAMUEL.\p"
 	.string "Huh? Hey, {PLAYER}, don't you have\n"
 	.string "a POKéMON?\p"
-	.string "That sucks...\n"
+	.string "That sucks...\p"
 	.string "You should go to Route 101\l"
 	.string "To catch one.$"
 

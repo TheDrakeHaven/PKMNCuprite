@@ -736,3 +736,868 @@ SecretBase_Text_WouldYouLikeToMoveBases:
 SecretBase_Text_MovingCompletedUseSecretPower:
 	.string "Moving completed.\p"
 	.string "Would you like to use the SECRET POWER?$"
+
+Won_or_Caught::
+	fadescreen FADE_TO_BLACK
+	removeobject 9
+	fadescreen FADE_FROM_BLACK
+	msgbox Won_or_Caught_Text_0
+	return
+
+
+RanAway::
+	fadescreen FADE_TO_BLACK
+	removeobject 9
+	fadescreen FADE_FROM_BLACK
+	msgbox RanAway_Text_1
+	return
+
+
+Won_or_Caught_Text_0:
+	.string "A worthy accomplice$"
+
+RanAway_Text_0:
+	.string "Noooooo$"
+
+RanAway_Text_1:
+	.string "Lost to time$"
+
+LittlerootTown_EventScript_Latias::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_LATIAS, 65, ITEM_SOUL_DEW
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Latias_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Latias_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Latias_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Latias_5
+LittlerootTown_EventScript_Latias_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Latias_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Latias_1
+
+LittlerootTown_EventScript_Latias_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Latias_1
+
+LittlerootTown_EventScript_Latias_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Latias_1
+
+LittlerootTown_EventScript_Latias_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Latias_1
+
+LittlerootTown_EventScript_Thundurus::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_THUNDURUS, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Thundurus_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Thundurus_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Thundurus_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Thundurus_5
+LittlerootTown_EventScript_Thundurus_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Thundurus_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Thundurus_1
+
+LittlerootTown_EventScript_Thundurus_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Thundurus_1
+
+LittlerootTown_EventScript_Thundurus_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Thundurus_1
+
+LittlerootTown_EventScript_Thundurus_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Thundurus_1
+
+LittlerootTown_EventScript_Zapdos::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_ZAPDOS, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Zapdos_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Zapdos_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Zapdos_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Zapdos_5
+LittlerootTown_EventScript_Zapdos_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Zapdos_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Zapdos_1
+
+LittlerootTown_EventScript_Zapdos_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Zapdos_1
+
+LittlerootTown_EventScript_Zapdos_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Zapdos_1
+
+LittlerootTown_EventScript_Zapdos_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Zapdos_1
+
+LittlerootTown_EventScript_Latios::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_LATIOS, 65, ITEM_SOUL_DEW
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Latios_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Latios_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Latios_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Latios_5
+LittlerootTown_EventScript_Latios_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Latios_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Latios_1
+
+LittlerootTown_EventScript_Latios_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Latios_1
+
+LittlerootTown_EventScript_Latios_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Latios_1
+
+LittlerootTown_EventScript_Latios_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Latios_1
+
+LittlerootTown_EventScript_Keldeo::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_KELDEO, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Keldeo_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Keldeo_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Keldeo_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Keldeo_5
+LittlerootTown_EventScript_Keldeo_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Keldeo_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Keldeo_1
+
+LittlerootTown_EventScript_Keldeo_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Keldeo_1
+
+LittlerootTown_EventScript_Keldeo_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Keldeo_1
+
+LittlerootTown_EventScript_Keldeo_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Keldeo_1
+
+LittlerootTown_EventScript_Raikou::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_RAIKOU, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Raikou_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Raikou_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Raikou_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Raikou_5
+LittlerootTown_EventScript_Raikou_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Raikou_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Raikou_1
+
+LittlerootTown_EventScript_Raikou_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Raikou_1
+
+LittlerootTown_EventScript_Raikou_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Raikou_1
+
+LittlerootTown_EventScript_Raikou_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Raikou_1
+
+LittlerootTown_EventScript_Tornadus::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_TORNADUS, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Tornadus_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Tornadus_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Tornadus_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Tornadus_5
+LittlerootTown_EventScript_Tornadus_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Tornadus_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Tornadus_1
+
+LittlerootTown_EventScript_Tornadus_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Tornadus_1
+
+LittlerootTown_EventScript_Tornadus_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Tornadus_1
+
+LittlerootTown_EventScript_Tornadus_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Tornadus_1
+
+LittlerootTown_EventScript_Terrakion::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_TERRAKION, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Terrakion_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Terrakion_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Terrakion_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Terrakion_5
+LittlerootTown_EventScript_Terrakion_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Terrakion_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Terrakion_1
+
+LittlerootTown_EventScript_Terrakion_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Terrakion_1
+
+LittlerootTown_EventScript_Terrakion_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Terrakion_1
+
+LittlerootTown_EventScript_Terrakion_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Terrakion_1
+
+LittlerootTown_EventScript_Landorus::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_LANDORUS, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Landorus_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Landorus_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Landorus_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Landorus_5
+LittlerootTown_EventScript_Landorus_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Landorus_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Landorus_1
+
+LittlerootTown_EventScript_Landorus_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Landorus_1
+
+LittlerootTown_EventScript_Landorus_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Landorus_1
+
+LittlerootTown_EventScript_Landorus_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Landorus_1
+
+LittlerootTown_EventScript_Heatran::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_HEATRAN, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Heatran_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Heatran_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Heatran_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Heatran_5
+LittlerootTown_EventScript_Heatran_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Heatran_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Heatran_1
+
+LittlerootTown_EventScript_Heatran_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Heatran_1
+
+LittlerootTown_EventScript_Heatran_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Heatran_1
+
+LittlerootTown_EventScript_Heatran_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Heatran_1
+
+LittlerootTown_EventScript_Regice::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_REGICE, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Regice_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Regice_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Regice_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Regice_5
+LittlerootTown_EventScript_Regice_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Regice_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Regice_1
+
+LittlerootTown_EventScript_Regice_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Regice_1
+
+LittlerootTown_EventScript_Regice_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Regice_1
+
+LittlerootTown_EventScript_Regice_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Regice_1
+
+LittlerootTown_EventScript_Cobalion::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_COBALION, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Cobalion_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Cobalion_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Cobalion_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Cobalion_5
+LittlerootTown_EventScript_Cobalion_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Cobalion_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Cobalion_1
+
+LittlerootTown_EventScript_Cobalion_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Cobalion_1
+
+LittlerootTown_EventScript_Cobalion_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Cobalion_1
+
+LittlerootTown_EventScript_Cobalion_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Cobalion_1
+
+LittlerootTown_EventScript_Regirock::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_REGIROCK, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Regirock_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Regirock_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Regirock_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Regirock_5
+LittlerootTown_EventScript_Regirock_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Regirock_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Regirock_1
+
+LittlerootTown_EventScript_Regirock_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Regirock_1
+
+LittlerootTown_EventScript_Regirock_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Regirock_1
+
+LittlerootTown_EventScript_Regirock_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Regirock_1
+
+LittlerootTown_EventScript_Uxie::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_UXIE, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Uxie_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Uxie_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Uxie_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Uxie_5
+LittlerootTown_EventScript_Uxie_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Uxie_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Uxie_1
+
+LittlerootTown_EventScript_Uxie_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Uxie_1
+
+LittlerootTown_EventScript_Uxie_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Uxie_1
+
+LittlerootTown_EventScript_Uxie_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Uxie_1
+
+LittlerootTown_EventScript_Entei::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_ENTEI, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Entei_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Entei_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Entei_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Entei_5
+LittlerootTown_EventScript_Entei_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Entei_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Entei_1
+
+LittlerootTown_EventScript_Entei_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Entei_1
+
+LittlerootTown_EventScript_Entei_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Entei_1
+
+LittlerootTown_EventScript_Entei_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Entei_1
+
+LittlerootTown_EventScript_Shaymin::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_SHAYMIN, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Shaymin_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Shaymin_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Shaymin_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Shaymin_5
+LittlerootTown_EventScript_Shaymin_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Shaymin_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Shaymin_1
+
+LittlerootTown_EventScript_Shaymin_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Shaymin_1
+
+LittlerootTown_EventScript_Shaymin_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Shaymin_1
+
+LittlerootTown_EventScript_Shaymin_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Shaymin_1
+
+LittlerootTown_EventScript_Mesprit::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_MESPRIT, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Mesprit_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Mesprit_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Mesprit_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Mesprit_5
+LittlerootTown_EventScript_Mesprit_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Mesprit_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Mesprit_1
+
+LittlerootTown_EventScript_Mesprit_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Mesprit_1
+
+LittlerootTown_EventScript_Mesprit_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Mesprit_1
+
+LittlerootTown_EventScript_Mesprit_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Mesprit_1
+
+LittlerootTown_EventScript_Moltres::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_MOLTRES, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Moltres_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Moltres_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Moltres_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Moltres_5
+LittlerootTown_EventScript_Moltres_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Moltres_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Moltres_1
+
+LittlerootTown_EventScript_Moltres_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Moltres_1
+
+LittlerootTown_EventScript_Moltres_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Moltres_1
+
+LittlerootTown_EventScript_Moltres_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Moltres_1
+
+LittlerootTown_EventScript_Azelf::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_AZELF, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Azelf_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Azelf_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Azelf_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Azelf_5
+LittlerootTown_EventScript_Azelf_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Azelf_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Azelf_1
+
+LittlerootTown_EventScript_Azelf_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Azelf_1
+
+LittlerootTown_EventScript_Azelf_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Azelf_1
+
+LittlerootTown_EventScript_Azelf_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Azelf_1
+
+LittlerootTown_EventScript_Cresselia::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_CRESSELIA, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Cresselia_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Cresselia_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Cresselia_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Cresselia_5
+LittlerootTown_EventScript_Cresselia_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Cresselia_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Cresselia_1
+
+LittlerootTown_EventScript_Cresselia_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Cresselia_1
+
+LittlerootTown_EventScript_Cresselia_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Cresselia_1
+
+LittlerootTown_EventScript_Cresselia_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Cresselia_1
+
+LittlerootTown_EventScript_Suicune::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_SUICUNE, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Suicune_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Suicune_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Suicune_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Suicune_5
+LittlerootTown_EventScript_Suicune_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Suicune_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Suicune_1
+
+LittlerootTown_EventScript_Suicune_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Suicune_1
+
+LittlerootTown_EventScript_Suicune_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Suicune_1
+
+LittlerootTown_EventScript_Suicune_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Suicune_1
+
+LittlerootTown_EventScript_Registeel::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_REGISTEEL, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Registeel_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Registeel_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Registeel_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Registeel_5
+LittlerootTown_EventScript_Registeel_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Registeel_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Registeel_1
+
+LittlerootTown_EventScript_Registeel_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Registeel_1
+
+LittlerootTown_EventScript_Registeel_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Registeel_1
+
+LittlerootTown_EventScript_Registeel_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Registeel_1
+
+LittlerootTown_EventScript_Articuno::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_ARTICUNO, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Articuno_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Articuno_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Articuno_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Articuno_5
+LittlerootTown_EventScript_Articuno_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Articuno_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Articuno_1
+
+LittlerootTown_EventScript_Articuno_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Articuno_1
+
+LittlerootTown_EventScript_Articuno_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Articuno_1
+
+LittlerootTown_EventScript_Articuno_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Articuno_1
+
+LittlerootTown_EventScript_Virizion::
+	lockall
+	setflag FLAG_UNUSED_0x494
+	setwildbattle SPECIES_VIRIZION, 65, ITEM_EXPERT_BELT
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq LittlerootTown_EventScript_Virizion_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq LittlerootTown_EventScript_Virizion_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq LittlerootTown_EventScript_Virizion_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq LittlerootTown_EventScript_Virizion_5
+LittlerootTown_EventScript_Virizion_1:
+	waitmessage
+	releaseall
+	return
+
+LittlerootTown_EventScript_Virizion_2:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Virizion_1
+
+LittlerootTown_EventScript_Virizion_3:
+	call Won_or_Caught
+	goto LittlerootTown_EventScript_Virizion_1
+
+LittlerootTown_EventScript_Virizion_4:
+	call RanAway
+	goto LittlerootTown_EventScript_Virizion_1
+
+LittlerootTown_EventScript_Virizion_5:
+	call RanAway
+	goto LittlerootTown_EventScript_Virizion_1

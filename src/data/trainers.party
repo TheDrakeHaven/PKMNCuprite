@@ -1775,7 +1775,7 @@ Gender: Female
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Gallade
 Level: 39
@@ -1791,7 +1791,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Mawile
 Level: 29
@@ -1825,7 +1825,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Braviary
 Level: 45
@@ -3225,8 +3225,8 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 13
+Corsola
+Level: 19
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_HITOSHI ===
@@ -4642,7 +4642,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 Mugshot: Yellow
 
 Exploud @ Choice Specs
@@ -4708,7 +4708,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 Mugshot: Green
 
 Beedrill @ Scope Lens
@@ -4773,7 +4773,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 Mugshot: Pink
 
 Groudon @ Leftovers
@@ -4842,7 +4842,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 Mugshot: Blue
 
 Tyranitar @ Smooth Rock
@@ -4895,16 +4895,14 @@ Jolly Nature
 -Fire Fang
 
 
-Kyogre @ Choice Scarf
-Ability: Drizzle
-Level: 72
-Timid Nature
--Thunder
--Water Spout
--Ice Beam
--Ancient Power
-
-
+Jirachi @ Leftovers
+Ability: Serene Grace
+Level: 73
+Jolly Nature
+-Psychic
+-Iron Head
+-Wish
+-Body Slam
 
 === TRAINER_ROXANNE_1 ===
 Name: ALEC
@@ -4913,7 +4911,7 @@ Pic: Sailor
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Bonsly
 Ability:Sturdy
@@ -4951,31 +4949,24 @@ Gender: Male
 Music: Male
 Items: Super Potion 
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Machop
-Level: 16
+Starmie
+Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
 
-Meditite
-Level: 16
+Quagsire
+Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Bulk Up
 
-Makuhita @ Sitrus Berry
-Level: 19
+Lapras
+Level: 22
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Gyarados @ Sitrus Berry
+Level: 22
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
-- Bulk Up
+
 
 === TRAINER_SAM_1 ===
 Name: SAM
@@ -4985,7 +4976,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Magneton
 Ability: Magnet Pull
@@ -5035,7 +5026,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Altaria
 Ability: Natural Cure
@@ -5088,46 +5079,62 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 -Yawn
 
 === TRAINER_NORMAN_1 ===
-Name: NORMAN
+Name: GRAYSON
 Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Spinda
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
+Conkeldurr @ Muscle Band
+Ability: Iron Fist
+Level:43
+Adamant Nature
+-Bulk Up
+-Ice Punch
+-Hammer Arm
+-Thunder Punch
 
-Vigoroth
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
 
-Linoone
-Level: 29
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
+Machamp @ Black Belt
+Ability: Guts
+Level:43
+Adamant Nature
+-Dual Chop
+-Knock Off
+-Revenge
+-Ice Punch
 
-Slaking @ Sitrus Berry
-Level: 31
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
+Lopunny (F) @ Rocky Helmet
+Ability: Cute Charm
+Level:43
+Adamant Nature
+-Headbutt
+-Fake Out
+-Drain Punch
+-Play Rough
+
+Heracross @ Focus Band
+Ability: Sturdy
+Level:43
+Adamant Nature
+-Brick Break
+-Lunge
+-Throat Chop
+-Reversal
+
+
+Lucario @ Expert Belt
+Ability: Sturdy
+Level:43
+Modest Nature
+-Aura Sphere
+-Flash Cannon
+-Shadow Ball
+-Psychic
+
 
 === TRAINER_WINONA_1 ===
 Name: MATTHEW
@@ -5194,13 +5201,14 @@ Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Clefable @ Rocky Helmet
-Ability: Magic Guard
+Ninetales @ Rocky Helmet
+Ability: Flash Fire
 Level: 55
--Stealth Rock
--Moonblast
--Thunder Wave
--Moonlight
+Modest Nature
+-Fire Blast
+-Will-O-Wisp
+-Dazzling Gleam
+-Calm Mind
 
 Sylveon @ Choice Specs
 Ability: Pixilate
@@ -6438,7 +6446,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 Mugshot: Yellow
 
 Snorlax @ Leftovers
@@ -8039,8 +8047,8 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 13
+Surskit
+Level: 20
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_LAURA ===
@@ -8052,7 +8060,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
+Panpour
 Level: 19
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9662,7 +9670,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowking (M) @ Life Orb  
 Ability: Regenerator  
@@ -9728,7 +9736,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint 
+AI: Smart Trainer / Prediction 
 
 Slowpoke (M)  
 Ability: Regenerator  
@@ -9746,7 +9754,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowpoke (M) @ Figy Berry  
 Ability: Regenerator  
@@ -9786,7 +9794,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowpoke (M) @ Life Orb  
 Ability: Regenerator  
@@ -9850,7 +9858,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowpoke (M) @ Figy Berry  
 Ability: Regenerator  
@@ -9890,7 +9898,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowpoke (M) @ Life Orb  
 Ability: Regenerator  
@@ -9954,7 +9962,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowpoke (M) @ Figy Berry  
 Ability: Regenerator  
@@ -9994,7 +10002,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowpoke (M) @ Life Orb  
 Ability: Regenerator  
@@ -10655,7 +10663,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Breloom
 Level: 31
@@ -10683,7 +10691,7 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Breloom
 Level: 37
@@ -10715,7 +10723,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Gloom
 Level: 26
@@ -10733,7 +10741,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Lotad
 Level: 28
@@ -10773,7 +10781,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Gloom
 Level: 30
@@ -10809,7 +10817,7 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Gloom
 Level: 36
@@ -10944,8 +10952,8 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 13
+Wooper
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_LILITH ===
@@ -10957,8 +10965,8 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 13
+Basculin
+Level: 19
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_CRISTIAN ===
@@ -10970,8 +10978,8 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Makuhita
-Level: 13
+Lombre
+Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SYLVIA ===
@@ -11216,7 +11224,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowpoke (M)  
 Ability: Regenerator  
@@ -11246,7 +11254,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowpoke (M)  
 Ability: Regenerator  
@@ -11367,7 +11375,7 @@ Gender: Male
 Music: Cool
 Items: Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Kecleon
 Level: 33
@@ -11384,7 +11392,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Slowpoke (M)  
 Ability: Regenerator  
@@ -11414,7 +11422,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Wingull
 Level: 13
@@ -13314,7 +13322,7 @@ Pic: Old Couple
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Smart Trainer / Prediction
 
 Medicham
 Level: 49
