@@ -494,8 +494,6 @@ script NicknamePartyMon{
         call(Common_EventScript_GetGiftMonPartySlot)
         call(Common_EventScript_NameReceivedPartyMon)
     }
- 
- 
 }
  
 script NicknameBoxMon{

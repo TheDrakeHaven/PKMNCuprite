@@ -14159,7 +14159,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpAttack  = 15,
         .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_NORMAL),
-        .catchRate = 130,
+        .catchRate = 220,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 110 : 255,
         .evYield_HP = 1,
         .itemCommon = ITEM_OVAL_STONE,

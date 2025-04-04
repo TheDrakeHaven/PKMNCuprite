@@ -5,11 +5,11 @@ Route102_Text_CalvinIntro:
 
 Route102_Text_CalvinDefeated:
 	.string "Arrgh, curse the devs…\n"
-	.string "They wouldn't make me stronger…$"
+	.string "Why was my pokemon stinky…$"
 
 Route102_Text_CalvinPostBattle:
-	.string "Listen, you. If you're strong,\n"
-	.string "you should have told me before!$"
+	.string "Look out for the patchnotes,\n"
+	.string "I'm sure I'll be stronger!$"
 
 Route102_Text_CalvinRegister:
 	.string "I've been working hard at this since\n"
@@ -36,7 +36,7 @@ Route102_Text_CalvinRematchPostBattle:
 
 Route102_Text_AllenIntro:
 	.string "Did you just become a TRAINER?\n"
-	.string "We're both beginners!$"
+	.string "I'm already a pro!$"
 
 Route102_Text_AllenDefeated:
 	.string "I battled you because I thought\n"
@@ -47,8 +47,7 @@ Route102_Text_AllenPostBattle:
 	.string "Guess I'll give up…$"
 
 Route102_Text_RickIntro:
-	.string "Hahah! Our eyes met!\n"
-	.string "I'll take you on with my cool POKéMON!$"
+	.string "The future is now old man$"
 
 Route102_Text_RickDefeated:
 	.string "Ow! Down and out!$"
@@ -59,12 +58,11 @@ Route102_Text_RickPostBattle:
 	.string "Or maybe its love at first sight!$"
 
 Route102_Text_TianaIntro:
-	.string "I'm going to keep winning and aim\n"
-	.string "to be the best TRAINER.\p"
-	.string "Help me further my career!$"
+	.string "Uncle Jimtendo gave me these\n"
+	.string "really strong POKéMON!$"
 
 Route102_Text_TianaDefeated:
-	.string "I ended up furthering your career…$"
+	.string "Not strong enough…$"
 
 Route102_Text_TianaPostBattle:
 	.string "To keep winning my way up, I see that\n"

@@ -5266,15 +5266,33 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
 AI: Basic Trainer / Force Setup First Turn
 
-Chandelure @ Focus Sash
-Ability: Flash Fire
+
+Gothitelle @ Leftovers
+Ability:Shadow Tag
 Level: 61
-Modest Nature
--Heat Wave 
--Shadow Ball 
+Bold Nature
 -Trick Room
 -Protect
+-Light Screen
+-Psychic
 
+Gengar @ Black Sludge
+Ability: Cursed Body
+Level: 61
+Modest Nature
+-Shadow Ball
+-Sludge Wave
+-Protect
+-Perish Song
+
+Chandelure @ Choice Specs
+Ability: Flash Fire
+Level: 61
+Quiet Nature
+-Burning Jealousy
+-Shadow Ball 
+-Energy Ball
+-Dark Pulse
 
 Rotom Wash @ Sitrus Berry
 Ability: Levitate
@@ -5284,27 +5302,6 @@ Calm Nature
 -Hydro Pump
 -Will-O-Wisp
 -Protect
-
-
-Claydol @ Weakness Policy
-Ability:Levitate
-Level: 61
-Quiet Nature
--Explosion
--Earth Power
--Calm Mind
--Skill Swap
-
-
-Gengar @ Choice Scarf
-Ability: Cursed Body
-Level: 61
-Modest Nature
--Shadow Ball
--Sludge Wave
--Dazzling Gleam
--Icy Wind
-
 
 Golurk @ Leftovers
 Ability: No Guard
@@ -5323,7 +5320,6 @@ Relaxed Nature
 -Will-O-Wisp
 -Night Shade
 -Protect
-
 
 === TRAINER_JERRY_1 ===
 Name: JERRY
@@ -11790,7 +11786,7 @@ Gligar
 Level:5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Exeggutor
+Exeggcute
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
