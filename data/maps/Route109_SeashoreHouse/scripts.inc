@@ -24,7 +24,24 @@ Route109_SeashoreHouse_EventScript_AlreadyGaveIntroduction::
 
 Route109_SeashoreHouse_EventScript_DefeatedTrainers::
 	msgbox Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles, MSGBOX_DEFAULT
-	giveitem ITEM_SODA_POP, 6
+	giveitem ITEM_BLACK_BELT
+	giveitem ITEM_BLACK_GLASSES
+	giveitem ITEM_DRAGON_FANG
+	giveitem ITEM_CHARCOAL
+	giveitem ITEM_FAIRY_FEATHER
+	giveitem ITEM_HARD_STONE
+	giveitem ITEM_MAGNET
+	giveitem ITEM_MIRACLE_SEED
+	giveitem ITEM_MYSTIC_WATER
+	giveitem ITEM_METAL_COAT
+	giveitem ITEM_NEVER_MELT_ICE
+	giveitem ITEM_POISON_BARB
+	giveitem ITEM_SHARP_BEAK
+	giveitem ITEM_SILK_SCARF
+	giveitem ITEM_SILVER_POWDER
+	giveitem ITEM_SOFT_SAND
+	giveitem ITEM_SPELL_TAG
+	giveitem ITEM_TWISTED_SPOON
 	goto_if_eq VAR_RESULT, FALSE, Route109_SeashoreHouse_EventScript_BagFull
 	setflag FLAG_RECEIVED_6_SODA_POP
 	release
@@ -121,7 +138,7 @@ Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
 	.string "I'm more than just satisfied!\p"
 	.string "As thanks for showing me your hot\n"
 	.string "streak, I want you to take these.\p"
-	.string "It's half a dozen bottles of SODA POP!$"
+	.string "Power ups for each type of POKéMON!$"
 
 Route109_SeashoreHouse_Text_BagFull:
 	.string "Oh, but hey, your BAG's jammed full.\n"

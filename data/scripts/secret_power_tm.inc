@@ -1,5 +1,5 @@
 Route111_Text_MakingRoomUseTMToMakeYourOwn:
-	.string "Water Pulse?$"
+	.string "Need a Substitute?$"
 
 Route111_Text_ExplainSecretPower:
 	.string "Okay, bye!$"
@@ -23,7 +23,7 @@ Route111_EventScript_SecretPowerMan::
 	end
 
 Route111_EventScript_GiveSecretPower::
-	giveitem ITEM_TM_WATER_PULSE
+	giveitem ITEM_TM_SUBSTITUTE
 	goto_if_eq VAR_RESULT, FALSE, Route111_EventScript_NoRoomForSecretPower
 	msgbox Route111_Text_ExplainSecretPower, MSGBOX_DEFAULT
 	closemessage

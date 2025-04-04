@@ -117,13 +117,23 @@ SootopolisCity_Gym_1F_EventScript_JuanDefeated::
 
 SootopolisCity_Gym_1F_EventScript_GiveWaterPulse::
 	giveitem ITEM_TM_SECRET_POWER
+	giveitem ITEM_TM_TRICK_ROOM
+	giveitem ITEM_LEFTOVERS
+	giveitem ITEM_LIGHT_CLAY
+	giveitem ITEM_LIFE_ORB
+	giveitem ITEM_AIR_BALLOON
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox SootopolisCity_Gym_1F_Text_ExplainWaterPulse, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_WATER_PULSE
 	return
 
 SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2::
-	giveitem ITEM_TM_WATER_PULSE
+	giveitem ITEM_TM_SECRET_POWER
+	giveitem ITEM_TM_TRICK_ROOM
+	giveitem ITEM_LEFTOVERS
+	giveitem ITEM_LIGHT_CLAY
+	giveitem ITEM_LIFE_ORB
+	giveitem ITEM_AIR_BALLOON
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox SootopolisCity_Gym_1F_Text_ExplainWaterPulse, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_WATER_PULSE

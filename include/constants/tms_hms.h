@@ -6,7 +6,7 @@
     F(DRAGON_CLAW) \
     F(WATER_PULSE) \
     F(CALM_MIND) \
-    F(ROAR) \
+    F(IRON_HEAD) \
     F(TOXIC) \
     F(HAIL) \
     F(BULK_UP) \
@@ -16,15 +16,15 @@
     F(TAUNT) \
     F(ICE_BEAM) \
     F(BLIZZARD) \
-    F(HYPER_BEAM) \
+    F(HEAVY_SLAM) \
     F(LIGHT_SCREEN) \
     F(PROTECT) \
     F(RAIN_DANCE) \
     F(GIGA_DRAIN) \
-    F(SAFEGUARD) \
-    F(FRUSTRATION) \
+    F(STEEL_BEAM) \
+    F(SCALD) \
     F(SOLAR_BEAM) \
-    F(IRON_TAIL) \
+    F(FLIP_TURN) \
     F(THUNDERBOLT) \
     F(THUNDER) \
     F(EARTHQUAKE) \
@@ -35,7 +35,7 @@
     F(BRICK_BREAK) \
     F(DOUBLE_TEAM) \
     F(REFLECT) \
-    F(SHOCK_WAVE) \
+    F(LIQUIDATION) \
     F(FLAMETHROWER) \
     F(SLUDGE_BOMB) \
     F(SANDSTORM) \
@@ -47,13 +47,13 @@
     F(SECRET_POWER) \
     F(REST) \
     F(ATTRACT) \
-    F(THIEF) \
-    F(STEEL_WING) \
+    F(ALLURING_VOICE) \
+    F(HYDRO_PUMP) \
     F(SKILL_SWAP) \
     F(SNATCH) \
     F(OVERHEAT)\
     F(STRUGGLE_BUG) \
-    F(U-TURN) \
+    F(U_TURN)\
     F(NASTY_PLOT) \
     F(KNOCK_OFF) \
     F(THROAT_CHOP) \
@@ -62,7 +62,7 @@
     F(DRAGON_PULSE) \
     F(DRACO_METEOR) \
     F(VOLT_SWITCH) \
-    F(THUNDER_PUNCH) \
+    F(THUNDER_PUNCH)\
     F(DAZZLING_GLEAM) \
     F(PLAY_ROUGH) \
     F(DRAINING_KISS) \
@@ -72,13 +72,13 @@
     F(CLOSE_COMBAT) \
     F(HEAT_CRASH) \
     F(FIRE_PUNCH) \
-    F(WILL-O-WISP) \
+    F(WILL_O_WISP) \
     F(ACROBATICS) \
     F(TAILWIND) \
     F(HURRICANE) \
     F(CONFUSE_RAY) \
     F(HEX) \
-    F(SHADOW_CLAW)) \
+    F(SHADOW_CLAW) \
     F(SEED_BOMB) \
     F(GRASS_KNOT) \
     F(STOMPING_TANTRUM) \
@@ -92,7 +92,6 @@
     F(SUBSTITUTE) \
     F(HYPER_VOICE) \
     F(ENCORE) \
-    F(HELPING_HAND) \
     F(BATON_PASS) \
     F(VENOSHOCK) \
     F(TOXIC_SPIKES) \
@@ -101,9 +100,9 @@
     F(PSYSHOCK) \
     F(ZEN_HEADBUTT) \
     F(STEALTH_ROCK) \
-    F(STONE_EDGE) 
-
-
+    F(STONE_EDGE) \
+    F(FLASH_CANNON) 
+        
 #define FOREACH_HM(F) \
     F(CUT) \
     F(FLY) \

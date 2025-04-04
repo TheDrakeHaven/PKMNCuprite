@@ -851,7 +851,7 @@ static bool8 StartMenuBattlePyramidBagCallback(void)
         PlayRainStoppingSoundEffect();
         RemoveExtraStartMenuWindows();
         CleanupOverworldWindowsAndTilemaps();
-        SetMainCallback2(CB2_PyramidBagMenuFromStartMenu);
+        SetMainCallback2(CB2_BagMenuFromStartMenu);
 
         return TRUE;
     }
