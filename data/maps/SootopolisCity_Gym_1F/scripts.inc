@@ -116,7 +116,6 @@ SootopolisCity_Gym_1F_EventScript_JuanDefeated::
 	end
 
 SootopolisCity_Gym_1F_EventScript_GiveWaterPulse::
-	giveitem ITEM_TM_SECRET_POWER
 	giveitem ITEM_TM_TRICK_ROOM
 	giveitem ITEM_LEFTOVERS
 	giveitem ITEM_LIGHT_CLAY
@@ -128,7 +127,6 @@ SootopolisCity_Gym_1F_EventScript_GiveWaterPulse::
 	return
 
 SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2::
-	giveitem ITEM_TM_SECRET_POWER
 	giveitem ITEM_TM_TRICK_ROOM
 	giveitem ITEM_LEFTOVERS
 	giveitem ITEM_LIGHT_CLAY
@@ -247,9 +245,9 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 	.string "The TECHNICAL MACHINE I handed you\n"
-	.string "contains SECRET POWER.\p"
-	.string "Go to a secret base to get\n"
-	.string "a legendary encounter.$"
+	.string "contains Trick Room.\p"
+	.string "It flips the speed order\n"
+	.string "to let slow POKéMON go first.$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
 	.string "Registered GYM LEADER XANDER\n"

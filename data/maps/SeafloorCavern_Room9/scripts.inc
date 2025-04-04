@@ -33,6 +33,13 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	applymovement VAR_0x8004, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox SeafloorCavern_Room9_Text_ArchieYouMustDisappear, MSGBOX_DEFAULT
+	giveitem ITEM_TM_HYDRO_PUMP
+	giveitem ITEM_ABILITY_SHIELD
+	giveitem ITEM_REAPER_CLOTH
+	giveitem ITEM_MAGMARIZER
+	giveitem ITEM_ELECTIRIZER
+	giveitem ITEM_DUBIOUS_DISC
+	giveitem ITEM_PROTECTOR
 	trainerbattle_no_intro TRAINER_ARCHIE, SeafloorCavern_Room9_Text_ArchieDefeat
 	msgbox SeafloorCavern_Room9_Text_ArchieWithThisRedOrb, MSGBOX_DEFAULT
 	setweather WEATHER_NONE

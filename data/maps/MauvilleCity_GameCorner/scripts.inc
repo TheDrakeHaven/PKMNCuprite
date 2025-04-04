@@ -259,7 +259,7 @@ MauvilleCity_GameCorner_EventScript_TMPsychic::
 
 MauvilleCity_GameCorner_EventScript_TMFlamethrower::
 	setvar VAR_TEMP_1, 3
-	bufferitemname STR_VAR_1, ITEM_TM_FLAMETHROWER
+	bufferitemname STR_VAR_1, ITEM_TM_AERIAL_ACE
 	setvar VAR_0x8004, ITEM_TM_FLAMETHROWER
 	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
 

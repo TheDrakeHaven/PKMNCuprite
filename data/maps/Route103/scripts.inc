@@ -92,11 +92,15 @@ Route103_EventScript_StartBrendanBattleMudkip::
 
 Route103_EventScript_AfterMayBattle::
 	msgbox Route103_Text_MayTimeToHeadBack, MSGBOX_DEFAULT
+	giveitem ITEM_TM_HIDDEN_POWER
+	giveitem ITEM_LUCKY_EGG
 	goto Route103_EventScript_RivalExit
 	end
 
 Route103_EventScript_AfterBrendanBattle::
 	msgbox Route103_Text_BrendanTimeToHeadBack, MSGBOX_DEFAULT
+	giveitem ITEM_TM_HIDDEN_POWER
+	giveitem ITEM_LUCKY_EGG
 	goto Route103_EventScript_RivalExit
 	end
 
@@ -334,7 +338,7 @@ Route103_Text_BrendanTimeToHeadBack:
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
 	.string "could kill any POKéMON with ease.\p"
-	.string "Smell you later at the LAB.$"
+	.string "Take these and head to the Lab.$"
 
 Route103_Text_ShouldHaveBroughtPotion:
 	.string "My POKéMON is staggeringly tired…\n"

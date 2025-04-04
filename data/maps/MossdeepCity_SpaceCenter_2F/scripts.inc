@@ -267,6 +267,9 @@ MossdeepCity_SpaceCenter_2F_EventScript_DoStevenMultiBattle::
 MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 	msgbox MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided, MSGBOX_DEFAULT
 	closemessage
+	giveitem ITEM_TM_OVERHEAT
+	giveitem ITEM_EVIOLITE
+	giveitem ITEM_BLUNDER_POLICY
 	delay 20
 	applymovement LOCALID_MAXIE, Common_Movement_WalkInPlaceFasterLeft
 	applymovement LOCALID_TABITHA, Common_Movement_WalkInPlaceFasterDown

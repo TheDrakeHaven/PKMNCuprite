@@ -53,6 +53,9 @@ Route119_WeatherInstitute_2F_EventScript_Shelly::
 Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
 	msgbox Route119_WeatherInstitute_2F_Text_ShellyPostBattle, MSGBOX_DEFAULT
 	closemessage
+	giveitem ITEM_TM_FLIP_TURN
+	giveitem ITEM_BLACK_SLUDGE
+	giveitem ITEM_COVERT_CLOAK
 	addobject LOCALID_GRUNT_3
 	applymovement LOCALID_GRUNT_3, Route119_WeatherInstitute_2F_Movement_GruntApproachShelly
 	applymovement OBJ_EVENT_ID_PLAYER, Route119_WeatherInstitute_2F_Movement_ShovePlayerOutOfWay

@@ -357,6 +357,8 @@ LilycoveCity_EventScript_MayBattleFrontier::
 
 LilycoveCity_EventScript_DefeatedBrendan::
 	msgbox LilycoveCity_Text_BrendanGoingBackToLittleroot, MSGBOX_DEFAULT
+	giveitem ITEM_TM_U_TURN
+	giveitem ITEM_TERRAIN_EXTENDER
 	setvar VAR_RESULT, FALSE
 	call_if_set FLAG_BADGE06_GET, LilycoveCity_EventScript_CheckFinalBadge
 	call_if_eq VAR_RESULT, FALSE, LilycoveCity_EventScript_BrendanCollectBadges

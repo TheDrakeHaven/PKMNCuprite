@@ -33,13 +33,15 @@ LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight::
 
 	.align 2
 LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters:
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_SP_ATK
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFENSE
-	.2byte ITEM_DIRE_HIT
-	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_X_ACCURACY
+	.2byte ITEM_TM_CALM_MIND
+	.2byte ITEM_TM_BULK_UP
+	.2byte ITEM_TM_DOUBLE_TEAM
+	.2byte ITEM_TM_NASTY_PLOT
+	.2byte ITEM_TM_DRAGON_DANCE
+	.2byte ITEM_TM_SWORDS_DANCE
+	.2byte ITEM_TM_ENCORE
+	.2byte ITEM_TM_SUBSTITUTE
+	.2byte ITEM_TM_BATON_PASS
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_TriathleteM::

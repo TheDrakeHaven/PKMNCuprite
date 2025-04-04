@@ -457,6 +457,11 @@ Route110_EventScript_BrendanBattleMudkip::
 
 Route110_EventScript_BrendanDefeated::
 	msgbox Route110_Text_BrendanTakeThis, MSGBOX_DEFAULT
+	giveitem ITEM_KINGS_ROCK
+	giveitem ITEM_TM_SANDSTORM
+	giveitem ITEM_TM_RAIN_DANCE
+	giveitem ITEM_TM_SUNNY_DAY
+	giveitem ITEM_TM_HAIL
 	call Route110_EventScript_GiveItemfinder
 	msgbox Route110_Text_BrendanExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
