@@ -51,7 +51,58 @@
     F(STEEL_WING) \
     F(SKILL_SWAP) \
     F(SNATCH) \
-    F(OVERHEAT)
+    F(OVERHEAT)\
+    F(STRUGGLE_BUG) \
+    F(U-TURN) \
+    F(NASTY_PLOT) \
+    F(KNOCK_OFF) \
+    F(THROAT_CHOP) \
+    F(DARK_PULSE) \
+    F(DRAGON_DANCE) \
+    F(DRAGON_PULSE) \
+    F(DRACO_METEOR) \
+    F(VOLT_SWITCH) \
+    F(THUNDER_PUNCH) \
+    F(DAZZLING_GLEAM) \
+    F(PLAY_ROUGH) \
+    F(DRAINING_KISS) \
+    F(DRAIN_PUNCH) \
+    F(BODY_PRESS) \
+    F(AURA_SPHERE) \
+    F(CLOSE_COMBAT) \
+    F(HEAT_CRASH) \
+    F(FIRE_PUNCH) \
+    F(WILL-O-WISP) \
+    F(ACROBATICS) \
+    F(TAILWIND) \
+    F(HURRICANE) \
+    F(CONFUSE_RAY) \
+    F(HEX) \
+    F(SHADOW_CLAW)) \
+    F(SEED_BOMB) \
+    F(GRASS_KNOT) \
+    F(STOMPING_TANTRUM) \
+    F(SPIKES) \
+    F(HIGH_HORSEPOWER) \
+    F(SCORCHING_SANDS) \
+    F(ICE_PUNCH) \
+    F(HAZE) \
+    F(WEATHER_BALL) \
+    F(SWORDS_DANCE) \
+    F(SUBSTITUTE) \
+    F(HYPER_VOICE) \
+    F(ENCORE) \
+    F(HELPING_HAND) \
+    F(BATON_PASS) \
+    F(VENOSHOCK) \
+    F(TOXIC_SPIKES) \
+    F(GUNK_SHOT) \
+    F(TRICK_ROOM) \
+    F(PSYSHOCK) \
+    F(ZEN_HEADBUTT) \
+    F(STEALTH_ROCK) \
+    F(STONE_EDGE) 
+
 
 #define FOREACH_HM(F) \
     F(CUT) \

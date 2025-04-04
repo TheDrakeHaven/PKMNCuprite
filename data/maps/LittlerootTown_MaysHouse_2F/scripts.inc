@@ -55,7 +55,7 @@ LittlerootTown_MaysHouse_2F_EventScript_RivalsPokeBall::
 	end
 
 LittlerootTown_MaysHouse_2F_EventScript_MeetMay::
-	delay 10
+	delay 5
 	addobject LOCALID_RIVAL
 	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayEnters
 	waitmovement 0
@@ -64,7 +64,7 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMay::
 	waitmovement 0
 	applymovement LOCALID_RIVAL, Common_Movement_Delay48
 	waitmovement 0
-	delay 10
+	delay 5
 	playbgm MUS_ENCOUNTER_MAY, TRUE
 	call_if_eq VAR_FACING, DIR_NORTH, LittlerootTown_MaysHouse_2F_EventScript_MeetMayNorth
 	call_if_eq VAR_FACING, DIR_SOUTH, LittlerootTown_MaysHouse_2F_EventScript_MeetMaySouth
@@ -153,9 +153,9 @@ LittlerootTown_MaysHouse_2F_Movement_MayWalkToPCNorth:
 	step_end
 
 LittlerootTown_MaysHouse_2F_Movement_PlayerWatchMayNorth:
-	delay_16
+	delay_8
 	walk_in_place_faster_up
-	delay_16
+	delay_8
 	delay_16
 	delay_16
 	delay_16
@@ -350,7 +350,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "a POKéMON?\p"
 	.string "That sucks...\p"
 	.string "You should go to Route 101\l"
-	.string "To catch one.$"
+	.string "and catch one.$"
 
 RivalsHouse_2F_Text_BrendanGettingReady:
 	.string "POKéMON fully restored…\n"

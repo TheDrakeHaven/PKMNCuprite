@@ -168,6 +168,7 @@ DewfordTown_EventScript_SailToSlateport::
 	setobjectsubpriority LOCALID_BRINEY_R109, MAP_ROUTE109, 0
 	applymovement LOCALID_BRINEY_R109, DewfordTown_Movement_BrineyExitBoat
 	waitmovement 0
+	warp MAP_ROUTE109, 21, 23
 	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY
 	addobject LOCALID_BOAT_R109
 	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
@@ -285,18 +286,12 @@ DewfordTown_Movement_SailToSlateport:
 	step_end
 
 DewfordTown_Movement_PlayerBoardBoat:
-	walk_right
-	walk_up
 	step_end
 
 DewfordTown_Movement_ExitBoatPetalburg:
 	step_end
 
 DewfordTown_Movement_ExitBoatSlateport:
-	walk_up
-	walk_up
-	walk_up
-	walk_in_place_faster_down
 	step_end
 
 DewfordTown_Movement_BrineyBoardBoat:

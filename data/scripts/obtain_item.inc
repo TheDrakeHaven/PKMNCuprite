@@ -59,7 +59,6 @@ EventScript_ObtainedItem::
 EventScript_ObtainedItemMessage:
 	message gText_ObtainedTheItem
 EventScript_ContinueObtainedItem:
-	delay 10
 	showitemdescription
 	waitfanfare
 	msgbox gText_PutItemInPocket, MSGBOX_DEFAULT

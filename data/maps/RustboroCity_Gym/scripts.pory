@@ -31,7 +31,6 @@ RustboroCity_Gym_EventScript_GiveRockTomb::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_TM_ROCK_TOMB
 	msgbox RustboroCity_Gym_Text_ExplainRockTomb, MSGBOX_DEFAULT
-	goto  RustboroCity_Gym_EventScript_GiveEevee
 	end
 
 
@@ -247,7 +246,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … Click!$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
-	.string "Registered GYM LEADER ROXANNE\n"
+	.string "Registered GYM LEADER ALEC\n"
 	.string "in the POKéNAV.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
@@ -282,38 +281,5 @@ RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
 
 `
 script RustboroCity_Gym_Text_Eevee {
-     msgbox("Free Eevee!")
+     msgbox("ROCKY HORROR SHOW")
 }
-
-script RustboroCity_Gym_EventScript_GiveEevee{
-    lockall
-giveitem(ITEM_LEAF_STONE)
-giveitem(ITEM_WATER_STONE)
-giveitem(ITEM_FIRE_STONE)
-giveitem(ITEM_ICE_STONE)
-giveitem(ITEM_THUNDER_STONE)
-giveitem(ITEM_SUN_STONE)
-giveitem(ITEM_MOON_STONE)
-givemon(SPECIES_EEVEE, 15, ITEM_SOOTHE_BELL)
-        if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
-            playfanfare(MUS_OBTAIN_ITEM)
-            msgbox("Recieved Eevee and its stones")
-            removeobject(3)
-            setflag(FLAG_UNUSED_0x024)
-            call(NicknamePartyMon)
-        }
-        elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
-            playfanfare(MUS_OBTAIN_ITEM)
-            msgbox("Recieved Eevee")
-            removeobject(3)
-            setflag(FLAG_UNUSED_0x024)
-            call(NicknameBoxMon)
-        }
-        else{
-            hidemonpic
-            msgbox("No More Room")
-	release
-	end
-        }
-}
-

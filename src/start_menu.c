@@ -1,7 +1,6 @@
 #include "global.h"
 #include "battle_pike.h"
 #include "battle_pyramid.h"
-#include "battle_pyramid_bag.h"
 #include "bg.h"
 #include "debug.h"
 #include "event_data.h"

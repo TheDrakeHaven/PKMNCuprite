@@ -190,7 +190,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex::
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanUpgradeComment
 	playse SE_PC_ON
 	waitse
-	delay 20
+	delay 10
 	applymovement LOCALID_BIRCH, LittlerootTown_ProfessorBirchsLab_Movement_BirchReturnPokedex
 	waitmovement 0
 	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterUp
@@ -500,12 +500,12 @@ LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister::
 EventScript_RegisterProfBirch::
 	msgbox MatchCall_Text_BirchRegisterCall, MSGBOX_DEFAULT
 	closemessage
-	delay 30
+	delay 15
 	playfanfare MUS_REGISTER_MATCH_CALL
 	msgbox MatchCall_Text_RegisteredBirch, MSGBOX_DEFAULT
 	waitfanfare
 	closemessage
-	delay 30
+	delay 15
 	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
 	setvar VAR_REGISTER_BIRCH_STATE, 2
 	release
@@ -533,7 +533,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese, MSGBOX_DEFAULT
-	giveitem ITEM_POKE_BALL, 5
+	giveitem ITEM_POKE_BALL, 10
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 0
@@ -541,7 +541,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese, MSGBOX_DEFAULT
-	giveitem ITEM_POKE_BALL, 5
+	giveitem ITEM_POKE_BALL, 10
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 1
@@ -712,20 +712,18 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "PROF. LEE: If you work at POKéMON\n"
 	.string "and gain experience, I think you'll make\l"
 	.string "an extremely good TRAINER.\p"
-	.string "My kid, SAMUEL, is also studying\n"
+	.string "SAMUEL, is also studying\n"
 	.string "POKéMON while helping me out.\p"
 	.string "{PLAYER}{KUN}, don't you think it might be\n"
-	.string "a good idea to go see SAMUEL?$"
+	.string "a good idea to go see SAMUEL in Route 103?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 	.string "PROF. LEE: Great!\n"
-	.string "SAMUEL should be happy, too.\p"
-	.string "Get SAMUEL to teach you what it\n"
-	.string "means to be a TRAINER.$"
+	.string "Get SAMUEL to battle you!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 	.string "PROF. LEE: Oh, don't be that way.\n"
-	.string "You should go meet my kid.$"
+	.string "You should go meet him.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "PROF. LEE: SAMUEL?\n"
@@ -754,9 +752,9 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "PROF. LEE: The POKéDEX is a high-tech\n"
 	.string "tool that automatically makes a record\l"
 	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, SAMUEL, goes everywhere\n"
+	.string "SAMUEL, goes everywhere\n"
 	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
+	.string "Whenever SAMUEL catches a rare POKéMON\n"
 	.string "and records its data in the POKéDEX,\l"
 	.string "why, SAMUEL looks for me while I'm out\l"
 	.string "doing fieldwork, and shows me.$"

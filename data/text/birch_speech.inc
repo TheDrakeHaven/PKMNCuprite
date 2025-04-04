@@ -13,8 +13,8 @@ gText_Birch_Pokemon::
 
 gText_Birch_MainSpeech::
 	.string "Hopefully you know what a\n"
-	.string "POKéMON is before playing\l"
-	.string "or this will be too hard.\p"
+	.string "POKéMON is before playing,\n"
+	.string "or this will be very hard.\p"
 	.string "This game was a fun way\n"
 	.string "for me to learn to code while\l"
 	.string "getting to do art and music.\p"
@@ -42,7 +42,7 @@ gText_Birch_SoItsPlayer::
 
 gText_Birch_YourePlayer::
 	.string "Nice!\p"
-	.string "You're {PLAYER} who's accepted\n"
+	.string "You're {PLAYER}, who's accepted\n"
 	.string "my challenge.\p"
 	.string "Good luck!\p"
 	.string "$"

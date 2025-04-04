@@ -36,13 +36,11 @@ Route109_EventScript_EnterBoatWest::
 	end
 
 Route109_EventScript_DoSailToDewford::
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
-	call Common_EventScript_PlayBrineysBoatMusic
-	applymovement LOCALID_BOAT_R109, Route109_Movement_SailToDewford
-	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_SailToDewford
-	waitmovement 0
 	delay 50
-	call Common_EventScript_StopBrineysBoatMusic
+	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
+	warp MAP_DEWFORD_TOWN, 11, 9
+	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerExitBoat
+	waitmovement 0
 	showobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
 	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_PlayerExitBoat
 	waitmovement 0
@@ -242,25 +240,15 @@ Route109_Movement_SailToDewford:
 	step_end
 
 Route109_Movement_PlayerEnterBoatSouth:
-	walk_down
-	walk_down
 	step_end
 
 Route109_Movement_PlayerExitBoat:
-	walk_down
-	walk_down
-	walk_left
-	walk_in_place_faster_right
 	step_end
 
 Route109_Movement_PlayerEnterBoatEast:
-	walk_right
-	walk_down
 	step_end
 
 Route109_Movement_PlayerEnterBoatWest:
-	walk_left
-	walk_down
 	step_end
 
 Route109_Movement_BrineyEnterBoat:
