@@ -89,7 +89,7 @@ Route102_Text_LetsGoBack:
 
 Route102_Text_ImNotVeryTall:
 	.string "I'm…not very tall, so I sink right\n"
-	.string "into tall grass.$""
+	.string "into tall grass.$"
 
 Route102_Text_CatchWholeBunchOfPokemon:
 	.string "I'm going to catch a whole bunch of\n"

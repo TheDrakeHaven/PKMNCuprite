@@ -3159,7 +3159,7 @@ PetalburgCity_Gym_EventScript_GiveEevee::
 # 1583 "data/maps/PetalburgCity_Gym/scripts.pory"
 	giveitem ITEM_MOON_STONE
 # 1584 "data/maps/PetalburgCity_Gym/scripts.pory"
-	givemon SPECIES_EEVEE, 15, ITEM_SOOTHE_BELL
+	givemon SPECIES_EEVEE, 10, ITEM_SOOTHE_BELL
 # 1585 "data/maps/PetalburgCity_Gym/scripts.pory"
 	compare VAR_RESULT, MON_GIVEN_TO_PARTY
 	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_1

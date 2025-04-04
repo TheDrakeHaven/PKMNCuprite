@@ -992,20 +992,20 @@ NicknamePartyMon_1:
 
 
 NicknameBoxMon::
-# 502 "data/maps/NewBirchesLab/scripts.pory"
+# 500 "data/maps/NewBirchesLab/scripts.pory"
 	msgbox NicknamePartyMon_Text_0, MSGBOX_YESNO
-# 503 "data/maps/NewBirchesLab/scripts.pory"
+# 501 "data/maps/NewBirchesLab/scripts.pory"
 	hidemonpic
-# 504 "data/maps/NewBirchesLab/scripts.pory"
+# 502 "data/maps/NewBirchesLab/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq NicknameBoxMon_2
 NicknameBoxMon_1:
-# 507 "data/maps/NewBirchesLab/scripts.pory"
+# 505 "data/maps/NewBirchesLab/scripts.pory"
 	msgbox NicknameBoxMon_Text_0
 	return
 
 NicknameBoxMon_2:
-# 505 "data/maps/NewBirchesLab/scripts.pory"
+# 503 "data/maps/NewBirchesLab/scripts.pory"
 	call Common_EventScript_NameReceivedBoxMon
 	goto NicknameBoxMon_1
 
@@ -1135,9 +1135,9 @@ NicknamePartyMon_Text_0:
 	.string "Give a nickname?$"
 
 NicknameBoxMon_Text_0:
-# 507 "data/maps/NewBirchesLab/scripts.pory"
+# 505 "data/maps/NewBirchesLab/scripts.pory"
 	.string "Transferred to PC$"
 
 NewProfessor_NotChosen::
-# 510 "data/maps/NewBirchesLab/scripts.pory"
+# 508 "data/maps/NewBirchesLab/scripts.pory"
 	.string "You did not choose the Pokemon$"
