@@ -39,6 +39,32 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SkyPillar_Top_EventScript_Rayquaza",
       "flag": "FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BRANDON",
+      "x": 14,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "SkyPillar_TOP_EventScript_Jordan",
+      "flag": "FLAG_UNUSED_0x040"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_LUCY",
+      "x": 13,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "SkyPillar_TOP_EventScript_Ghostess",
+      "flag": "FLAG_UNUSED_0x040"
     }
   ],
   "warp_events": [

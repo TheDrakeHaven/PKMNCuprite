@@ -17,14 +17,6 @@ TrainerHill_Entrance_EventScript_ExitElevator::
 	releaseall
 	end
 
-TrainerHill_Entrance_EventScript_Nurse::
-	setvar VAR_0x800B, LOCALID_NURSE
-	call Common_EventScript_PkmnCenterNurse
-	waitmessage
-	waitbuttonpress
-	release
-	end
-
 TrainerHill_Entrance_Movement_PlayerFaceAttendant:
 	face_right
 	step_end
@@ -58,24 +50,6 @@ TrainerHill_Entrance_EventScript_Girl::
 TrainerHill_Entrance_EventScript_GirlTrainerHillClosed::
 	msgbox TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen, MSGBOX_NPC
 	end
-
-TrainerHill_Entrance_EventScript_Clerk::
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart TrainerHill_Entrance_Pokemart_Basic
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
-	end
-
-	.align 2
-TrainerHill_Entrance_Pokemart_Basic:
-	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
-	pokemartlistend
 
 TrainerHill_Entrance_EventScript_ExpandedPokemart::
 	pokemart TrainerHill_Entrance_Pokemart_Expanded

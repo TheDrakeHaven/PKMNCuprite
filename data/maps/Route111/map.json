@@ -149,8 +149,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
-      "x": 24,
-      "y": 64,
+      "x": 26,
+      "y": 63,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_LEFT_UP_RIGHT",
       "movement_range_x": 2,
@@ -176,7 +176,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 32,
-      "y": 66,
+      "y": 71,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_ROTATE_CLOCKWISE",
       "movement_range_x": 0,
@@ -409,7 +409,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
-      "x": 33,
+      "x": 37,
       "y": 62,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_RIGHT_AND_LEFT",
@@ -552,8 +552,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
-      "x": 37,
-      "y": 77,
+      "x": 41,
+      "y": 88,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
@@ -591,8 +591,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FOSSIL",
-      "x": 40,
-      "y": 58,
+      "x": 34,
+      "y": 53,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -662,7 +662,7 @@
       "x": 35,
       "y": 34,
       "elevation": 0,
-      "dest_map": "MAP_TRAINER_HILL_ENTRANCE",
+      "dest_map": "MAP_AERO_BASE_LOBBY",
       "dest_warp_id": "0"
     }
   ],

@@ -18,3 +18,7 @@ SkyPillar_4F_SetHoleWarp:
 	setholewarp MAP_SKY_PILLAR_3F
 	end
 
+TrainerHill_EventScript_GruntB::
+	trainerbattle_single TRAINER_ROSE_4, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	end

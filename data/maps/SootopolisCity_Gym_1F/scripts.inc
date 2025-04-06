@@ -99,7 +99,9 @@ SootopolisCity_Gym_1F_EventScript_JuanDefeated::
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE
+	setflag FLAG_DEFEATED_RAYQUAZA
 	setvar VAR_SOOTOPOLIS_CITY_STATE, 6
+	clearflag FLAG_UNUSED_0x040
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
 	setvar VAR_0x8008, 8
 	call Common_EventScript_SetGymTrainers

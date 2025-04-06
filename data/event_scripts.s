@@ -861,10 +861,6 @@ Common_EventScript_NameReceivedPartyMon::
 
 Common_EventScript_PlayerHandedOverTheItem::
 	bufferitemname STR_VAR_1, VAR_0x8004
-	playfanfare MUS_OBTAIN_TMHM
-	message gText_PlayerHandedOverTheItem
-	waitmessage
-	waitfanfare
 	removeitem VAR_0x8004
 	return
 
@@ -1160,3 +1156,15 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/PacifidlogTown_House6/scripts.inc"
 
 	.include "data/maps/PacifidlogTown_House7/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
+
+	.include "data/maps/AeroBase_1F/scripts.inc"
+
+	.include "data/maps/AeroBase_2F/scripts.inc"
+
+	.include "data/maps/AeroBase_3F/scripts.inc"
+
+	.include "data/maps/AeroBase_Roof/scripts.inc"
+
+	.include "data/maps/AeroBase_Lobby/scripts.inc"

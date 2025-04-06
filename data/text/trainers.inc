@@ -2209,7 +2209,7 @@ TrainerHill_GhostessIntro:
 	.string "Time to slay!\n"
 	.string "See the ghastly power!$"
 
-TrainerHill_GhostessDefeat:
+TrainerHill_GhostessDefeat::
 	.string "You may have won,\n"
 	.string "but you're a loser$"
 

@@ -10,3 +10,7 @@ SkyPillar_1F_EventScript_CleanFloor::
 	setmaplayoutindex LAYOUT_SKY_PILLAR_1F_CLEAN
 	return
 
+TrainerHill_EventScript_GruntE::
+	trainerbattle_single TRAINER_LOLA_2, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	end

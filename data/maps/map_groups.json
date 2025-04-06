@@ -304,7 +304,8 @@
   ],
   "gMapGroup_IndoorRoute111": [
     "Route111_WinstrateFamilysHouse",
-    "Route111_OldLadysRestStop"
+    "Route111_OldLadysRestStop",
+    "NewMap1"
   ],
   "gMapGroup_IndoorRoute112": [
     "Route112_CableCarStation",
@@ -432,7 +433,12 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave"
+    "MeteorFalls_StevensCave",
+    "AeroBase_1F",
+    "AeroBase_2F",
+    "AeroBase_3F",
+    "AeroBase_Roof",
+    "AeroBase_Lobby"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

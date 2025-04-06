@@ -10,3 +10,7 @@ SkyPillar_5F_EventScript_CleanFloor::
 	setmaplayoutindex LAYOUT_SKY_PILLAR_5F_CLEAN
 	return
 
+TrainerHill_EventScript_GruntA::
+	trainerbattle_single TRAINER_ROSE_5, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	end

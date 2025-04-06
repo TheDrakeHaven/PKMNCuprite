@@ -132,6 +132,27 @@ SkyPillar_Top_EventScript_AwakenRayquaza::
 	releaseall
 	end
 
+SkyPillar_TOP_EventScript_Ghostess::
+	trainerbattle_single TRAINER_ANDRES_2, SkyPillar_TOP_Text_GhostessIntro, SkyPillar_TOP_Text_GhostessDefeat
+	msgbox SkyPillar_TOP_Text_GhostessPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+SkyPillar_TOP_EventScript_Jordan::
+	trainerbattle_single TRAINER_ANDRES_3, SkyPillar_TOP_Text_JordanIntro, SkyPillar_TOP_Text_JordanDefeat, SkyPillar_TOP_EventScript_Jordangone
+	msgbox SkyPillar_TOP_Text_JordanPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+SkyPillar_TOP_EventScript_Jordangone::
+	giveitem ITEM_TM_SECRET_POWER
+	giveitem ITEM_BRIGHT_POWDER
+	giveitem ITEM_TOXIC_ORB
+	giveitem ITEM_WEAKNESS_POLICY
+	giveitem ITEM_SHELL_BELL
+	clearflag FLAG_UNUSED_0x040
+	end
+
 @ Rayquaza has unusual movement frames
 @ See comments, or sAnimTable_Rayquaza
 SkyPillar_Top_Movement_RayquazaStir:
@@ -182,4 +203,26 @@ SkyPillar_Top_Movement_CameraPanDown:
 
 SkyPillar_Top_Text_RayquazaFlewOff:
 	.string "The awakened RAYQUAZA flew off…$"
+
+SkyPillar_TOP_Text_GhostessIntro:
+	.string "I need to stall for JORDAN!\n"
+	.string "So prepare for a long battle.$"
+
+SkyPillar_TOP_Text_GhostessDefeat:
+	.string "I did as well as I could, but\n"
+	.string "I think he captured it...$"
+
+SkyPillar_TOP_Text_JordanIntro:
+	.string "We have the greatest power…\p"
+	.string "With this great RAYQUAZA,\n"
+	.string "I'll take your breath away.$"
+
+SkyPillar_TOP_Text_JordanDefeat:
+	.string "My limits have been met.$"
+
+SkyPillar_TOP_Text_GhostessPostBattle:
+	.string "Team Aero must prevail!$"
+
+SkyPillar_TOP_Text_JordanPostBattle:
+	.string "This power is not mine to wield. Farewell.$"
 
