@@ -2193,6 +2193,30 @@ Route116_Text_JoeyPostBattle:
 	.string "Bandages are signs of toughness!\n"
 	.string "I've got another one!$"
 
+TrainerHill_GruntIntro:
+	.string "I'll stop you!\n"
+	.string "for TEAM AERO!$"
+
+TrainerHill_GruntDefeat:
+	.string "I weakened you!\n"
+	.string "At least I hope...$"
+
+TrainerHill_GruntPost:
+	.string "Next man get ready!\n"
+	.string "Take them out!$"
+
+TrainerHill_GhostessIntro:
+	.string "Time to slay!\n"
+	.string "See the ghastly power!$"
+
+TrainerHill_GhostessDefeat:
+	.string "You may have won,\n"
+	.string "but you're a loser$"
+
+TrainerHill_GhostessPost:
+	.string "JORDAN will surly win!\n"
+	.string "He's all the way up!$"
+
 Route116_Text_JoseIntro:
 	.string "My BUG POKéMON are tough!\n"
 	.string "Let's battle!$"
@@ -4778,6 +4802,13 @@ Route134_Text_HudsonPostBattle:
 	.string "Our boat drifted out to sea.\p"
 	.string "My buddy's a timid fellow, so I'm\n"
 	.string "worried about him.$"
+
+TrainerHill_JordanIntro::
+	.string "Have you come to join\n"
+	.string "our wonderful team?$"
+
+TrainerHill_JordanDefeated::
+	.string "Please reconsider.$"
 
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
 	.string "The battery isn't charged enough.\p"

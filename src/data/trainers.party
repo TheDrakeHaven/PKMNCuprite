@@ -16059,11 +16059,39 @@ Pic: Pike Queen Lucy
 Gender: Female
 Music: Rich
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Beldum
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Grumpig
+Ability: Thick Fat
+Level: 38
+-Psychic
+-Power Gem
+-Energy Ball
+-Dazzling Gleam
+
+Delcatty
+Ability: Wonder Skin
+Level: 38
+-Fake Out
+-Play Rough
+-Double Edge
+-Rock Smash
+
+Shelgon
+Ability: Rock Head
+Level: 38
+-Dragon Claw
+-Fire Fang
+-Rock Tomb
+-Thunder Fang
+
+Banette @ Assault Vest
+Ability: Cursed Body
+Level: 38
+-Shadow Sneak
+-Gunk Shot
+-Poltergeist
+-Lash Out
 
 === TRAINER_BRANDON ===
 Name: JORDAN
@@ -16072,133 +16100,178 @@ Pic: Pyramid King Brandon
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Beldum
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tropius
+Ability: Chlorophyll
+Level: 40
+-Hurricane
+-Leaf Storm
+-Zen Headbutt
+-Giga Impact
+
+Dusclops @ Eviolite
+Ability: Pressure
+Level: 40
+-Shadow Sneak
+-Shadow Punch
+-Brick Break
+-Thunder Punch
+
+Swalot
+Ability: Liquid Ooze
+Level: 40
+-Gunk Shot
+-Earthquake
+-Knock Off
+-Ice Punch
+
+Whiscash
+Ability: Oblivious
+Level: 40
+-Ice Beam
+-Surf
+-Earth Power
+-Future Sight
+
 
 === TRAINER_ANDRES_2 ===
-Name: ANDRES
-Class: Ruin Maniac
-Pic: Ruin Maniac
+Name: JORDAN
+Class: Pyramid King
+Pic: Pyramid King Brandon
 Gender: Male
-Music: Hiker
+Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Sandshrew
-Level: 31
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Tropius @ Wide Lens
+Ability: Chlorophyll
+Level: 64
+-Hurricane
+-Leaf Storm
+-Zen Headbutt
+-Giga Impact
 
-Sandshrew
-Level: 31
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Dusknoir @ Life Orb
+Ability: Pressure
+Level: 64
+-Shadow Sneak
+-Poltergeist
+-Brick Break
+-Thunder Punch
+
+Swalot @ Black Sludge
+Ability: Liquid Ooze
+Level: 64
+-Gunk Shot
+-Earthquake
+-Knock Off
+-Ice Punch
+
+Whiscash @ Choice Specs
+Ability: Oblivious
+Level: 64
+-Ice Beam
+-Surf
+-Earth Power
+-Future Sight
+
+Rayquaza @ Assault Vest
+Ability: Air Lock
+Level: 64
+-Draco Meteor
+-Dragon Ascent
+-Extreme Speed
+-Flamethrower
 
 === TRAINER_ANDRES_3 ===
-Name: ANDRES
-Class: Ruin Maniac
-Pic: Ruin Maniac
-Gender: Male
-Music: Hiker
+Name: GHOSTESS
+Class: Pike Queen
+Pic: Pike Queen Lucy
+Gender: Female
+Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
-Nosepass
-Level: 33
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Grumpig @ Expert Belt
+Ability: Thick Fat
+Level: 63
+-Psychic
+-Power Gem
+-Energy Ball
+-Dazzling Gleam
 
-Sandshrew
-Level: 33
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Delcatty @ Muscle Band
+Ability: Wonder Skin
+Level: 63
+-Fake Out
+-Play Rough
+-Double Edge
+-Rock Smash
 
-Sandshrew
-Level: 33
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Salamence @ Wide Lens
+Ability: Intimidate
+Level: 63
+-Fire Blast
+-Draco Meteor
+-Hurricane
+-Hydro Pump
+
+Banette @ Assault Vest
+Ability: Cursed Body
+Level: 63
+-Shadow Sneak
+-Gunk Shot
+-Poltergeist
+-Lash Out
 
 === TRAINER_ANDRES_4 ===
-Name: ANDRES
-Class: Ruin Maniac
-Pic: Ruin Maniac
+Name: GRUNT
+Class: Factory Head
+Pic: Factory Head Noland
 Gender: Male
-Music: Hiker
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Nosepass
-Level: 35
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Sandshrew
-Level: 35
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Sandshrew
-Level: 35
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Golbat
+Level:36
 
 === TRAINER_ANDRES_5 ===
-Name: ANDRES
-Class: Ruin Maniac
-Pic: Ruin Maniac
+Name: GRUNT
+Class: Factory Head
+Pic: Factory Head Noland
 Gender: Male
-Music: Hiker
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Nosepass
-Level: 37
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Sandslash
-Level: 37
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Sandslash
-Level: 37
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Dusclops
+Level:36
 
 === TRAINER_CORY_2 ===
-Name: CORY
-Class: Sailor
-Pic: Sailor
+Name: GRUNT
+Class: Factory Head
+Pic: Factory Head Noland
 Gender: Male
-Music: Male
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 30
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Machop
-Level: 30
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Tentacool
-Level: 30
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Skitty
+Level:36
 
 === TRAINER_CORY_3 ===
-Name: CORY
-Class: Sailor
-Pic: Sailor
+Name: GRUNT
+Class: Factory Head
+Pic: Factory Head Noland
 Gender: Male
-Music: Male
+Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Pelipper
-Level: 32
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Machop
-Level: 32
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Tentacool
-Level: 32
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Gulpin
+Level:36
 
 === TRAINER_CORY_4 ===
 Name: CORY

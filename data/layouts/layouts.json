@@ -4154,7 +4154,7 @@
     {
       "id": "LAYOUT_TRAINER_HILL_2F",
       "name": "TrainerHill_2F_Layout",
-      "width": 15,
+      "width": 16,
       "height": 16,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_TrainerHill",
@@ -4164,7 +4164,7 @@
     {
       "id": "LAYOUT_TRAINER_HILL_3F",
       "name": "TrainerHill_3F_Layout",
-      "width": 15,
+      "width": 16,
       "height": 16,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_TrainerHill",
@@ -4174,7 +4174,7 @@
     {
       "id": "LAYOUT_TRAINER_HILL_4F",
       "name": "TrainerHill_4F_Layout",
-      "width": 15,
+      "width": 16,
       "height": 16,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_TrainerHill",

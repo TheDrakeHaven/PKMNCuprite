@@ -1,6 +1,23 @@
 TrainerHill_1F_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, TrainerHill_OnResume
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, TrainerHill_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_OnFrame
 	.byte 0
+
+TrainerHill_EventScript_Grunt1::
+	trainerbattle_single TRAINER_WINONA_2, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	end
+
+TrainerHill_EventScript_Grunt2::
+	trainerbattle_single TRAINER_WINONA_3, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	end
+
+TrainerHill_EventScript_Grunt3::
+	trainerbattle_single TRAINER_WINONA_4, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	end
+
+TrainerHill_EventScript_Grunt4::
+	trainerbattle_single TRAINER_WINONA_5, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	end
 
