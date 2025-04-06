@@ -14,3 +14,4 @@ TrainerHill_EventScript_GruntC::
 	trainerbattle_single TRAINER_ROSE_3, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
 	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
 	end
+

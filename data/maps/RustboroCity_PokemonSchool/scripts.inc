@@ -81,7 +81,7 @@ RustboroCity_PokemonSchool_EventScript_Teacher::
 	call_if_eq VAR_FACING, DIR_EAST, RustboroCity_PokemonSchool_EventScript_TeacherCheckOnStudentsEast
 	call_if_eq VAR_FACING, DIR_WEST, RustboroCity_PokemonSchool_EventScript_TeacherCheckOnStudentsWest
 	msgbox RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw, MSGBOX_DEFAULT
-	giveitem ITEM_QUICK_CLAW
+	giveitem ITEM_TM_ACROBATICS
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_ShowBagIsFull
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterDown
@@ -245,16 +245,16 @@ RustboroCity_PokemonSchool_Text_ExplainFreeze:
 
 RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
 	.string "Students who don't study get a little\n"
-	.string "taste of my QUICK CLAW.\p"
+	.string "acrobatics act.\p"
 	.string "Whether or not you are a good student \n"
 	.string "will be evident from the way you use\l"
 	.string "this item.$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
-	.string "A POKéMON holding the QUICK CLAW will\n"
-	.string "occasionally speed up and get to move\l"
-	.string "before its opponent.\p"
-	.string "There are many other items that are\n"
+	.string "A POKéMON holding no item will\n"
+	.string "deal more damage with ACROBATICS\l"
+	.string "to its opponent.\p"
+	.string "There are many items that are\n"
 	.string "meant to be held by POKéMON.\p"
 	.string "Just those alone will give you many\n"
 	.string "topics to study!$"

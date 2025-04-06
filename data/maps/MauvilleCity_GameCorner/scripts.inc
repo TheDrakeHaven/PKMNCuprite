@@ -2,15 +2,15 @@ MauvilleCity_GameCorner_MapScripts::
 	.byte 0
 
     @ Game Corner prices
-	.set TM_DOUBLE_TEAM_COINS, 1500
-	.set TM_PSYCHIC_COINS, 3500
-	.set TM_FLAMETHROWER_COINS, 4000
-	.set TM_THUNDERBOLT_COINS, 4000
-	.set TM_ICE_BEAM_COINS, 4000
+	.set TM_DOUBLE_TEAM_COINS, 2500
+	.set TM_PSYCHIC_COINS, 2500
+	.set TM_FLAMETHROWER_COINS, 2500
+	.set TM_THUNDERBOLT_COINS, 3000
+	.set TM_ICE_BEAM_COINS, 3000
 	.set DOLL_COINS, 1000
 
-	.set COINS_PRICE_50,  1000
-	.set COINS_PRICE_500, 10000
+	.set COINS_PRICE_50,  500
+	.set COINS_PRICE_500, 5000
 
 MauvilleCity_GameCorner_EventScript_CoinsClerk::
 	lock
@@ -241,7 +241,11 @@ MauvilleCity_GameCorner_EventScript_ChooseTMPrize::
 	case 2, MauvilleCity_GameCorner_EventScript_TMFlamethrower
 	case 3, MauvilleCity_GameCorner_EventScript_TMThunderbolt
 	case 4, MauvilleCity_GameCorner_EventScript_TMIceBeam
-	case 5, MauvilleCity_GameCorner_EventScript_CancelTMSelect
+	case 5, MauvilleCity_GameCorner_EventScript_TMFacade
+	case 6, MauvilleCity_GameCorner_EventScript_TMZenheadbutt
+	case 7, MauvilleCity_GameCorner_EventScript_TMStompingTantrum
+	case 8, MauvilleCity_GameCorner_EventScript_TMBodyPress
+	case 9, MauvilleCity_GameCorner_EventScript_CancelTMSelect
 	goto MauvilleCity_GameCorner_EventScript_CancelTMSelect
 	end
 
@@ -260,7 +264,7 @@ MauvilleCity_GameCorner_EventScript_TMPsychic::
 MauvilleCity_GameCorner_EventScript_TMFlamethrower::
 	setvar VAR_TEMP_1, 3
 	bufferitemname STR_VAR_1, ITEM_TM_AERIAL_ACE
-	setvar VAR_0x8004, ITEM_TM_FLAMETHROWER
+	setvar VAR_0x8004, ITEM_TM_AERIAL_ACE
 	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
 
 MauvilleCity_GameCorner_EventScript_TMThunderbolt::
@@ -271,8 +275,32 @@ MauvilleCity_GameCorner_EventScript_TMThunderbolt::
 
 MauvilleCity_GameCorner_EventScript_TMIceBeam::
 	setvar VAR_TEMP_1, 5
-	bufferitemname STR_VAR_1, ITEM_TM_ICE_BEAM
-	setvar VAR_0x8004, ITEM_TM_ICE_BEAM
+	bufferitemname STR_VAR_1, ITEM_TM_STEEL_BEAM
+	setvar VAR_0x8004, ITEM_TM_STEEL_BEAM
+	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
+
+	MauvilleCity_GameCorner_EventScript_TMFacade::
+	setvar VAR_TEMP_1, 6
+	bufferitemname STR_VAR_1, ITEM_TM_FACADE
+	setvar VAR_0x8004, ITEM_TM_FACADE
+	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
+
+	MauvilleCity_GameCorner_EventScript_TMZenheadbutt::
+	setvar VAR_TEMP_1, 7
+	bufferitemname STR_VAR_1, ITEM_TM_ZEN_HEADBUTT
+	setvar VAR_0x8004, ITEM_TM_ZEN_HEADBUTT
+	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
+
+	MauvilleCity_GameCorner_EventScript_TMStompingTantrum::
+	setvar VAR_TEMP_1, 8
+	bufferitemname STR_VAR_1, ITEM_TM_STOMPING_TANTRUM
+	setvar VAR_0x8004, ITEM_TM_STOMPING_TANTRUM
+	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
+
+	MauvilleCity_GameCorner_EventScript_TMBodyPress::
+	setvar VAR_TEMP_1, 9
+	bufferitemname STR_VAR_1, ITEM_TM_BODY_PRESS
+	setvar VAR_0x8004, ITEM_TM_BODY_PRESS
 	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
 
 MauvilleCity_GameCorner_EventScript_ConfirmTMPrize::
@@ -285,7 +313,64 @@ MauvilleCity_GameCorner_EventScript_ConfirmTMPrize::
 	case 3, MauvilleCity_GameCorner_EventScript_BuyTMFlamethrower
 	case 4, MauvilleCity_GameCorner_EventScript_BuyTMThunderbolt
 	case 5, MauvilleCity_GameCorner_EventScript_BuyTMIceBeam
+	case 5, MauvilleCity_GameCorner_EventScript_BuyFacade
+	case 6, MauvilleCity_GameCorner_EventScript_BuyZenheadbutt
+	case 7, MauvilleCity_GameCorner_EventScript_BuyStompingTantrum
+	case 8, MauvilleCity_GameCorner_EventScript_BuyBodyPress
 	end
+
+MauvilleCity_GameCorner_EventScript_BuyFacade::
+	checkcoins VAR_TEMP_2
+	goto_if_lt VAR_TEMP_2, TM_DOUBLE_TEAM_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForTM
+	checkitemspace ITEM_TM_FACADE
+	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
+	removecoins TM_DOUBLE_TEAM_COINS
+	additem ITEM_TM_FACADE
+	updatecoinsbox 1, 1
+	playse SE_SHOP
+	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+	end
+
+MauvilleCity_GameCorner_EventScript_BuyZenheadbutt::
+	checkcoins VAR_TEMP_2
+	goto_if_lt VAR_TEMP_2, TM_DOUBLE_TEAM_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForTM
+	checkitemspace ITEM_TM_ZEN_HEADBUTT
+	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
+	removecoins TM_DOUBLE_TEAM_COINS
+	additem ITEM_TM_ZEN_HEADBUTT
+	updatecoinsbox 1, 1
+	playse SE_SHOP
+	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+	end
+
+MauvilleCity_GameCorner_EventScript_BuyStompingTantrum::
+	checkcoins VAR_TEMP_2
+	goto_if_lt VAR_TEMP_2, TM_DOUBLE_TEAM_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForTM
+	checkitemspace ITEM_TM_STOMPING_TANTRUM
+	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
+	removecoins TM_DOUBLE_TEAM_COINS
+	additem ITEM_TM_STOMPING_TANTRUM
+	updatecoinsbox 1, 1
+	playse SE_SHOP
+	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+	end
+
+MauvilleCity_GameCorner_EventScript_BuyBodyPress::
+	checkcoins VAR_TEMP_2
+	goto_if_lt VAR_TEMP_2, TM_DOUBLE_TEAM_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForTM
+	checkitemspace ITEM_TM_BODY_PRESS
+	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
+	removecoins TM_DOUBLE_TEAM_COINS
+	additem ITEM_TM_BODY_PRESS
+	updatecoinsbox 1, 1
+	playse SE_SHOP
+	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
+	goto MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize
+	end
+
 
 MauvilleCity_GameCorner_EventScript_BuyTMDoubleTeam::
 	checkcoins VAR_TEMP_2

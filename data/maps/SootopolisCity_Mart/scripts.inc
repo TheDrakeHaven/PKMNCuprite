@@ -14,14 +14,16 @@ SootopolisCity_Mart_EventScript_Clerk::
 	.align 2
 SootopolisCity_Mart_Pokemart:
 	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_HYPER_POTION
 	.2byte ITEM_MAX_POTION
 	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_REVIVE
 	.2byte ITEM_MAX_REPEL
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFENSE
-	.2byte ITEM_SHADOW_MAIL
+	.2byte ITEM_TM_HYPER_VOICE
+	.2byte ITEM_TM_FLASH_CANNON
+	.2byte ITEM_TM_PSYSHOCK
+	.2byte ITEM_TM_SEED_BOMB
+	.2byte ITEM_TM_SHADOW_CLAW
+	.2byte ITEM_TM_AURA_SPHERE
+	.2byte ITEM_TM_DARK_PULSE
 	pokemartlistend
 
 SootopolisCity_Mart_EventScript_FatMan::

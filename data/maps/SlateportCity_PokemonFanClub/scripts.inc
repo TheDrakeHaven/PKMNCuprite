@@ -70,7 +70,7 @@ SlateportCity_PokemonFanClub_EventScript_NoHighConditions::
 	end
 
 SlateportCity_PokemonFanClub_EventScript_GiveRedScarf::
-	checkitemspace ITEM_RED_SCARF
+	checkitemspace ITEM_PSYCHIC_SEED
 	goto_if_eq VAR_RESULT, FALSE, SlateportCity_PokemonFanClub_EventScript_NoRoomForScarf
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_RED_SCARF
@@ -80,7 +80,7 @@ SlateportCity_PokemonFanClub_EventScript_GiveRedScarf::
 	end
 
 SlateportCity_PokemonFanClub_EventScript_GiveBlueScarf::
-	checkitemspace ITEM_BLUE_SCARF
+	checkitemspace ITEM_MISTY_SEED
 	goto_if_eq VAR_RESULT, FALSE, SlateportCity_PokemonFanClub_EventScript_NoRoomForScarf
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_BLUE_SCARF
@@ -90,7 +90,7 @@ SlateportCity_PokemonFanClub_EventScript_GiveBlueScarf::
 	end
 
 SlateportCity_PokemonFanClub_EventScript_GivePinkScarf::
-	checkitemspace ITEM_PINK_SCARF
+	checkitemspace ITEM_GRASSY_SEED
 	goto_if_eq VAR_RESULT, FALSE, SlateportCity_PokemonFanClub_EventScript_NoRoomForScarf
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_PINK_SCARF
@@ -100,7 +100,7 @@ SlateportCity_PokemonFanClub_EventScript_GivePinkScarf::
 	end
 
 SlateportCity_PokemonFanClub_EventScript_GiveGreenScarf::
-	checkitemspace ITEM_GREEN_SCARF
+	checkitemspace ITEM_ELECTRIC_SEED
 	goto_if_eq VAR_RESULT, FALSE, SlateportCity_PokemonFanClub_EventScript_NoRoomForScarf
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_GREEN_SCARF
@@ -110,7 +110,7 @@ SlateportCity_PokemonFanClub_EventScript_GiveGreenScarf::
 	end
 
 SlateportCity_PokemonFanClub_EventScript_GiveYellowScarf::
-	checkitemspace ITEM_YELLOW_SCARF
+	checkitemspace ITEM_NORMAL_GEM
 	goto_if_eq VAR_RESULT, FALSE, SlateportCity_PokemonFanClub_EventScript_NoRoomForScarf
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_YELLOW_SCARF
@@ -323,27 +323,27 @@ SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
 	.string "it would grow even better! Indeed!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainRedScarf:
-	.string "Let a POKéMON hold that RED SCARF.\p"
+	.string "Let a POKéMON hold that Psychic Seed.\p"
 	.string "Everyone will recognize the coolness\n"
 	.string "of that POKéMON!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainBlueScarf:
-	.string "Let a POKéMON hold that BLUE SCARF.\p"
+	.string "Let a POKéMON hold that Misty Seed.\p"
 	.string "Its beauty will be accentuated much\n"
 	.string "more than now!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainPinkScarf:
-	.string "Let a POKéMON hold that PINK SCARF.\p"
+	.string "Let a POKéMON hold that Grassy Seed.\p"
 	.string "It will draw out the cuteness of\n"
 	.string "the POKéMON some more!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainGreenScarf:
-	.string "Let a POKéMON hold that GREEN SCARF.\p"
+	.string "Let a POKéMON hold that Electric Seed.\p"
 	.string "That will enhance the\n"
 	.string "smartness of POKéMON!$"
 
 SlateportCity_PokemonFanClub_Text_ExplainYellowScarf:
-	.string "Let a POKéMON hold that YELLOW SCARF.\p"
+	.string "Let a POKéMON hold that Normal Gem.\p"
 	.string "It will bolster your POKéMON's\n"
 	.string "toughness so much more!$"
 

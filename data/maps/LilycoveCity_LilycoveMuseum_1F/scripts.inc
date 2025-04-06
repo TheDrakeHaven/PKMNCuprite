@@ -129,6 +129,7 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_SchoolKidM::
 
 LilycoveCity_LilycoveMuseum_1F_EventScript_Artist1::
 	msgbox LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration, MSGBOX_NPC
+	giveitem ITEM_TM_GUNK_SHOT
 	end
 
 LilycoveCity_LilycoveMuseum_1F_EventScript_NinjaBoy::
