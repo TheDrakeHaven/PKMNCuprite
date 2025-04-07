@@ -355,24 +355,11 @@ Route104_EventScript_SailToDewford::
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerBoardBoat
 	waitmovement 0
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
-	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordNoCall
-	goto_if_unset FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordDadCalls
+	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_ArriveInDewford
+	goto_if_unset FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_ArriveInDewford
 	end
 
 Route104_EventScript_SailToDewfordNoCall::
-	goto Route104_EventScript_ArriveInDewford
-
-Route104_EventScript_SailToDewfordDadCalls::
-	waitmovement 0
-	pokenavcall Route104_Text_DadPokenavCall
-	waitmessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox Route104_Text_RegisteredDadInPokenav, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
 	goto Route104_EventScript_ArriveInDewford
 
 Route104_EventScript_ArriveInDewford::

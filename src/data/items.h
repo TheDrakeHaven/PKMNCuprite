@@ -189,7 +189,7 @@ const struct Item gItemsInfo[] =
     [ITEM_GREAT_BALL] =
     {
         .name = _("Great Ball"),
-        .price = 600,
+        .price = 500,
         .description = COMPOUND_STRING(
             "A good Ball with a\n"
             "higher catch rate\n"

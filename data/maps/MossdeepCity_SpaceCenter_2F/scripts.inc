@@ -304,7 +304,6 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 	msgbox MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome, MSGBOX_DEFAULT
 	closemessage
 	fadescreen FADE_TO_BLACK
-	setflag FLAG_DEFEATED_MAGMA_SPACE_CENTER
 	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
 	removeobject LOCALID_STEVEN
 	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
@@ -333,26 +332,6 @@ MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayerSouth::
 
 MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayerWest::
 	turnobject LOCALID_STEVEN, DIR_EAST
-	return
-
-MossdeepCity_SpaceCenter_2F_EventScript_RivalRayquazaCall::
-	lockall
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, MossdeepCity_SpaceCenter_2F_EventScript_MayRayquazaCall
-	call_if_eq VAR_RESULT, FEMALE, MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall
-	closemessage
-	clearflag FLAG_DEFEATED_MAGMA_SPACE_CENTER
-	releaseall
-	end
-
-MossdeepCity_SpaceCenter_2F_EventScript_MayRayquazaCall::
-	pokenavcall MatchCall_Text_MayRayquazaCall
-	waitmessage
-	return
-
-MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall::
-	pokenavcall MatchCall_Text_BrendanRayquazaCall
-	waitmessage
 	return
 
 MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:

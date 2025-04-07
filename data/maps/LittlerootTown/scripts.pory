@@ -973,6 +973,6 @@ script LittlerootTown_EventScript_Gymsign {
 
 script LittlerootTown_Text_normando {
 	lockall
-	msgbox("Come back when you have a pokemon!")
+	msgbox("DAD:Come back when you have a pokemon!")
 	releaseall
 }

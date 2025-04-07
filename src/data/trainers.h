@@ -12900,8 +12900,8 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 5217
                 MOVE_EARTHQUAKE,
-                MOVE_SHADOW_PUNCH,
-                MOVE_HAMMER_ARM,
+                MOVE_POLTERGEIST,
+                MOVE_DYNAMIC_PUNCH,
                 MOVE_ICE_PUNCH,
             },
             },

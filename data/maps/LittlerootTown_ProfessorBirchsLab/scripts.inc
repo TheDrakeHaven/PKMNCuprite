@@ -657,14 +657,6 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Book::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead, MSGBOX_SIGN
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
-	lockall
-	pokenavcall LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall
-	waitmessage
-	clearflag FLAG_SCOTT_CALL_BATTLE_FRONTIER
-	releaseall
-	end
-
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 	.string "Hunh? PROF. LEE?\p"
 	.string "The PROF's away on fieldwork.\n"
@@ -720,7 +712,8 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 	.string "PROF. LEE: Great!\n"
-	.string "Get SAMUEL to battle you!$"
+	.string "You should also go get a\n"
+	.string "free pokemon at the GYM!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 	.string "PROF. LEE: Oh, don't be that way.\n"
