@@ -372,7 +372,7 @@ MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
 	.string "You should take this, too!$"
 
 MauvilleCity_Gym_Text_ExplainShockWave:
-	.string "That TM34 there contains VOLT SWITCH.\p"
+	.string "That TM60 there contains VOLT SWITCH.\p"
 	.string "It's a trustworthy move that switches\n"
 	.string "the attacker! You can count on it!\p"
 	.string "… … … … … …$"

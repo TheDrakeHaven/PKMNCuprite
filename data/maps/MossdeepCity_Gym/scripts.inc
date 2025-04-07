@@ -576,7 +576,7 @@ MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
 	.string "You should also take this, too.$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
-	.string "MARK: That TM04 contains…\n"
+	.string "MARK: That TM62 contains…\n"
 	.string "DAZZLING GLEAM!\p"
 	.string "It's a move that's perfect…\n"
 	.string "For fabulous POKéMON!$"

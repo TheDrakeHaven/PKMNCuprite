@@ -173,6 +173,7 @@ DewfordTown_Gym_EventScript_GiveBulkUp::
 	additem ITEM_WIDE_LENS
 	additem ITEM_SCOPE_LENS
 	additem ITEM_AMULET_COIN
+	setflag FLAG_RECEIVED_AMULET_COIN
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
 	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_BULK_UP

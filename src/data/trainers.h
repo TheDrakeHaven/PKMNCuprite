@@ -12341,7 +12341,7 @@ F_TRAINER_FEMALE |
 #line 4991
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 4992
-        .trainerPic = TRAINER_PIC_LEADER_NORMAN,
+        .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
 #line 4994
             TRAINER_ENCOUNTER_MUSIC_MALE,
