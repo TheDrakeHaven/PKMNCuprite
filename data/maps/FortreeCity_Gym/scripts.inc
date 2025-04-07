@@ -50,11 +50,11 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	end
 
 FortreeCity_Gym_EventScript_GiveAerialAce2::
-	giveitem ITEM_TM_HEAVY_SLAM
-	giveitem ITEM_ROCKY_HELMET
-	giveitem ITEM_SAFETY_GOGGLES
-	giveitem ITEM_PROTECTIVE_PADS
-	giveitem ITEM_HEAVY_DUTY_BOOTS
+	additem ITEM_TM_HEAVY_SLAM
+	additem ITEM_ROCKY_HELMET
+	additem ITEM_SAFETY_GOGGLES
+	additem ITEM_PROTECTIVE_PADS
+	additem ITEM_HEAVY_DUTY_BOOTS
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox FortreeCity_Gym_Text_ExplainAerialAce, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_AERIAL_ACE
@@ -62,11 +62,11 @@ FortreeCity_Gym_EventScript_GiveAerialAce2::
 	end
 
 FortreeCity_Gym_EventScript_GiveAerialAce::
-	giveitem ITEM_TM_HEAVY_SLAM
-	giveitem ITEM_CHOICE_BAND
-	giveitem ITEM_CHOICE_SCARF
-	giveitem ITEM_CHOICE_SPECS
-	giveitem ITEM_ASSAULT_VEST
+	additem ITEM_TM_HEAVY_SLAM
+	additem ITEM_CHOICE_BAND
+	additem ITEM_CHOICE_SCARF
+	additem ITEM_CHOICE_SPECS
+	additem ITEM_ASSAULT_VEST
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox FortreeCity_Gym_Text_ExplainAerialAce, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_AERIAL_ACE

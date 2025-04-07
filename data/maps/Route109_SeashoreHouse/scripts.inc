@@ -24,25 +24,24 @@ Route109_SeashoreHouse_EventScript_AlreadyGaveIntroduction::
 
 Route109_SeashoreHouse_EventScript_DefeatedTrainers::
 	msgbox Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles, MSGBOX_DEFAULT
-	giveitem ITEM_BLACK_BELT
-	giveitem ITEM_BLACK_GLASSES
-	giveitem ITEM_DRAGON_FANG
-	giveitem ITEM_CHARCOAL
-	giveitem ITEM_FAIRY_FEATHER
-	giveitem ITEM_HARD_STONE
-	giveitem ITEM_MAGNET
-	giveitem ITEM_MIRACLE_SEED
-	giveitem ITEM_MYSTIC_WATER
-	giveitem ITEM_METAL_COAT
-	giveitem ITEM_NEVER_MELT_ICE
-	giveitem ITEM_POISON_BARB
-	giveitem ITEM_SHARP_BEAK
-	giveitem ITEM_SILK_SCARF
-	giveitem ITEM_SILVER_POWDER
-	giveitem ITEM_SOFT_SAND
-	giveitem ITEM_SPELL_TAG
-	giveitem ITEM_TWISTED_SPOON
-	goto_if_eq VAR_RESULT, FALSE, Route109_SeashoreHouse_EventScript_BagFull
+	additem ITEM_BLACK_BELT
+	additem ITEM_BLACK_GLASSES
+	additem ITEM_DRAGON_FANG
+	additem ITEM_CHARCOAL
+	additem ITEM_FAIRY_FEATHER
+	additem ITEM_HARD_STONE
+	additem ITEM_MAGNET
+	additem ITEM_MIRACLE_SEED
+	additem ITEM_MYSTIC_WATER
+	additem ITEM_METAL_COAT
+	additem ITEM_NEVER_MELT_ICE
+	additem ITEM_POISON_BARB
+	additem ITEM_SHARP_BEAK
+	additem ITEM_SILK_SCARF
+	additem ITEM_SILVER_POWDER
+	additem ITEM_SOFT_SAND
+	additem ITEM_SPELL_TAG
+	additem ITEM_TWISTED_SPOON
 	setflag FLAG_RECEIVED_6_SODA_POP
 	release
 	end
@@ -71,9 +70,9 @@ Route109_SeashoreHouse_EventScript_BuySodaPop::
 	updatemoneybox
 .if OW_SHOW_ITEM_DESCRIPTIONS != OW_ITEM_DESCRIPTIONS_OFF
 	hidemoneybox
-	giveitem ITEM_SODA_POP
+	additem ITEM_SODA_POP
 .else
-	giveitem ITEM_SODA_POP
+	additem ITEM_SODA_POP
 	hidemoneybox
 .endif
 	release

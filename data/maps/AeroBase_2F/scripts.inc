@@ -23,11 +23,11 @@ TrainerHill_EventScript_Ghostess::
 	end
 
 TrainerHill_ghostgift::
-	giveitem ITEM_TM_HEX
-	giveitem ITEM_LOADED_DICE
-	giveitem ITEM_METRONOME
-	giveitem ITEM_FLAME_ORB
-	giveitem ITEM_DESTINY_KNOT
+	additem ITEM_TM_HEX
+	additem ITEM_LOADED_DICE
+	additem ITEM_METRONOME
+	additem ITEM_FLAME_ORB
+	additem ITEM_DESTINY_KNOT
 	release
 	end
 

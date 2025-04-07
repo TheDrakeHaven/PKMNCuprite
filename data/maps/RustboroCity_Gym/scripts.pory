@@ -27,11 +27,11 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	end
 
 RustboroCity_Gym_EventScript_GiveRockTomb::
-	giveitem ITEM_TM_STEALTH_ROCK
-	giveitem ITEM_QUICK_CLAW
-	giveitem ITEM_RAZOR_CLAW
-	giveitem ITEM_WISE_GLASSES
-	giveitem ITEM_BIG_ROOT
+	additem ITEM_TM_STEALTH_ROCK
+	additem ITEM_QUICK_CLAW
+	additem ITEM_RAZOR_CLAW
+	additem ITEM_WISE_GLASSES
+	additem ITEM_BIG_ROOT
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_TM_ROCK_TOMB
 	msgbox RustboroCity_Gym_Text_ExplainRockTomb, MSGBOX_DEFAULT

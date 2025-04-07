@@ -168,7 +168,7 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	end
 
 DewfordTown_Gym_EventScript_GiveBulkUp::
-	giveitem ITEM_TM_WATER_PULSE
+	additem ITEM_TM_WATER_PULSE
 	additem ITEM_ZOOM_LENS
 	additem ITEM_WIDE_LENS
 	additem ITEM_SCOPE_LENS
@@ -180,7 +180,7 @@ DewfordTown_Gym_EventScript_GiveBulkUp::
 	return
 
 DewfordTown_Gym_EventScript_GiveBulkUp2:
-	giveitem ITEM_TM_WATER_PULSE
+	additem ITEM_TM_WATER_PULSE
 	additem ITEM_ZOOM_LENS
 	additem ITEM_WIDE_LENS
 	additem ITEM_SCOPE_LENS
@@ -448,12 +448,12 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
 	.string "Swamped again!$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-	.string "BRAWLY: Battling is vast and it's deep.\n"
+	.string "GARRETT: Battling is vast and it's deep.\n"
 	.string "You can't see the bottom.\l"
 	.string "It's just like the sea of HOENN!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
-	.string "BRAWLY: A wave may draw back, but it\n"
+	.string "GARRETT: A wave may draw back, but it\n"
 	.string "always returns to the shore.\p"
 	.string "A giant wave of a talent like you…\n"
 	.string "I knew you would return!\p"

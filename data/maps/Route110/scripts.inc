@@ -427,7 +427,7 @@ Route110_EventScript_MayBattleMudkip::
 
 Route110_EventScript_MayDefeated::
 	msgbox Route110_Text_MayTakeThis, MSGBOX_DEFAULT
-	call Route110_EventScript_GiveItemfinder
+	call Route110_EventScript_Additemfinder
 	msgbox Route110_Text_MayExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
 	end
@@ -457,18 +457,18 @@ Route110_EventScript_BrendanBattleMudkip::
 
 Route110_EventScript_BrendanDefeated::
 	msgbox Route110_Text_BrendanTakeThis, MSGBOX_DEFAULT
-	giveitem ITEM_KINGS_ROCK
-	giveitem ITEM_TM_SANDSTORM
-	giveitem ITEM_TM_RAIN_DANCE
-	giveitem ITEM_TM_SUNNY_DAY
-	giveitem ITEM_TM_HAIL
-	call Route110_EventScript_GiveItemfinder
+	additem ITEM_KINGS_ROCK
+	additem ITEM_TM_SANDSTORM
+	additem ITEM_TM_RAIN_DANCE
+	additem ITEM_TM_SUNNY_DAY
+	additem ITEM_TM_HAIL
+	call Route110_EventScript_Additemfinder
 	msgbox Route110_Text_BrendanExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
 	end
 
-Route110_EventScript_GiveItemfinder::
-	giveitem ITEM_DOWSING_MACHINE
+Route110_EventScript_Additemfinder::
+	additem ITEM_DOWSING_MACHINE
 	return
 
 Route110_EventScript_RivalExit::

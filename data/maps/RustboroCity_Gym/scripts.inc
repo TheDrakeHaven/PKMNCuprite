@@ -57,15 +57,15 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 # 29 "data/maps/RustboroCity_Gym/scripts.pory"
 RustboroCity_Gym_EventScript_GiveRockTomb::
 # 30 "data/maps/RustboroCity_Gym/scripts.pory"
-	giveitem ITEM_TM_STEALTH_ROCK
+	additem ITEM_TM_STEALTH_ROCK
 # 31 "data/maps/RustboroCity_Gym/scripts.pory"
-	giveitem ITEM_QUICK_CLAW
+	additem ITEM_QUICK_CLAW
 # 32 "data/maps/RustboroCity_Gym/scripts.pory"
-	giveitem ITEM_RAZOR_CLAW
+	additem ITEM_RAZOR_CLAW
 # 33 "data/maps/RustboroCity_Gym/scripts.pory"
-	giveitem ITEM_WISE_GLASSES
+	additem ITEM_WISE_GLASSES
 # 34 "data/maps/RustboroCity_Gym/scripts.pory"
-	giveitem ITEM_BIG_ROOT
+	additem ITEM_BIG_ROOT
 # 35 "data/maps/RustboroCity_Gym/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 # 36 "data/maps/RustboroCity_Gym/scripts.pory"

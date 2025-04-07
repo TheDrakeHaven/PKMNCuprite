@@ -126,17 +126,17 @@ Route119_EventScript_BattleBrendanMudkip::
 
 Route119_EventScript_DefeatedBrendan::
 	msgbox Route119_Text_BrendanIllGiveYouThis, MSGBOX_DEFAULT
-	giveitem ITEM_TM_THUNDER_PUNCH
-	giveitem ITEM_TM_ICE_PUNCH
-	giveitem ITEM_TM_FIRE_PUNCH
-	giveitem ITEM_RAZOR_FANG
+	additem ITEM_TM_THUNDER_PUNCH
+	additem ITEM_TM_ICE_PUNCH
+	additem ITEM_TM_FIRE_PUNCH
+	additem ITEM_RAZOR_FANG
 	call Route119_EventScript_GiveFlyHM
 	msgbox Route119_Text_BrendanExplainFly, MSGBOX_DEFAULT
 	goto Route119_EventScript_RivalExitScottArrive
 	end
 
 Route119_EventScript_GiveFlyHM::
-	giveitem ITEM_HM_FLY
+	additem ITEM_HM_FLY
 	setflag FLAG_RECEIVED_HM_FLY
 	return
 

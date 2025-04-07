@@ -731,7 +731,7 @@ PetalburgCity_Gym_EventScript_DontGiveEnigmaBerry::
 # 366 "data/maps/PetalburgCity_Gym/scripts.pory"
 PetalburgCity_Gym_EventScript_GiveEnigmaBerry::
 # 367 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_ENIGMA_BERRY_E_READER
+	additem ITEM_ENIGMA_BERRY_E_READER
 # 368 "data/maps/PetalburgCity_Gym/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 # 369 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -819,15 +819,15 @@ PetalburgCity_Gym_EventScript_Grayson::
 # 410 "data/maps/PetalburgCity_Gym/scripts.pory"
 PetalburgCity_Gym_EventScript_GiveFacade::
 # 411 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_TM_DRAIN_PUNCH
+	additem ITEM_TM_DRAIN_PUNCH
 # 412 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_MUSCLE_BAND
+	additem ITEM_MUSCLE_BAND
 # 413 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_EXPERT_BELT
+	additem ITEM_EXPERT_BELT
 # 414 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_FOCUS_BAND
+	additem ITEM_FOCUS_BAND
 # 415 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_FOCUS_SASH
+	additem ITEM_FOCUS_SASH
 # 416 "data/maps/PetalburgCity_Gym/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 # 417 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -2459,7 +2459,7 @@ PetalburgCity_Gym_Text_NormanGoToDewford:
 # 1230 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "Across the sea in DEWFORD TOWN is a\n"
 # 1231 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "GYM LEADER named BRAWLY.\p"
+	.string "GYM LEADER named GARRETT.\p"
 # 1232 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "You should go challenge him.$"
 # 1233 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -3159,19 +3159,19 @@ PetalburgCity_Gym_EventScript_GiveEevee::
 # 1583 "data/maps/PetalburgCity_Gym/scripts.pory"
 	lockall
 # 1584 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_LEAF_STONE
+	additem ITEM_LEAF_STONE
 # 1585 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_WATER_STONE
+	additem ITEM_WATER_STONE
 # 1586 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_FIRE_STONE
+	additem ITEM_FIRE_STONE
 # 1587 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_ICE_STONE
+	additem ITEM_ICE_STONE
 # 1588 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_THUNDER_STONE
+	additem ITEM_THUNDER_STONE
 # 1589 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_SUN_STONE
+	additem ITEM_SUN_STONE
 # 1590 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_MOON_STONE
+	additem ITEM_MOON_STONE
 # 1591 "data/maps/PetalburgCity_Gym/scripts.pory"
 	givemon SPECIES_EEVEE, 10, ITEM_SOOTHE_BELL, , , , , , , , , , , , , , , , , MOVE_QUICK_ATTACK, MOVE_CHARM, MOVE_COVET, MOVE_SAND_ATTACK
 # 1592 "data/maps/PetalburgCity_Gym/scripts.pory"

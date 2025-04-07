@@ -84,11 +84,11 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	end
 
 LavaridgeTown_Gym_1F_EventScript_GiveOverheat2::
-	giveitem ITEM_TM_DRAGON_PULSE
-	giveitem ITEM_SMOOTH_ROCK
-	giveitem ITEM_DAMP_ROCK
-	giveitem ITEM_HEAT_ROCK
-	giveitem ITEM_ICY_ROCK
+	additem ITEM_TM_DRAGON_PULSE
+	additem ITEM_SMOOTH_ROCK
+	additem ITEM_DAMP_ROCK
+	additem ITEM_HEAT_ROCK
+	additem ITEM_ICY_ROCK
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_OVERHEAT
@@ -96,11 +96,11 @@ LavaridgeTown_Gym_1F_EventScript_GiveOverheat2::
 	end
 
 LavaridgeTown_Gym_1F_EventScript_GiveOverheat::
-	giveitem ITEM_TM_DRAGON_PULSE
-	giveitem ITEM_SMOOTH_ROCK
-	giveitem ITEM_DAMP_ROCK
-	giveitem ITEM_HEAT_ROCK
-	giveitem ITEM_ICY_ROCK
+	additem ITEM_TM_DRAGON_PULSE
+	additem ITEM_SMOOTH_ROCK
+	additem ITEM_DAMP_ROCK
+	additem ITEM_HEAT_ROCK
+	additem ITEM_ICY_ROCK
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_OVERHEAT

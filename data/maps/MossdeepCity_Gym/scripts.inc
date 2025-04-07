@@ -95,11 +95,11 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	end
 
 MossdeepCity_Gym_EventScript_GiveCalmMind2::
-	giveitem ITEM_TM_DAZZLING_GLEAM
-	giveitem ITEM_ROCKY_HELMET
-	giveitem ITEM_SAFETY_GOGGLES
-	giveitem ITEM_PROTECTIVE_PADS
-	giveitem ITEM_HEAVY_DUTY_BOOTS
+	additem ITEM_TM_DAZZLING_GLEAM
+	additem ITEM_ROCKY_HELMET
+	additem ITEM_SAFETY_GOGGLES
+	additem ITEM_PROTECTIVE_PADS
+	additem ITEM_HEAVY_DUTY_BOOTS
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
@@ -107,11 +107,11 @@ MossdeepCity_Gym_EventScript_GiveCalmMind2::
 	end
 
 MossdeepCity_Gym_EventScript_GiveCalmMind::
-	giveitem ITEM_TM_DAZZLING_GLEAM
-	giveitem ITEM_ROCKY_HELMET
-	giveitem ITEM_SAFETY_GOGGLES
-	giveitem ITEM_PROTECTIVE_PADS
-	giveitem ITEM_HEAVY_DUTY_BOOTS
+	additem ITEM_TM_DAZZLING_GLEAM
+	additem ITEM_ROCKY_HELMET
+	additem ITEM_SAFETY_GOGGLES
+	additem ITEM_PROTECTIVE_PADS
+	additem ITEM_HEAVY_DUTY_BOOTS
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
