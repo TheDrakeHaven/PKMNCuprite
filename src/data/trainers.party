@@ -5096,8 +5096,8 @@ Level:51
 Adamant Nature
 -Gyro Ball
 -Power Whip
--Leech Seed
--Ingrain
+-Body Press
+-Iron Defense
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: MARK
@@ -11047,7 +11047,7 @@ Ability: Regenerator
 Level: 16   
 Quiet Nature  
 IVs: 0 Atk  
-- Yawn  
+- Yawn 
 - Water Gun  
 - Confusion  
 - Disable  
@@ -11058,8 +11058,7 @@ Level: 16
 Relaxed Nature
 - Mega Drain  
 - Synthesis  
-- Stun Spore  
-- Astonish  
+- Stun Spore   
 
 Gligar @ Razor Fang
 Ability: Hyper Cutter
@@ -11067,8 +11066,6 @@ Level: 16
 Careful Nature
 -Fury Cutter
 -Poison Sting
--Knock Off
-
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: SAMUEL
@@ -12316,7 +12313,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Ralts
-Level: 16
+Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_WALLY_VR_2 ===

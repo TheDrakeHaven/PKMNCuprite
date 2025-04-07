@@ -541,7 +541,7 @@ MossdeepCity_Gym_Text_MaceyDefeat:
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
 	.string "Humph! You may be strong, but you're\n"
-	.string "not suitable for the PSYCHIC type!\p"
+	.string "not suitable for the FAIRY type!\p"
 	.string "The way you battle is somehow brutal!$"
 
 MossdeepCity_Gym_Text_NicholasIntro:
@@ -567,21 +567,19 @@ MossdeepCity_Gym_Text_TateAndLizaDefeat:
 	.string "So, in recognition, take this.$"
 
 MossdeepCity_Gym_Text_ReceivedMindBadge:
-	.string "{PLAYER} received the MIND BADGE\n"
+	.string "{PLAYER} received the STAR BADGE\n"
 	.string "from MARK.$"
 
 MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
-	.string "MARK: The MIND BADGE lets\n"
+	.string "MARK: The STAR BADGE lets\n"
 	.string "you use the HM move DIVE\pn"
 	.string "You should also take this, too.$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
 	.string "MARK: That TM04 contains…\n"
-	.string "CALM MIND!\p"
-	.string "It raises SP. ATK and…\n"
-	.string "It raises SP. DEF!\p"
+	.string "DAZZLING GLEAM!\p"
 	.string "It's a move that's perfect…\n"
-	.string "For determined POKéMON!$"
+	.string "For fabulous POKéMON!$"
 
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
@@ -589,7 +587,7 @@ MossdeepCity_Gym_Text_RegisteredTateAndLiza:
 	.string "in the POKéNAV.$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle:
-	.string "TATE: Looks like the bond between you\n"
+	.string "MARK: Looks like the bond between you\n"
 	.string "and your POKéMON is far stronger than\l"
 	.string "I could anticipate.\p"
 	.string "You will become even stronger!$"

@@ -43,6 +43,8 @@ EverGrandeCity_DrakesRoom_EventScript_Drake::
 	goto_if_set FLAG_DEFEATED_ELITE_4_DRAKE, EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_DrakesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
 	trainerbattle_no_intro TRAINER_DRAKE, EverGrandeCity_DrakesRoom_Text_Defeat
 	goto EverGrandeCity_DrakesRoom_EventScript_Defeated
 	end
@@ -73,10 +75,10 @@ EverGrandeCity_DrakesRoom_Text_IntroSpeech:
 	.string "prevail over me!$"
 
 EverGrandeCity_DrakesRoom_Text_Defeat:
-	.string "A job well done.$"
+	.string "My wish is granted.$"
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
-	.string "You deserve every credit for coming\n"
+	.string "You deserve credit for coming\n"
 	.string "this far as a TRAINER of POKéMON.\p"
 	.string "You do seem to know what is needed.\p"
 	.string "Yes, what a TRAINER needs is a\n"

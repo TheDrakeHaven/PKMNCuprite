@@ -48,6 +48,8 @@ EverGrandeCity_SidneysRoom_EventScript_Sidney::
 	goto_if_set FLAG_DEFEATED_ELITE_4_SIDNEY, EverGrandeCity_SidneysRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_SidneysRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
 	trainerbattle_no_intro TRAINER_SIDNEY, EverGrandeCity_SidneysRoom_Text_Defeat
 	goto EverGrandeCity_SidneysRoom_EventScript_Defeated
 	end
@@ -67,6 +69,7 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
 	.string "HELLO!\n"
 	.string "I'm MATT of the ELITE FOUR.\p"
+	.string "Let me heal your POKeMON real quick...\p"
 	.string "I like that look you're giving me.\n"
 	.string "I guess you'll give me a good match.\p"
 	.string "I'll bring the noise.\l"

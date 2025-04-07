@@ -42,6 +42,8 @@ EverGrandeCity_GlaciasRoom_EventScript_Glacia::
 	goto_if_set FLAG_DEFEATED_ELITE_4_GLACIA, EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_GlaciasRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
 	trainerbattle_no_intro TRAINER_GLACIA, EverGrandeCity_GlaciasRoom_Text_Defeat
 	goto EverGrandeCity_GlaciasRoom_EventScript_Defeated
 	end
@@ -63,9 +65,10 @@ EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
 	.string "of the ELITE FOUR.\p"
 	.string "My brother and I traveled from afar\n"
 	.string "so that we may hone our skills.\p"
-	.string "But all I have seen are challenges by\n"
+	.string "But all I have seen are\n"
 	.string "weak TRAINERS and their POKéMON.\p"
 	.string "What about you?\p"
+	.string "I will heal you so there's no excuse.\p"
 	.string "Will you crumble to ash\l"
 	.string "if I go all out against you!?$"
 

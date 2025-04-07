@@ -42,6 +42,8 @@ EverGrandeCity_PhoebesRoom_EventScript_Phoebe::
 	goto_if_set FLAG_DEFEATED_ELITE_4_PHOEBE, EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_PhoebesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
 	trainerbattle_no_intro TRAINER_PHOEBE, EverGrandeCity_PhoebesRoom_Text_Defeat
 	goto EverGrandeCity_PhoebesRoom_EventScript_Defeated
 	end
@@ -64,6 +66,7 @@ EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
 	.string "I did my training in Petalburg Woods.\p"
 	.string "While I trained, I gained the ability\n"
 	.string "to commune with BUG-type POKéMON.\p"
+	.string "Let me heal you real quick\n"
 	.string "Yes, the bond I developed with POKéMON\n"
 	.string "is extremely tight.\p"
 	.string "So, come on, just try and see if you can\n"

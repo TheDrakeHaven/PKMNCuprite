@@ -94,8 +94,7 @@ u32 GetCurrentEVCap(void)
         {FLAG_BADGE05_GET, 270},
         {FLAG_BADGE06_GET, 330},
         {FLAG_BADGE07_GET, 390},
-        {FLAG_BADGE08_GET, 450},
-        {FLAG_IS_CHAMPION, MAX_TOTAL_EVS},
+        {FLAG_BADGE08_GET, MAX_TOTAL_EVS},
     };
 
     if (B_EV_CAP_TYPE == EV_CAP_FLAG_LIST)
