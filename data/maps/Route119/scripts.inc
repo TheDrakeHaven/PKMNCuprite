@@ -130,6 +130,7 @@ Route119_EventScript_DefeatedBrendan::
 	additem ITEM_TM_ICE_PUNCH
 	additem ITEM_TM_FIRE_PUNCH
 	additem ITEM_RAZOR_FANG
+	setflag FLAG_UNUSED_0x041
 	call Route119_EventScript_GiveFlyHM
 	msgbox Route119_Text_BrendanExplainFly, MSGBOX_DEFAULT
 	goto Route119_EventScript_RivalExitScottArrive

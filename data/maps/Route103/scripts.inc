@@ -93,7 +93,6 @@ Route103_EventScript_StartBrendanBattleMudkip::
 Route103_EventScript_AfterMayBattle::
 	msgbox Route103_Text_MayTimeToHeadBack, MSGBOX_DEFAULT
 	giveitem ITEM_TM_HIDDEN_POWER
-	giveitem ITEM_LUCKY_EGG
 	goto Route103_EventScript_RivalExit
 	end
 

@@ -20,6 +20,7 @@ EverGrandeCity_EventScript_PokemonLeagueSign::
 
 EverGrandeCity_EventScript_SetVisitedEverGrande::
 	setflag FLAG_VISITED_EVER_GRANDE_CITY
+	setflag FLAG_UNUSED_0x042
 	setvar VAR_TEMP_1, 1
 	end
 
