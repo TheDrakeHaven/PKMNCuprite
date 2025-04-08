@@ -518,7 +518,6 @@ Class: Aqua Admin
 Pic: Aqua Admin M
 Gender: Male
 Music: Aqua
-Items: Super Potion
 Double Battle: No
 AI: Smart Trainer
 
@@ -653,7 +652,6 @@ Class: Aqua Leader
 Pic: Aqua Leader Archie
 Gender: Male
 Music: Aqua
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Smart Trainer
 
@@ -4795,7 +4793,7 @@ AI: Smart Trainer
 
 Bonsly
 Ability:Sturdy
-Level:13
+Level:15
 Brave Nature
 IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 -Stealth Rock
@@ -4805,7 +4803,7 @@ IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 
 Solrock
 Ability:Levitate
-Level:13
+Level:15
 Hardy Nature
 IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 -Rock Tomb
@@ -4815,7 +4813,7 @@ IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 
 Aerodactyl @ Iron Ball
 Ability:Unnerve
-Level:14
+Level:15
 Quiet Nature
 IVs: 0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 -Rock Slide
@@ -4829,7 +4827,6 @@ Class: Leader
 Pic: Collector
 Gender: Male
 Music: Male
-Items: Super Potion 
 Double Battle: No
 AI: Smart Trainer
 
@@ -4879,7 +4876,6 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Smart Trainer
 
@@ -4929,7 +4925,6 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Male
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Smart Trainer
 
@@ -4941,7 +4936,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 -Pluck
 -Sing
 -Dragon Pulse
--Safeguard
+-Fairy Wind
 
 Charizard
 Ability: Blaze
@@ -4989,7 +4984,6 @@ Class: Leader
 Pic: Black Belt
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Smart Trainer
 
@@ -5047,7 +5041,6 @@ Class: Leader
 Pic: Leader Winona
 Gender: Male
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Smart Trainer
 
@@ -5071,7 +5064,7 @@ Adamant Nature
 
 Metagross @ Assault Vest
 Ability: Clear Body
-Level:52
+Level:51
 Adamant Nature
 -Meteor Mash
 -Zen Headbutt
@@ -5102,7 +5095,6 @@ Class: Leader
 Pic: Parasol Lady
 Gender: Male
 Music: Female
-Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Smart Trainer
 
@@ -5166,7 +5158,6 @@ Class: Leader
 Pic: Kindler
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
 AI: Smart Trainer / Prediction
 
@@ -11254,7 +11245,6 @@ Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Smart Trainer
 
@@ -11304,7 +11294,6 @@ Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 

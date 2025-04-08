@@ -2417,4 +2417,8 @@ extern const u8 gText_Rename[]; // change nickname from summary screen
 // Switch Caught Mon into Party
 extern const u8 gText_CannotSendMonToBoxHM[];
 
+extern const u8 gtext_Firetype[];
+extern const u8 gtext_Watertype[];
+extern const u8 gtext_Grasstype[];
+
 #endif // GUARD_STRINGS_H

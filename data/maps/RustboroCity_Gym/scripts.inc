@@ -59,7 +59,7 @@ RustboroCity_Gym_EventScript_GiveRockTomb::
 # 30 "data/maps/RustboroCity_Gym/scripts.pory"
 	additem ITEM_RAZOR_CLAW
 # 31 "data/maps/RustboroCity_Gym/scripts.pory"
-	additem ITEM_WISE_GLASSES
+	additem ITEM_BINDING_BAND
 # 32 "data/maps/RustboroCity_Gym/scripts.pory"
 	additem ITEM_BIG_ROOT
 # 33 "data/maps/RustboroCity_Gym/scripts.pory"

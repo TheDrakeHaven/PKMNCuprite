@@ -72,6 +72,12 @@ RustboroCity_EventScript_ScientistAddMatchCall::
 
 
 RustboroCity_EventScript_MatchCallTutorial::
+	goto_if_set FLAG_RECEIVED_HM_CUT, RustboroCity_CuttersHouse_EventScript_ExplainCut
+	msgbox RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse, MSGBOX_DEFAULT
+	giveitem ITEM_HM_CUT
+	setflag FLAG_RECEIVED_HM_CUT
+	msgbox RustboroCity_CuttersHouse_Text_ExplainCut, MSGBOX_DEFAULT
+	release
 	delay 20
 	msgbox RustboroCity_Text_IdBetterGetBackToWork, MSGBOX_DEFAULT
 	closemessage
@@ -83,6 +89,11 @@ RustboroCity_EventScript_MatchCallTutorial::
 	setvar VAR_RUSTBORO_CITY_STATE, 7
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	releaseall
+	end
+
+RustboroCity_CuttersHouse_EventScript_ExplainCut::
+	msgbox RustboroCity_CuttersHouse_Text_ExplainCut, MSGBOX_DEFAULT
+	release
 	end
 
 RustboroCity_Movement_ScientistWalkInPlaceDown:
@@ -1101,6 +1112,29 @@ RustboroCity_Text_PleaseComeWithMe:
 	.string "Excuse me, please!\n"
 	.string "Please come with me!$"
 
+RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
+	.string "That determined expression…\n"
+	.string "That limber way you move…\l"
+	.string "And your well-trained POKéMON…\p"
+	.string "You're obviously a skilled TRAINER!\p"
+	.string "No, wait, don't say a word.\n"
+	.string "I can tell just by looking at you.\p"
+	.string "I'm sure that you can put this\n"
+	.string "HIDDEN MACHINE to good use.\p"
+	.string "No need to be modest or shy.\n"
+	.string "Go on, take it!$"
+
+RustboroCity_CuttersHouse_Text_ExplainCut:
+	.string "That HIDDEN MACHINE, or HM for\n"
+	.string "short, is CUT.\p"
+	.string "An HM move is one that can be used\n"
+	.string "by POKéMON outside of battle.\p"
+	.string "Any POKéMON that's learned CUT can\n"
+	.string "chop down thin trees if the TRAINER\l"
+	.string "has earned the STONE BADGE.\p"
+	.string "And, unlike a TM, an HM can be used\n"
+	.string "more than once.$"
+	
 RustboroCity_Text_MayHiLetsRegister:
 	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
 	.string "You had a MATCH CALL feature put\n"

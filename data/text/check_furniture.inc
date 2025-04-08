@@ -12,8 +12,8 @@ Text_PokemonCenterBookShelf:
 
 Text_Vase:
 	.string "This vase looks expensive…\n"
-	.string "Peered inside…\p"
-	.string "But, it was empty.$"
+	.string "You get the urge\n"
+	.string "to smash it.$"
 
 Text_EmptyTrashCan:
 	.string "It's trash.\n"
@@ -25,4 +25,4 @@ Text_ShopShelf:
 
 Text_Blueprint:
 	.string "A blueprint of some sort?\n"
-	.string "It's too complicated!$"
+	.string "But its not blue at all!$"

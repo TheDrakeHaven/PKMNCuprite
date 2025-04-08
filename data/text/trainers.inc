@@ -281,7 +281,7 @@ Route104_Text_MiaNotEnoughMons:
 
 Route104_Text_IvanIntro:
 	.string "Why keep it a secret?\n"
-	.string "I'm the WATER POKéMON expert!\p"
+	.string "I'm the small POKéMON expert!\p"
 	.string "Huh?\n"
 	.string "You don't know me?$"
 
@@ -290,7 +290,7 @@ Route104_Text_IvanDefeat:
 	.string "say so, but I guess not… Bleah…$"
 
 Route104_Text_IvanPostBattle:
-	.string "I got too into fishing.\n"
+	.string "I got too into their smallness.\n"
 	.string "I forgot I had to raise my POKéMON…$"
 
 Route104_Text_BillyIntro:
@@ -2218,7 +2218,7 @@ TrainerHill_GhostessPost:
 	.string "He's all the way up!$"
 
 Route116_Text_JoseIntro:
-	.string "My BUG POKéMON are tough!\n"
+	.string "My rare POKéMON are tough!\n"
 	.string "Let's battle!$"
 
 Route116_Text_JoseDefeat:
@@ -2226,8 +2226,8 @@ Route116_Text_JoseDefeat:
 	.string "I thought I had you!$"
 
 Route116_Text_JosePostBattle:
-	.string "BUG POKéMON evolve quickly.\n"
-	.string "So they get strong quickly, too.$"
+	.string "These POKéMON evolve slowly.\n"
+	.string "So they get strong slowly, too.$"
 
 Route116_Text_JaniceIntro:
 	.string "Let me teach you how strong my\n"
@@ -2252,7 +2252,7 @@ Route116_Text_JerryDefeat:
 Route116_Text_JerryPostBattle:
 	.string "I'll have to redo some courses at\n"
 	.string "the TRAINER'S SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "If I don't, ALEC will be steamed.$"
 
 Route116_Text_JerryRegister1:
 	.string "I learned at the TRAINER'S SCHOOL\n"
@@ -2278,7 +2278,7 @@ Route116_Text_JerryRematchDefeat:
 Route116_Text_JerryPostRematch:
 	.string "I'll have to redo some courses at\n"
 	.string "the TRAINER'S SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "If I don't, ALEC will be steamed.$"
 
 Route116_Text_KarenIntro:
 	.string "I study at school, and I study on\n"
@@ -2289,7 +2289,7 @@ Route116_Text_KarenDefeat:
 
 Route116_Text_KarenPostBattle:
 	.string "Awww, I'll never become an elegant\n"
-	.string "TRAINER like ROXANNE this way!$"
+	.string "TRAINER like ALEC this way!$"
 
 Route116_Text_KarenRegister1:
 	.string "Oh, wow! Isn't that a POKéNAV?\n"
@@ -2308,7 +2308,7 @@ Route116_Text_KarenRematchDefeat:
 	.string "I lost again?$"
 
 Route116_Text_KarenPostRematch:
-	.string "You've beaten ROXANNE?\n"
+	.string "You've beaten ALEC?\n"
 	.string "I can't beat you, then. Not yet.$"
 
 Route116_Text_SarahIntro:

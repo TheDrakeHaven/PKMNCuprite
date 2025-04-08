@@ -3,35 +3,37 @@ mapscripts NewBirchesLab_MapScripts{
 }
 
 script NewBircheslab_EventScript_Pokeball{
-    setvar(VAR_UNUSED_0x40F7,0)
+    setvar(STARTER_TYPE, 0)
 }
 
 script NewProfessor_EventScript_Birch{
     lockall
     faceplayer
     if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
-        msgbox("Would you like to change the type?", MSGBOX_YESNO)
-        if(var(VAR_RESULT) == YES){
-            if(var(VAR_UNUSED_0x40F7) != 2){
-                addvar(VAR_UNUSED_0x40F7, 1)
-            }
-            else{
-                setvar(VAR_UNUSED_0x40F7, 0)
-            }
-            msgbox("This type is better")
+        message("Would you like to change the type?")
+        multichoice (7,2, MULTI_STARTER_CHOICE, 0)
+        closemessage
+        if(var(VAR_RESULT) == 0){
+            setvar(STARTER_TYPE, 0)
         }
-        else{
-            msgbox("Choose your Pokemon wisely")
+        elif(var(VAR_RESULT) == 1){
+            setvar(STARTER_TYPE, 1)
         }
+        elif(var(VAR_RESULT) == 2){
+            setvar(STARTER_TYPE, 2)
+        }
+        msgbox("Choose your Pokemon wisely")
+        waitmessage
+        release
+        
     }
     else{
-        msgbox("That's the only free one")
+        msgbox("That's the only free one", MSGBOX_NPC)
     }
     waitmessage
     releaseall
     end
 }
- 
 
  
 script NewProfessor_EventScript_Totodile{
@@ -406,13 +408,13 @@ script NewProfessor_EventScript_Oshawott{
 script NewProfessor_EventScript_PokeballOne{
     lockall
     if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
-        if(var(VAR_UNUSED_0x40F7) == 0){
+        if(var(STARTER_TYPE) == 1){
             call(NewProfessor_EventScript_Piplup)
         }
-        elif(var(VAR_UNUSED_0x40F7) == 1){
+        elif(var(STARTER_TYPE) == 0){
             call(NewProfessor_EventScript_Chimchar)
         }
-        elif(var(VAR_UNUSED_0x40F7) == 2){
+        elif(var(STARTER_TYPE) == 2){
             call(NewProfessor_EventScript_Turtwig)
         }
     }
@@ -427,13 +429,13 @@ script NewProfessor_EventScript_PokeballOne{
 script NewProfessor_EventScript_PokeballTwo{
     lockall
     if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
-        if(var(VAR_UNUSED_0x40F7) == 0){
+        if(var(STARTER_TYPE) == 1){
             call(NewProfessor_EventScript_Squirtle)
         }
-        elif(var(VAR_UNUSED_0x40F7) == 1){
+        elif(var(STARTER_TYPE) == 0){
             call(NewProfessor_EventScript_Charmander)
         }
-        elif(var(VAR_UNUSED_0x40F7) == 2){
+        elif(var(STARTER_TYPE) == 2){
             call(NewProfessor_EventScript_Bulbasaur)
         }
     }
@@ -448,13 +450,13 @@ script NewProfessor_EventScript_PokeballTwo{
 script NewProfessor_EventScript_PokeballThree{
     lockall
     if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
-        if(var(VAR_UNUSED_0x40F7) == 0){
+        if(var(STARTER_TYPE) == 1){
             call(NewProfessor_EventScript_Totodile)
         }
-        elif(var(VAR_UNUSED_0x40F7) == 1){
+        elif(var(STARTER_TYPE) == 0){
             call(NewProfessor_EventScript_Cyndaquil)
         }
-        elif(var(VAR_UNUSED_0x40F7) == 2){
+        elif(var(STARTER_TYPE) == 2){
             call(NewProfessor_EventScript_Chikorita)
         }
     }
@@ -469,13 +471,13 @@ script NewProfessor_EventScript_PokeballThree{
 script NewProfessor_EventScript_PokeballFour{
     lockall
     if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
-        if(var(VAR_UNUSED_0x40F7) == 0){
+        if(var(STARTER_TYPE) == 1){
             call(NewProfessor_EventScript_Oshawott)
         }
-        elif(var(VAR_UNUSED_0x40F7) == 1){
+        elif(var(STARTER_TYPE) == 0){
             call(NewProfessor_EventScript_Tepig)
         }
-        elif(var(VAR_UNUSED_0x40F7) == 2){
+        elif(var(STARTER_TYPE) == 2){
             call(NewProfessor_EventScript_Snivy)
         }
     }

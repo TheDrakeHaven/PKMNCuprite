@@ -7,7 +7,7 @@ Route103_MapScripts::
 
 Route103_OnTransition:
 	call Common_EventScript_SetupRivalGfxId
-	call ProfBirch_EventScript_UpdateLocation
+	call ProfBirch_EventScript_UpdateLocation 
 	end
 
 Route103_OnLoad:
@@ -292,10 +292,9 @@ Route103_Text_BrendanDefeated:
 
 Route103_Text_BrendanTimeToHeadBack:
 	.string "SAMUEL: I think I get it.\n"
-	.string "Look, your POKéMON already likes you,\n"
-	.string "even though you just got it.\p"
+	.string "Here, take this egg I found.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could kill any POKéMON with ease.\p"
+	.string "could raise any POKéMON with ease.\p"
 	.string "Take these and head to the Lab.$"
 
 Route103_Text_ShouldHaveBroughtPotion:

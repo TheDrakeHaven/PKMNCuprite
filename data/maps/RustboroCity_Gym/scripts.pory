@@ -28,7 +28,7 @@ RustboroCity_Gym_EventScript_GiveRockTomb::
 	additem ITEM_TM_STEALTH_ROCK
 	additem ITEM_QUICK_CLAW
 	additem ITEM_RAZOR_CLAW
-	additem ITEM_WISE_GLASSES
+	additem ITEM_BINDING_BAND
 	additem ITEM_BIG_ROOT
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_TM_ROCK_TOMB
