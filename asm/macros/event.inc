@@ -2056,13 +2056,6 @@
 	callstd STD_OBTAIN_DECORATION
 	.endm
 
-	@ Registers the specified trainer in Match Call and plays a fanfare with a notification message.
-	.macro register_matchcall trainer:req
-	setvar VAR_0x8004, \trainer
-	special SetMatchCallRegisteredFlag
-	setorcopyvar VAR_0x8000, \trainer
-	callstd STD_REGISTER_MATCH_CALL
-	.endm
 
 	@ Does a sparkle field effect (e.g. when the Trick Master is hiding) at the given coordinates.
 	.macro dofieldeffectsparkle x:req, y:req, priority:req
