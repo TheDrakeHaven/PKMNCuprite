@@ -171,13 +171,11 @@ RustboroCity_Gym_Text_RoxanneIntro:
 	.string "I became a GYM LEADER after sailing\n"
 	.string "and missing the land so much that\l"
 	.string "I now carry ROCK-types in battle.\p"
-	.string "So lets ROCK!$"
+	.string "Do you smell what the ROCK\l"
+	.string "is cooking?$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
-	.string "So…\n"
-	.string "I lost…\p"
-	.string "At least I still have my\n"
-	.string "sea legs…\p"
+	.string "You broke the ROCK's back..."
 	.string "The POKéMON LEAGUE's rules state\n"
 	.string "that TRAINERS are to be given this\l"
 	.string "if they defeat a GYM LEADER.\p"
@@ -234,10 +232,6 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 
-RustboroCity_Gym_Text_RegisteredRoxanne:
-	.string "Registered GYM LEADER ALEC\n"
-	.string "in the POKéNAV.$"
-
 RustboroCity_Gym_Text_RoxannePreRematch:
 	.string "ALEC: I'm so glad to see you again.\n"
 	.string "I'm ALEC, the GYM LEADER here.\p"
@@ -267,8 +261,9 @@ RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
 	.string "You only have one POKéMON with you?\p"
 	.string "Please return with at least two more\n"
 	.string "POKéMON.$"
-
 `
+
 script RustboroCity_Gym_Text_Eevee {
      msgbox("ROCKY HORROR SHOW")
 }
+
