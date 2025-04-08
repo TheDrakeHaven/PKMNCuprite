@@ -512,7 +512,7 @@ Roselia
 Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_MATT ===
+=== TRAINER_MATTIAS ===
 Name: MATTHIAS
 Class: Aqua Admin
 Pic: Aqua Admin M
@@ -3489,8 +3489,8 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_COLE ===
 Name: COLE
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -3502,8 +3502,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JEFF ===
 Name: JEFF
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -3519,8 +3519,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_AXLE ===
 Name: AXLE
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -3535,8 +3535,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JACE ===
 Name: JACE
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -3548,8 +3548,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_KEEGAN ===
 Name: KEEGAN
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -3564,8 +3564,8 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BERNIE_1 ===
 Name: BERNIE
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -3581,8 +3581,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BERNIE_2 ===
 Name: BERNIE
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -3598,8 +3598,8 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_BERNIE_3 ===
 Name: BERNIE
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -3615,8 +3615,8 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
 === TRAINER_BERNIE_4 ===
 Name: BERNIE
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -3632,8 +3632,8 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_BERNIE_5 ===
 Name: BERNIE
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -4517,13 +4517,12 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Odor Sleuth
 - Roar
 
-=== TRAINER_SIDNEY ===
+=== TRAINER_MATT ===
 Name: MATT
 Class: Elite Four
 Pic: Elite Four Sidney
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Yellow
@@ -4555,7 +4554,7 @@ Timid Nature
 -Boomburst
 -Roost
 
-Audino @ Heavy-duty Boots
+Audino @ Bright Powder
 Ability: Regenerator
 Level: 69
 Timid Nature
@@ -4583,13 +4582,12 @@ Modest Nature
 -Alluring Voice
 
 
-=== TRAINER_PHOEBE ===
+=== TRAINER_OZ ===
 Name: OZ
 Class: Elite Four
-Pic: Elite Four Phoebe
+Pic: Pokefan M
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Green
@@ -4654,13 +4652,12 @@ Naughty Nature
 -Electroweb
 -Sunny Day
 
-=== TRAINER_GLACIA ===
+=== TRAINER_DIEGO ===
 Name: DIEGO
 Class: Elite Four
-Pic: Elite Four Glacia
+Pic: Leader Brawly
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Pink
@@ -4672,7 +4669,7 @@ Impish Nature
 -Spikes
 -Earthquake
 -Stealth Rock
--Will-O-Wisp
+-Solar Beam
 
 Rapidash @ Muscle Band
 Ability: Flame Body
@@ -4693,14 +4690,14 @@ Jolly Nature
 -Knock Off
 
 
-Charizard @ Sitrus Berry
+Charizard @ Assault Vest
 Ability: Blaze
 Level: 71
-Jolly Nature
--Belly Drum
--Acrobatics
--Earthquake
--Flame Charge
+Modest Nature
+-Scorching Sands
+-Flamethrower
+-Solar Beam
+-Dragon Pulse
 
 
 Rotom Heat @ Heavy-duty Boots
@@ -4729,12 +4726,11 @@ Class: Elite Four
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
-Tyranitar @ Smooth Rock
+Tyranitar @ Assault Vest
 Ability: Sand Stream
 Level: 72
 Adamant Nature
@@ -5579,7 +5575,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 === TRAINER_VICTOR ===
 Name: VICTOR
 Class: Winstrate
-Pic: Pokefan M
+Pic: Wally
 Gender: Male
 Music: Twins
 Double Battle: No
@@ -5596,7 +5592,7 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 === TRAINER_MIGUEL_1 ===
 Name: MIGUEL
 Class: Pokefan
-Pic: Pokefan M
+Pic: Wally
 Gender: Male
 Music: Twins
 Double Battle: No
@@ -5609,7 +5605,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_COLTON ===
 Name: COLTON
 Class: Pokefan
-Pic: Pokefan M
+Pic: Wally
 Gender: Male
 Music: Twins
 Double Battle: No
@@ -5666,7 +5662,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_MIGUEL_2 ===
 Name: MIGUEL
 Class: Pokefan
-Pic: Pokefan M
+Pic: Wally
 Gender: Male
 Music: Twins
 Double Battle: No
@@ -5679,7 +5675,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_MIGUEL_3 ===
 Name: MIGUEL
 Class: Pokefan
-Pic: Pokefan M
+Pic: Wally
 Gender: Male
 Music: Twins
 Double Battle: No
@@ -5692,7 +5688,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_MIGUEL_4 ===
 Name: MIGUEL
 Class: Pokefan
-Pic: Pokefan M
+Pic: Wally
 Gender: Male
 Music: Twins
 Double Battle: No
@@ -5705,7 +5701,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_MIGUEL_5 ===
 Name: MIGUEL
 Class: Pokefan
-Pic: Pokefan M
+Pic: Wally
 Gender: Male
 Music: Twins
 Double Battle: No
@@ -6316,13 +6312,12 @@ Meditite
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_WALLACE ===
-Name: Fatty
+=== TRAINER_FATTY ===
+Name: FATTY
 Class: Champion
 Pic: Hiker
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Yellow
@@ -6370,7 +6365,7 @@ Bold Nature
 -Hurricane
 -Volt Switch
 -Roost
--Discharge
+-Thunderbolt
 
 Psyduck @ Eviolite
 Ability: Swift Swim
@@ -12302,15 +12297,22 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 === TRAINER_WALLY_MAUVILLE ===
 Name: WALLY
 Class: Rival
-Pic: Wally
+Pic: Dome Ace Tucker
 Gender: Male
 Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Ralts
-Level: 30
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Hippopotas
+Ability: Sand Stream
+-Sand Attack
+
+Aron @ Shell Bell
+Ability: Sturdy
+Level: 1
+Bold Nature
+IVs: 0 Spe
+-Endeavor
 
 === TRAINER_WALLY_VR_2 ===
 Name: WALLY
@@ -13351,7 +13353,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_KALEB ===
 Name: KALEB
 Class: Pokefan
-Pic: Pokefan M
+Pic: Wally
 Gender: Male
 Music: Twins
 Double Battle: No
@@ -13462,8 +13464,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HAYDEN ===
 Name: HAYDEN
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -14103,8 +14105,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRYANT ===
 Name: BRYANT
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -14326,8 +14328,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAYTON ===
 Name: DAYTON
-Class: Kindler
-Pic: Kindler
+Class: Hiker
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
