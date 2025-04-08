@@ -520,7 +520,7 @@ Gender: Male
 Music: Aqua
 Items: Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Sealeo @ Leftovers
 Ability: Thick Fat
@@ -569,7 +569,7 @@ Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Sharpedo @ Rocky Helmet
 Ability: Speed Boost
@@ -611,7 +611,7 @@ Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Sharpedo @ Rocky Helmet
 Ability: Speed Boost
@@ -655,7 +655,7 @@ Gender: Male
 Music: Aqua
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Cacturne @ Damp Rock
 Ability: Water Absorb
@@ -4799,21 +4799,23 @@ AI: Smart Trainer
 
 Bonsly
 Ability:Sturdy
-Level:12
+Level:13
 Brave Nature
 IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 -Stealth Rock
 -Copycat
 -Flail
+-Rock Throw
 
 Solrock
 Ability:Levitate
-Level:12
+Level:13
 Hardy Nature
 IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 -Rock Tomb
 -Harden
 -Hypnosis
+-Confusion
 
 Aerodactyl @ Iron Ball
 Ability:Unnerve
@@ -5171,7 +5173,6 @@ Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: Yes
 AI: Smart Trainer / Prediction
-
 
 Gothitelle @ Leftovers
 Ability:Shadow Tag
@@ -9375,7 +9376,7 @@ Pic: Magma Admin
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
 Torkoal @ Heat Rock
 Ability: Drought
@@ -11151,7 +11152,7 @@ Pic: Magma Admin
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Torkoal
 Ability: Drought
@@ -13827,7 +13828,7 @@ Pic: Magma Admin
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
 Torkoal
 Ability: Drought
