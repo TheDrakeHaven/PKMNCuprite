@@ -130,11 +130,6 @@ MauvilleCity_Gym_EventScript_CompletedNewMauville::
 	release
 	end
 
-MauvilleCity_Gym_EventScript_WattsonRematch::
-	trainerbattle_rematch_double TRAINER_SAM_1, MauvilleCity_Gym_Text_WattsonPreRematch, MauvilleCity_Gym_Text_WattsonRematchDefeat, MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons
-	msgbox MauvilleCity_Gym_Text_WattsonPostRematch, MSGBOX_AUTOCLOSE
-	end
-
 MauvilleCity_Gym_EventScript_Switch1::
 	lockall
 	goto_if_set FLAG_DEFEATED_MAUVILLE_GYM, MauvilleCity_Gym_EventScript_SwitchDoNothing
@@ -388,33 +383,4 @@ MauvilleCity_Gym_Text_GymStatueCertified:
 	.string "SAM'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
-MauvilleCity_Gym_Text_WattsonPreRematch:
-	.string "SAM: Ah-ha! Here at last!\n"
-	.string "I know what you want.\l"
-	.string "You want to battle my POKéMON!\p"
-	.string "Wahahahaha!\p"
-	.string "I'll make sparks fly from you!\n"
-	.string "Don't say I didn't warn you!$"
-
-MauvilleCity_Gym_Text_WattsonRematchDefeat:
-	.string "Oof…\n"
-	.string "Our batteries ran dry…$"
-
-MauvilleCity_Gym_Text_WattsonPostRematch:
-	.string "SAM: We'll have to recharge our\n"
-	.string "batteries again.\p"
-	.string "When we're fully charged up, we'll\n"
-	.string "gladly accept your challenge.\p"
-	.string "So, come back again sometime,\n"
-	.string "won't you?$"
-
-MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
-	.string "SAM: Ah-ha! Here at last!\n"
-	.string "I know what you want.\l"
-	.string "You want to battle my POKéMON!\p"
-	.string "Wahahahaha!\p"
-	.string "Oops! Wait!\n"
-	.string "You've only one POKéMON with you!\p"
-	.string "Come see me with two or more\n"
-	.string "POKéMON, all right?$"
 

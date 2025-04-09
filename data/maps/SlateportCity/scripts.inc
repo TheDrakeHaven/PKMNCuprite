@@ -1339,17 +1339,6 @@ SlateportCity_Text_MaybeThisTrainer:
 	.string "SCOTT: Hmm…\n"
 	.string "Maybe, just maybe, this TRAINER…$"
 
-SlateportCity_Text_LetsRegisterEachOther:
-	.string "SCOTT: All right! I think you're going\n"
-	.string "to become a good friend.\p"
-	.string "So, let's register each other in our\n"
-	.string "POKéNAVS.\p"
-	.string "… … … … … …$"
-
-SlateportCity_Text_RegisteredScott:
-	.string "Registered this SCOTT person\n"
-	.string "in the POKéNAV.$"
-
 SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
 	.string "SCOTT: What I'd like to do is tag along\n"
 	.string "with you, but I do want to keep an eye\l"

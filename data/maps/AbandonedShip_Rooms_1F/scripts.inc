@@ -34,17 +34,6 @@ AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
 	.string "He says he's just sightseeing,\n"
 	.string "but I don't know about that.$"
 
-AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro:
-	.string "What on earth would compel you to\n"
-	.string "come back? You must really be curious!$"
-
-AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat:
-	.string "Aren't you too strong?$"
-
-AbandonedShip_Rooms_1F_Text_ThaliaPostRematch:
-	.string "I'm sure that man's up to something!\n"
-	.string "He just acts so suspiciously!$"
-
 AbandonedShip_Rooms_1F_Text_DemetriusIntro:
 	.string "Waaah!\n"
 	.string "I've been found! …Huh?$"

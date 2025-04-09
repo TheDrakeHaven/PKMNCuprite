@@ -181,11 +181,6 @@ DewfordTown_Gym_EventScript_GiveBulkUp2:
 	release
 	end
 
-DewfordTown_Gym_EventScript_BrawlyRematch::
-	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
-	msgbox DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_AUTOCLOSE
-	end
-
 DewfordTown_Gym_EventScript_Takao::
 	trainerbattle_single TRAINER_TAKAO, DewfordTown_Gym_Text_TakaoIntro, DewfordTown_Gym_Text_TakaoDefeat, DewfordTown_Gym_EventScript_TakaoBrightenRoom
 	msgbox DewfordTown_Gym_Text_TakaoPostBattle, MSGBOX_AUTOCLOSE
@@ -376,17 +371,16 @@ DewfordTown_Gym_Text_CristianPostBattle:
 DewfordTown_Gym_Text_BrawlyIntro:
 	.string "I'm GARRETT!\n"
 	.string "DEWFORD's GYM LEADER!\p"
-	.string "I've been churned in the rough waves\n"
-	.string "of these parts, and I've grown tough\l"
-	.string "in the pitch-black cave!\p"
+	.string "I could smell you coming you\n"
+	.string "stinky little man.\p"
+	.string "You've entered the gooner cave!\p"
 	.string "So you wanted to challenge me?\n"
 	.string "Let me see what you're made of!$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
-	.string "Whoah, wow! You made a much bigger\n"
-	.string "splash than I expected!\p"
-	.string "You swamped me!\p"
-	.string "Okay, you've got me.\n"
+	.string "Well, well, well! \n"
+	.string "You thrashed me!\p"
+	.string "Okay, please have mercy.\n"
 	.string "Take this GYM BADGE!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
@@ -408,10 +402,6 @@ DewfordTown_Gym_Text_ExplainBulkUp:
 	.string "ultrasonic wave\n"
     .string "that may confuse.$"
 
-DewfordTown_Gym_Text_RegisteredBrawly:
-	.string "Registered GYM LEADER GARRETT\n"
-	.string "in the POKéNAV.$"
-
 DewfordTown_Gym_Text_BrawlyPostBattle:
 	.string "I can see your talent becoming a giant\n"
 	.string "wave to cause a storm of astonishment\l"
@@ -425,29 +415,3 @@ DewfordTown_Gym_Text_GymStatueCertified:
 	.string "GARRETT'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
-DewfordTown_Gym_Text_BrawlyPreRematch:
-	.string "GARRETT: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Show me how much higher\n"
-	.string "you've gone!$"
-
-DewfordTown_Gym_Text_BrawlyRematchDefeat:
-	.string "Wow!\n"
-	.string "Swamped again!$"
-
-DewfordTown_Gym_Text_BrawlyPostRematch:
-	.string "GARRETT: Battling is vast and it's deep.\n"
-	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of HOENN!$"
-
-DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
-	.string "GARRETT: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Oh? You only have one POKéMON\n"
-	.string "that can battle.\p"
-	.string "I'm sorry, but I'd like you to come back\n"
-	.string "with at least two POKéMON.$"

@@ -137,11 +137,6 @@ SootopolisCity_Gym_1F_EventScript_GoGetFortreeBadge::
 	release
 	end
 
-SootopolisCity_Gym_1F_EventScript_JuanRematch::
-	trainerbattle_rematch_double TRAINER_JUAN_1, SootopolisCity_Gym_1F_Text_JuanPreRematch, SootopolisCity_Gym_1F_Text_JuanRematchDefeat, SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons
-	msgbox SootopolisCity_Gym_1F_Text_JuanPostRematch, MSGBOX_AUTOCLOSE
-	end
-
 SootopolisCity_Gym_1F_EventScript_GymGuide::
 	lock
 	faceplayer
@@ -243,10 +238,6 @@ SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 	.string "It flips the speed order\n"
 	.string "to let slow POKéMON go first.$"
 
-SootopolisCity_Gym_1F_Text_RegisteredJuan:
-	.string "Registered GYM LEADER XANDER\n"
-	.string "in the POKéNAV.$"
-
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
 	.string "The TRAINERS who have gathered all\n"
 	.string "the GYM BADGES of HOENN should make\l"
@@ -272,38 +263,4 @@ SootopolisCity_Gym_1F_Text_GymStatueCertified:
 	.string "XANDER'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
-SootopolisCity_Gym_1F_Text_JuanPreRematch:
-	.string "XANDER: Ah, this GYM had returned to its\n"
-	.string "usual state of serenity…\p"
-	.string "But our young typhoon has returned\n"
-	.string "to put us to the test again!\p"
-	.string "Well, my friend, most certainly!\p"
-	.string "I shall be delighted to dance with you\n"
-	.string "as often as you wish!$"
-
-SootopolisCity_Gym_1F_Text_JuanRematchDefeat:
-	.string "Ahahaha, you are the winner!\n"
-	.string "You have defeated me again!$"
-
-SootopolisCity_Gym_1F_Text_JuanPostRematch:
-	.string "XANDER: If I told you to become my\n"
-	.string "apprentice, you will refuse, I am sure.\p"
-	.string "I would like to make a gift of my coat\n"
-	.string "to you.\p"
-	.string "But again, you will refuse.\n"
-	.string "I imagine that to be so.\p"
-	.string "And that, my friend, is a certain sign\n"
-	.string "of nobility!$"
-
-SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
-	.string "XANDER: Ah, this GYM had returned to its\n"
-	.string "usual state of serenity…\p"
-	.string "But our young typhoon has returned\n"
-	.string "to put us to the test again!\p"
-	.string "Well, my friend, most certainly!\n"
-	.string "I shall be delighted to dance with you…\p"
-	.string "Ah, no, no, no.\n"
-	.string "You have with you but one POKéMON.\p"
-	.string "I wish that you would return with\n"
-	.string "two, perhaps more, POKéMON, please.$"
 

@@ -291,8 +291,7 @@ Route103_Text_BrendanDefeated:
 	.string "Huh, a little too slow.$"
 
 Route103_Text_BrendanTimeToHeadBack:
-	.string "SAMUEL: I think I get it.\n"
-	.string "Here, take this egg I found.\p"
+	.string "SAMUEL: I see now.\n"
 	.string "{PLAYER}, I get the feeling that you\n"
 	.string "could raise any POKéMON with ease.\p"
 	.string "Take these and head to the Lab.$"

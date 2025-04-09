@@ -12006,9 +12006,9 @@ F_TRAINER_FEMALE |
 #line 4837
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
 #line 4834
-            .ability = ABILITY_COMPETITIVE,
+            .ability = ABILITY_MARVEL_SCALE,
 #line 4835
-            .lvl = 22,
+            .lvl = 21,
 #line 4836
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -12052,7 +12052,7 @@ F_TRAINER_FEMALE |
 #line 4855
             .lvl = 22,
 #line 4856
-            .nature = NATURE_ADAMANT,
+            .nature = NATURE_CALM,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 4858
