@@ -35,11 +35,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	msgbox SeafloorCavern_Room9_Text_ArchieYouMustDisappear, MSGBOX_DEFAULT
 	additem ITEM_TM_HYDRO_PUMP
 	additem ITEM_ABILITY_SHIELD
-	additem ITEM_REAPER_CLOTH
-	additem ITEM_MAGMARIZER
-	additem ITEM_ELECTIRIZER
-	additem ITEM_DUBIOUS_DISC
-	additem ITEM_PROTECTOR
+	additem ITEM_CLEAR_AMULET
 	trainerbattle_no_intro TRAINER_ARCHIE, SeafloorCavern_Room9_Text_ArchieDefeat
 	msgbox SeafloorCavern_Room9_Text_ArchieWithThisRedOrb, MSGBOX_DEFAULT
 	setweather WEATHER_NONE

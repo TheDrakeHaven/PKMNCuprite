@@ -11396,8 +11396,8 @@ const struct Item gItemsInfo[] =
         .name = _("TM66"),
         .price = 3000,
         .description = COMPOUND_STRING(
-            "Uses the weight of \n"
-            "the POKEMON, dealing a \n"
+            "Uses the Def stat of \n"
+            "the user, dealing a \n"
             "great deal of damage."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,

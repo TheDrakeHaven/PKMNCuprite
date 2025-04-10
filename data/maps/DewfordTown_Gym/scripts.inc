@@ -388,10 +388,8 @@ DewfordTown_Gym_Text_ReceivedKnuckleBadge:
 	.string "from GARRETT.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-	.string "The HYDRO BADGE makes all POKéMON\n"
-	.string "up to Level 30, even those you get in\l"
-	.string "trades, obey without question.\p"
-	.string "And, you'll be able to use the HM move\n"
+	.string "The HYDRO BADGE makes it so that\n"
+	.string "you'll be able to use the HM move\n"
 	.string "FLASH outside of battle.\p"
 	.string "If you'd like, use this TECHNICAL\n"
 	.string "MACHINE, too.$"

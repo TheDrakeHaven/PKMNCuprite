@@ -246,10 +246,8 @@ FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "from MATTHEW.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-	.string "With the FORGE BADGE, all POKéMON up\n"
-	.string "to LV 70, even those received through\l"
-	.string "trades, will obey your every command.\p"
-	.string "You will also be able to use\n"
+	.string "With the FORGE BADGE,\n"
+	.string "you will also be able to use\n"
 	.string "the HM move FLY outside of battle.\p"
 	.string "And this…\n"
 	.string "This is a gift from me.$"

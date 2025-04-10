@@ -50,8 +50,11 @@ AquaHideout_B2F_EventScript_SubmarineEscape::
 	waitmovement 0
 	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_DEFAULT
 	additem ITEM_TM_LIQUIDATION
-	additem ITEM_ABILITY_SHIELD
-	additem ITEM_CLEAR_AMULET
+	additem ITEM_REAPER_CLOTH
+	additem ITEM_MAGMARIZER
+	additem ITEM_ELECTIRIZER
+	additem ITEM_DUBIOUS_DISC
+	additem ITEM_PROTECTOR
 	setflag FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE
 	setflag FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
 	release

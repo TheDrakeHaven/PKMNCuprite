@@ -882,11 +882,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Klink
-Level: 26
+Level: 30
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Feebas
-Level: 26
+Level: 30
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_GABBY_AND_TY_6 ===
@@ -1769,7 +1769,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Pansage
-Level: 29
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_THALIA ===
@@ -2245,7 +2245,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Oddish
-Level:34
+Level:37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_YUJI ===
@@ -2474,11 +2474,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Druddigon
-Level: 35
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Aerodactyl
-Level: 35
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DREW ===
@@ -2539,11 +2539,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Cubchoo
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spinda
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JUSTIN ===
@@ -2599,7 +2599,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Shuckle
-Level: 27
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENT ===
@@ -3314,7 +3314,7 @@ AI: Smart Trainer
 
 Magneton @ Metal Coat
 Ability: Magnet Pull
-Level: 31
+Level: 32
 Bold Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 -Magnet Rise
@@ -3324,7 +3324,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Porygon2 @ Silk Scarf
 Ability: Download
-Level: 31
+Level: 32
 Modest Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 -Conversion 2
@@ -3335,12 +3335,21 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Electabuzz @ Lum Berry
 Ability: Vital Spirit
 Adamant Nature
-Level: 31
+Level: 32
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 -Thunder Punch
 -Low Sweep
 -Screech
 -Quick Attack
+
+Luxray @Lum Berry
+Ability: Intimidate
+Adamant Nature
+Level:32
+-Bite
+-Volt Switch
+-Thunder Fang
+-Ice Fang
 
 Stunfisk @ Magnet
 Ability: Static
@@ -4145,7 +4154,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Scyther
-Level: 29
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_EDDIE ===
@@ -4273,11 +4282,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Scraggy
-Level: 12
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Venonat
-Level: 15
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ponyta
@@ -4315,15 +4324,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Clamperl
-Level: 33
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Deerling
-Level: 33
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Igglybuff
-Level: 33
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ELLIOT ===
@@ -4395,7 +4404,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Vanillite
-Level: 29
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BARNY ===
@@ -5033,15 +5042,15 @@ Music: Suspicious
 Double Battle: No
 
 Mareep
-Level: 26
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ledyba
-Level: 26
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
-Level: 26
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LUNG ===
@@ -5096,11 +5105,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Beldum
-Level: 34
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Gulpin
-Level: 34
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CORA ===
@@ -5139,7 +5148,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Solrock
-Level: 29
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CLARISSA ===
@@ -5596,11 +5605,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Whismur
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Karrablast
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARTHA ===
@@ -5630,15 +5639,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Onix
-Level: 36
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Slugma
-Level: 36
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pinsir
-Level: 36
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CEDRIC ===
@@ -5664,11 +5673,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Makuhita
-Level: 26
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dunsparce
-Level: 26
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_AMY_AND_LIV ===
@@ -6039,11 +6048,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Bouffalant
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cherubi
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TABITHA_MOSSDEEP ===
@@ -7883,11 +7892,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Chatot
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Miltank
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LUCAS ===
@@ -7900,11 +7909,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Hippopotas
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shelmet
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALAN ===
@@ -7951,11 +7960,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Piplup
-Level: 36
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seel
-Level: 36
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MIKE ===
@@ -8636,11 +8645,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Farfetch'd
-Level:29
+Level:33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shieldon
-Level: 29
+Level:33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KIM_AND_IRIS ===
@@ -8670,11 +8679,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Illumise
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Skorupi
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 
@@ -9001,11 +9010,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Woobat
-Level: 29
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Snubbull
-Level: 29
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COBY ===
@@ -9018,11 +9027,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Hoothoot
-Level: 26
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Audino
-Level: 26
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LAWRENCE ===
@@ -9069,11 +9078,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Darumaka
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bagon
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KAI ===
@@ -9086,7 +9095,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Horsea
-Level:29
+Level:35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHARLOTTE ===
@@ -9099,7 +9108,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Sableye
-Level: 29
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DEANDRE ===
@@ -9731,11 +9740,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Happiny
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Blitzle
-Level: 34
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DEVAN ===
@@ -9783,6 +9792,19 @@ AI: Check Bad Move
 
 Bellsprout
 Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_MELISSA ===
+Name: MELISSA
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Vigoroth
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRANDI ===
