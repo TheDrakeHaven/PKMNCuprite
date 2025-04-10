@@ -1124,7 +1124,7 @@ static void InitRouletteTableData(void)
 
     sRoulette->wheelSpeed = sRouletteTables[sRoulette->tableId].wheelSpeed;
     sRoulette->wheelDelay = sRouletteTables[sRoulette->tableId].wheelDelay;
-    sRoulette->minBet = sTableMinBets[sRoulette->tableId + sRoulette->isSpecialRate * 2];
+    sRoulette->minBet = sTableMinBets[sRoulette->tableId + sRoulette->isSpecialRate * 100];
     sRoulette->unk1 = 1;
 
     // Left table (with min bet of 1) has red background, other table has green

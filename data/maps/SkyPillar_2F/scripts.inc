@@ -19,7 +19,7 @@ SkyPillar_2F_SetHoleWarp:
 	end
 
 TrainerHill_EventScript_GruntD::
-	trainerbattle_single TRAINER_ROSE_2, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	trainerbattle_single TRAINER_GRUNT_B, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
 	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
 	end
 

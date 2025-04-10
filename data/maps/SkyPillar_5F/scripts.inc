@@ -11,6 +11,6 @@ SkyPillar_5F_EventScript_CleanFloor::
 	return
 
 TrainerHill_EventScript_GruntA::
-	trainerbattle_single TRAINER_ROSE_5, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	trainerbattle_single TRAINER_GRUNT_E, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
 	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
 	end

@@ -11100,7 +11100,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "An angelic voice,\n"
             "that can confuse\n"
-            "if foe's stats increased."),
+            "if foe's stats rose."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,

@@ -490,7 +490,7 @@ MtChimney_EventScript_RouteSign::
 	end
 
 MtChimney_EventScript_Shelby::
-	trainerbattle_single TRAINER_SHELBY_1, MtChimney_Text_ShelbyIntro, MtChimney_Text_ShelbyDefeat
+	trainerbattle_single TRAINER_SHELBY, MtChimney_Text_ShelbyIntro, MtChimney_Text_ShelbyDefeat
 	msgbox MtChimney_Text_ShelbyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -516,7 +516,7 @@ MtChimney_EventScript_Grunt1::
 	end
 
 MtChimney_EventScript_Sawyer::
-	trainerbattle_single TRAINER_SAWYER_1, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat
+	trainerbattle_single TRAINER_SAWYER, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat
 	msgbox MtChimney_Text_SawyerPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -579,7 +579,8 @@ MtChimney_Text_TabithaIntro:
 	.string "from METEOR FALLS to the BOSS!$"
 
 MtChimney_Text_TabithaDefeat:
-	.string "Hehehe…\p"
+	.string "Oh no, I dropped\n"
+	.string "items to you!\p"
 	.string "Even though I've lost, if our leader\n"
 	.string "awakens that thing…$"
 

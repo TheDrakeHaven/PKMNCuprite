@@ -57,13 +57,13 @@ Route113_EventScript_Dillon::
 	end
 
 Route113_EventScript_Madeline::
-	trainerbattle_single TRAINER_MADELINE_1, Route113_Text_MadelineIntro, Route113_Text_MadelineDefeat
+	trainerbattle_single TRAINER_MADELINE, Route113_Text_MadelineIntro, Route113_Text_MadelineDefeat
 	msgbox Route113_Text_MadelinePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 Route113_EventScript_Lao::
-	trainerbattle_single TRAINER_LAO_1, Route113_Text_LaoIntro, Route113_Text_LaoDefeat
+	trainerbattle_single TRAINER_LAO, Route113_Text_LaoIntro, Route113_Text_LaoDefeat
 	msgbox Route113_Text_LaoPostBattle, MSGBOX_DEFAULT
 	release
 	end

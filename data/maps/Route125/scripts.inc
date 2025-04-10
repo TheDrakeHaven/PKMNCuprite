@@ -41,7 +41,7 @@ Route125_EventScript_Sharon::
 	end
 
 Route125_EventScript_Ernest::
-	trainerbattle_single TRAINER_ERNEST_1, Route125_Text_ErnestIntro, Route125_Text_ErnestDefeat
+	trainerbattle_single TRAINER_ERNEST, Route125_Text_ErnestIntro, Route125_Text_ErnestDefeat
 	msgbox Route125_Text_ErnestPostBattle, MSGBOX_DEFAULT
 	release
 	end

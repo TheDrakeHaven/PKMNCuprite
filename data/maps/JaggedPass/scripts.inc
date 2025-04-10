@@ -100,13 +100,13 @@ JaggedPass_EventScript_Eric::
 	end
 
 JaggedPass_EventScript_Diana::
-	trainerbattle_single TRAINER_DIANA_1, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat
+	trainerbattle_single TRAINER_DIANA, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat
 	msgbox JaggedPass_Text_DianaPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 JaggedPass_EventScript_Ethan::
-	trainerbattle_single TRAINER_ETHAN_1, JaggedPass_Text_EthanIntro, JaggedPass_Text_EthanDefeat
+	trainerbattle_single TRAINER_ETHAN, JaggedPass_Text_EthanIntro, JaggedPass_Text_EthanDefeat
 	msgbox JaggedPass_Text_EthanPostBattle, MSGBOX_DEFAULT
 	release
 	end

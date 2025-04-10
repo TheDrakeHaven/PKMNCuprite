@@ -725,7 +725,7 @@ PetalburgCity_Gym_EventScript_Grayson::
 # 363 "data/maps/PetalburgCity_Gym/scripts.pory"
 	msgbox PetalburgCity_Gym_Text_NormanIntro, MSGBOX_DEFAULT
 # 364 "data/maps/PetalburgCity_Gym/scripts.pory"
-	trainerbattle_no_intro TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat
+	trainerbattle_no_intro TRAINER_NORMAN, PetalburgCity_Gym_Text_NormanDefeat
 # 365 "data/maps/PetalburgCity_Gym/scripts.pory"
 	message PetalburgCity_Gym_Text_ReceivedBalanceBadge
 # 366 "data/maps/PetalburgCity_Gym/scripts.pory"

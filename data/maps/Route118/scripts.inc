@@ -179,7 +179,7 @@ Route118_Movement_StevenExit2:
 	step_end
 
 Route118_EventScript_Rose::
-	trainerbattle_single TRAINER_ROSE_1, Route118_Text_RoseIntro, Route118_Text_RoseDefeat
+	trainerbattle_single TRAINER_ROSE, Route118_Text_RoseIntro, Route118_Text_RoseDefeat
 	msgbox Route118_Text_RosePostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -195,7 +195,7 @@ Route118_EventScript_Wade::
 	end
 
 Route118_EventScript_Dalton::
-	trainerbattle_single TRAINER_DALTON_1, Route118_Text_DaltonIntro, Route118_Text_DaltonDefeat
+	trainerbattle_single TRAINER_DALTON, Route118_Text_DaltonIntro, Route118_Text_DaltonDefeat
 	msgbox Route118_Text_DaltonPostBattle, MSGBOX_DEFAULT
 	release
 	end

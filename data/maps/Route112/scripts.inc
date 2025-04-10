@@ -69,7 +69,7 @@ Route112_EventScript_Brice::
 	end
 
 Route112_EventScript_Trent::
-	trainerbattle_single TRAINER_TRENT_1, Route112_Text_TrentIntro, Route112_Text_TrentDefeat
+	trainerbattle_single TRAINER_TRENT, Route112_Text_TrentIntro, Route112_Text_TrentDefeat
 	msgbox Route112_Text_TrentPostBattle, MSGBOX_DEFAULT
 	release
 	end

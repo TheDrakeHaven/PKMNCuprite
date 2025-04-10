@@ -75,26 +75,26 @@ Route117_EventScript_DayCareSign::
 	end
 
 Route117_EventScript_Isaac::
-	trainerbattle_single TRAINER_ISAAC_1, Route117_Text_IsaacIntro, Route117_Text_IsaacDefeat
+	trainerbattle_single TRAINER_ISAAC, Route117_Text_IsaacIntro, Route117_Text_IsaacDefeat
 	msgbox Route117_Text_IsaacPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 Route117_EventScript_Lydia::
-	trainerbattle_single TRAINER_LYDIA_1, Route117_Text_LydiaIntro, Route117_Text_LydiaDefeat
+	trainerbattle_single TRAINER_LYDIA, Route117_Text_LydiaIntro, Route117_Text_LydiaDefeat
 	msgbox Route117_Text_LydiaPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 
 Route117_EventScript_Dylan::
-	trainerbattle_single TRAINER_DYLAN_1, Route117_Text_DylanIntro, Route117_Text_DylanDefeat
+	trainerbattle_single TRAINER_DYLAN, Route117_Text_DylanIntro, Route117_Text_DylanDefeat
 	msgbox Route117_Text_DylanPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 Route117_EventScript_Maria::
-	trainerbattle_single TRAINER_MARIA_1, Route117_Text_MariaIntro, Route117_Text_MariaDefeat
+	trainerbattle_single TRAINER_MARIA, Route117_Text_MariaIntro, Route117_Text_MariaDefeat
 	msgbox Route117_Text_MariaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -105,13 +105,13 @@ Route117_EventScript_Derek::
 	end
 
 Route117_EventScript_Anna::
-	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_AnnaIntro, Route117_Text_AnnaDefeat, not_enough_pkmn_anna
+	trainerbattle_double TRAINER_ANNA_AND_MEG, Route117_Text_AnnaIntro, Route117_Text_AnnaDefeat, not_enough_pkmn_anna
 	msgbox Route117_Text_AnnaPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 Route117_EventScript_Meg::
-	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_MegIntro, Route117_Text_MegDefeat, Route117_Text_MegNotEnoughMons
+	trainerbattle_double TRAINER_ANNA_AND_MEG, Route117_Text_MegIntro, Route117_Text_MegDefeat, Route117_Text_MegNotEnoughMons
 	msgbox Route117_Text_MegPostBattle, MSGBOX_DEFAULT
 	release
 	end

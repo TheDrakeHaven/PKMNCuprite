@@ -210,12 +210,12 @@ Route103_EventScript_Daisy::
 	end
 
 Route103_EventScript_Amy::
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon
+	trainerbattle_double TRAINER_AMY_AND_LIV, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon
 	msgbox Route103_Text_AmyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route103_EventScript_Liv::
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon
+	trainerbattle_double TRAINER_AMY_AND_LIV, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon
 	msgbox Route103_Text_LivPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -225,7 +225,7 @@ Route103_EventScript_Andrew::
 	end
 
 Route103_EventScript_Miguel::
-	trainerbattle_single TRAINER_MIGUEL_1, Route103_Text_MiguelIntro, Route103_Text_MiguelDefeated
+	trainerbattle_single TRAINER_MIGUEL, Route103_Text_MiguelIntro, Route103_Text_MiguelDefeated
 	msgbox Route103_Text_MiguelPostBattle, MSGBOX_DEFAULT
 	release
 	end

@@ -472,8 +472,6 @@ MauvilleCity_Text_WallyWeCanBeatAnyone:
 
 MauvilleCity_Text_WallyWillYouBattleMe:
 	.string "WALLY: Oh! Hi, {PLAYER}!\p"
-	.string "I've gotten a lot stronger since\n"
-	.string "we met.\p"
 	.string "{PLAYER}, I want you and my UNCLE to\n"
 	.string "understand that.\p"
 	.string "{PLAYER}, please, will you have\n"

@@ -16,7 +16,7 @@ Route106_EventScript_Kyla::
 	end
 
 Route106_EventScript_Elliot::
-	trainerbattle_single TRAINER_ELLIOT_1, Route106_Text_ElliotIntro, Route106_Text_ElliotDefeated
+	trainerbattle_single TRAINER_ELLIOT, Route106_Text_ElliotIntro, Route106_Text_ElliotDefeated
 	msgbox Route106_Text_ElliotPostBattle, MSGBOX_DEFAULT
 	release
 	end

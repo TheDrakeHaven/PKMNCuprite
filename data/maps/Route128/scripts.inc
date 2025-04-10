@@ -179,13 +179,13 @@ Route128_Movement_MaxieApproachPlayer:
 	step_end
 
 Route128_EventScript_Isaiah::
-	trainerbattle_single TRAINER_ISAIAH_1, Route128_Text_IsaiahIntro, Route128_Text_IsaiahDefeat
+	trainerbattle_single TRAINER_ISAIAH, Route128_Text_IsaiahIntro, Route128_Text_IsaiahDefeat
 	msgbox Route128_Text_IsaiahPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 Route128_EventScript_Katelyn::
-	trainerbattle_single TRAINER_KATELYN_1, Route128_Text_KatelynIntro, Route128_Text_KatelynDefeat
+	trainerbattle_single TRAINER_KATELYN, Route128_Text_KatelynIntro, Route128_Text_KatelynDefeat
 	msgbox Route128_Text_KatelynPostBattle, MSGBOX_DEFAULT
 	release
 	end

@@ -21,7 +21,7 @@ Route124_EventScript_Roland::
 	end
 
 Route124_EventScript_Jenny::
-	trainerbattle_single TRAINER_JENNY_1, Route124_Text_JennyIntro, Route124_Text_JennyDefeat
+	trainerbattle_single TRAINER_JENNY, Route124_Text_JennyIntro, Route124_Text_JennyDefeat
 	msgbox Route124_Text_JennyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -37,13 +37,13 @@ Route124_EventScript_Chad::
 	end
 
 Route124_EventScript_Lila::
-	trainerbattle_double TRAINER_LILA_AND_ROY_1, Route124_Text_LilaIntro, Route124_Text_LilaDefeat, Route124_Text_LilaNotEnoughMons
+	trainerbattle_double TRAINER_LILA_AND_ROY, Route124_Text_LilaIntro, Route124_Text_LilaDefeat, Route124_Text_LilaNotEnoughMons
 	msgbox Route124_Text_LilaPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 Route124_EventScript_Roy::
-	trainerbattle_double TRAINER_LILA_AND_ROY_1, Route124_Text_RoyIntro, Route124_Text_RoyDefeat, Route124_Text_RoyNotEnoughMons
+	trainerbattle_double TRAINER_LILA_AND_ROY, Route124_Text_RoyIntro, Route124_Text_RoyDefeat, Route124_Text_RoyNotEnoughMons
 	msgbox Route124_Text_RoyPostBattle, MSGBOX_DEFAULT
 	release
 	end

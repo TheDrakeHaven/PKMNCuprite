@@ -18,7 +18,7 @@ Route102_EventScript_Boy::
 	end
 
 Route102_EventScript_Calvin::
-	trainerbattle_single TRAINER_CALVIN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated
+	trainerbattle_single TRAINER_CALVIN, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated
 	msgbox Route102_Text_CalvinPostBattle, MSGBOX_DEFAULT
 	release
 	end

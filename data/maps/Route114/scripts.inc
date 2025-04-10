@@ -85,7 +85,7 @@ Route114_EventScript_Lenny::
 	end
 
 Route114_EventScript_Lucas::
-	trainerbattle_single TRAINER_LUCAS_1, Route114_Text_LucasIntro, Route114_Text_LucasDefeat
+	trainerbattle_single TRAINER_LUCAS, Route114_Text_LucasIntro, Route114_Text_LucasDefeat
 	msgbox Route114_Text_LucasPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -100,13 +100,13 @@ Route114_EventScript_Nancy::
 	end
 
 Route114_EventScript_Steve::
-	trainerbattle_single TRAINER_STEVE_1, Route114_Text_SteveIntro, Route114_Text_SteveDefeat
+	trainerbattle_single TRAINER_STEVE, Route114_Text_SteveIntro, Route114_Text_SteveDefeat
 	msgbox Route114_Text_StevePostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 Route114_EventScript_Bernie::
-	trainerbattle_single TRAINER_BERNIE_1, Route114_Text_BernieIntro, Route114_Text_BernieDefeat
+	trainerbattle_single TRAINER_BERNIE, Route114_Text_BernieIntro, Route114_Text_BernieDefeat
 	msgbox Route114_Text_BerniePostBattle, MSGBOX_DEFAULT
 	release
 	end

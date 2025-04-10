@@ -32,7 +32,7 @@ Route115_EventScript_MeteorFallsSign::
 	end
 
 Route115_EventScript_Timothy::
-	trainerbattle_single TRAINER_TIMOTHY_1, Route115_Text_TimothyIntro, Route115_Text_TimothyDefeat
+	trainerbattle_single TRAINER_TIMOTHY, Route115_Text_TimothyIntro, Route115_Text_TimothyDefeat
 	msgbox Route115_Text_TimothyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -43,13 +43,13 @@ Route115_EventScript_Koichi::
 	end
 
 Route115_EventScript_Nob::
-	trainerbattle_single TRAINER_NOB_1, Route115_Text_NobIntro, Route115_Text_NobDefeat
+	trainerbattle_single TRAINER_NOB, Route115_Text_NobIntro, Route115_Text_NobDefeat
 	msgbox Route115_Text_NobPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 Route115_EventScript_Cyndy::
-	trainerbattle_single TRAINER_CYNDY_1, Route115_Text_CyndyIntro, Route115_Text_CyndyDefeat
+	trainerbattle_single TRAINER_CYNDY, Route115_Text_CyndyIntro, Route115_Text_CyndyDefeat
 	msgbox Route115_Text_CyndyPostBattle, MSGBOX_DEFAULT
 	release
 	end
