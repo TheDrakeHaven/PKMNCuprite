@@ -22,6 +22,7 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	call Common_EventScript_SetGymTrainers
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	goto RustboroCity_Gym_EventScript_GiveRockTomb
+	release
 	end
 
 RustboroCity_Gym_EventScript_GiveRockTomb::
@@ -33,6 +34,7 @@ RustboroCity_Gym_EventScript_GiveRockTomb::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_TM_ROCK_TOMB
 	msgbox RustboroCity_Gym_Text_ExplainRockTomb, MSGBOX_DEFAULT
+	release
 	end
 
 RustboroCity_Gym_EventScript_Josh::

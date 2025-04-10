@@ -314,6 +314,10 @@ AI: Check Bad Move
 Poochyena
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bite
+-Sand Attack
+-Swagger
+-Snarl
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -741,15 +745,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Aipom
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Yamask
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Solosis
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FELIX ===
@@ -2331,11 +2335,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Glameow
-Level: 23
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Smoochum
-Level: 23
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COLE ===
@@ -2654,7 +2658,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Cleffa
-Level: 23
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PRESTON ===
@@ -3186,16 +3190,16 @@ IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 Solrock
 Ability:Levitate
 Level:15
-Hardy Nature
+Modest Nature
 IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 -Rock Tomb
 -Harden
 -Hypnosis
 -Confusion
 
-Aerodactyl @ Iron Ball
+Aerodactyl @ Salac Berry
 Ability:Unnerve
-Level:15
+Level:16
 Quiet Nature
 IVs: 0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 -Rock Slide
@@ -4279,7 +4283,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Bidoof
-Level: 14
+Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_DALE ===
@@ -4292,7 +4296,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Roggenrola
-Level: 17
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weedle
@@ -4300,7 +4304,7 @@ Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Budew
-Level: 17
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Murkrow
@@ -4347,7 +4351,8 @@ Double Battle: No
 AI: Check Bad Move
 
 Alomomola
-Level: 24
+Level: 26
+
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CARTER ===
@@ -5935,11 +5940,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Larvitar
-Level: 21
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dwebble
-Level: 21
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HECTOR ===
@@ -6202,7 +6207,7 @@ IVs: 0 Atk
 - Curse
 - Growl 
 
-=== TRAINER_BRENDAN_ROUTE_110_TREECKO ===
+=== TRAINER_BRENDAN_ROUTE_110 ===
 Name: SAMUEL
 Class: Rival
 Pic: Brendan
@@ -6213,7 +6218,7 @@ AI: Smart Trainer / Prediction
 
 Slowpoke (M) @ Figy Berry  
 Ability: Regenerator  
-Level: 24  
+Level: 25 
 Quiet Nature  
 IVs: 0 Atk  
 - Yawn  
@@ -6223,7 +6228,7 @@ IVs: 0 Atk
 
 Foongus @ Lum Berry  
 Ability: Regenerator  
-Level: 24 
+Level: 25
 Relaxed Nature  
 IVs: 0 Atk  
 - Mega Drain  
@@ -6233,13 +6238,22 @@ IVs: 0 Atk
 
 Gligar (F) @ Razor Fang  
 Ability: Hyper Cutter  
-Level: 24   
+Level: 25 
 Careful Nature  
 IVs: 0 SpA  
 - Taunt  
 - Acrobatics  
 - Knock Off  
-- Poison Tail  
+- Poison Tail 
+
+Metang @ Metal Coat
+Ability: Clear Body
+Level: 25
+Jolly Nature
+-Zen Headbutt
+-Metal Claw
+-Bullet Punch
+-Magnet Rise 
 
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
@@ -7169,11 +7183,19 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer / Prediction
 
+Gligar @ Razor Fang
+Ability: Hyper Cutter
+Level: 16
+Careful Nature
+-Fury Cutter
+-Poison Sting
+-Acrobatics
+-Stealth Rock
+
 Slowpoke (M)  
 Ability: Regenerator  
 Level: 16   
 Quiet Nature  
-IVs: 0 Atk  
 - Yawn 
 - Water Gun  
 - Confusion  
@@ -7185,14 +7207,8 @@ Level: 16
 Relaxed Nature
 - Mega Drain  
 - Synthesis  
-- Stun Spore   
-
-Gligar @ Razor Fang
-Ability: Hyper Cutter
-Level: 16
-Careful Nature
--Fury Cutter
--Poison Sting
+- Stun Spore
+- Astonish
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: SAMUEL
@@ -8787,11 +8803,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Drowzee
-Level: 21
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mankey
-Level: 21
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALYSSA ===
@@ -8804,7 +8820,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 23
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARCOS ===
@@ -9006,15 +9022,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Misdreavus
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Timburr
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Trapinch
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===
@@ -10267,7 +10283,7 @@ AI: Smart Trainer
 Tropius
 Ability: Chlorophyll
 Level: 40
--Hurricane
+-Acrobatics
 -Leaf Storm
 -Zen Headbutt
 -Giga Impact

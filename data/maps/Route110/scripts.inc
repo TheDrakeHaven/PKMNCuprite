@@ -381,17 +381,17 @@ Route110_EventScript_BrendanBattle::
 	end
 
 Route110_EventScript_BrendanBattleTreecko::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_TREECKO, Route110_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110, Route110_Text_BrendanDefeated
 	goto Route110_EventScript_BrendanDefeated
 	end
 
 Route110_EventScript_BrendanBattleTorchic::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_TORCHIC, Route110_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110, Route110_Text_BrendanDefeated
 	goto Route110_EventScript_BrendanDefeated
 	end
 
 Route110_EventScript_BrendanBattleMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_MUDKIP, Route110_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110, Route110_Text_BrendanDefeated
 	goto Route110_EventScript_BrendanDefeated
 	end
 
@@ -739,11 +739,11 @@ Route110_Text_BrendanTakeThis:
 	.string "Here, take this.$"
 
 Route110_Text_BrendanExplainItemfinder:
-	.string "SAMUEL: That's an ITEMFINDER.\p"
-	.string "Use it to root around for items that\n"
-	.string "aren't visible.\p"
-	.string "If it senses something, it emits\n"
-	.string "a sound.\p"
+	.string "SAMUEL: Those are weather TMs.\p"
+	.string "Use it set up weather for\n"
+	.string "your team.\p"
+	.string "Different weather helps out\n"
+	.string "for different types.\p"
 	.string "Anyway, I'm off to look for new\n"
 	.string "POKéMON.$"
 
