@@ -80,8 +80,8 @@
       "x": 17,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_AERO_BASE_LOBBY",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_AERO_BASE_ROOF",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

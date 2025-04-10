@@ -552,6 +552,15 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Trailblaze
 -Thunder Fang
 
+Cacturne @ Muscle Band
+Ability: Water Absorb
+Level: 53
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+-Seed Bomb
+-Spikes
+-Knock Off
+-Pin Missile
+
 === TRAINER_ZANDER ===
 Name: ZANDER
 Class: Black Belt
@@ -592,7 +601,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Rain Dance
 -Thunder Wave
 
-Corphish
+Corphish @ Choice Band
 Ability:Adaptability
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -606,6 +615,15 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Gunk shot
 -Disable
 -Minimize
+
+Golbat @ Sharp Beak
+Ability:Inner Focus
+Level: 49
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+-Air Cutter
+-Venoshock
+-Haze
+-Supersonic
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
 Name: SHELLY
@@ -649,6 +667,15 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Toxic
 -Minimize
 -Giga Drain
+
+Crobat @ Sharp Beak
+Ability:Inner Focus
+Level: 57
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+-Air Slash
+-Venoshock
+-Shadow Ball
+-Confuse Ray
 
 === TRAINER_ARCHIE ===
 Name: ARCHIE
@@ -3285,7 +3312,7 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Magneton
+Magneton @ Metal Coat
 Ability: Magnet Pull
 Level: 31
 Bold Nature
@@ -3295,7 +3322,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 -Flash Cannon
 -Thunder Wave
 
-Porygon2
+Porygon2 @ Silk Scarf
 Ability: Download
 Level: 31
 Modest Nature
@@ -3305,7 +3332,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 -Swift
 -Thunder Shock
 
-Electabuzz
+Electabuzz @ Lum Berry
 Ability: Vital Spirit
 Adamant Nature
 Level: 31
@@ -3384,6 +3411,16 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 -Agility
 -Yawn
 
+Gabite @ Life Orb
+Ability: Rough Skin
+Level: 40
+Adamant Nature
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+-Dragon Claw
+-Bulldoze
+-Metal Claw
+-Bite
+
 === TRAINER_NORMAN ===
 Name: GRAYSON
 Class: Leader
@@ -3422,7 +3459,7 @@ Adamant Nature
 -Play Rough
 
 Heracross @ Focus Band
-Ability: Sturdy
+Ability: Moxie
 Level:43
 Adamant Nature
 -Brick Break
@@ -3432,7 +3469,7 @@ Adamant Nature
 
 
 Lucario @ Expert Belt
-Ability: Sturdy
+Ability: Inner Focus
 Level:43
 Modest Nature
 -Aura Sphere
@@ -3440,6 +3477,14 @@ Modest Nature
 -Shadow Ball
 -Psychic
 
+Toxicroak @ Focus Band
+Ability: Poison Touch
+Level:43
+Adamant Nature
+-Gunk Shot
+-Sucker Punch
+-Drain Punch
+-X Scissor
 
 === TRAINER_WINONA ===
 Name: MATTHEW
@@ -3476,6 +3521,15 @@ Adamant Nature
 -Zen Headbutt
 -Earthquake
 -Thunder Punch
+
+Empoleon @ Choice Specs
+Ability: Competitive
+Level:51
+Adamant Nature
+-Brine
+-Flash Cannon
+-Ice Beam
+-Roost
 
 Scizor @ Choice Band
 Ability: Technician
@@ -5502,15 +5556,14 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Rattata @ Focus Sash
-Level: 11
+Level: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 -Endeavor
 -Quick Attack
 
 Smeargle @ Wide Lens
 Ability: Moody
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 41
 -Dark Void
 -Sacred Fire
 -Surging Strikes
@@ -10412,6 +10465,14 @@ Level: 42
 -Earth Power
 -Future Sight
 
+Golbat @ Sharp Beak
+Ability: Inner Focus
+Level: 42
+-Air Cutter
+-Poison Fang
+-Absorb
+-Supersonic
+
 === TRAINER_ANDRES_2 ===
 Name: JORDAN
 Class: Pyramid King
@@ -10452,6 +10513,14 @@ Level: 66
 -Surf
 -Earth Power
 -Future Sight
+
+Crobat @ Sharp Beak
+Ability: Inner Focus
+Level: 66 
+-Venoshock
+-Air Slash
+-Supersonic
+-Toxic
 
 Rayquaza @ Assault Vest
 Ability: Air Lock

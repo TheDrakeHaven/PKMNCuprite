@@ -150,16 +150,6 @@ LavaridgeTown_EventScript_RivalExit2::
 	return
 
 LavaridgeTown_Movement_RivalExit2:
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
 	step_end
 
 LavaridgeTown_Movement_PlayerWatchRivalExit:
@@ -169,24 +159,9 @@ LavaridgeTown_Movement_PlayerWatchRivalExit:
 	step_end
 
 LavaridgeTown_Movement_RivalExit1:
-	walk_fast_down
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
-	walk_fast_right
 	step_end
 
 LavaridgeTown_Movement_RivalApproachPlayer2:
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
 	step_end
 
 LavaridgeTown_Movement_RivalApproachPlayer1:
@@ -245,7 +220,8 @@ LavaridgeTown_EventScript_EggWoman::
 	playfanfare MUS_OBTAIN_ITEM
 	message LavaridgeTown_Text_ReceivedTheEgg
 	waitfanfare
-	giveegg SPECIES_WYNAUT
+	giveegg SPECIES_ROTOM
+	giveitem ITEM_ROTOM_CATALOG
 	release
 	end
 
