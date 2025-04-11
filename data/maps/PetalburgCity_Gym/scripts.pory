@@ -362,7 +362,7 @@ PetalburgCity_Gym_EventScript_NormanDown::
 
 PetalburgCity_Gym_EventScript_Grayson::
 	msgbox PetalburgCity_Gym_Text_NormanIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_NORMAN, PetalburgCity_Gym_Text_NormanDefeat
+	trainerbattle_no_intro TRAINER_GRAYSON, PetalburgCity_Gym_Text_NormanDefeat
 	message PetalburgCity_Gym_Text_ReceivedBalanceBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare

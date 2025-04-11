@@ -68,12 +68,12 @@ FortreeCity_House2_Text_CorrectTryAgainWhichHand2:
 FortreeCity_House2_Text_YourHiddenPowerHasAwoken:
 	.string "Oh! Splendid!\n"
 	.string "Your hidden power has awoken!\p"
-	.string "Here, take this and awaken the hidden\n"
+	.string "Here, take this and awaken the\n"
 	.string "power of your POKéMON.$"
 
 FortreeCity_House2_Text_ExplainHiddenPower:
-	.string "HIDDEN POWER is a move that changes\n"
-	.string "with the POKéMON.$"
+	.string "PLAY ROUGH is a fairy move\n"
+	.string "that lets them tussle with the foe.$"
 
 FortreeCity_House2_Text_YouGuessedWrong:
 	.string "No, too bad.\n"

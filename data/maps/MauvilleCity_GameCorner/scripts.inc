@@ -168,6 +168,7 @@ MauvilleCity_GameCorner_EventScript_BuyTorchicDoll::
 	bufferitemname STR_VAR_2, ITEM_ABILITY_CAPSULE
 	removecoins DOLL_COINS
 	additem ITEM_ABILITY_CAPSULE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_SendToYourHomePC, MSGBOX_DEFAULT
@@ -180,6 +181,7 @@ MauvilleCity_GameCorner_EventScript_BuyMudkipDoll::
 	bufferitemname STR_VAR_2, ITEM_ABILITY_PATCH
 	removecoins DOLL_COINS
 	additem ITEM_ABILITY_PATCH
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_SendToYourHomePC, MSGBOX_DEFAULT

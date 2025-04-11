@@ -418,6 +418,7 @@ MtChimney_EventScript_Tabitha::
 	additem ITEM_TM_FLAMETHROWER
 	additem ITEM_EJECT_BUTTON
 	additem ITEM_EJECT_PACK
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	end
 
 MtChimney_EventScript_Grunt2::

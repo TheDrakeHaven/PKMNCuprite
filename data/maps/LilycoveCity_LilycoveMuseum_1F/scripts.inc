@@ -128,8 +128,12 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_SchoolKidM::
 	end
 
 LilycoveCity_LilycoveMuseum_1F_EventScript_Artist1::
-	msgbox LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration, MSGBOX_NPC
+	lockall
+	faceplayer
+	msgbox LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration, MSGBOX_DEFAULT
+	closemessage
 	giveitem ITEM_TM_GUNK_SHOT
+	releaseall
 	end
 
 LilycoveCity_LilycoveMuseum_1F_EventScript_NinjaBoy::

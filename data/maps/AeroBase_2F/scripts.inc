@@ -28,6 +28,7 @@ TrainerHill_ghostgift::
 	additem ITEM_METRONOME
 	additem ITEM_FLAME_ORB
 	additem ITEM_DESTINY_KNOT
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	release
 	end
 

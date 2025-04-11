@@ -12,7 +12,7 @@ Route114_LanettesHouse_EventScript_Lanette::
 	goto_if_set FLAG_RECEIVED_DOLL_LANETTE, Route114_LanettesHouse_EventScript_OfferAdvice
 	setflag FLAG_SYS_PC_LANETTE
 	msgbox Route114_LanettesHouse_Text_EverythingClutteredKeepThis, MSGBOX_DEFAULT
-	givedecoration DECOR_LOTAD_DOLL
+	giveitem ITEM_POKEMON_BOX_LINK
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowNoRoomForDecor
 	setflag FLAG_RECEIVED_DOLL_LANETTE
 	release
@@ -51,7 +51,8 @@ Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
 	.string "When I get engrossed in research,\l"
 	.string "things end up this way…\p"
 	.string "This is embarrassing… Please keep\n"
-	.string "this a secret in exchange for this.$"
+	.string "this a secret in exchange for this.\p"
+	.string "It's a portable PC!$"
 
 Route114_LanettesHouse_Text_OrganizeYourBoxes:
 	.string "May I offer advice about my POKéMON\n"

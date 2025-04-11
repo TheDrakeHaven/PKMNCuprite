@@ -42,6 +42,7 @@ Route109_SeashoreHouse_EventScript_DefeatedTrainers::
 	additem ITEM_SOFT_SAND
 	additem ITEM_SPELL_TAG
 	additem ITEM_TWISTED_SPOON
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_RECEIVED_6_SODA_POP
 	release
 	end

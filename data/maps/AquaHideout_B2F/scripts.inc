@@ -55,6 +55,7 @@ AquaHideout_B2F_EventScript_SubmarineEscape::
 	additem ITEM_ELECTIRIZER
 	additem ITEM_DUBIOUS_DISC
 	additem ITEM_PROTECTOR
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE
 	setflag FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
 	release

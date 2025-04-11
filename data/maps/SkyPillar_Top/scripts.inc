@@ -150,6 +150,7 @@ SkyPillar_TOP_EventScript_Jordangone::
 	giveitem ITEM_TOXIC_ORB
 	giveitem ITEM_WEAKNESS_POLICY
 	giveitem ITEM_SHELL_BELL
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	clearflag FLAG_UNUSED_0x040
 	end
 

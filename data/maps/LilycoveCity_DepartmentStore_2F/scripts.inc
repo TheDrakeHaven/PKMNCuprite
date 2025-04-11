@@ -26,9 +26,7 @@ LilycoveCity_DepartmentStore_2F_EventScript_ClerkLeft::
 	.align 2
 LilycoveCity_DepartmentStore_2F_Pokemart1:
 	.2byte ITEM_ULTRA_BALL
-	.2byte ITEM_ESCAPE_ROPE
 	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_THROAT_SPRAY
 	.2byte ITEM_SMOKE_BALL
 	.2byte ITEM_SHED_SHELL
 	.2byte ITEM_ROOM_SERVICE
@@ -48,13 +46,9 @@ LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight::
 
 	.align 2
 LilycoveCity_DepartmentStore_2F_Pokemart2:
-	.2byte ITEM_POTION
-	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_HYPER_POTION
 	.2byte ITEM_MAX_POTION
 	.2byte ITEM_REVIVE
-	.2byte ITEM_REPEL
-	.2byte ITEM_SUPER_REPEL
 	.2byte ITEM_MAX_REPEL
 	pokemartlistend
 

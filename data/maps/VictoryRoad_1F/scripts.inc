@@ -45,6 +45,7 @@ VictoryRoad_1F_EventScript_WallyEntranceBattle::
 	msgbox VictoryRoad_1F_Text_WallyPostEntranceBattle, MSGBOX_DEFAULT
 	giveitem ITEM_TM_DRACO_METEOR
 	giveitem ITEM_PUNCHING_GLOVE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	clearflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 	copyobjectxytoperm LOCALID_WALLY_ENTRANCE
 	setflag FLAG_DEFEATED_WALLY_VICTORY_ROAD

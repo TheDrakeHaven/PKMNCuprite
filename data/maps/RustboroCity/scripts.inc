@@ -920,6 +920,7 @@ RustboroCity_EventScript_BattleBrendanTreecko::
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
 	giveitem ITEM_TM_WEATHER_BALL
 	giveitem ITEM_UTILITY_UMBRELLA
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end
 
@@ -928,6 +929,7 @@ RustboroCity_EventScript_BattleBrendanTorchic::
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
 	giveitem ITEM_TM_WEATHER_BALL
 	giveitem ITEM_UTILITY_UMBRELLA
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end
 
@@ -936,6 +938,7 @@ RustboroCity_EventScript_BattleBrendanMudkip::
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
 	giveitem ITEM_TM_WEATHER_BALL
 	giveitem ITEM_UTILITY_UMBRELLA
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end
 

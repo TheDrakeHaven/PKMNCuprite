@@ -103,6 +103,8 @@ Route119_EventScript_DefeatedMay::
 
 Route119_EventScript_BattleBrendan::
 	msgbox Route119_Text_BrendanIntro, MSGBOX_DEFAULT
+	special HealPlayerParty
+	callnative UpdateFollowingPokemon
 	switch VAR_STARTER_MON
 	case 0, Route119_EventScript_BattleBrendanTreecko
 	case 1, Route119_EventScript_BattleBrendanTorchic
@@ -130,7 +132,7 @@ Route119_EventScript_DefeatedBrendan::
 	additem ITEM_TM_ICE_PUNCH
 	additem ITEM_TM_FIRE_PUNCH
 	additem ITEM_RAZOR_FANG
-	setflag FLAG_UNUSED_0x041
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	call Route119_EventScript_GiveFlyHM
 	msgbox Route119_Text_BrendanExplainFly, MSGBOX_DEFAULT
 	goto Route119_EventScript_RivalExitScottArrive
@@ -481,11 +483,13 @@ Route119_Text_BrendanIntro:
 	.string "SAMUEL: {PLAYER}! So this is where\n"
 	.string "you've been looking for POKéMON?\p"
 	.string "My team is a lot better.\n"
-	.string "I'll test you!\p"
-	.string "Quick!$"
+	.string "Let me heal you real quick!\p"
+	.string "Now, lets take it slow!$"
 
 Route119_Text_BrendanDefeat:
 	.string "Hmm…\n"
+	.string "I'm still missing some coverage\n"
+	.string "I need to look around here.\p"
 	.string "How do I make my slow team\n"
 	.string "work better?$"
 
@@ -501,7 +505,7 @@ Route119_Text_BrendanExplainFly:
 	.string "you've already visited.\p"
 	.string "But you need the FORTREE GYM BADGE \n"
 	.string "to do that.\p"
-	.string "Anyway, I have to move along.$"
+	.string "Anyway, I need to find my 6th.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
 	.string "SCOTT: Hahahah!\n"

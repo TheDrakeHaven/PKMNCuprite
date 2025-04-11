@@ -56,6 +56,7 @@ Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
 	giveitem ITEM_TM_FLIP_TURN
 	giveitem ITEM_BLACK_SLUDGE
 	giveitem ITEM_COVERT_CLOAK
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	addobject LOCALID_GRUNT_3
 	applymovement LOCALID_GRUNT_3, Route119_WeatherInstitute_2F_Movement_GruntApproachShelly
 	applymovement OBJ_EVENT_ID_PLAYER, Route119_WeatherInstitute_2F_Movement_ShovePlayerOutOfWay

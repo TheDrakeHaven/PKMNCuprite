@@ -75,6 +75,7 @@ SlateportCity_PokemonFanClub_EventScript_GiveRedScarf::
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_RED_SCARF
 	giveitem ITEM_PSYCHIC_SEED
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox SlateportCity_PokemonFanClub_Text_ExplainRedScarf, MSGBOX_DEFAULT
 	release
 	end
@@ -85,6 +86,7 @@ SlateportCity_PokemonFanClub_EventScript_GiveBlueScarf::
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_BLUE_SCARF
 	giveitem ITEM_MISTY_SEED
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox SlateportCity_PokemonFanClub_Text_ExplainBlueScarf, MSGBOX_DEFAULT
 	release
 	end
@@ -95,6 +97,7 @@ SlateportCity_PokemonFanClub_EventScript_GivePinkScarf::
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_PINK_SCARF
 	giveitem ITEM_GRASSY_SEED
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox SlateportCity_PokemonFanClub_Text_ExplainPinkScarf, MSGBOX_DEFAULT
 	release
 	end
@@ -105,6 +108,7 @@ SlateportCity_PokemonFanClub_EventScript_GiveGreenScarf::
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_GREEN_SCARF
 	giveitem ITEM_ELECTRIC_SEED
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox SlateportCity_PokemonFanClub_Text_ExplainGreenScarf, MSGBOX_DEFAULT
 	release
 	end
@@ -115,6 +119,7 @@ SlateportCity_PokemonFanClub_EventScript_GiveYellowScarf::
 	msgbox SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_YELLOW_SCARF
 	giveitem ITEM_NORMAL_GEM
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox SlateportCity_PokemonFanClub_Text_ExplainYellowScarf, MSGBOX_DEFAULT
 	release
 	end

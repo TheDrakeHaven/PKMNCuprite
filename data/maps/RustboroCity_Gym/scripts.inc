@@ -9,7 +9,7 @@ RustboroCity_Gym_MapScripts::
 # 5 "data/maps/RustboroCity_Gym/scripts.pory"
 RustboroCity_Gym_EventScript_Roxanne::
 # 6 "data/maps/RustboroCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_ROXANNE, RustboroCity_Gym_Text_RoxanneIntro, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_ALEC, RustboroCity_Gym_Text_RoxanneIntro, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
 # 7 "data/maps/RustboroCity_Gym/scripts.pory"
 	goto_if_unset FLAG_RECEIVED_TM_ROCK_TOMB, RustboroCity_Gym_EventScript_GiveRockTomb
 # 8 "data/maps/RustboroCity_Gym/scripts.pory"

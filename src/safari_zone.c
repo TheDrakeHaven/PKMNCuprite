@@ -69,6 +69,7 @@ void ExitSafariMode(void)
     ResetSafariZoneFlag();
     ClearAllPokeblockFeeders();
     gNumSafariBalls = 0;
+    sSafariZoneCaughtMons = 1;
     sSafariZoneStepCounter = 0;
 }
 

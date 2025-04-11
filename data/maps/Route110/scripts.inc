@@ -402,6 +402,7 @@ Route110_EventScript_BrendanDefeated::
 	additem ITEM_TM_RAIN_DANCE
 	additem ITEM_TM_SUNNY_DAY
 	additem ITEM_TM_HAIL
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_UNUSED_0x040 
 	call Route110_EventScript_Additemfinder
 	msgbox Route110_Text_BrendanExplainItemfinder, MSGBOX_DEFAULT

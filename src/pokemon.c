@@ -3740,8 +3740,6 @@ bool8 ExecuteTableBasedItemEffect(struct Pokemon *mon, u16 item, u8 partyIndex, 
             friendship += friendshipChange;                                                             \
         if (friendshipChange > 0)                                                                       \
         {                                                                                               \
-            if (GetMonData(mon, MON_DATA_POKEBALL, NULL) == ITEM_LUXURY_BALL)                           \
-                friendship++;                                                                           \
             if (GetMonData(mon, MON_DATA_MET_LOCATION, NULL) == GetCurrentRegionMapSectionId())         \
                 friendship++;                                                                           \
         }                                                                                               \
@@ -5229,8 +5227,6 @@ void AdjustFriendship(struct Pokemon *mon, u8 event)
         friendship += mod;
         if (mod > 0)
         {
-            if (GetMonData(mon, MON_DATA_POKEBALL, NULL) == ITEM_LUXURY_BALL)
-                friendship++;
             if (GetMonData(mon, MON_DATA_MET_LOCATION, NULL) == GetCurrentRegionMapSectionId())
                 friendship++;
         }

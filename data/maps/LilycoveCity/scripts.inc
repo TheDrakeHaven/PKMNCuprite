@@ -359,6 +359,7 @@ LilycoveCity_EventScript_DefeatedBrendan::
 	msgbox LilycoveCity_Text_BrendanGoingBackToLittleroot, MSGBOX_DEFAULT
 	giveitem ITEM_TM_U_TURN
 	giveitem ITEM_TERRAIN_EXTENDER
+	setflag FLAG_UNUSED_0x041
 	setvar VAR_RESULT, FALSE
 	call_if_set FLAG_BADGE06_GET, LilycoveCity_EventScript_CheckFinalBadge
 	call_if_eq VAR_RESULT, FALSE, LilycoveCity_EventScript_BrendanCollectBadges
@@ -488,23 +489,25 @@ LilycoveCity_Text_BrendanShoppingLetsBattle:
 	.string "SAMUEL: Oh, hey, it's {PLAYER}.\p"
 	.string "I'm buying Lopunny DOLLS.\l"
 	.string "Don't ask why.\p"
-	.string "Anyways, I've mastered\n"
-	.string "the art of slow.$"
+	.string "But I won't let you get\n"
+	.string "the last Lopunny DOLL?$"
 
 LilycoveCity_Text_BrendanNoConfidence:
 	.string "SAMUEL: Oh, what's the matter?\n"
-	.string "No wins?$"
+	.string "No game progression?$"
 
 LilycoveCity_Text_BrendanBattleMe:
-	.string "SAMUEL: Want to battle to see who's\n"
-	.string "been raising POKéMON better?$"
+	.string "SAMUEL: So do you want to\n"
+	.string "battle to see who gets it?$"
 
 LilycoveCity_Text_BrendanWontBeBeaten:
 	.string "SAMUEL: Aww, but you know I'm not\n"
-	.string "going to lose to no {PLAYER}.$"
+	.string "going to lose to {PLAYER}.$"
 
 LilycoveCity_Text_BrendanDefeat:
-	.string "Humph…\n"
+	.string "Lopunny no....\n"
+	.string "....\n"
+	.string ".... anyways.\n"
 	.string "I'm missing one member.\p"
 	.string "See you in Victory Road…$"
 

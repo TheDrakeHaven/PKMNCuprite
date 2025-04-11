@@ -758,28 +758,28 @@
             "encounter_rate": 4,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 35,
+                "min_level": 42,
+                "max_level": 42,
                 "species": "SPECIES_POLIWHIRL"
               },
               {
-                "min_level": 10,
-                "max_level": 30,
+                "min_level": 42,
+                "max_level": 42,
                 "species": "SPECIES_QUAGSIRE"
               },
               {
-                "min_level": 15,
-                "max_level": 25,
+                "min_level": 42,
+                "max_level": 42,
                 "species": "SPECIES_SHELLOS"
               },
               {
-                "min_level": 25,
-                "max_level": 30,
+                "min_level": 42,
+                "max_level": 42,
                 "species": "SPECIES_SHELLOS"
               },
               {
-                "min_level": 25,
-                "max_level": 30,
+                "min_level": 42,
+                "max_level": 42,
                 "species": "SPECIES_SHELLOS"
               }
             ]
@@ -2173,64 +2173,64 @@
             "encounter_rate": 25,
             "mons": [
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_ODDISH"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_ODDISH"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_GIRAFARIG"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_GIRAFARIG"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_NATU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_DODUO"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_GLOOM"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_WOBBUFFET"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_PIKACHU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_WOBBUFFET"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_PIKACHU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_WOBBUFFET"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               }
             ]
           }
@@ -3233,67 +3233,67 @@
           "map": "MAP_NEW_MAUVILLE_INSIDE",
           "base_label": "gNewMauville_Inside",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 5,
             "mons": [
               {
-                "min_level": 24,
-                "max_level": 24,
-                "species": "SPECIES_VOLTORB"
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_MANECTRIC"
               },
               {
-                "min_level": 24,
-                "max_level": 24,
-                "species": "SPECIES_MAGNEMITE"
-              },
-              {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_VOLTORB"
-              },
-              {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_MAGNEMITE"
-              },
-              {
-                "min_level": 23,
-                "max_level": 23,
-                "species": "SPECIES_VOLTORB"
-              },
-              {
-                "min_level": 23,
-                "max_level": 23,
-                "species": "SPECIES_MAGNEMITE"
-              },
-              {
-                "min_level": 26,
-                "max_level": 26,
-                "species": "SPECIES_VOLTORB"
-              },
-              {
-                "min_level": 26,
-                "max_level": 26,
-                "species": "SPECIES_MAGNEMITE"
-              },
-              {
-                "min_level": 22,
-                "max_level": 22,
-                "species": "SPECIES_VOLTORB"
-              },
-              {
-                "min_level": 22,
-                "max_level": 22,
-                "species": "SPECIES_MAGNEMITE"
-              },
-              {
-                "min_level": 26,
-                "max_level": 26,
+                "min_level": 42,
+                "max_level": 42,
                 "species": "SPECIES_ELECTRODE"
               },
               {
-                "min_level": 26,
-                "max_level": 26,
-                "species": "SPECIES_MAGNETON"
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_LOUDRED"
+              },
+              {
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_LOUDRED"
+              },
+              {
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_GALVANTULA"
+              },
+              {
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_GALVANTULA"
+              },
+              {
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_LOUDRED"
+              },
+              {
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_MANECTRIC"
+              },
+              {
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_GALVANTULA"
+              },
+              {
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_ELECTRODE"
+              },
+              {
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_ELECTRODE"
+              },
+              {
+                "min_level": 42,
+                "max_level": 42,
+                "species": "SPECIES_GALVANTULA"
               }
             ]
           }
@@ -3767,23 +3767,23 @@
             "encounter_rate": 4,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 35,
+                "min_level": 40,
+                "max_level": 40,
                 "species": "SPECIES_CARVANHA"
               },
               {
-                "min_level": 10,
-                "max_level": 30,
+                "min_level": 40,
+                "max_level": 40,
                 "species": "SPECIES_MASQUERAIN"
               },
               {
-                "min_level": 15,
-                "max_level": 25,
+                "min_level": 40,
+                "max_level": 40,
                 "species": "SPECIES_MASQUERAIN"
               },
               {
-                "min_level": 25,
-                "max_level": 30,
+                "min_level": 40,
+                "max_level": 40,
                 "species": "SPECIES_MASQUERAIN"
               },
               {
@@ -6831,64 +6831,64 @@
             "encounter_rate": 25,
             "mons": [
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_ODDISH"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_ODDISH"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_GIRAFARIG"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_GIRAFARIG"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_NATU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_DODUO"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_GLOOM"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_WOBBUFFET"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_PIKACHU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_WOBBUFFET"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_PIKACHU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_WOBBUFFET"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               }
             ]
           },
@@ -6985,64 +6985,64 @@
             "encounter_rate": 25,
             "mons": [
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_PHANPY"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_ODDISH"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_PHANPY"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_ODDISH"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_NATU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_GLOOM"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 31,
-                "max_level": 31,
-                "species": "SPECIES_GLOOM"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_NATU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_XATU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_HERACROSS"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 31,
-                "max_level": 31,
-                "species": "SPECIES_XATU"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_HERACROSS"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               }
             ]
           }
@@ -7054,64 +7054,64 @@
             "encounter_rate": 25,
             "mons": [
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_RHYHORN"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_ODDISH"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_RHYHORN"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_ODDISH"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_DODUO"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_GLOOM"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 31,
-                "max_level": 31,
-                "species": "SPECIES_GLOOM"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_DODUO"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_DODRIO"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_PINSIR"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 31,
-                "max_level": 31,
-                "species": "SPECIES_DODRIO"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               },
               {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_PINSIR"
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_VICTINI"
               }
             ]
           },
