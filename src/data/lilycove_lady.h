@@ -314,9 +314,6 @@ static const u16 sQuizLadyPrizes[] =
     ITEM_MAX_ETHER,
     ITEM_MAX_ETHER,
     ITEM_MAX_ETHER,
-    ITEM_WATMEL_BERRY,
-    ITEM_BELUE_BERRY,
-    ITEM_DURIN_BERRY,
     ITEM_BIG_PEARL,
     ITEM_STAR_PIECE,
     ITEM_RARE_CANDY,
@@ -339,15 +336,10 @@ static const u16 sFavorLadyAcceptedItems_Slippery[] =
     ITEM_REPEL,
     ITEM_SUPER_REPEL,
     ITEM_MAX_REPEL,
-    ITEM_ANTIDOTE,
-    ITEM_PARALYZE_HEAL,
-    ITEM_BURN_HEAL,
-    ITEM_BELUE_BERRY,
-    ITEM_AWAKENING,
-    ITEM_ICE_HEAL,
+    ITEM_FULL_HEAL,
+    ITEM_FULL_HEAL,
     ITEM_REVIVE,
     ITEM_MAX_REVIVE,
-    ITEM_ENERGY_POWDER,
     ITEM_NONE
 };
 
@@ -365,8 +357,6 @@ static const u16 sFavorLadyAcceptedItems_Roundish[] =
     ITEM_ASPEAR_BERRY,
     ITEM_ORAN_BERRY,
     ITEM_GREPA_BERRY,
-    ITEM_MAGOST_BERRY,
-    ITEM_WATMEL_BERRY,
     ITEM_POKE_BALL,
     ITEM_ULTRA_BALL,
     ITEM_NONE
@@ -374,7 +364,7 @@ static const u16 sFavorLadyAcceptedItems_Roundish[] =
 
 static const u16 sFavorLadyAcceptedItems_Whamish[] =
 {
-    ITEM_REVIVAL_HERB,
+
     ITEM_POTION,
     ITEM_FRESH_WATER,
     ITEM_SODA_POP,
@@ -384,19 +374,13 @@ static const u16 sFavorLadyAcceptedItems_Whamish[] =
     ITEM_LAVA_COOKIE,
     ITEM_CHESTO_BERRY,
     ITEM_NANAB_BERRY,
-    ITEM_WEPEAR_BERRY,
     ITEM_KELPSY_BERRY,
-    ITEM_NOMEL_BERRY,
-    ITEM_DURIN_BERRY,
     ITEM_NONE
 };
 
 static const u16 sFavorLadyAcceptedItems_Shiny[] =
 {
-    ITEM_HEAL_POWDER,
-    ITEM_X_SPEED,
-    ITEM_X_ATTACK,
-    ITEM_X_DEFENSE,
+
     ITEM_BLUE_FLUTE,
     ITEM_YELLOW_FLUTE,
     ITEM_RED_FLUTE,
@@ -416,13 +400,8 @@ static const u16 sFavorLadyAcceptedItems_Shiny[] =
 
 static const u16 sFavorLadyAcceptedItems_Sticky[] =
 {
-    ITEM_ENERGY_ROOT,
     ITEM_FULL_RESTORE,
     ITEM_MAX_POTION,
-    ITEM_DIRE_HIT,
-    ITEM_X_ACCURACY,
-    ITEM_GUARD_SPEC,
-    ITEM_WATMEL_BERRY,
     ITEM_LEFTOVERS,
     ITEM_TINY_MUSHROOM,
     ITEM_HEART_SCALE,
@@ -436,7 +415,6 @@ static const u16 sFavorLadyAcceptedItems_Pointy[] =
     ITEM_SHARP_BEAK,
     ITEM_DRAGON_FANG,
     ITEM_TAMATO_BERRY,
-    ITEM_DURIN_BERRY,
     ITEM_PETAYA_BERRY,
     ITEM_SALAC_BERRY,
     ITEM_STARDUST,

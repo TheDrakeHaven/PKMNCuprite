@@ -154,26 +154,6 @@ DOUBLE_BATTLE_TEST("(Z-MOVE) Z_EFFECT_FOLLOW_ME redirects attacks to the user")
     }
 }
 
-SINGLE_BATTLE_TEST("(Z-MOVE) Z_EFFECT_RESTORE_REPLACEMENT_HP fully heals the replacement battler's HP")
-{
-    GIVEN {
-        ASSUME(GetMoveType(MOVE_PARTING_SHOT) == TYPE_DARK);
-        ASSUME(GetMoveZEffect(MOVE_PARTING_SHOT) == Z_EFFECT_RESTORE_REPLACEMENT_HP);
-        PLAYER(SPECIES_WOBBUFFET) { Item(ITEM_DARKINIUM_Z); }
-        PLAYER(SPECIES_WYNAUT) { HP(1); }
-        OPPONENT(SPECIES_WOBBUFFET);
-    } WHEN {
-        TURN { MOVE(player, MOVE_PARTING_SHOT, gimmick: GIMMICK_Z_MOVE); SEND_OUT(player, 1); }
-    } SCENE {
-        ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_ZMOVE_ACTIVATE, player);
-        ANIMATION(ANIM_TYPE_MOVE, MOVE_PARTING_SHOT, player);
-        HP_BAR(player);
-    } THEN {
-        EXPECT_EQ(player->species, SPECIES_WYNAUT);
-        EXPECT_EQ(player->hp, player->maxHP);
-    }
-}
-
 // This tests the functionality of Z_EFFECT_RECOVER_HP and Z_EFFECT_ATK_UP_1 (and thus by extension all stat-up Z-effects)
 SINGLE_BATTLE_TEST("(Z-MOVE) Z_EFFECT_CURSE activates Z_EFFECT_RECOVER_HP or Z_EFFECT_ATK_UP_1 depending on the type of the battler")
 {

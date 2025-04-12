@@ -414,7 +414,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Camerupt
-Level: 57
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_1 ===
@@ -831,7 +831,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gastly
-Level: 40
+Level: 37
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_CHIP ===
@@ -1578,11 +1578,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Shedinja @ Focus Sash
-Level: 61
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Shedinja @ Focus Sash
-Level: 61
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
@@ -1595,15 +1595,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Mightyena
-Level:56
+Level:60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Houndoom
-Level: 56
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Torkoal
-Level: 56
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHEILA ===
@@ -1660,7 +1660,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gengar
-Level: 61
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRIDGET ===
@@ -1673,7 +1673,20 @@ Double Battle: No
 AI: Check Bad Move
 
 Mismagius
-Level: 60
+Level: 64
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_BRIANNA ===
+Name: BRIANNA
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Jellicent
+Level: 64
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_OLIVIA ===
@@ -1686,15 +1699,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Spiritomb
-Level: 61
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Lampent
-Level: 61
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Golurk
-Level: 61
+Level: 63
 IVs: 12 HP / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_TIFFANY ===
@@ -1707,11 +1720,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Banette
-Level: 59
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Drifblim
-Level: 59
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WINSTON ===
@@ -2275,7 +2288,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Heracross
-Level: 40
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ATSUSHI ===
@@ -2491,7 +2504,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Snover
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEAU ===
@@ -2504,15 +2517,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Vulpix
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Starly
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Taillow
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 
@@ -2960,7 +2973,7 @@ Mugshot: Yellow
 
 Exploud @ Choice Specs
 Ability: Scrappy
-Level: 69
+Level: 72
 Modest Nature
 -Boomburst
 -Ice Beam
@@ -2969,7 +2982,7 @@ Modest Nature
 
 Furret @ Choice Band
 Ability: Keen Eye
-Level: 69
+Level: 72
 Adamant Nature
 -Brick Break
 -Double Edge
@@ -2978,7 +2991,7 @@ Adamant Nature
 
 Chatot @ Throat Spray
 Ability: Big Pecks
-Level: 69
+Level: 72
 Timid Nature
 -Sing
 -Parting Shot
@@ -2987,7 +3000,7 @@ Timid Nature
 
 Audino @ Bright Powder
 Ability: Regenerator
-Level: 69
+Level: 72
 Timid Nature
 -Wish
 -Protect
@@ -2996,7 +3009,7 @@ Timid Nature
 
 Meloetta @ Leftovers
 Ability: Serene Grace
-Level: 69
+Level: 72
 Timid Nature
 -Substitute
 -Calm Mind
@@ -3005,7 +3018,7 @@ Timid Nature
 
 Wigglytuff @ Rocky Helmet
 Ability: Cute Charm
-Level: 69
+Level: 72
 Modest Nature
 -Knock Off
 -Thunder Wave
@@ -3025,7 +3038,7 @@ Mugshot: Green
 
 Beedrill @ Scope Lens
 Ability: Sniper
-Level: 70
+Level: 73
 Shiny: Yes  
 Jolly Nature
 -U-Turn
@@ -3035,7 +3048,7 @@ Jolly Nature
 
 Volcarona @ Charti Berry
 Ability: Flame Body
-Level: 70
+Level: 73
 Shiny: Yes  
 Timid Nature
 -Quiver Dance
@@ -3045,7 +3058,7 @@ Timid Nature
 
 Yanmega @ Choice Specs
 Ability: Tinted Lens
-Level: 70
+Level: 73
 Shiny: Yes  
 Modest Nature
 -Bug Buzz
@@ -3055,7 +3068,7 @@ Modest Nature
 
 Scizor @ Choice Band
 Ability: Technician
-Level: 70
+Level: 73
 Shiny: Yes  
 Adamant Nature
 -Close Combat
@@ -3065,7 +3078,7 @@ Adamant Nature
 
 Genesect @ Douse Drive
 Ability: Download
-Level: 70
+Level: 73
 Shiny: Yes  
 Hasty Nature
 -U-Turn
@@ -3075,7 +3088,7 @@ Hasty Nature
 
 Leavanny @ Focus Sash
 Ability: Chlorophyll
-Level: 70
+Level: 73
 Shiny: Yes  
 Naughty Nature
 -Struggle Bug
@@ -3095,7 +3108,7 @@ Mugshot: Pink
 
 Groudon @ Leftovers
 Ability: Drought
-Level: 71
+Level: 74
 Impish Nature
 -Spikes
 -Earthquake
@@ -3104,7 +3117,7 @@ Impish Nature
 
 Rapidash @ Muscle Band
 Ability: Flame Body
-Level: 71
+Level: 74
 Adamant Nature
 -Play Rough
 -Megahorn
@@ -3113,7 +3126,7 @@ Adamant Nature
 
 Blaziken @ Life Orb
 Ability: Speed Boost
-Level: 71
+Level: 74
 Jolly Nature
 -Swords Dance
 -Close Combat
@@ -3123,7 +3136,7 @@ Jolly Nature
 
 Charizard @ Assault Vest
 Ability: Blaze
-Level: 71
+Level: 74
 Modest Nature
 -Scorching Sands
 -Flamethrower
@@ -3133,7 +3146,7 @@ Modest Nature
 
 Rotom Heat @ Heavy-duty Boots
 Ability: Levitate
-Level: 71
+Level: 74
 Timid Nature
 -Overheat
 -Volt Switch
@@ -3143,7 +3156,7 @@ Timid Nature
 
 Chandelure @ Choice Specs
 Ability: Infiltrator
-Level: 71
+Level: 74
 Timid Nature
 -Fire Blast
 -Shadow Ball
@@ -3163,16 +3176,16 @@ Mugshot: Blue
 
 Tyranitar @ Assault Vest
 Ability: Sand Stream
-Level: 72
+Level: 75
 Adamant Nature
 -Stone Edge
 -Knock Off
--Stealth Rock
+-Fire Punch
 -Earthquake
 
 Sableye @ Safety Goggles
 Ability: Prankster
-Level: 72
+Level: 75
 Jolly Nature
 -Encore
 -Foul Play
@@ -3181,7 +3194,7 @@ Jolly Nature
 
 Weavile @ Heavy-duty Boots
 Ability: Pickpocket
-Level: 72
+Level: 75
 Jolly Nature
 -Aerial Ace
 -Ice Shard
@@ -3190,7 +3203,7 @@ Jolly Nature
 
 Hydreigon @ Choice Specs
 Ability: Levitate
-Level: 72
+Level: 75
 Timid Nature
 -Draco Meteor
 -Dark Pulse
@@ -3199,16 +3212,16 @@ Timid Nature
 
 Krookodile @ Rocky Helmet
 Ability: Intimidate
-Level: 72
+Level: 75
 Jolly Nature
 -Earthquake
 -Knock Off
 -Thunder Fang
--Fire Fang
+-Gunk Shot
 
 Jirachi @ Leftovers
 Ability: Serene Grace
-Level: 73
+Level: 75
 Jolly Nature
 -Psychic
 -Iron Head
@@ -3630,7 +3643,7 @@ AI: Smart Trainer / Prediction
 
 Gothitelle @ Leftovers
 Ability:Shadow Tag
-Level: 64
+Level: 67
 Bold Nature
 -Trick Room
 -Protect
@@ -3639,7 +3652,7 @@ Bold Nature
 
 Gengar @ Black Sludge
 Ability: Cursed Body
-Level: 64
+Level: 67
 Modest Nature
 -Shadow Ball
 -Sludge Wave
@@ -3648,7 +3661,7 @@ Modest Nature
 
 Chandelure @ Choice Specs
 Ability: Flash Fire
-Level: 64
+Level: 67
 Quiet Nature
 -Burning Jealousy
 -Shadow Ball 
@@ -3657,7 +3670,7 @@ Quiet Nature
 
 Rotom Wash @ Sitrus Berry
 Ability: Levitate
-Level: 64
+Level: 67
 Calm Nature
 -Thunderbolt
 -Hydro Pump
@@ -3666,7 +3679,7 @@ Calm Nature
 
 Golurk @ Leftovers
 Ability: No Guard
-Level: 64
+Level: 67
 Brave Nature
 -Earthquake
 -Poltergeist
@@ -3675,7 +3688,7 @@ Brave Nature
 
 Cofagrigus @ Sitrus Berry
 Ability: Mummy
-Level: 64
+Level: 67
 Relaxed Nature
 -Trick Room
 -Will-O-Wisp
@@ -3917,15 +3930,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Duskull @ Oran Berry
-Level: 60
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Dusclops @ Oran Berry
-Level: 60
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Dusknoir @ Oran Berry
-Level: 60
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ISABEL ===
@@ -5545,11 +5558,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Nincada
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Minun
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 
@@ -5877,11 +5890,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Shedinja @ Focus Sash
-Level: 61
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Shedinja @ Focus Sash
-Level: 61
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JAZMYN ===
@@ -6064,7 +6077,7 @@ AI: Smart Trainer
 
 Torkoal @ Heat Rock
 Ability: Drought
-Level: 61
+Level: 63
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 -Rapid Spin
 -Heat Wave
@@ -6073,7 +6086,7 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Weezing @ Poison Barb
 Ability: Levitate
-Level: 61
+Level: 63
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 -Self Destruct
 -Sludge Bomb
@@ -6081,7 +6094,7 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 -Smokescreen
 
 Claydol @ Life Orb
-Level: 61
+Level: 63
 Ability: Levitate
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 -Earth power
@@ -6101,7 +6114,7 @@ AI: Smart Trainer / Prediction
 
 Slowking (M) @ Life Orb  
 Ability: Regenerator  
-Level: 67   
+Level: 70  
 Quiet Nature  
 IVs: 0 Atk  
 -Scald
@@ -6111,7 +6124,7 @@ IVs: 0 Atk
 
 Amoonguss @ Rocky Helmet  
 Ability: Regenerator  
-Level: 67  
+Level: 70
 Relaxed Nature  
 -Rage Powder  
 -Stomping Tantrum  
@@ -6120,7 +6133,7 @@ Relaxed Nature
 
 Gliscor (F) @ Toxic Orb  
 Ability: Poison Heal  
-Level: 67  
+Level: 70 
 Careful Nature  
 IVs: 0 Atk  
 -Taunt
@@ -6130,7 +6143,7 @@ IVs: 0 Atk
 
 Metagross @ Assault Vest  
 Ability: Clear Body  
-Level: 67  
+Level: 70 
 Jolly Nature  
 IVs: 0 Atk  
 -Meteor Mash
@@ -6140,7 +6153,7 @@ IVs: 0 Atk
 
 Honchkrow (M) @ Focus Sash  
 Ability: Moxie  
-Level: 67  
+Level: 70 
 Jolly Nature    
 -Brave Bird
 -Confuse Ray
@@ -6149,7 +6162,7 @@ Jolly Nature
 
 Spiritomb @ Safety Goggles  
 Ability: Infiltrator
-Level: 67  
+Level: 70 
 Quiet Nature    
 -Dark Pulse
 -Psyshock
@@ -6307,7 +6320,7 @@ AI: Smart Trainer / Prediction
 
 Slowpoke (M) @ Figy Berry  
 Ability: Regenerator  
-Level: 25 
+Level: 24
 Quiet Nature  
 IVs: 0 Atk  
 - Yawn  
@@ -6317,7 +6330,7 @@ IVs: 0 Atk
 
 Foongus @ Lum Berry  
 Ability: Regenerator  
-Level: 25
+Level: 24
 Relaxed Nature  
 IVs: 0 Atk  
 - Mega Drain  
@@ -6327,7 +6340,7 @@ IVs: 0 Atk
 
 Gligar (F) @ Razor Fang  
 Ability: Hyper Cutter  
-Level: 25 
+Level: 24
 Careful Nature  
 IVs: 0 SpA  
 - Taunt  
@@ -6337,7 +6350,7 @@ IVs: 0 SpA
 
 Metang @ Metal Coat
 Ability: Clear Body
-Level: 25
+Level: 24
 Jolly Nature
 -Zen Headbutt
 -Metal Claw
@@ -7191,11 +7204,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Crobat
-Level: 56
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Claydol
-Level: 56
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_4 ===
@@ -7208,7 +7221,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Zangoose
-Level: 57
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_5 ===
@@ -7221,7 +7234,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Rhyperior
-Level: 58
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_6 ===
@@ -7234,7 +7247,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Weezing
-Level: 58
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_7 ===
@@ -7247,7 +7260,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Camerupt
-Level: 58
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MACEY ===
@@ -7699,7 +7712,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Sableye
-Level: 61
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CRISSY ===
@@ -7712,11 +7725,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Froslass
-Level: 59
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Rotom
-Level: 59
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_RICK ===
@@ -9429,7 +9442,7 @@ AI: Basic Trainer
 
 Rhyperior @ Rocky Helmet
 Ability: Rock Head
-Level: 61
+Level: 63
 -Earthquake
 -Rock Blast
 -Stealth Rock
@@ -9437,15 +9450,15 @@ Level: 61
 
 Aggron @ Air Balloon
 Ability: Heavy Metal 
-Level: 61
+Level: 63
 -Heavy Slam
 -Stone Edge
 -Autotomize
--Thunder Punch
+-Ice Punch
  
 Crobat @ Sharp Beak
 Ability: Inner Focus
-Level: 61  
+Level: 63
 -Venoshock
 -Air Slash
 -Supersonic
@@ -9594,11 +9607,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sentret
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRYAN ===
@@ -9611,11 +9624,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Chimchar
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Trubbish
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRANDEN ===
@@ -9628,11 +9641,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Diglett
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 40
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRYANT ===
@@ -10054,7 +10067,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Dusclops @ Eviolite
-Level:60
+Level:65
 
 === TRAINER_GRUNT_B ===
 Name: GRUNT
@@ -10066,7 +10079,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Shelgon
-Level:61
+Level:65
 
 === TRAINER_GRUNT_C ===
 Name: GRUNT
@@ -10078,7 +10091,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Whiscash
-Level:61
+Level:65
 
 === TRAINER_GRUNT_D ===
 Name: GRUNT
@@ -10090,7 +10103,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Banette
-Level:61
+Level:65
 
 === TRAINER_GRUNT_E ===
 Name: GRUNT
@@ -10102,10 +10115,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Golbat
-Level:61
+Level:64
 
 Swalot
-Level:61
+Level:64
 
 === TRAINER_WINONA_2 ===
 Name: GRUNT
@@ -10513,7 +10526,7 @@ AI: Smart Trainer
 
 Tropius @ Wide Lens
 Ability: Chlorophyll
-Level: 66
+Level: 69
 -Hurricane
 -Leaf Storm
 -Zen Headbutt
@@ -10521,7 +10534,7 @@ Level: 66
 
 Dusknoir @ Life Orb
 Ability: Pressure
-Level: 66
+Level: 69
 -Shadow Sneak
 -Poltergeist
 -Brick Break
@@ -10529,7 +10542,7 @@ Level: 66
 
 Swalot @ Black Sludge
 Ability: Liquid Ooze
-Level: 66
+Level: 69
 -Gunk Shot
 -Earthquake
 -Knock Off
@@ -10537,7 +10550,7 @@ Level: 66
 
 Whiscash @ Choice Specs
 Ability: Oblivious
-Level: 66
+Level: 69
 -Ice Beam
 -Surf
 -Earth Power
@@ -10545,7 +10558,7 @@ Level: 66
 
 Crobat @ Sharp Beak
 Ability: Inner Focus
-Level: 66 
+Level: 69
 -Venoshock
 -Air Slash
 -Supersonic
@@ -10553,7 +10566,7 @@ Level: 66
 
 Rayquaza @ Assault Vest
 Ability: Air Lock
-Level: 66
+Level: 69
 -Draco Meteor
 -Dragon Ascent
 -Extreme Speed
@@ -10570,7 +10583,7 @@ AI: Smart Trainer
 
 Grumpig @ Expert Belt
 Ability: Thick Fat
-Level: 64
+Level: 68
 -Psychic
 -Power Gem
 -Energy Ball
@@ -10578,7 +10591,7 @@ Level: 64
 
 Delcatty @ Muscle Band
 Ability: Wonder Skin
-Level: 64
+Level: 68
 -Fake Out
 -Play Rough
 -Double Edge
@@ -10586,7 +10599,7 @@ Level: 64
 
 Salamence @ Wide Lens
 Ability: Intimidate
-Level: 64
+Level: 68
 -Fire Blast
 -Draco Meteor
 -Hurricane
@@ -10594,7 +10607,7 @@ Level: 64
 
 Banette @ Assault Vest
 Ability: Cursed Body
-Level: 64
+Level: 68
 -Shadow Sneak
 -Gunk Shot
 -Poltergeist

@@ -11,7 +11,7 @@ u32 GetCurrentLevelCap(void)
     {
         {FLAG_DEFEATED_RIVAL_RUSTBORO, 16},
         {FLAG_BADGE02_GET, 22},
-        {FLAG_UNUSED_0x040, 25},
+        {FLAG_UNUSED_0x040, 24},
         {FLAG_BADGE03_GET, 32},
         {FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, 37},
         {FLAG_BADGE04_GET, 40},
@@ -21,8 +21,8 @@ u32 GetCurrentLevelCap(void)
         {FLAG_UNUSED_0x041, 54},
         {FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 58},
         {FLAG_BADGE07_GET, 61},
-        {FLAG_BADGE08_GET, 64},
-        {FLAG_UNUSED_0x042, 69},
+        {FLAG_BADGE08_GET, 67},
+        {FLAG_UNUSED_0x042, 70},
         {FLAG_IS_CHAMPION, 76},
     };
 

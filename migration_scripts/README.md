@@ -393,7 +393,7 @@ Replaces itemTableId with heldItem and evSpread with ev.
         .species = SPECIES_SUNKERN,
         .moves = {MOVE_MEGA_DRAIN, MOVE_HELPING_HAND, MOVE_SUNNY_DAY, MOVE_LIGHT_SCREEN},
 -        .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
-+       .heldItem = ITEM_LAX_INCENSE,
++       .heldItem = ITEM_POTION,
 -        .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
 +       .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 252, 0),
         .nature = NATURE_RELAXED

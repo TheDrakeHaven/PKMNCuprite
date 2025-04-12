@@ -99,7 +99,7 @@ enum
 {
     ENUM_TM_START_ = ITEM_TM01 - 1,
     FOREACH_TM(ENUM_TM)
-
+    
     ENUM_HM_START_ = ITEM_HM01 - 1,
     FOREACH_HM(ENUM_HM)
 };

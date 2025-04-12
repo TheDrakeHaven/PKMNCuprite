@@ -875,11 +875,11 @@ static const u8 sOpponentBerrySets[NUM_NPC_BERRIES * 2][3] =
 // Berry master's berries follow the same rules as above, but instead of explicitly listing
 // the alternate sets if the player chooses one of these berries, it implicitly uses these berries - 5, i.e. Tamato - Nomel
 static const u8 sBerryMasterBerries[] = {
-    ITEM_TO_BERRY(ITEM_SPELON_BERRY) - 1,
-    ITEM_TO_BERRY(ITEM_PAMTRE_BERRY) - 1,
-    ITEM_TO_BERRY(ITEM_WATMEL_BERRY) - 1,
-    ITEM_TO_BERRY(ITEM_DURIN_BERRY) - 1,
-    ITEM_TO_BERRY(ITEM_BELUE_BERRY) - 1
+    ITEM_TO_BERRY(ITEM_JABOCA_BERRY) - 1,
+    ITEM_TO_BERRY(ITEM_ROWAP_BERRY) - 1,
+    ITEM_TO_BERRY(ITEM_CUSTAP_BERRY) - 1,
+    ITEM_TO_BERRY(ITEM_MICLE_BERRY) - 1,
+    ITEM_TO_BERRY(ITEM_APICOT_BERRY) - 1
 };
 
 // "0 players" is link
@@ -1563,7 +1563,7 @@ static void SetOpponentsBerryData(u16 playerBerryItemId, u8 playersNum, struct B
     for (i = 0; i < playersNum - 1; i++)
     {
         opponentBerryId = sOpponentBerrySets[opponentSetId][i];
-        berryMasterDiff = ITEM_TO_BERRY(playerBerryItemId) - ITEM_TO_BERRY(ITEM_SPELON_BERRY);
+        berryMasterDiff = ITEM_TO_BERRY(playerBerryItemId) - ITEM_TO_BERRY(ITEM_TAMATO_BERRY);
         if (!FlagGet(FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER) && gSpecialVar_0x8004 == 1)
         {
             opponentSetId %= ARRAY_COUNT(sBerryMasterBerries);

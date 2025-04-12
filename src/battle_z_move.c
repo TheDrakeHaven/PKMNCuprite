@@ -50,50 +50,6 @@ static void ZMoveSelectionDisplayPower(u16 move, u16 zMove);
 static void ZMoveSelectionDisplayMoveType(u16 zMove, u32 battler);
 
 // Const Data
-static const struct SignatureZMove sSignatureZMoves[] =
-{
-    {SPECIES_PIKACHU_COSPLAY,         ITEM_PIKANIUM_Z,           MOVE_VOLT_TACKLE,         MOVE_CATASTROPIKA},
-    {SPECIES_PIKACHU_ROCK_STAR,       ITEM_PIKANIUM_Z,           MOVE_VOLT_TACKLE,         MOVE_CATASTROPIKA},
-    {SPECIES_PIKACHU_BELLE,           ITEM_PIKANIUM_Z,           MOVE_VOLT_TACKLE,         MOVE_CATASTROPIKA},
-    {SPECIES_PIKACHU_POP_STAR,        ITEM_PIKANIUM_Z,           MOVE_VOLT_TACKLE,         MOVE_CATASTROPIKA},
-    {SPECIES_PIKACHU_PHD,             ITEM_PIKANIUM_Z,           MOVE_VOLT_TACKLE,         MOVE_CATASTROPIKA},
-    {SPECIES_PIKACHU_LIBRE,           ITEM_PIKANIUM_Z,           MOVE_VOLT_TACKLE,         MOVE_CATASTROPIKA},
-
-    {SPECIES_RAICHU_ALOLA,            ITEM_ALORAICHIUM_Z,        MOVE_THUNDERBOLT,         MOVE_STOKED_SPARKSURFER},
-    {SPECIES_DECIDUEYE,               ITEM_DECIDIUM_Z,           MOVE_SPIRIT_SHACKLE,      MOVE_SINISTER_ARROW_RAID},
-    {SPECIES_INCINEROAR,              ITEM_INCINIUM_Z,           MOVE_DARKEST_LARIAT,      MOVE_MALICIOUS_MOONSAULT},
-    {SPECIES_KOMMO_O,                 ITEM_KOMMONIUM_Z,          MOVE_CLANGING_SCALES,     MOVE_CLANGOROUS_SOULBLAZE},
-    {SPECIES_LUNALA,                  ITEM_LUNALIUM_Z,           MOVE_MOONGEIST_BEAM,      MOVE_MENACING_MOONRAZE_MAELSTROM},
-    {SPECIES_NECROZMA_DAWN_WINGS,     ITEM_LUNALIUM_Z,           MOVE_MOONGEIST_BEAM,      MOVE_MENACING_MOONRAZE_MAELSTROM},
-    {SPECIES_LYCANROC_MIDDAY,         ITEM_LYCANIUM_Z,           MOVE_STONE_EDGE,          MOVE_SPLINTERED_STORMSHARDS},
-    {SPECIES_LYCANROC_MIDNIGHT,       ITEM_LYCANIUM_Z,           MOVE_STONE_EDGE,          MOVE_SPLINTERED_STORMSHARDS},
-    {SPECIES_LYCANROC_DUSK,           ITEM_LYCANIUM_Z,           MOVE_STONE_EDGE,          MOVE_SPLINTERED_STORMSHARDS},
-    {SPECIES_MARSHADOW,               ITEM_MARSHADIUM_Z,         MOVE_SPECTRAL_THIEF,      MOVE_SOUL_STEALING_7_STAR_STRIKE},
-    {SPECIES_MIMIKYU_DISGUISED,       ITEM_MIMIKIUM_Z,           MOVE_PLAY_ROUGH,          MOVE_LETS_SNUGGLE_FOREVER},
-    {SPECIES_MIMIKYU_BUSTED,          ITEM_MIMIKIUM_Z,           MOVE_PLAY_ROUGH,          MOVE_LETS_SNUGGLE_FOREVER},
-    {SPECIES_MIMIKYU_TOTEM_DISGUISED, ITEM_MIMIKIUM_Z,           MOVE_PLAY_ROUGH,          MOVE_LETS_SNUGGLE_FOREVER},
-    {SPECIES_MIMIKYU_BUSTED_TOTEM,    ITEM_MIMIKIUM_Z,           MOVE_PLAY_ROUGH,          MOVE_LETS_SNUGGLE_FOREVER},
-    {SPECIES_PIKACHU_ORIGINAL,        ITEM_PIKASHUNIUM_Z,        MOVE_THUNDERBOLT,         MOVE_10000000_VOLT_THUNDERBOLT},
-    {SPECIES_PIKACHU_HOENN,           ITEM_PIKASHUNIUM_Z,        MOVE_THUNDERBOLT,         MOVE_10000000_VOLT_THUNDERBOLT},
-    {SPECIES_PIKACHU_SINNOH,          ITEM_PIKASHUNIUM_Z,        MOVE_THUNDERBOLT,         MOVE_10000000_VOLT_THUNDERBOLT},
-    {SPECIES_PIKACHU_UNOVA,           ITEM_PIKASHUNIUM_Z,        MOVE_THUNDERBOLT,         MOVE_10000000_VOLT_THUNDERBOLT},
-    {SPECIES_PIKACHU_KALOS,           ITEM_PIKASHUNIUM_Z,        MOVE_THUNDERBOLT,         MOVE_10000000_VOLT_THUNDERBOLT},
-    {SPECIES_PIKACHU_ALOLA,           ITEM_PIKASHUNIUM_Z,        MOVE_THUNDERBOLT,         MOVE_10000000_VOLT_THUNDERBOLT},
-    {SPECIES_PIKACHU_PARTNER,         ITEM_PIKASHUNIUM_Z,        MOVE_THUNDERBOLT,         MOVE_10000000_VOLT_THUNDERBOLT},
-    {SPECIES_PIKACHU_WORLD,           ITEM_PIKASHUNIUM_Z,        MOVE_THUNDERBOLT,         MOVE_10000000_VOLT_THUNDERBOLT},
-    {SPECIES_PRIMARINA,               ITEM_PRIMARIUM_Z,          MOVE_SPARKLING_ARIA,      MOVE_OCEANIC_OPERETTA},
-    {SPECIES_SOLGALEO,                ITEM_SOLGANIUM_Z,          MOVE_SUNSTEEL_STRIKE,     MOVE_SEARING_SUNRAZE_SMASH},
-    {SPECIES_NECROZMA_DUSK_MANE,      ITEM_SOLGANIUM_Z,          MOVE_SUNSTEEL_STRIKE,     MOVE_SEARING_SUNRAZE_SMASH},
-    {SPECIES_TAPU_KOKO,               ITEM_TAPUNIUM_Z,           MOVE_NATURES_MADNESS,     MOVE_GUARDIAN_OF_ALOLA},
-    {SPECIES_TAPU_BULU,               ITEM_TAPUNIUM_Z,           MOVE_NATURES_MADNESS,     MOVE_GUARDIAN_OF_ALOLA},
-    {SPECIES_TAPU_LELE,               ITEM_TAPUNIUM_Z,           MOVE_NATURES_MADNESS,     MOVE_GUARDIAN_OF_ALOLA},
-    {SPECIES_TAPU_FINI,               ITEM_TAPUNIUM_Z,           MOVE_NATURES_MADNESS,     MOVE_GUARDIAN_OF_ALOLA},
-    {SPECIES_NECROZMA_ULTRA,          ITEM_ULTRANECROZIUM_Z,     MOVE_PHOTON_GEYSER,       MOVE_LIGHT_THAT_BURNS_THE_SKY},
-    {SPECIES_MEW,                     ITEM_MEWNIUM_Z,            MOVE_PSYCHIC,             MOVE_GENESIS_SUPERNOVA},
-    {SPECIES_PIKACHU,                 ITEM_PIKANIUM_Z,           MOVE_VOLT_TACKLE,         MOVE_CATASTROPIKA},
-    {SPECIES_EEVEE,                   ITEM_EEVIUM_Z,             MOVE_LAST_RESORT,         MOVE_EXTREME_EVOBOOST},
-    {SPECIES_SNORLAX,                 ITEM_SNORLIUM_Z,           MOVE_GIGA_IMPACT,         MOVE_PULVERIZING_PANCAKE},
-};
 
 static const u8 sText_ResetStats[] = _("Reset Lowered Stats");
 static const u8 sText_StatsPlus[] = _("+ All Stats");
@@ -142,19 +98,6 @@ bool32 CanUseZMove(u32 battler)
 
 u32 GetUsableZMove(u32 battler, u32 move)
 {
-    u32 item = gBattleMons[battler].item;
-    u32 holdEffect = GetBattlerHoldEffect(battler, FALSE);
-
-    if (holdEffect == HOLD_EFFECT_Z_CRYSTAL)
-    {
-        u16 zMove = GetSignatureZMove(move, gBattleMons[battler].species, item);
-        if (zMove != MOVE_NONE)
-            return zMove;  // Signature z move exists
-
-        if (move != MOVE_NONE && zMove != MOVE_Z_STATUS && GetMoveType(move) == ItemId_GetSecondaryId(item))
-            return GetTypeBasedZMove(move);
-    }
-
     return MOVE_NONE;
 }
 
@@ -166,11 +109,7 @@ void ActivateZMove(u32 battler)
 
 bool32 IsViableZMove(u32 battler, u32 move)
 {
-    u32 item;
-    u32 holdEffect = GetBattlerHoldEffect(battler, FALSE);
     int moveSlotIndex;
-
-    item = gBattleMons[battler].item;
 
     if (gBattleStruct->gimmick.usableGimmick[battler] != GIMMICK_Z_MOVE)
         return FALSE;
@@ -189,15 +128,6 @@ bool32 IsViableZMove(u32 battler, u32 move)
     }
 
     // Check for signature Z-Move or type-based Z-Move.
-    if (holdEffect == HOLD_EFFECT_Z_CRYSTAL)
-    {
-        u16 zMove = GetSignatureZMove(move, gBattleMons[battler].species, item);
-        if (zMove != MOVE_NONE)
-            return TRUE;
-
-        if (move != MOVE_NONE && GetMoveType(move) == ItemId_GetSecondaryId(item))
-            return TRUE;
-    }
 
     return FALSE;
 }
@@ -227,19 +157,6 @@ bool32 TryChangeZTrigger(u32 battler, u32 moveIndex)
     return viableZMove;
 }
 
-u32 GetSignatureZMove(u32 move, u32 species, u32 item)
-{
-    u32 i;
-
-    // Check signature z move
-    for (i = 0; i < ARRAY_COUNT(sSignatureZMoves); ++i)
-    {
-        if (sSignatureZMoves[i].item == item && sSignatureZMoves[i].species == species &&  sSignatureZMoves[i].move == move)
-            return sSignatureZMoves[i].zmove;
-    }
-
-    return MOVE_NONE;
-}
 
 u32 GetTypeBasedZMove(u32 move)
 {

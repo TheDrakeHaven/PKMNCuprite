@@ -1,46 +1,6 @@
 #include "global.h"
 #include "test/battle.h"
 
-SINGLE_BATTLE_TEST("Reflect Type does not affect any of Arceus' forms")
-{
-    u32 j;
-    static const u16 sArceusFormSpeciesIdTable[] = {
-        SPECIES_ARCEUS,
-        SPECIES_ARCEUS_FIGHTING,
-        SPECIES_ARCEUS_FLYING,
-        SPECIES_ARCEUS_POISON,
-        SPECIES_ARCEUS_GROUND,
-        SPECIES_ARCEUS_ROCK,
-        SPECIES_ARCEUS_BUG,
-        SPECIES_ARCEUS_GHOST,
-        SPECIES_ARCEUS_STEEL,
-        SPECIES_ARCEUS_FIRE,
-        SPECIES_ARCEUS_WATER,
-        SPECIES_ARCEUS_GRASS,
-        SPECIES_ARCEUS_ELECTRIC,
-        SPECIES_ARCEUS_PSYCHIC,
-        SPECIES_ARCEUS_ICE,
-        SPECIES_ARCEUS_DRAGON,
-        SPECIES_ARCEUS_DARK,
-        SPECIES_ARCEUS_FAIRY,
-    };
-    u16 species = SPECIES_NONE;
-
-    for (j = 0; j < ARRAY_COUNT(sArceusFormSpeciesIdTable); j++)
-    {
-        PARAMETRIZE { species = sArceusFormSpeciesIdTable[j]; }
-    }
-
-    GIVEN {
-        PLAYER(SPECIES_WOBBUFFET);
-        OPPONENT(species);
-    } WHEN {
-        TURN { MOVE(player, MOVE_REFLECT_TYPE); }
-    } SCENE {
-        MESSAGE("Wobbuffet used Reflect Type!");
-        MESSAGE("But it failed!");
-    }
-}
 
 SINGLE_BATTLE_TEST("Reflect Type does not affect any of Silvally's forms")
 {

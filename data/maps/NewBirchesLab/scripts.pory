@@ -9,7 +9,7 @@ script NewBircheslab_EventScript_Pokeball{
 script NewProfessor_EventScript_Birch{
     lockall
     faceplayer
-    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+    if(!(flag(FLAG_UNUSED_0x02E) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
         message("Would you like to change the type?")
         multichoice (7,2, MULTI_STARTER_CHOICE, 0)
         closemessage
@@ -200,14 +200,14 @@ script NewProfessor_EventScript_Turtwig{
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Recieved Turtwig")
             removeobject(3)
-            setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_UNUSED_0x02E)
             call(NicknamePartyMon)
         }
         elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Recieved Turtwig")
             removeobject(3)
-            setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_UNUSED_0x02E)
             call(NicknameBoxMon)
         }
         else{
@@ -231,14 +231,14 @@ script NewProfessor_EventScript_Chimchar{
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Recieved Chimchar")
             removeobject(3)
-            setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_UNUSED_0x02E)
             call(NicknamePartyMon)
         }
         elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Recieved Chimchar")
             removeobject(3)
-            setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_UNUSED_0x02E)
             call(NicknameBoxMon)
         }
         else{
@@ -252,6 +252,7 @@ script NewProfessor_EventScript_Chimchar{
     }
  
 }
+
 script NewProfessor_EventScript_Piplup{
     showmonpic(SPECIES_PIPLUP, 10,3)
     msgbox("Do you want to choose Piplup?", MSGBOX_YESNO)
@@ -261,14 +262,14 @@ script NewProfessor_EventScript_Piplup{
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Recieved Piplup")
             removeobject(3)
-            setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_UNUSED_0x02E)
             call(NicknamePartyMon)
         }
         elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
             playfanfare(MUS_OBTAIN_ITEM)
             msgbox("Recieved Piplup")
             removeobject(3)
-            setflag(FLAG_UNUSED_0x020)
+            setflag(FLAG_UNUSED_0x02E)
             call(NicknameBoxMon)
         }
         else{
@@ -405,9 +406,10 @@ script NewProfessor_EventScript_Oshawott{
     }
  
 }
+
 script NewProfessor_EventScript_PokeballOne{
     lockall
-    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+    if(!(flag(FLAG_UNUSED_0x02E) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
         if(var(STARTER_TYPE) == 1){
             call(NewProfessor_EventScript_Piplup)
         }
@@ -428,7 +430,7 @@ script NewProfessor_EventScript_PokeballOne{
  
 script NewProfessor_EventScript_PokeballTwo{
     lockall
-    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+    if(!(flag(FLAG_UNUSED_0x02E) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
         if(var(STARTER_TYPE) == 1){
             call(NewProfessor_EventScript_Squirtle)
         }
@@ -449,7 +451,7 @@ script NewProfessor_EventScript_PokeballTwo{
  
 script NewProfessor_EventScript_PokeballThree{
     lockall
-    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+    if(!(flag(FLAG_UNUSED_0x02E) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
         if(var(STARTER_TYPE) == 1){
             call(NewProfessor_EventScript_Totodile)
         }
@@ -470,7 +472,7 @@ script NewProfessor_EventScript_PokeballThree{
 
 script NewProfessor_EventScript_PokeballFour{
     lockall
-    if(!(flag(FLAG_UNUSED_0x020) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
+    if(!(flag(FLAG_UNUSED_0x02E) || flag(FLAG_UNUSED_0x021) || flag(FLAG_UNUSED_0x022)|| flag(FLAG_UNUSED_0x023))){
         if(var(STARTER_TYPE) == 1){
             call(NewProfessor_EventScript_Oshawott)
         }

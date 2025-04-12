@@ -15,8 +15,7 @@ FallarborTown_Mart_EventScript_Clerk::
 FallarborTown_Mart_Pokemart:
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SUPER_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_FULL_HEAL
 	.2byte ITEM_SUPER_REPEL
 	pokemartlistend
 

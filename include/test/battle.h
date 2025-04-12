@@ -370,7 +370,6 @@
  * USE_ITEM(battler, itemId, [partyIndex:], [move:])
  * Used when the battler chooses to use an item from the Bag. The item
  * ID must be specified, and party index and move slot if applicable, e.g:
- *      USE_ITEM(player, ITEM_X_ATTACK);
  *      USE_ITEM(player, ITEM_POTION, partyIndex: 0);
  *      USE_ITEM(player, ITEM_LEPPA_BERRY, partyIndex: 0, move: MOVE_TACKLE);
  *

@@ -1565,7 +1565,7 @@ void ItemUseOutOfBattle_PokeFlute(u8 taskId)
 
     for (i = 0; i < CalculatePlayerPartyCount(); i++)
     {
-        if (!ExecuteTableBasedItemEffect(&gPlayerParty[i], ITEM_AWAKENING, i, 0))
+        if (!ExecuteTableBasedItemEffect(&gPlayerParty[i], ITEM_FULL_HEAL, i, 0))
             wokeSomeoneUp = TRUE;
     }
 

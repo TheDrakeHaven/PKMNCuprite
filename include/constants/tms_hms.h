@@ -101,8 +101,59 @@
     F(ZEN_HEADBUTT) \
     F(STEALTH_ROCK) \
     F(STONE_EDGE) \
-    F(FLASH_CANNON) 
-        
+    F(FLASH_CANNON) \
+    F(POLLEN_PUFF) \
+    F(LEECH_LIFE) \
+    F(X_SCISSOR) \
+    F(LUNGE) \
+    F(SKITTER_SMACK) \
+    F(FLING) \
+    F(SCALE_SHOT) \
+    F(OUTRAGE) \
+    F(BREAKING_SWIPE) \
+    F(DRAGON_TAIL) \
+    F(THUNDER_WAVE) \
+    F(ELECTRIC_TERRAIN) \
+    F(ELECTROWEB) \
+    F(SUPERCELL_SLAM) \
+    F(MISTY_TERRAIN) \
+    F(CHARM) \
+    F(MISTY_EXPLOSION) \
+    F(DISARMING_VOICE) \
+    F(FOCUS_BLAST) \
+    F(FLARE_BLITZ) \
+    F(AIR_SLASH) \
+    F(BRAVE_BIRD) \
+    F(FEATHER_DANCE) \
+    F(POLTERGEIST) \
+    F(CURSE) \
+    F(SHADOW_SNEAK) \
+    F(BITTER_MALICE) \
+    F(GRASSY_TERRAIN) \
+    F(ENERGY_BALL) \
+    F(SPORE) \
+    F(EARTH_POWER) \
+    F(MUD_BOMB) \
+    F(ICE_SPINNER) \
+    F(TRIPLE_AXEL) \
+    F(ICY_WIND) \
+    F(PAIN_SPLIT) \
+    F(POISON_JAB) \
+    F(SLUDGE_WAVE) \
+    F(CORROSIVE_GAS) \
+    F(PSYCHIC_FANGS) \
+    F(PSYCHIC_TERRAIN) \
+    F(TRICK) \
+    F(POWER_GEM) \
+    F(METEOR_BEAM) \
+    F(ACCELEROCK) \
+    F(HEAD_SMASH) \
+    F(METAL_CLAW) \
+    F(IRON_DEFENSE) \
+    F(GYRO_BALL) \
+    F(AUTOTOMIZE) 
+
+
 #define FOREACH_HM(F) \
     F(CUT) \
     F(FLY) \
