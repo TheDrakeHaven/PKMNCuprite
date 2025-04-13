@@ -54,6 +54,7 @@ Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
 	msgbox Route119_WeatherInstitute_2F_Text_ShellyPostBattle, MSGBOX_DEFAULT
 	closemessage
 	giveitem ITEM_TM_FLIP_TURN
+	giveitem ITEM_TM_POISON_JAB
 	giveitem ITEM_BLACK_SLUDGE
 	giveitem ITEM_COVERT_CLOAK
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull

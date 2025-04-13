@@ -50,6 +50,7 @@ AquaHideout_B2F_EventScript_SubmarineEscape::
 	waitmovement 0
 	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_DEFAULT
 	additem ITEM_TM_LIQUIDATION
+	giveitem ITEM_TM_SLUDGE_WAVE
 	additem ITEM_REAPER_CLOTH
 	additem ITEM_MAGMARIZER
 	additem ITEM_ELECTIRIZER

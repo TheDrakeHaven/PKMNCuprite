@@ -919,6 +919,7 @@ RustboroCity_EventScript_BattleBrendanTreecko::
 	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO, RustboroCity_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
 	giveitem ITEM_TM_WEATHER_BALL
+	giveitem ITEM_TM_THUNDER_WAVE
 	giveitem ITEM_UTILITY_UMBRELLA
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	goto RustboroCity_EventScript_BrendanBrineyHint

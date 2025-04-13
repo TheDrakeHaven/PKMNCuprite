@@ -395,6 +395,7 @@ PetalburgCity_Gym_EventScript_Grayson::
 
 PetalburgCity_Gym_EventScript_GiveFacade::
 	additem ITEM_TM_DRAIN_PUNCH
+	additem ITEM_TM_LUNGE
 	additem ITEM_MUSCLE_BAND
 	additem ITEM_EXPERT_BELT
 	additem ITEM_FOCUS_BAND

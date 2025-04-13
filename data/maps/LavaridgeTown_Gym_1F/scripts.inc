@@ -77,6 +77,7 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 
 LavaridgeTown_Gym_1F_EventScript_GiveOverheat2::
 	additem ITEM_TM_DRAGON_PULSE
+	additem ITEM_TM_SCALE_SHOT
 	additem ITEM_SMOOTH_ROCK
 	additem ITEM_DAMP_ROCK
 	additem ITEM_HEAT_ROCK

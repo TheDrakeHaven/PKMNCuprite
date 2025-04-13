@@ -42,6 +42,8 @@ LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters:
 	.2byte ITEM_TM_ENCORE
 	.2byte ITEM_TM_SUBSTITUTE
 	.2byte ITEM_TM_BATON_PASS
+	.2byte ITEM_TM_CURSE
+	.2byte ITEM_TM_TRICK
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_TriathleteM::

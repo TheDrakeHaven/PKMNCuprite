@@ -88,6 +88,7 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 
 MossdeepCity_Gym_EventScript_GiveCalmMind2::
 	additem ITEM_TM_DAZZLING_GLEAM
+	additem ITEM_TM_MISTY_EXPLOSION
 	additem ITEM_ROCKY_HELMET
 	additem ITEM_SAFETY_GOGGLES
 	additem ITEM_PROTECTIVE_PADS
@@ -100,6 +101,7 @@ MossdeepCity_Gym_EventScript_GiveCalmMind2::
 
 MossdeepCity_Gym_EventScript_GiveCalmMind::
 	additem ITEM_TM_DAZZLING_GLEAM
+	additem ITEM_TM_MISTY_EXPLOSION
 	additem ITEM_ROCKY_HELMET
 	additem ITEM_SAFETY_GOGGLES
 	additem ITEM_PROTECTIVE_PADS

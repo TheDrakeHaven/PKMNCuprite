@@ -111,6 +111,7 @@ SootopolisCity_Gym_1F_EventScript_JuanDefeated::
 
 SootopolisCity_Gym_1F_EventScript_GiveWaterPulse::
 	additem ITEM_TM_TRICK_ROOM
+	additem ITEM_TM_OUTRAGE
 	additem ITEM_LEFTOVERS
 	additem ITEM_LIGHT_CLAY
 	additem ITEM_LIFE_ORB
@@ -122,6 +123,7 @@ SootopolisCity_Gym_1F_EventScript_GiveWaterPulse::
 
 SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2::
 	additem ITEM_TM_TRICK_ROOM
+	additem ITEM_TM_OUTRAGE
 	additem ITEM_LEFTOVERS
 	additem ITEM_LIGHT_CLAY
 	additem ITEM_LIFE_ORB

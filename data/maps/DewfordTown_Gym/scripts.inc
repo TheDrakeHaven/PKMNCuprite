@@ -159,6 +159,7 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 
 DewfordTown_Gym_EventScript_GiveBulkUp::
 	additem ITEM_TM_WATER_PULSE
+	additem ITEM_TM_ICY_WIND
 	additem ITEM_ZOOM_LENS
 	additem ITEM_WIDE_LENS
 	additem ITEM_SCOPE_LENS

@@ -27,6 +27,7 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 
 RustboroCity_Gym_EventScript_GiveRockTomb::
 	additem ITEM_TM_STEALTH_ROCK
+	additem ITEM_TM_ACCELEROCK
 	additem ITEM_QUICK_CLAW
 	additem ITEM_RAZOR_CLAW
 	additem ITEM_BINDING_BAND

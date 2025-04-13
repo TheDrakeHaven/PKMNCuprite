@@ -34,6 +34,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	waitmovement 0
 	msgbox SeafloorCavern_Room9_Text_ArchieYouMustDisappear, MSGBOX_DEFAULT
 	additem ITEM_TM_HYDRO_PUMP
+	additem ITEM_TM_FOCUS_BLAST
 	additem ITEM_CLEAR_AMULET
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	trainerbattle_no_intro TRAINER_ARCHIE, SeafloorCavern_Room9_Text_ArchieDefeat

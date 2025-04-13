@@ -41,6 +41,7 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 
 FortreeCity_Gym_EventScript_GiveAerialAce2::
 	additem ITEM_TM_HEAVY_SLAM
+	additem ITEM_TM_AUTOTOMIZE
 	additem ITEM_ROCKY_HELMET
 	additem ITEM_SAFETY_GOGGLES
 	additem ITEM_PROTECTIVE_PADS
@@ -53,6 +54,7 @@ FortreeCity_Gym_EventScript_GiveAerialAce2::
 
 FortreeCity_Gym_EventScript_GiveAerialAce::
 	additem ITEM_TM_HEAVY_SLAM
+	additem ITEM_TM_AUTOTOMIZE
 	additem ITEM_CHOICE_BAND
 	additem ITEM_CHOICE_SCARF
 	additem ITEM_CHOICE_SPECS

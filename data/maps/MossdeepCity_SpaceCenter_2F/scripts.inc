@@ -268,6 +268,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 	msgbox MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided, MSGBOX_DEFAULT
 	closemessage
 	additem ITEM_TM_OVERHEAT
+	additem ITEM_TM_FLARE_BLITZ
 	additem ITEM_EVIOLITE
 	additem ITEM_BLUNDER_POLICY
 	delay 20

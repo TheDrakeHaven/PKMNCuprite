@@ -131,7 +131,7 @@
     F(BITTER_MALICE) \
     F(GRASSY_TERRAIN) \
     F(ENERGY_BALL) \
-    F(SPORE) \
+    F(WOOD_HAMMER) \
     F(EARTH_POWER) \
     F(MUD_BOMB) \
     F(ICE_SPINNER) \

@@ -24,6 +24,7 @@ TrainerHill_EventScript_Ghostess::
 
 TrainerHill_ghostgift::
 	additem ITEM_TM_HEX
+	additem ITEM_TM_ENERGY_BALL
 	additem ITEM_LOADED_DICE
 	additem ITEM_METRONOME
 	additem ITEM_FLAME_ORB

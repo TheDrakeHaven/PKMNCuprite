@@ -146,6 +146,7 @@ SkyPillar_TOP_EventScript_Jordan::
 
 SkyPillar_TOP_EventScript_Jordangone::
 	giveitem ITEM_TM_SECRET_POWER
+	additem ITEM_TM_FLING
 	giveitem ITEM_BRIGHT_POWDER
 	giveitem ITEM_TOXIC_ORB
 	giveitem ITEM_WEAKNESS_POLICY

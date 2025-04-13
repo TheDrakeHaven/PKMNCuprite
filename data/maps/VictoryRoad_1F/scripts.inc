@@ -44,6 +44,7 @@ VictoryRoad_1F_EventScript_WallyEntranceBattle::
 	trainerbattle_no_intro TRAINER_WALLY_VR_1, VictoryRoad_1F_Text_WallyEntranceDefeat
 	msgbox VictoryRoad_1F_Text_WallyPostEntranceBattle, MSGBOX_DEFAULT
 	giveitem ITEM_TM_DRACO_METEOR
+	giveitem ITEM_TM_BRAVE_BIRD
 	giveitem ITEM_PUNCHING_GLOVE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	clearflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY

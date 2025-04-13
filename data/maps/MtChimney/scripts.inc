@@ -416,6 +416,7 @@ MtChimney_EventScript_Tabitha::
 	trainerbattle_single TRAINER_TABITHA_MT_CHIMNEY, MtChimney_Text_TabithaIntro, MtChimney_Text_TabithaDefeat
 	msgbox MtChimney_Text_TabithaPostBattle, MSGBOX_AUTOCLOSE
 	additem ITEM_TM_FLAMETHROWER
+	additem ITEM_TM_EARTH_POWER
 	additem ITEM_EJECT_BUTTON
 	additem ITEM_EJECT_PACK
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull

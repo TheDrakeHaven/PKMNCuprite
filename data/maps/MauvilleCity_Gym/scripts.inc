@@ -104,6 +104,7 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 
 MauvilleCity_Gym_EventScript_GiveShockWave2::
 	additem ITEM_TM_VOLT_SWITCH
+	additem ITEM_TM_ELECTROWEB
 	additem ITEM_MENTAL_HERB
 	additem ITEM_POWER_HERB
 	additem ITEM_WHITE_HERB
@@ -116,6 +117,7 @@ MauvilleCity_Gym_EventScript_GiveShockWave2::
 
 MauvilleCity_Gym_EventScript_GiveShockWave::
 	additem ITEM_TM_VOLT_SWITCH
+	additem ITEM_TM_ELECTROWEB
 	additem ITEM_MENTAL_HERB
 	additem ITEM_POWER_HERB
 	additem ITEM_WHITE_HERB
