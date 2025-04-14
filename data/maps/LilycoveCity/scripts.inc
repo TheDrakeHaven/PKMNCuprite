@@ -271,10 +271,7 @@ LilycoveCity_EventScript_Brendan::
 	call_if_unset FLAG_DECLINED_RIVAL_BATTLE_LILYCOVE, LilycoveCity_EventScript_BrendanAskToBattle
 	goto_if_eq VAR_RESULT, NO, LilycoveCity_EventScript_DeclineBrendanBattle
 	msgbox LilycoveCity_Text_BrendanWontBeBeaten, MSGBOX_DEFAULT
-	switch VAR_STARTER_MON
-	case 0, LilycoveCity_EventScript_BattleBrendanTreecko
-	case 1, LilycoveCity_EventScript_BattleBrendanTorchic
-	case 2, LilycoveCity_EventScript_BattleBrendanMudkip
+ 	goto LilycoveCity_EventScript_BattleBrendan
 	end
 
 LilycoveCity_EventScript_BrendanAskToBattleAgain::
@@ -308,20 +305,12 @@ LilycoveCity_EventScript_BattleMayMudkip::
 	goto LilycoveCity_EventScript_DefeatedMay
 	end
 
-LilycoveCity_EventScript_BattleBrendanTreecko::
+LilycoveCity_EventScript_BattleBrendan::
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE, LilycoveCity_Text_BrendanDefeat
 	goto LilycoveCity_EventScript_DefeatedBrendan
 	end
 
-LilycoveCity_EventScript_BattleBrendanTorchic::
-	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE, LilycoveCity_Text_BrendanDefeat
-	goto LilycoveCity_EventScript_DefeatedBrendan
-	end
-
-LilycoveCity_EventScript_BattleBrendanMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE, LilycoveCity_Text_BrendanDefeat
-	goto LilycoveCity_EventScript_DefeatedBrendan
-	end
 
 LilycoveCity_EventScript_DefeatedMay::
 	msgbox LilycoveCity_Text_MayGoingBackToLittleroot, MSGBOX_DEFAULT
@@ -362,6 +351,7 @@ LilycoveCity_EventScript_DefeatedBrendan::
 	giveitem ITEM_TERRAIN_EXTENDER
 	setflag FLAG_UNUSED_0x041
 	setvar VAR_RESULT, FALSE
+	clearflag FLAG_UNUSED_0x265
 	call_if_set FLAG_BADGE06_GET, LilycoveCity_EventScript_CheckFinalBadge
 	call_if_eq VAR_RESULT, FALSE, LilycoveCity_EventScript_BrendanCollectBadges
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_BrendanPokemonLeague

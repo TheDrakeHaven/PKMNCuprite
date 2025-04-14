@@ -62,6 +62,7 @@ MagmaHideout_4F_EventScript_Maxie::
 	waitmovement 0
 	msgbox MagmaHideout_4F_Text_MaxieOhItWasYou, MSGBOX_DEFAULT
 	closemessage
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_no_intro TRAINER_MAXIE_MAGMA_HIDEOUT, MagmaHideout_4F_Text_MaxieDefeat
 	msgbox MagmaHideout_4F_Text_MaxieImGoingAfterGroudon, MSGBOX_DEFAULT
 	closemessage
@@ -70,6 +71,7 @@ MagmaHideout_4F_EventScript_Maxie::
 	setvar VAR_SLATEPORT_CITY_STATE, 1
 	setflag FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT
 	setvar VAR_SLATEPORT_HARBOR_STATE, 1
+	clearflag FLAG_UNUSED_0x265
 	fadescreen FADE_TO_BLACK
 	removeobject LOCALID_MAXIE
 	removeobject LOCALID_GRUNT_1

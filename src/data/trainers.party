@@ -1352,7 +1352,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BROOKE ===
 Name: BROOKE
-Class: Cooltrainer
+Class: Rich
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
@@ -3239,7 +3239,7 @@ AI: Smart Trainer
 
 Bonsly
 Ability:Sturdy
-Level:15
+Level:16
 Brave Nature
 IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 -Stealth Rock
@@ -3249,13 +3249,23 @@ IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 
 Solrock
 Ability:Levitate
-Level:15
+Level:16
 Modest Nature
 IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 -Rock Tomb
 -Harden
 -Hypnosis
 -Confusion
+
+Lileep @ Salac Berry
+Ability: Suction Cups
+Level:16
+Modest Nature
+IVs: 0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
+-Ancient Power
+-Confuse Ray
+-Ingrain
+-Mega Drain
 
 Aerodactyl @ Salac Berry
 Ability:Unnerve
@@ -7300,7 +7310,7 @@ Careful Nature
 -Acrobatics
 -Stealth Rock
 
-Slowpoke (M)  
+Slowpoke (M) @ Figy Berry
 Ability: Regenerator  
 Level: 16   
 Quiet Nature  
@@ -7317,6 +7327,14 @@ Relaxed Nature
 - Synthesis  
 - Stun Spore
 - Astonish
+
+Beldum @ Figy Berry
+Ability: Clear Body
+Level:16
+Jolly Nature
+-Tackle
+-Zen Headbutt
+-Iron Defense
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: SAMUEL

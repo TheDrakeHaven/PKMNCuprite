@@ -33,14 +33,15 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	applymovement VAR_0x8004, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox SeafloorCavern_Room9_Text_ArchieYouMustDisappear, MSGBOX_DEFAULT
-	additem ITEM_TM_HYDRO_PUMP
-	additem ITEM_TM_FOCUS_BLAST
-	additem ITEM_CLEAR_AMULET
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_no_intro TRAINER_ARCHIE, SeafloorCavern_Room9_Text_ArchieDefeat
 	msgbox SeafloorCavern_Room9_Text_ArchieWithThisRedOrb, MSGBOX_DEFAULT
 	setweather WEATHER_NONE
 	doweather
+	additem ITEM_TM_HYDRO_PUMP
+	additem ITEM_TM_FOCUS_BLAST
+	additem ITEM_CLEAR_AMULET
 	special Script_FadeOutMapMusic
 	waitstate
 	msgbox SeafloorCavern_Room9_Text_RedOrbShinesByItself, MSGBOX_DEFAULT
@@ -139,6 +140,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	clearflag FLAG_HIDE_ROUTE_128_ARCHIE
 	clearflag FLAG_HIDE_ROUTE_128_MAXIE
 	setflag FLAG_SYS_WEATHER_CTRL
+	clearflag FLAG_UNUSED_0x265
 	setflag FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN
 	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
 	setvar VAR_STEVENS_HOUSE_STATE, 2

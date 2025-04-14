@@ -133,12 +133,15 @@ SkyPillar_Top_EventScript_AwakenRayquaza::
 	end
 
 SkyPillar_TOP_EventScript_Ghostess::
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_ANDRES_3, SkyPillar_TOP_Text_GhostessIntro, SkyPillar_TOP_Text_GhostessDefeat
 	msgbox SkyPillar_TOP_Text_GhostessPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
 	release
 	end
 
 SkyPillar_TOP_EventScript_Jordan::
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_ANDRES_2, SkyPillar_TOP_Text_JordanIntro, SkyPillar_TOP_Text_JordanDefeat, SkyPillar_TOP_EventScript_Jordangone
 	msgbox SkyPillar_TOP_Text_JordanPostBattle, MSGBOX_DEFAULT
 	release
@@ -151,6 +154,7 @@ SkyPillar_TOP_EventScript_Jordangone::
 	giveitem ITEM_TOXIC_ORB
 	giveitem ITEM_WEAKNESS_POLICY
 	giveitem ITEM_SHELL_BELL
+	clearflag FLAG_UNUSED_0x265
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	clearflag FLAG_UNUSED_0x040
 	end

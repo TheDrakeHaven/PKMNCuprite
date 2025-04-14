@@ -686,16 +686,15 @@ LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "PROF. LEE: If you work at POKéMON\n"
-	.string "and gain experience, I think you'll make\l"
+	.string "and gain experience, I think you'll make \l"
 	.string "an extremely good TRAINER.\p"
-	.string "SAMUEL, is also studying\n"
+	.string "SAMUEL, is also studying \n"
 	.string "POKéMON while helping me out.\p"
-	.string "{PLAYER}{KUN}, don't you think it might be\n"
+	.string "{PLAYER}{KUN}, don't you think it might be \n"
 	.string "a good idea to go see SAMUEL in Route 103?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
-	.string "PROF. LEE: Great!\n"
-	.string "You should also go get a\n"
+	.string "You should also go get a \l"
 	.string "free pokemon at the GYM!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:

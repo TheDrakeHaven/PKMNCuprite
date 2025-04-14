@@ -6,6 +6,7 @@ AeroBase_Roof_MapScripts::
 TrainerHill_Roof_EventScript_Owner::
 	lock
 	faceplayer
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_BRANDON, TrainerHill_JordanIntro, TrainerHill_JordanDefeated, AeroBase_EventScript_Jordanescape
 	release
 	end
@@ -28,6 +29,7 @@ AeroBase_EventScript_Jordanescape::
 	call starterfade
 	delay 20
 	setflag FLAG_UNUSED_0x02C
+	clearflag FLAG_UNUSED_0x265
 	release
 	end
 

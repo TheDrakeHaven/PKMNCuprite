@@ -902,11 +902,9 @@ RustboroCity_EventScript_BrendanAskToBattle::
 	end
 
 RustboroCity_EventScript_BattleBrendan::
+	setflag FLAG_UNUSED_0x265
 	msgbox RustboroCity_Text_BrendanIWontGoEasy, MSGBOX_DEFAULT
-	switch VAR_STARTER_MON
-	case 0, RustboroCity_EventScript_BattleBrendanTreecko
-	case 1, RustboroCity_EventScript_BattleBrendanTorchic
-	case 2, RustboroCity_EventScript_BattleBrendanMudkip
+	goto RustboroCity_EventScript_BattleBrendanTreecko
 	end
 
 RustboroCity_EventScript_BrendanBrineyHint::
@@ -918,6 +916,7 @@ RustboroCity_EventScript_BrendanBrineyHint::
 RustboroCity_EventScript_BattleBrendanTreecko::
 	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO, RustboroCity_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
+	clearflag FLAG_UNUSED_0x265
 	giveitem ITEM_TM_WEATHER_BALL
 	giveitem ITEM_TM_THUNDER_WAVE
 	giveitem ITEM_UTILITY_UMBRELLA
@@ -925,25 +924,6 @@ RustboroCity_EventScript_BattleBrendanTreecko::
 	goto RustboroCity_EventScript_BrendanBrineyHint
 	end
 
-RustboroCity_EventScript_BattleBrendanTorchic::
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO, RustboroCity_Text_BrendanDefeat
-	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
-	giveitem ITEM_TM_WEATHER_BALL
-	giveitem ITEM_TM_THUNDER_WAVE
-	giveitem ITEM_UTILITY_UMBRELLA
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
-	goto RustboroCity_EventScript_BrendanBrineyHint
-	end
-
-RustboroCity_EventScript_BattleBrendanMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO, RustboroCity_Text_BrendanDefeat
-	setflag FLAG_DEFEATED_RIVAL_RUSTBORO
-	giveitem ITEM_TM_WEATHER_BALL
-	giveitem ITEM_TM_THUNDER_WAVE
-	giveitem ITEM_UTILITY_UMBRELLA
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
-	goto RustboroCity_EventScript_BrendanBrineyHint
-	end
 
 RustboroCity_Movement_RivalApproachPlayer0:
 	walk_down

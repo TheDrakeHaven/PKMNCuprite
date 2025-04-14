@@ -374,26 +374,11 @@ Route110_EventScript_MayDefeated::
 
 Route110_EventScript_BrendanBattle::
 	msgbox Route110_Text_BrendanLetsBattle, MSGBOX_DEFAULT
-	switch VAR_STARTER_MON
-	case 0, Route110_EventScript_BrendanBattleTreecko
-	case 1, Route110_EventScript_BrendanBattleTorchic
-	case 2, Route110_EventScript_BrendanBattleMudkip
-	end
-
-Route110_EventScript_BrendanBattleTreecko::
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110, Route110_Text_BrendanDefeated
 	goto Route110_EventScript_BrendanDefeated
 	end
 
-Route110_EventScript_BrendanBattleTorchic::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110, Route110_Text_BrendanDefeated
-	goto Route110_EventScript_BrendanDefeated
-	end
-
-Route110_EventScript_BrendanBattleMudkip::
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110, Route110_Text_BrendanDefeated
-	goto Route110_EventScript_BrendanDefeated
-	end
 
 Route110_EventScript_BrendanDefeated::
 	msgbox Route110_Text_BrendanTakeThis, MSGBOX_DEFAULT
@@ -404,6 +389,7 @@ Route110_EventScript_BrendanDefeated::
 	additem ITEM_TM_HAIL
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_UNUSED_0x043 
+	clearflag FLAG_UNUSED_0x265
 	call Route110_EventScript_Additemfinder
 	msgbox Route110_Text_BrendanExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit

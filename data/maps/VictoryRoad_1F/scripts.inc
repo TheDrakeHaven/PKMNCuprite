@@ -38,6 +38,7 @@ VictoryRoad_1F_EventScript_WallyBattleTrigger2::
 	end
 
 VictoryRoad_1F_EventScript_WallyEntranceBattle::
+	setflag FLAG_UNUSED_0x265
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	msgbox VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore, MSGBOX_DEFAULT
@@ -48,6 +49,7 @@ VictoryRoad_1F_EventScript_WallyEntranceBattle::
 	giveitem ITEM_PUNCHING_GLOVE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	clearflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+	clearflag FLAG_UNUSED_0x265
 	copyobjectxytoperm LOCALID_WALLY_ENTRANCE
 	setflag FLAG_DEFEATED_WALLY_VICTORY_ROAD
 	copyvar VAR_VICTORY_ROAD_1F_STATE, VAR_0x8008

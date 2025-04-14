@@ -74,6 +74,7 @@ MauvilleCity_Gym_EventScript_DeactivatePuzzle::
 	end
 
 MauvilleCity_Gym_EventScript_Wattson::
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_SAM, MauvilleCity_Gym_Text_WattsonIntro, MauvilleCity_Gym_Text_WattsonDefeat, MauvilleCity_Gym_EventScript_WattsonDefeated, NO_MUSIC
 	goto_if_unset FLAG_RECEIVED_TM_SHOCK_WAVE, MauvilleCity_Gym_EventScript_GiveShockWave2
 	goto_if_eq VAR_NEW_MAUVILLE_STATE, 2, MauvilleCity_Gym_EventScript_CompletedNewMauville
@@ -89,6 +90,7 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 3
 	clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
+	clearflag FLAG_UNUSED_0x265
 	setflag FLAG_BADGE03_GET
 	addvar VAR_PETALBURG_GYM_STATE, 1
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle

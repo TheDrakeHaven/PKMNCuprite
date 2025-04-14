@@ -44,6 +44,7 @@ EverGrandeCity_GlaciasRoom_EventScript_Glacia::
 	msgbox EverGrandeCity_GlaciasRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	special HealPlayerParty
 	callnative UpdateFollowingPokemon
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_no_intro TRAINER_DIEGO, EverGrandeCity_GlaciasRoom_Text_Defeat
 	goto EverGrandeCity_GlaciasRoom_EventScript_Defeated
 	end
@@ -55,6 +56,7 @@ EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech::
 
 EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 	setflag FLAG_DEFEATED_ELITE_4_GLACIA
+	clearflag FLAG_UNUSED_0x265
 	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
 	msgbox EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	release

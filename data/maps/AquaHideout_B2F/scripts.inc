@@ -26,6 +26,7 @@ AquaHideout_B2F_EventScript_MattNoticePlayer::
 	end
 
 AquaHideout_B2F_EventScript_Matt::
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_MATTIAS, AquaHideout_B2F_Text_MattIntro, AquaHideout_B2F_Text_MattDefeat, AquaHideout_B2F_EventScript_SubmarineEscape
 	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_DEFAULT
 	release
@@ -58,6 +59,7 @@ AquaHideout_B2F_EventScript_SubmarineEscape::
 	additem ITEM_PROTECTOR
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE
+	clearflag FLAG_UNUSED_0x265
 	setflag FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
 	release
 	end

@@ -18,6 +18,7 @@ FortreeCity_Gym_EventScript_InitRotatingGates::
 	end
 
 FortreeCity_Gym_EventScript_Winona::
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_MATTHEW, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	goto_if_unset FLAG_RECEIVED_TM_AERIAL_ACE, FortreeCity_Gym_EventScript_GiveAerialAce2
 	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
@@ -31,6 +32,7 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	msgbox FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_FORTREE_GYM
 	setflag FLAG_BADGE06_GET
+	clearflag FLAG_UNUSED_0x265
 	setvar VAR_0x8008, 6
 	call Common_EventScript_SetGymTrainers
 	call FortreeCity_Gym_EventScript_GiveAerialAce

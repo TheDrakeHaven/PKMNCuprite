@@ -257,6 +257,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle::
 	goto MossdeepCity_SpaceCenter_2F_EventScript_ReadyForBattlePrompt
 
 MossdeepCity_SpaceCenter_2F_EventScript_DoStevenMultiBattle::
+	setflag FLAG_UNUSED_0x265
 	multi_2_vs_2 TRAINER_MAXIE_MOSSDEEP, MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand, TRAINER_TABITHA_MOSSDEEP, MossdeepCity_SpaceCenter_Text_TabithaDefeat, PARTNER_STEVEN
 	switch VAR_RESULT
 	case 1, MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha
@@ -289,6 +290,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
 	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
 	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+	clearflag FLAG_UNUSED_0x265
 	removeobject LOCALID_GRUNT_6
 	removeobject LOCALID_GRUNT_7
 	removeobject LOCALID_GRUNT_5

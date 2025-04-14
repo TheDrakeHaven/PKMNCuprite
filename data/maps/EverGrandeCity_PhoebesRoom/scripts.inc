@@ -44,6 +44,7 @@ EverGrandeCity_PhoebesRoom_EventScript_Phoebe::
 	msgbox EverGrandeCity_PhoebesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	special HealPlayerParty
 	callnative UpdateFollowingPokemon
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_no_intro TRAINER_OZ, EverGrandeCity_PhoebesRoom_Text_Defeat
 	goto EverGrandeCity_PhoebesRoom_EventScript_Defeated
 	end
@@ -56,6 +57,7 @@ EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech::
 EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 	setflag FLAG_DEFEATED_ELITE_4_PHOEBE
 	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	clearflag FLAG_UNUSED_0x265
 	msgbox EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	release
 	end

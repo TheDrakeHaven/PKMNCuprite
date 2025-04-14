@@ -80,6 +80,7 @@ SootopolisCity_Gym_1F_Movement_FallThroughIce:
 	step_end
 
 SootopolisCity_Gym_1F_EventScript_Juan::
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_XANDER, SootopolisCity_Gym_1F_Text_JuanIntro, SootopolisCity_Gym_1F_Text_JuanDefeat, SootopolisCity_Gym_1F_EventScript_JuanDefeated, NO_MUSIC
 	goto_if_unset FLAG_RECEIVED_TM_WATER_PULSE, SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2
 	goto_if_unset FLAG_BADGE06_GET, SootopolisCity_Gym_1F_EventScript_GoGetFortreeBadge
@@ -100,6 +101,7 @@ SootopolisCity_Gym_1F_EventScript_JuanDefeated::
 	setflag FLAG_DEFEATED_RAYQUAZA
 	setvar VAR_SOOTOPOLIS_CITY_STATE, 6
 	clearflag FLAG_UNUSED_0x040
+	clearflag FLAG_UNUSED_0x265
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
 	setvar VAR_0x8008, 8
 	call Common_EventScript_SetGymTrainers

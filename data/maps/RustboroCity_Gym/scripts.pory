@@ -3,6 +3,7 @@ RustboroCity_Gym_MapScripts::
 	.byte 0
 
 RustboroCity_Gym_EventScript_Roxanne::
+	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_ALEC, RustboroCity_Gym_Text_RoxanneIntro, RustboroCity_Gym_Text_RoxanneDefeat, RustboroCity_Gym_EventScript_RoxanneDefeated, NO_MUSIC
 	goto_if_unset FLAG_RECEIVED_TM_ROCK_TOMB, RustboroCity_Gym_EventScript_GiveRockTomb
 	msgbox RustboroCity_Gym_Text_RoxannePostBattle, MSGBOX_DEFAULT
@@ -19,6 +20,7 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	setvar VAR_RUSTBORO_CITY_STATE, 1
 	addvar VAR_PETALBURG_GYM_STATE, 1
 	setvar VAR_0x8008, 1
+	clearflag FLAG_UNUSED_0x265
 	call Common_EventScript_SetGymTrainers
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	goto RustboroCity_Gym_EventScript_GiveRockTomb

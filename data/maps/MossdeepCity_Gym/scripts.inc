@@ -54,8 +54,8 @@ MossdeepCity_Gym_EventScript_SetSwitch4Metatiles::
 	end
 
 MossdeepCity_Gym_EventScript_TateAndLiza::
-	trainerbattle_double TRAINER_MARK, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons, MossdeepCity_Gym_EventScript_TateAndLizaDefeated, NO_MUSIC
-	goto_if_unset FLAG_RECEIVED_TM_CALM_MIND, MossdeepCity_Gym_EventScript_GiveCalmMind2
+	setflag FLAG_UNUSED_0x265
+	trainerbattle_single TRAINER_MARK, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, MossdeepCity_Gym_EventScript_TateAndLizaDefeated,
 	msgbox MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -70,6 +70,7 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	setflag FLAG_HIDE_AQUA_HIDEOUT_GRUNTS
 	clearflag FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY
 	clearflag FLAG_UNKNOWN_0x393
+	clearflag FLAG_UNUSED_0x265
 	setvar VAR_0x8008, 7
 	call Common_EventScript_SetGymTrainers
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS
@@ -83,19 +84,6 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	call MossdeepCity_Gym_EventScript_GiveCalmMind
 	closemessage
 	delay 30
-	release
-	end
-
-MossdeepCity_Gym_EventScript_GiveCalmMind2::
-	additem ITEM_TM_DAZZLING_GLEAM
-	additem ITEM_TM_MISTY_EXPLOSION
-	additem ITEM_ROCKY_HELMET
-	additem ITEM_SAFETY_GOGGLES
-	additem ITEM_PROTECTIVE_PADS
-	additem ITEM_HEAVY_DUTY_BOOTS
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM_CALM_MIND
 	release
 	end
 

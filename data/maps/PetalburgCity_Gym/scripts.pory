@@ -361,6 +361,7 @@ PetalburgCity_Gym_EventScript_NormanDown::
 	end
 
 PetalburgCity_Gym_EventScript_Grayson::
+	setflag FLAG_UNUSED_0x265
 	msgbox PetalburgCity_Gym_Text_NormanIntro, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_GRAYSON, PetalburgCity_Gym_Text_NormanDefeat
 	message PetalburgCity_Gym_Text_ReceivedBalanceBadge
@@ -374,6 +375,7 @@ PetalburgCity_Gym_EventScript_Grayson::
 	call EventScript_HideMrBriney
 	setflag FLAG_HIDE_MAUVILLE_GYM_SAM
 	clearflag FLAG_HIDE_MAUVILLE_CITY_SAM
+	clearflag FLAG_UNUSED_0x265
 	setvar VAR_0x8008, 5
 	call Common_EventScript_SetGymTrainers
 	clearflag FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN

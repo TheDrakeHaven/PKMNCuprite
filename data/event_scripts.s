@@ -586,14 +586,16 @@ gStdScripts_End::
 
 EventScript_WhiteOut::
 	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour
+	clearflag FLAG_UNUSED_0x265
 	end
 
 EventScript_AfterWhiteOutHeal::
 	lockall
 	msgbox gText_FirstShouldRestoreMonsHealth
 	call EventScript_PkmnCenterNurse_TakeAndHealPkmn
-	call_if_unset FLAG_DEFEATED_RUSTBORO_GYM, EventScript_AfterWhiteOutHealMsgPreRoxanne
-	call_if_set FLAG_DEFEATED_RUSTBORO_GYM, EventScript_AfterWhiteOutHealMsg
+	call_if_unset FLAG_DEFEATED_DEWFORD_GYM, EventScript_AfterWhiteOutHealMsgPreRoxanne
+	call_if_unset FLAG_DEFEATED_PETALBURG_GYM, EventScript_AfterWhiteOutHealMsgPreGrayson
+	call_if_set FLAG_DEFEATED_PETALBURG_GYM, EventScript_AfterWhiteOutHealMsg
 	applymovement VAR_LAST_TALKED, Movement_PkmnCenterNurse_Bow
 	waitmovement 0
 	fadedefaultbgm
@@ -602,11 +604,18 @@ EventScript_AfterWhiteOutHeal::
 
 EventScript_AfterWhiteOutHealMsgPreRoxanne::
 	msgbox gText_MonsHealedShouldBuyPotions
+	clearflag FLAG_UNUSED_0x265
+	return
+
+EventScript_AfterWhiteOutHealMsgPreGrayson::
+	msgbox gText_MonsHealed
+	call EventScript_MoveMrBrineyToRoute109
+	clearflag FLAG_UNUSED_0x265
 	return
 
 EventScript_AfterWhiteOutHealMsg::
 	msgbox gText_MonsHealed
-	call EventScript_MoveMrBrineyToRoute109
+	clearflag FLAG_UNUSED_0x265
 	return
 
 EventScript_AfterWhiteOutMomHeal::
