@@ -586,8 +586,6 @@ gStdScripts_End::
 
 EventScript_WhiteOut::
 	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour
-	call EventScript_MoveMrBrineyToRoute109
-	call EventScript_SetBrineyLocation_Route109
 	end
 
 EventScript_AfterWhiteOutHeal::
@@ -609,7 +607,6 @@ EventScript_AfterWhiteOutHealMsgPreRoxanne::
 EventScript_AfterWhiteOutHealMsg::
 	msgbox gText_MonsHealed
 	call EventScript_MoveMrBrineyToRoute109
-	call EventScript_SetBrineyLocation_Route109
 	return
 
 EventScript_AfterWhiteOutMomHeal::

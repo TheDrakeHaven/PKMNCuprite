@@ -636,7 +636,7 @@ AI: Smart Trainer
 
 Sharpedo @ Rocky Helmet
 Ability: Speed Boost
-Level: 57
+Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Crunch
 -Ice Fang
@@ -645,7 +645,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Manectric @ Damp Rock
 Ability: Static
-Level: 57
+Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Thunder Wave
 -Volt Switch
@@ -654,14 +654,14 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Corphish @ Focus Band
 Ability:Adaptability
-Level: 57
+Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Crabhammer
 -Crunch
 
 Muk @ Black Sludge
 Ability:Sticky Hold
-Level: 57
+Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Gunk shot
 -Toxic
@@ -670,7 +670,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Crobat @ Sharp Beak
 Ability:Inner Focus
-Level: 57
+Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Air Slash
 -Venoshock
@@ -688,7 +688,7 @@ AI: Smart Trainer
 
 Cacturne @ Damp Rock
 Ability: Water Absorb
-Level: 59
+Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Energy Ball
 -Spikes
@@ -697,7 +697,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Sharpedo @ Muscle Band
 Ability: Speed Boost
-Level: 59
+Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Crunch
 -Ice Fang
@@ -706,7 +706,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Seviper @ Sticky Barb
 Ability: Shed Skin
-Level: 59
+Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Sludge Bomb
 -Gastro Acid
@@ -715,7 +715,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Lanturn @ Choice Specs
 Ability: Volt Absorb
-Level: 59
+Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Hydro Pump
 -Discharge
@@ -725,7 +725,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Walrein @ Leftovers
 Ability: Oblivious
-Level: 59
+Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Blizzard
 -Surf
@@ -1258,11 +1258,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Nidoqueen
-Level: 50
+Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Alakazam
-Level: 50
+Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MARY ===
@@ -1751,11 +1751,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Leavanny
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Slaking
-Level: 50
+Level: 59
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GARRET ===
@@ -1988,7 +1988,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Ursaring
-Level: 51
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_STAN ===
@@ -2001,7 +2001,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Sudowoodo
-Level: 51
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BARRY ===
@@ -2014,7 +2014,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Dusknoir
-Level: 51
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DEAN ===
@@ -2027,15 +2027,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Gengar
-Level: 47
+Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellossom
-Level: 47
+Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Reuniclus
-Level: 47
+Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_RODNEY ===
@@ -2048,7 +2048,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Hydreigon
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_RICHARD ===
@@ -2061,7 +2061,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Vanilluxe
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HERMAN ===
@@ -2074,11 +2074,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Conkeldurr
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raichu
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SANTIAGO ===
@@ -2091,11 +2091,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Mamoswine
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dragonite
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GILBERT ===
@@ -2108,7 +2108,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Bellossom
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FRANKLIN ===
@@ -2121,7 +2121,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Togekiss
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KEVIN ===
@@ -2134,7 +2134,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Charizard
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JACK ===
@@ -2147,7 +2147,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Ampharos
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DUDLEY ===
@@ -2211,11 +2211,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Flygon
-Level: 48
+Level: 59
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Klinklang
-Level: 48
+Level: 59
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_KIYO ===
@@ -2228,7 +2228,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Haxorus
-Level: 51
+Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_KOICHI ===
@@ -2973,7 +2973,7 @@ Mugshot: Yellow
 
 Exploud @ Choice Specs
 Ability: Scrappy
-Level: 72
+Level: 75
 Modest Nature
 -Boomburst
 -Ice Beam
@@ -2982,7 +2982,7 @@ Modest Nature
 
 Furret @ Choice Band
 Ability: Keen Eye
-Level: 72
+Level: 75
 Adamant Nature
 -Brick Break
 -Double Edge
@@ -2991,34 +2991,34 @@ Adamant Nature
 
 Chatot @ Throat Spray
 Ability: Big Pecks
-Level: 72
+Level: 75
 Timid Nature
 -Sing
 -Parting Shot
 -Boomburst
 -Roost
 
-Audino @ Bright Powder
-Ability: Regenerator
-Level: 72
-Timid Nature
--Wish
--Protect
--Toxic
+Gallade @ Choice Scarf
+Ability: Sharpness
+Level: 75
+Jolly Nature
+-Sacred Sword
+-Psycho Cut
 -Knock Off
+-Leaf Blade
 
 Meloetta @ Leftovers
 Ability: Serene Grace
-Level: 72
+Level: 75
 Timid Nature
--Substitute
+-Relic Song
 -Calm Mind
 -Psyshock
--Hyper Voice
+-Shadow Ball
 
 Wigglytuff @ Rocky Helmet
 Ability: Cute Charm
-Level: 72
+Level: 75
 Modest Nature
 -Knock Off
 -Thunder Wave
@@ -3038,7 +3038,7 @@ Mugshot: Green
 
 Beedrill @ Scope Lens
 Ability: Sniper
-Level: 73
+Level: 75
 Shiny: Yes  
 Jolly Nature
 -U-Turn
@@ -3048,7 +3048,7 @@ Jolly Nature
 
 Volcarona @ Charti Berry
 Ability: Flame Body
-Level: 73
+Level: 75
 Shiny: Yes  
 Timid Nature
 -Quiver Dance
@@ -3058,7 +3058,7 @@ Timid Nature
 
 Yanmega @ Choice Specs
 Ability: Tinted Lens
-Level: 73
+Level: 75
 Shiny: Yes  
 Modest Nature
 -Bug Buzz
@@ -3068,7 +3068,7 @@ Modest Nature
 
 Scizor @ Choice Band
 Ability: Technician
-Level: 73
+Level: 75
 Shiny: Yes  
 Adamant Nature
 -Close Combat
@@ -3078,7 +3078,7 @@ Adamant Nature
 
 Genesect @ Douse Drive
 Ability: Download
-Level: 73
+Level: 75
 Shiny: Yes  
 Hasty Nature
 -U-Turn
@@ -3088,7 +3088,7 @@ Hasty Nature
 
 Leavanny @ Focus Sash
 Ability: Chlorophyll
-Level: 73
+Level: 75
 Shiny: Yes  
 Naughty Nature
 -Struggle Bug
@@ -3108,7 +3108,7 @@ Mugshot: Pink
 
 Groudon @ Leftovers
 Ability: Drought
-Level: 74
+Level: 75
 Impish Nature
 -Spikes
 -Earthquake
@@ -3117,7 +3117,7 @@ Impish Nature
 
 Rapidash @ Muscle Band
 Ability: Flame Body
-Level: 74
+Level: 75
 Adamant Nature
 -Play Rough
 -Megahorn
@@ -3126,7 +3126,7 @@ Adamant Nature
 
 Blaziken @ Life Orb
 Ability: Speed Boost
-Level: 74
+Level: 75
 Jolly Nature
 -Swords Dance
 -Close Combat
@@ -3136,7 +3136,7 @@ Jolly Nature
 
 Charizard @ Assault Vest
 Ability: Blaze
-Level: 74
+Level: 75
 Modest Nature
 -Scorching Sands
 -Flamethrower
@@ -3146,7 +3146,7 @@ Modest Nature
 
 Rotom Heat @ Heavy-duty Boots
 Ability: Levitate
-Level: 74
+Level: 75
 Timid Nature
 -Overheat
 -Volt Switch
@@ -3156,7 +3156,7 @@ Timid Nature
 
 Chandelure @ Choice Specs
 Ability: Infiltrator
-Level: 74
+Level: 75
 Timid Nature
 -Fire Blast
 -Shadow Ball
@@ -3345,7 +3345,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 -Swift
 -Thunder Shock
 
-Electabuzz @ Lum Berry
+Electabuzz @ Sitrus Berry
 Ability: Vital Spirit
 Adamant Nature
 Level: 32
@@ -3355,7 +3355,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 -Screech
 -Quick Attack
 
-Luxray @Lum Berry
+Luxray @ Sitrus Berry
 Ability: Intimidate
 Adamant Nature
 Level:32
@@ -3385,7 +3385,7 @@ AI: Smart Trainer
 
 Altaria @ Fairy Feather
 Ability: Natural Cure
-Level: 40
+Level: 39
 Naive Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 -Pluck
@@ -3395,7 +3395,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Charizard @ Charcoal
 Ability: Blaze
-Level: 40
+Level: 39
 Quiet Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 -Dragon Breath
@@ -3405,7 +3405,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Vibrava @ Assault Vest
 Ability: Levitate
-Level: 40
+Level: 39
 Modest Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 -U-Turn
@@ -3415,7 +3415,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Dragonair @ Rocky Helmet
 Ability: Marvel Scale
-Level: 40
+Level: 39
 Brave Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 -Dragon Tail
@@ -3425,7 +3425,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Kingdra @ Dragon Fang
 Ability: Sniper
-Level: 40
+Level: 39
 Adamant Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 -Dragon Breath
@@ -3435,7 +3435,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Gabite @ Life Orb
 Ability: Rough Skin
-Level: 40
+Level: 39
 Adamant Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 -Dragon Claw
@@ -3641,15 +3641,6 @@ Music: Male
 Double Battle: Yes
 AI: Smart Trainer / Prediction
 
-Gothitelle @ Leftovers
-Ability:Shadow Tag
-Level: 67
-Bold Nature
--Trick Room
--Protect
--Light Screen
--Psychic
-
 Gengar @ Black Sludge
 Ability: Cursed Body
 Level: 67
@@ -3658,6 +3649,15 @@ Modest Nature
 -Sludge Wave
 -Protect
 -Perish Song
+
+Cofagrigus @ Sitrus Berry
+Ability: Mummy
+Level: 67
+Relaxed Nature
+-Trick Room
+-Will-O-Wisp
+-Night Shade
+-Protect
 
 Chandelure @ Choice Specs
 Ability: Flash Fire
@@ -3677,7 +3677,7 @@ Calm Nature
 -Will-O-Wisp
 -Protect
 
-Golurk @ Leftovers
+Golurk @ Choice Band
 Ability: No Guard
 Level: 67
 Brave Nature
@@ -3686,14 +3686,14 @@ Brave Nature
 -Dynamic Punch
 -Ice Punch
 
-Cofagrigus @ Sitrus Berry
-Ability: Mummy
+Mewtwo @ Leftovers
+Ability: Pressure
 Level: 67
-Relaxed Nature
+Calm Nature
+-Psyshock
+-Aura Sphere
 -Trick Room
--Will-O-Wisp
--Night Shade
--Protect
+-Nasty Plot
 
 === TRAINER_JERRY ===
 Name: JERRY
@@ -4229,55 +4229,61 @@ Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Yellow
 
-Snorlax @ Leftovers
+Snorlax @ Life Orb
 Ability: Thick Fat
-Level: 75
-Impish Nature
+Level: 78
+Adamant Nature
+EVs: 252 HP / 252 Atk / 4 SpD
 -Body Press
 -Heat Crash
 -Body Slam
--Rest
+-Rain Dance
 
 Arcanine @ Choice Band
 Ability: Intimidate
-Level: 75
+Level: 78
 Jolly Nature
+EVs: 252 Atk / 252 Spe / 4 SpD
 -Flare Blitz
 -Close Combat
 -Extreme Speed
 -Play Rough
 
-Venusaur @ Life Orb
-Ability: Overgrow
-Level: 75
+Venusaur @ Leftovers
+Ability: Chlorophyll
+Level: 78
 Timid Nature
+EVs: 252 SpA / 252 Spe / 4 SpD
 -Leaf Storm
 -Sludge Bomb
 -Earth Power
--Synthesis
+-Toxic
 
 Alakazam @ Focus Sash
 Ability: Magic Guard
-Level: 75
+Level: 78
 Timid Nature
+EVs: 252 SpA / 252 Spe / 4 SpD
 -Nasty Plot
 -Psychic 
 -Focus Blast
 -Shadow Ball
 
-Zapdos @ Heavy-duty Boots
+Zapdos @ Wide Lens
 Ability: Static
-Level: 75
+Level: 78
 Bold Nature
+EVs: 248 HP / 252 SpA / 8 SpD
 -Hurricane
 -Volt Switch
 -Roost
--Thunderbolt
+-Thunder
 
 Psyduck @ Eviolite
 Ability: Swift Swim
 Level: 78
 Modest Nature
+EVs: 252 SpA / 252 Spe / 4 SpD
 -Surf
 -Nasty Plot
 -Ice Beam
@@ -4486,7 +4492,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Electivire
-Level: 52
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 
@@ -4598,11 +4604,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Hydreigon
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vileplume
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DEMETRIUS ===
@@ -4632,7 +4638,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Raichu
-Level: 53
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PABLO ===
@@ -4644,12 +4650,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 33
+Flygon
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Staryu
-Level: 33
+Klinklang
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHASE ===
@@ -4662,11 +4668,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Clefable
-Level: 39
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Blissey
-Level: 51
+Level: 59
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 === TRAINER_ISOBEL ===
@@ -4679,7 +4685,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Scolipede
-Level: 51
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DONNY ===
@@ -4692,11 +4698,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnezone
-Level: 39
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Salamence
-Level: 51
+Level: 58
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_TALIA ===
@@ -4709,7 +4715,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Unfezant
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KATELYN ===
@@ -4722,7 +4728,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Politoed
-Level: 53
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALLISON ===
@@ -4735,11 +4741,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Porygon-Z
-Level: 41
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Luxray
-Level: 50
+Level: 59
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 === TRAINER_NICOLAS ===
@@ -4769,7 +4775,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Beedrill
-Level: 51
+Level: 59
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PERRY ===
@@ -4859,11 +4865,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Gurdurr
-Level: 50
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Klang
-Level: 50
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_EDWARDO ===
@@ -4961,11 +4967,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Exploud
-Level: 50
+Level: 59
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Golem
-Level: 50
+Level: 59
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_BECK ===
@@ -4978,7 +4984,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Scolipede
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_YASU ===
@@ -5352,7 +5358,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Magcargo
-Level: 51
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHARON ===
@@ -5365,7 +5371,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Darmanitan
-Level: 51
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_NIKKI ===
@@ -5378,11 +5384,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Gardevoir
-Level: 50
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Venusaur
-Level: 50
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDA ===
@@ -5395,7 +5401,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Krookodile
-Level: 51
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KATIE ===
@@ -5408,11 +5414,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Vileplume
-Level:50
+Level:59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dustox
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SUSIE ===
@@ -5425,7 +5431,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Jumpluff
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KARA ===
@@ -5438,7 +5444,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Magmortar
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DANA ===
@@ -5451,7 +5457,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Reuniclus
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SIENNA ===
@@ -5464,11 +5470,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Rhyperior
-Level: 50
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ampharos
-Level: 50
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DEBRA ===
@@ -5481,7 +5487,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Beautifly
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LINDA ===
@@ -5494,11 +5500,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Gardevoir
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Venusaur
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KAYLEE ===
@@ -5528,11 +5534,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Dusknoir
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rhyperior
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CARLEE ===
@@ -5545,7 +5551,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Poliwrath
-Level: 53
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HEIDI ===
@@ -5784,11 +5790,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Mantine
-Level: 50
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shelgon
-Level: 50
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DWAYNE ===
@@ -5947,11 +5953,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Ambipom
-Level: 50
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golurk
-Level: 50
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KELVIN ===
@@ -5964,11 +5970,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Roserade
-Level: 50
+Level: 59
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Stoutland
-Level: 50
+Level: 59
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MARLEY ===
@@ -5982,7 +5988,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Eelektross
-Level: 51
+Level: 59
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_REYNA ===
@@ -5995,11 +6001,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Krookodile
-Level: 50
+Level: 59
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Magnezone
-Level: 50
+Level: 59
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_HUDSON ===
@@ -6012,7 +6018,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gengar
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CONOR ===
@@ -6025,11 +6031,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wigglytuff
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Infernape
-Level: 50
+Level: 59
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_EDWIN ===
@@ -7068,7 +7074,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Swanna
-Level: 51
+Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ATHENA ===
@@ -7082,11 +7088,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Wobbuffet
-Level: 48
+Level: 58
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Simisear
-Level: 48
+Level: 58
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 
@@ -7100,7 +7106,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Seismitoad
-Level: 53
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_CHIMNEY_2 ===
@@ -7126,7 +7132,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gallade
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TERRY ===
@@ -7352,11 +7358,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Gigalith
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gothitelle
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ISABELLA ===
@@ -7443,11 +7449,11 @@ Double Battle: No
 AI: Smart Trainer 
 
 Pidgeot
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Staraptor
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_RUSTBORO_TORCHIC ===
@@ -8489,15 +8495,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Shiftry
-Level: 45
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Azumarill
-Level: 47
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clefable
-Level: 48
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HENRY ===
@@ -8510,11 +8516,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Blissey
-Level: 47
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Blaziken
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROGER ===
@@ -8527,15 +8533,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Luxray
-Level: 48
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gallade
-Level: 48
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machamp
-Level: 53
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALEXA ===
@@ -8549,11 +8555,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Torterra
-Level: 51
+Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Conkeldurr
-Level: 51
+Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_RUBEN ===
@@ -8567,11 +8573,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Mamoswine
-Level: 51
+Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Serperior
-Level: 51
+Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_KOJI ===
@@ -8584,7 +8590,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Dustox
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WAYNE ===
@@ -8597,15 +8603,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Blastoise
-Level: 47
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Empoleon
-Level: 47
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingdra
-Level: 54
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_AIDAN ===
@@ -8618,11 +8624,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Flaaffy
-Level: 48
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dugtrio
-Level: 48
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_REED ===
@@ -8635,11 +8641,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Shiftry
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Azumarill
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TISHA ===
@@ -8652,7 +8658,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Machamp
-Level: 51
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TORI_AND_TIA ===
@@ -8682,11 +8688,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Drapion
-Level: 48
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Accelgor
-Level: 53
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TYRA_AND_IVY ===
@@ -8751,11 +8757,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Salamence
-Level: 53
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Torterra
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LILA_AND_ROY ===
@@ -9424,11 +9430,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Ludicolo
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Metagross
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAXIE_MOSSDEEP ===
@@ -9864,11 +9870,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Spiritomb
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoking
-Level: 50
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FABIAN ===
@@ -10130,7 +10136,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Zubat
-Level:33
+Level:37
 
 
 === TRAINER_WINONA_3 ===
@@ -10143,7 +10149,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Bagon
-Level:33
+Level:37
 
 === TRAINER_WINONA_4 ===
 Name: GRUNT
@@ -10155,7 +10161,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Shuppet
-Level:33
+Level:37
 
 === TRAINER_WINONA_5 ===
 Name: GRUNT
@@ -10167,10 +10173,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Spoink
-Level:33
+Level:37
 
 Duskull
-Level:33
+Level:37
 
 === TRAINER_TATE_AND_LIZA_2 ===
 Name: GRUNT
@@ -10182,7 +10188,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gulpin
-Level:33
+Level:37
 
 === TRAINER_TATE_AND_LIZA_3 ===
 Name: GRUNT
@@ -10194,10 +10200,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Barboach
-Level:33
+Level:37
 
 Delcatty
-Level:33
+Level:37
 
 === TRAINER_TATE_AND_LIZA_4 ===
 Name: GRUNT
@@ -10209,10 +10215,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Shuppet
-Level:34
+Level:37
 
 Duskull
-Level:34
+Level:37
 
 === TRAINER_TATE_AND_LIZA_5 ===
 Name: TATE&LIZA
@@ -10623,7 +10629,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Golbat
-Level:36
+Level:38
 
 === TRAINER_ANDRES_5 ===
 Name: GRUNT
@@ -10635,7 +10641,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Dusclops
-Level:36
+Level:38
 
 === TRAINER_CORY_2 ===
 Name: GRUNT
@@ -10647,7 +10653,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Skitty
-Level:36
+Level:38
 
 === TRAINER_CORY_3 ===
 Name: GRUNT
@@ -10659,7 +10665,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gulpin
-Level:36
+Level:38
 
 === TRAINER_CORY_4 ===
 Name: CORY

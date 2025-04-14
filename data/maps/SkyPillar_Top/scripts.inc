@@ -133,13 +133,13 @@ SkyPillar_Top_EventScript_AwakenRayquaza::
 	end
 
 SkyPillar_TOP_EventScript_Ghostess::
-	trainerbattle_single TRAINER_ANDRES_2, SkyPillar_TOP_Text_GhostessIntro, SkyPillar_TOP_Text_GhostessDefeat
+	trainerbattle_single TRAINER_ANDRES_3, SkyPillar_TOP_Text_GhostessIntro, SkyPillar_TOP_Text_GhostessDefeat
 	msgbox SkyPillar_TOP_Text_GhostessPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
 SkyPillar_TOP_EventScript_Jordan::
-	trainerbattle_single TRAINER_ANDRES_3, SkyPillar_TOP_Text_JordanIntro, SkyPillar_TOP_Text_JordanDefeat, SkyPillar_TOP_EventScript_Jordangone
+	trainerbattle_single TRAINER_ANDRES_2, SkyPillar_TOP_Text_JordanIntro, SkyPillar_TOP_Text_JordanDefeat, SkyPillar_TOP_EventScript_Jordangone
 	msgbox SkyPillar_TOP_Text_JordanPostBattle, MSGBOX_DEFAULT
 	release
 	end

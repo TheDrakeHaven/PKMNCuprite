@@ -739,7 +739,7 @@ SecretBase_Text_MovingCompletedUseSecretPower:
 
 Won_or_Caught::
 	fadescreen FADE_TO_BLACK
-	removeobject 9
+	removeobject 1
 	fadescreen FADE_FROM_BLACK
 	msgbox Won_or_Caught_Text_0
 	return
@@ -747,7 +747,7 @@ Won_or_Caught::
 
 RanAway::
 	fadescreen FADE_TO_BLACK
-	removeobject 9
+	removeobject 1
 	fadescreen FADE_FROM_BLACK
 	msgbox RanAway_Text_1
 	return
@@ -776,6 +776,7 @@ LittlerootTown_EventScript_Latias::
 	goto_if_eq LittlerootTown_EventScript_Latias_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Latias_5
+
 LittlerootTown_EventScript_Latias_1:
 	waitmessage
 	releaseall
@@ -811,6 +812,7 @@ LittlerootTown_EventScript_Thundurus::
 	goto_if_eq LittlerootTown_EventScript_Thundurus_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Thundurus_5
+
 LittlerootTown_EventScript_Thundurus_1:
 	waitmessage
 	releaseall
@@ -846,6 +848,7 @@ LittlerootTown_EventScript_Zapdos::
 	goto_if_eq LittlerootTown_EventScript_Zapdos_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Zapdos_5
+
 LittlerootTown_EventScript_Zapdos_1:
 	waitmessage
 	releaseall
@@ -881,6 +884,7 @@ LittlerootTown_EventScript_Latios::
 	goto_if_eq LittlerootTown_EventScript_Latios_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Latios_5
+
 LittlerootTown_EventScript_Latios_1:
 	waitmessage
 	releaseall
@@ -916,6 +920,7 @@ LittlerootTown_EventScript_Keldeo::
 	goto_if_eq LittlerootTown_EventScript_Keldeo_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Keldeo_5
+
 LittlerootTown_EventScript_Keldeo_1:
 	waitmessage
 	releaseall
@@ -951,6 +956,7 @@ LittlerootTown_EventScript_Raikou::
 	goto_if_eq LittlerootTown_EventScript_Raikou_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Raikou_5
+
 LittlerootTown_EventScript_Raikou_1:
 	waitmessage
 	releaseall
@@ -986,6 +992,7 @@ LittlerootTown_EventScript_Tornadus::
 	goto_if_eq LittlerootTown_EventScript_Tornadus_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Tornadus_5
+
 LittlerootTown_EventScript_Tornadus_1:
 	waitmessage
 	releaseall
@@ -1021,6 +1028,7 @@ LittlerootTown_EventScript_Terrakion::
 	goto_if_eq LittlerootTown_EventScript_Terrakion_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Terrakion_5
+
 LittlerootTown_EventScript_Terrakion_1:
 	waitmessage
 	releaseall
@@ -1056,6 +1064,7 @@ LittlerootTown_EventScript_Landorus::
 	goto_if_eq LittlerootTown_EventScript_Landorus_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Landorus_5
+
 LittlerootTown_EventScript_Landorus_1:
 	waitmessage
 	releaseall
@@ -1091,6 +1100,7 @@ LittlerootTown_EventScript_Heatran::
 	goto_if_eq LittlerootTown_EventScript_Heatran_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Heatran_5
+
 LittlerootTown_EventScript_Heatran_1:
 	waitmessage
 	releaseall
@@ -1126,6 +1136,7 @@ LittlerootTown_EventScript_Regice::
 	goto_if_eq LittlerootTown_EventScript_Regice_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Regice_5
+
 LittlerootTown_EventScript_Regice_1:
 	waitmessage
 	releaseall
@@ -1161,6 +1172,7 @@ LittlerootTown_EventScript_Cobalion::
 	goto_if_eq LittlerootTown_EventScript_Cobalion_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Cobalion_5
+
 LittlerootTown_EventScript_Cobalion_1:
 	waitmessage
 	releaseall
@@ -1196,6 +1208,7 @@ LittlerootTown_EventScript_Regirock::
 	goto_if_eq LittlerootTown_EventScript_Regirock_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Regirock_5
+
 LittlerootTown_EventScript_Regirock_1:
 	waitmessage
 	releaseall
@@ -1231,6 +1244,7 @@ LittlerootTown_EventScript_Uxie::
 	goto_if_eq LittlerootTown_EventScript_Uxie_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Uxie_5
+
 LittlerootTown_EventScript_Uxie_1:
 	waitmessage
 	releaseall
@@ -1266,6 +1280,7 @@ LittlerootTown_EventScript_Entei::
 	goto_if_eq LittlerootTown_EventScript_Entei_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Entei_5
+
 LittlerootTown_EventScript_Entei_1:
 	waitmessage
 	releaseall
@@ -1301,6 +1316,7 @@ LittlerootTown_EventScript_Shaymin::
 	goto_if_eq LittlerootTown_EventScript_Shaymin_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Shaymin_5
+
 LittlerootTown_EventScript_Shaymin_1:
 	waitmessage
 	releaseall
@@ -1336,6 +1352,7 @@ LittlerootTown_EventScript_Mesprit::
 	goto_if_eq LittlerootTown_EventScript_Mesprit_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Mesprit_5
+
 LittlerootTown_EventScript_Mesprit_1:
 	waitmessage
 	releaseall
@@ -1371,6 +1388,7 @@ LittlerootTown_EventScript_Moltres::
 	goto_if_eq LittlerootTown_EventScript_Moltres_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Moltres_5
+
 LittlerootTown_EventScript_Moltres_1:
 	waitmessage
 	releaseall
@@ -1406,6 +1424,7 @@ LittlerootTown_EventScript_Azelf::
 	goto_if_eq LittlerootTown_EventScript_Azelf_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Azelf_5
+
 LittlerootTown_EventScript_Azelf_1:
 	waitmessage
 	releaseall
@@ -1441,6 +1460,7 @@ LittlerootTown_EventScript_Cresselia::
 	goto_if_eq LittlerootTown_EventScript_Cresselia_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Cresselia_5
+
 LittlerootTown_EventScript_Cresselia_1:
 	waitmessage
 	releaseall
@@ -1476,6 +1496,7 @@ LittlerootTown_EventScript_Suicune::
 	goto_if_eq LittlerootTown_EventScript_Suicune_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Suicune_5
+
 LittlerootTown_EventScript_Suicune_1:
 	waitmessage
 	releaseall
@@ -1511,6 +1532,7 @@ LittlerootTown_EventScript_Registeel::
 	goto_if_eq LittlerootTown_EventScript_Registeel_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Registeel_5
+
 LittlerootTown_EventScript_Registeel_1:
 	waitmessage
 	releaseall
@@ -1546,6 +1568,7 @@ LittlerootTown_EventScript_Articuno::
 	goto_if_eq LittlerootTown_EventScript_Articuno_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Articuno_5
+
 LittlerootTown_EventScript_Articuno_1:
 	waitmessage
 	releaseall
@@ -1581,6 +1604,7 @@ LittlerootTown_EventScript_Virizion::
 	goto_if_eq LittlerootTown_EventScript_Virizion_4
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq LittlerootTown_EventScript_Virizion_5
+
 LittlerootTown_EventScript_Virizion_1:
 	waitmessage
 	releaseall

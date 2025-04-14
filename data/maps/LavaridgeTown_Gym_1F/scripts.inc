@@ -90,6 +90,7 @@ LavaridgeTown_Gym_1F_EventScript_GiveOverheat2::
 
 LavaridgeTown_Gym_1F_EventScript_GiveOverheat::
 	additem ITEM_TM_DRAGON_PULSE
+	additem ITEM_TM_SCALE_SHOT
 	additem ITEM_SMOOTH_ROCK
 	additem ITEM_DAMP_ROCK
 	additem ITEM_HEAT_ROCK
@@ -98,8 +99,6 @@ LavaridgeTown_Gym_1F_EventScript_GiveOverheat::
 	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_OVERHEAT
 	return
-
-
 
 LavaridgeTown_Gym_1F_EventScript_Cole::
 	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_COLE, TRAINER_COLE, LavaridgeTown_Gym_1F_Text_ColeIntro, LavaridgeTown_Gym_1F_Text_ColeDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE

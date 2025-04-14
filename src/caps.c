@@ -11,10 +11,10 @@ u32 GetCurrentLevelCap(void)
     {
         {FLAG_DEFEATED_RIVAL_RUSTBORO, 16},
         {FLAG_BADGE02_GET, 22},
-        {FLAG_UNUSED_0x040, 24},
+        {FLAG_UNUSED_0x043, 24},
         {FLAG_BADGE03_GET, 32},
         {FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY, 37},
-        {FLAG_BADGE04_GET, 40},
+        {FLAG_BADGE04_GET, 39},
         {FLAG_BADGE05_GET, 43},
         {FLAG_HIDE_ROUTE_119_TEAM_AQUA, 49},
         {FLAG_BADGE06_GET, 51},
@@ -23,7 +23,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE07_GET, 61},
         {FLAG_BADGE08_GET, 67},
         {FLAG_UNUSED_0x042, 70},
-        {FLAG_IS_CHAMPION, 76},
+        {FLAG_IS_CHAMPION, 75},
     };
 
     u32 i;

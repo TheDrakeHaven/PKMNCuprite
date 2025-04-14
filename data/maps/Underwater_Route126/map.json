@@ -35,7 +35,7 @@
   "warp_events": [
     {
       "x": 45,
-      "y": 65,
+      "y": 57,
       "elevation": 0,
       "dest_map": "MAP_UNDERWATER_SOOTOPOLIS_CITY",
       "dest_warp_id": "0"
@@ -96,15 +96,15 @@
     {
       "type": "hidden_item",
       "x": 65,
-      "y": 60,
+      "y": 52,
       "elevation": 3,
       "item": "ITEM_BIG_PEARL",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_BIG_PEARL"
     },
     {
       "type": "hidden_item",
-      "x": 9,
-      "y": 77,
+      "x": 6,
+      "y": 61,
       "elevation": 3,
       "item": "ITEM_BLUE_SHARD",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_BLUE_SHARD"

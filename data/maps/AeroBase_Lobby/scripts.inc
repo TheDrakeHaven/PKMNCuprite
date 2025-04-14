@@ -9,6 +9,7 @@ TrainerHill_Entrance_EventScript_Nurse::
 	call Common_EventScript_PkmnCenterNurse
 	waitmessage
 	waitbuttonpress
+	setrespawn HEAL_LOCATION_AEROBASE
 	release
 	end
 
@@ -26,6 +27,7 @@ TrainerHill_Entrance_EventScript_Clerk::
 TrainerHill_Entrance_Pokemart_Basic:
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_GREAT_BALL
 	pokemartlistend
 
 TrainerHill_Entrance_EventScript_Elevators::

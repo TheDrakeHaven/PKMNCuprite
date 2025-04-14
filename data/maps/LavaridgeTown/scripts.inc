@@ -162,6 +162,7 @@ LavaridgeTown_Movement_RivalExit1:
 	step_end
 
 LavaridgeTown_Movement_RivalApproachPlayer2:
+	walk_up
 	step_end
 
 LavaridgeTown_Movement_RivalApproachPlayer1:
