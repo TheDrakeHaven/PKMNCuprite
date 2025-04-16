@@ -308,9 +308,6 @@ static const u16 sQuizLadyQuizAnswers[] =
 
 static const u16 sQuizLadyPrizes[] =
 {
-    ITEM_GLITTER_MAIL,
-    ITEM_BEAD_MAIL,
-    ITEM_TROPIC_MAIL,
     ITEM_MAX_ETHER,
     ITEM_MAX_ETHER,
     ITEM_MAX_ETHER,
@@ -351,12 +348,9 @@ static const u16 sFavorLadyAcceptedItems_Roundish[] =
     ITEM_HARD_STONE,
     ITEM_SMOKE_BALL,
     ITEM_SHOAL_SHELL,
-    ITEM_TINY_MUSHROOM,
-    ITEM_BIG_MUSHROOM,
     ITEM_PECHA_BERRY,
     ITEM_ASPEAR_BERRY,
     ITEM_ORAN_BERRY,
-    ITEM_GREPA_BERRY,
     ITEM_POKE_BALL,
     ITEM_ULTRA_BALL,
     ITEM_NONE
@@ -366,15 +360,10 @@ static const u16 sFavorLadyAcceptedItems_Whamish[] =
 {
 
     ITEM_POTION,
-    ITEM_FRESH_WATER,
-    ITEM_SODA_POP,
-    ITEM_LEMONADE,
     ITEM_HARD_STONE,
     ITEM_LIGHT_BALL,
     ITEM_LAVA_COOKIE,
     ITEM_CHESTO_BERRY,
-    ITEM_NANAB_BERRY,
-    ITEM_KELPSY_BERRY,
     ITEM_NONE
 };
 
@@ -403,7 +392,6 @@ static const u16 sFavorLadyAcceptedItems_Sticky[] =
     ITEM_FULL_RESTORE,
     ITEM_MAX_POTION,
     ITEM_LEFTOVERS,
-    ITEM_TINY_MUSHROOM,
     ITEM_HEART_SCALE,
     ITEM_NONE
 };
@@ -414,7 +402,6 @@ static const u16 sFavorLadyAcceptedItems_Pointy[] =
     ITEM_POISON_BARB,
     ITEM_SHARP_BEAK,
     ITEM_DRAGON_FANG,
-    ITEM_TAMATO_BERRY,
     ITEM_PETAYA_BERRY,
     ITEM_SALAC_BERRY,
     ITEM_STARDUST,

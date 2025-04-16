@@ -1139,7 +1139,6 @@
 #define SPECIES_DIALGA_ORIGIN                           1069
 #define SPECIES_PALKIA_ORIGIN                           1070
 #define SPECIES_GIRATINA_ORIGIN                         1071
-#define SPECIES_SHAYMIN_SKY                             1072
 #define SPECIES_BASCULIN_BLUE_STRIPED                   1090
 #define SPECIES_BASCULIN_WHITE_STRIPED                  1091
 #define SPECIES_DARMANITAN_ZEN                          1092

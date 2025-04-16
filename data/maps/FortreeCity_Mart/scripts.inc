@@ -20,7 +20,6 @@ FortreeCity_Mart_Pokemart:
 	.2byte ITEM_FULL_HEAL
 	.2byte ITEM_REVIVE
 	.2byte ITEM_SUPER_REPEL
-	.2byte ITEM_WOOD_MAIL
 	pokemartlistend
 
 FortreeCity_Mart_EventScript_Woman::

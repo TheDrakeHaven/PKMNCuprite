@@ -62,6 +62,13 @@
       "elevation": 3,
       "dest_map": "MAP_MT_PYRE_SUMMIT",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_SUMMIT",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [
@@ -70,7 +77,7 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 9,
+      "x": 8,
       "y": 8,
       "elevation": 0,
       "item": "ITEM_ULTRA_BALL",

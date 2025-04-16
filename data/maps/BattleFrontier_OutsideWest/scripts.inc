@@ -20,7 +20,6 @@ BattleFrontier_OutsideWest_EventScript_FerryAttendant::
 	lock
 	faceplayer
 	msgbox BattleFrontier_OutsideWest_Text_MayISeeYourTicket, MSGBOX_DEFAULT
-	checkitem ITEM_SS_TICKET
 	goto_if_eq VAR_RESULT, FALSE, BattleFrontier_OutsideWest_EventScript_NoSSTicket
 	message BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo
 	waitmessage

@@ -147,8 +147,8 @@ SecretBase_EventScript_FirstEntrance::
 	applymovement OBJ_EVENT_ID_PLAYER, SecretBase_Movement_EnterBase
 	waitmovement 0
 	setvar VAR_INIT_SECRET_BASE, 1
-	msgbox SecretBase_Text_WantToMakeYourSecretBaseHere, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, SecretBase_EventScript_SetAsBase
+	msgbox SecretBase_Text_WantToMakeYourSecretBaseHere, MSGBOX_DEFAULT
+	goto SecretBase_EventScript_SetAsBase
 	closemessage
 	playse SE_EXIT
 	special ClearAndLeaveSecretBase

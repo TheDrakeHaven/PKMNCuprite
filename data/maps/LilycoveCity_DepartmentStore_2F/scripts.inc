@@ -30,7 +30,6 @@ LilycoveCity_DepartmentStore_2F_Pokemart1:
 	.2byte ITEM_SMOKE_BALL
 	.2byte ITEM_SHED_SHELL
 	.2byte ITEM_ROOM_SERVICE
-	.2byte ITEM_RING_TARGET
 	.2byte ITEM_RED_CARD
 	pokemartlistend
 

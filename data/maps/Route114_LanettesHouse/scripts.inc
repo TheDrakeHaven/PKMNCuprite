@@ -13,6 +13,8 @@ Route114_LanettesHouse_EventScript_Lanette::
 	setflag FLAG_SYS_PC_LANETTE
 	msgbox Route114_LanettesHouse_Text_EverythingClutteredKeepThis, MSGBOX_DEFAULT
 	giveitem ITEM_POKEMON_BOX_LINK
+	givemon SPECIES_ZIGZAGOON, 1, move1=MOVE_CUT, move2=MOVE_FLASH, move3=MOVE_STRENGTH, move4=MOVE_ROCK_SMASH
+	givemon SPECIES_ZIGZAGOON, 1, move1=MOVE_SURF, move2=MOVE_DIVE, move3=MOVE_WATERFALL, move4=MOVE_FLY
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowNoRoomForDecor
 	setflag FLAG_RECEIVED_DOLL_LANETTE
 	release

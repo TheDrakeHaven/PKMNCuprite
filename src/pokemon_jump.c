@@ -2528,11 +2528,6 @@ static const u16 sPrizeItems[] = {
     ITEM_LEPPA_BERRY,
     ITEM_LUM_BERRY,
     ITEM_SITRUS_BERRY,
-    ITEM_FIGY_BERRY,
-    ITEM_WIKI_BERRY,
-    ITEM_MAGO_BERRY,
-    ITEM_AGUAV_BERRY,
-    ITEM_IAPAPA_BERRY
 };
 
 struct {

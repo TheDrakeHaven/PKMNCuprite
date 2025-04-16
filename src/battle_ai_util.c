@@ -3761,11 +3761,6 @@ static const u16 sRecycleEncouragedItems[] =
     ITEM_FOCUS_SASH,
     ITEM_SALAC_BERRY,
     ITEM_LIECHI_BERRY,
-    ITEM_AGUAV_BERRY,
-    ITEM_FIGY_BERRY,
-    ITEM_IAPAPA_BERRY,
-    ITEM_MAGO_BERRY,
-    ITEM_WIKI_BERRY,
     ITEM_MENTAL_HERB,
     ITEM_POWER_HERB,
     ITEM_BERRY_JUICE,
@@ -3804,11 +3799,6 @@ bool32 ShouldRestoreHpBerry(u32 battlerAtk, u32 item)
             return TRUE;    // Only worth it in the early game
         return FALSE;
     case ITEM_SITRUS_BERRY:
-    case ITEM_FIGY_BERRY:
-    case ITEM_WIKI_BERRY:
-    case ITEM_MAGO_BERRY:
-    case ITEM_AGUAV_BERRY:
-    case ITEM_IAPAPA_BERRY:
         return TRUE;
     default:
         return FALSE;

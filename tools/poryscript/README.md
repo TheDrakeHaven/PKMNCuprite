@@ -558,9 +558,7 @@ script ScriptWithPokemart {
 
 mart MyMartItems {
 	ITEM_LAVA_COOKIE
-	ITEM_MOOMOO_MILK
 	ITEM_RARE_CANDY
-	ITEM_LEMONADE
 	ITEM_BERRY_JUICE
 }
 ```
@@ -579,9 +577,7 @@ ScriptWithPokemart::
 	.align 2
 MyMartItems:
 	.2byte ITEM_LAVA_COOKIE
-	.2byte ITEM_MOOMOO_MILK
 	.2byte ITEM_RARE_CANDY
-	.2byte ITEM_LEMONADE
 	.2byte ITEM_BERRY_JUICE
 	.2byte ITEM_NONE
 
@@ -864,7 +860,7 @@ mart MyMart {
             ITEM_RED_SCARF
         }
         SAPPHIRE {
-            ITEM_FRESH_WATER
+        
             ITEM_BLUE_SCARF
         }
     }

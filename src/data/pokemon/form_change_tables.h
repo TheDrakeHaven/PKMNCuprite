@@ -639,16 +639,6 @@ static const struct FormChange sGiratinaFormChangeTable[] = {
 };
 #endif //P_FAMILY_GIRATINA
 
-#if P_FAMILY_SHAYMIN
-static const struct FormChange sShayminFormChangeTable[] = {
-    {FORM_CHANGE_ITEM_USE,    SPECIES_SHAYMIN_SKY, ITEM_GRACIDEA, DAY, STATUS1_FREEZE | STATUS1_FROSTBITE},
-    {FORM_CHANGE_WITHDRAW,    SPECIES_SHAYMIN_LAND},
-    {FORM_CHANGE_TIME_OF_DAY, SPECIES_SHAYMIN_LAND, NIGHT},
-    {FORM_CHANGE_STATUS,      SPECIES_SHAYMIN_LAND, STATUS1_FREEZE | STATUS1_FROSTBITE},
-    {FORM_CHANGE_TERMINATOR},
-};
-#endif //P_FAMILY_SHAYMIN
-
 #if P_FAMILY_AUDINO
 static const struct FormChange sAudinoFormChangeTable[] = {
 #if P_MEGA_EVOLUTIONS

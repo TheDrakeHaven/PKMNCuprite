@@ -592,22 +592,10 @@ ALIGNED(4)
 static const u8 sPrizeBerryIds[][10] =
 {
     { // Possible prizes with 3 players
-        ITEM_TO_BERRY(ITEM_RAZZ_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_BLUK_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_NANAB_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_PINAP_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_PINAP_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_NANAB_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_BLUK_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_RAZZ_BERRY) - 1
+        ITEM_TO_BERRY(ITEM_SITRUS_BERRY) - 1,
     },
     { // Possible prizes with 4 players
-        ITEM_TO_BERRY(ITEM_POMEG_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_KELPSY_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_QUALOT_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_HONDEW_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_GREPA_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_TAMATO_BERRY) - 1,
+        ITEM_TO_BERRY(ITEM_SITRUS_BERRY) - 1,
     },
 };
 

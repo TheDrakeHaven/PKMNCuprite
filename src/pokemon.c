@@ -944,7 +944,6 @@ static const struct SpeciesItem sAlteringCaveWildMonHeldItems[] =
     {SPECIES_NONE,      ITEM_NONE},
     {SPECIES_MAREEP,    ITEM_GANLON_BERRY},
     {SPECIES_PINECO,    ITEM_APICOT_BERRY},
-    {SPECIES_HOUNDOUR,  ITEM_BIG_MUSHROOM},
     {SPECIES_TEDDIURSA, ITEM_PETAYA_BERRY},
     {SPECIES_AIPOM,     ITEM_BERRY_JUICE},
     {SPECIES_SHUCKLE,   ITEM_BERRY_JUICE},
@@ -1017,7 +1016,7 @@ static const u32 sCompressedStatuses[] =
 // If a developer has added enough new items so that ITEMS_COUNT now equals 1200, they could...
 // 1) remove new items until ITEMS_COUNT is 1023, the max value that will fit in 10 bits.
 // 2) change heldItem:10 to heldItem:11 AND change the below assert for ITEMS_COUNT to check for (1 << 11).
-// 3) repurpose IDs from other items that aren't being used, like ITEM_GOLD_TEETH or ITEM_SS_TICKET until ITEMS_COUNT equals 1023, the max value that will fit in 10 bits.
+// 3) repurpose IDs from other items that aren't being used, like ITEM_GOLD_TEETH until ITEMS_COUNT equals 1023, the max value that will fit in 10 bits.
 
 STATIC_ASSERT(NUM_SPECIES < (1 << 11), PokemonSubstruct0_species_TooSmall);
 STATIC_ASSERT(NUMBER_OF_MON_TYPES + 1 <= (1 << 5), PokemonSubstruct0_teraType_TooSmall);
@@ -1157,8 +1156,6 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
         else
         {
             u32 totalRerolls = 0;
-            if (CheckBagHasItem(ITEM_SHINY_CHARM, 1))
-                totalRerolls += I_SHINY_CHARM_ADDITIONAL_ROLLS;
             if (LURE_STEP_COUNT != 0)
                 totalRerolls += 1;
             if (I_FISHING_CHAIN && gIsFishingEncounter)
@@ -3752,15 +3749,6 @@ bool8 ExecuteTableBasedItemEffect(struct Pokemon *mon, u16 item, u8 partyIndex, 
     }                                                                                                   \
 }
 
-// EXP candies store an index for this table in their holdEffectParam.
-const u32 sExpCandyExperienceTable[] = {
-    [EXP_100 - 1] = 100,
-    [EXP_800 - 1] = 800,
-    [EXP_3000 - 1] = 3000,
-    [EXP_10000 - 1] = 10000,
-    [EXP_30000 - 1] = 30000,
-};
-
 // Returns TRUE if the item has no effect on the Pokémon, FALSE otherwise
 bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 moveIndex, bool8 usedByAI)
 {
@@ -3834,23 +3822,6 @@ bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mov
                 {
                     dataUnsigned = gExperienceTables[gSpeciesInfo[GetMonData(mon, MON_DATA_SPECIES, NULL)].growthRate][GetMonData(mon, MON_DATA_LEVEL, NULL) + 1];
                 }
-                else if (param - 1 < ARRAY_COUNT(sExpCandyExperienceTable)) // EXP Candies
-                {
-                    u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
-                    dataUnsigned = sExpCandyExperienceTable[param - 1] + GetMonData(mon, MON_DATA_EXP, NULL);
-
-                    if (B_RARE_CANDY_CAP && B_EXP_CAP_TYPE == EXP_CAP_HARD)
-                    {
-                        u32 currentLevelCap = GetCurrentLevelCap();
-                        if (dataUnsigned > gExperienceTables[gSpeciesInfo[species].growthRate][currentLevelCap])
-                            dataUnsigned = gExperienceTables[gSpeciesInfo[species].growthRate][currentLevelCap];
-                    }
-                    else if (dataUnsigned > gExperienceTables[gSpeciesInfo[species].growthRate][MAX_LEVEL])
-                    {
-                        dataUnsigned = gExperienceTables[gSpeciesInfo[species].growthRate][MAX_LEVEL];
-                    }
-                }
-
                 if (dataUnsigned != 0) // Failsafe
                 {
                     SetMonData(mon, MON_DATA_EXP, &dataUnsigned);

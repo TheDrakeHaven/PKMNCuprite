@@ -1563,7 +1563,7 @@ static void SetOpponentsBerryData(u16 playerBerryItemId, u8 playersNum, struct B
     for (i = 0; i < playersNum - 1; i++)
     {
         opponentBerryId = sOpponentBerrySets[opponentSetId][i];
-        berryMasterDiff = ITEM_TO_BERRY(playerBerryItemId) - ITEM_TO_BERRY(ITEM_TAMATO_BERRY);
+        berryMasterDiff = ITEM_TO_BERRY(playerBerryItemId) - ITEM_TO_BERRY(ITEM_SITRUS_BERRY);
         if (!FlagGet(FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER) && gSpecialVar_0x8004 == 1)
         {
             opponentSetId %= ARRAY_COUNT(sBerryMasterBerries);

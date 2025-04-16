@@ -367,7 +367,6 @@ Route110_EventScript_MayBattleMudkip::
 
 Route110_EventScript_MayDefeated::
 	msgbox Route110_Text_MayTakeThis, MSGBOX_DEFAULT
-	call Route110_EventScript_Additemfinder
 	msgbox Route110_Text_MayExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
 	end
@@ -383,21 +382,15 @@ Route110_EventScript_BrendanBattle::
 Route110_EventScript_BrendanDefeated::
 	msgbox Route110_Text_BrendanTakeThis, MSGBOX_DEFAULT
 	additem ITEM_KINGS_ROCK
-	additem ITEM_TM_SANDSTORM
-	additem ITEM_TM_RAIN_DANCE
-	additem ITEM_TM_SUNNY_DAY
-	additem ITEM_TM_HAIL
+	additem ITEM_TM_SUCKER_PUNCH
+	additem ITEM_TM_BURNING_JEALOUSY
+	additem ITEM_TM_BITTER_MALICE
+	additem ITEM_TM_ELECTROWEB
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_UNUSED_0x043 
 	clearflag FLAG_UNUSED_0x265
-	call Route110_EventScript_Additemfinder
-	msgbox Route110_Text_BrendanExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
 	end
-
-Route110_EventScript_Additemfinder::
-	additem ITEM_DOWSING_MACHINE
-	return
 
 Route110_EventScript_RivalExit::
 	closemessage

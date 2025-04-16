@@ -76,7 +76,6 @@ MauvilleCity_Gym_EventScript_DeactivatePuzzle::
 MauvilleCity_Gym_EventScript_Wattson::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_SAM, MauvilleCity_Gym_Text_WattsonIntro, MauvilleCity_Gym_Text_WattsonDefeat, MauvilleCity_Gym_EventScript_WattsonDefeated, NO_MUSIC
-	goto_if_unset FLAG_RECEIVED_TM_SHOCK_WAVE, MauvilleCity_Gym_EventScript_GiveShockWave2
 	goto_if_eq VAR_NEW_MAUVILLE_STATE, 2, MauvilleCity_Gym_EventScript_CompletedNewMauville
 	msgbox MauvilleCity_Gym_Text_WattsonPostBattle, MSGBOX_DEFAULT
 	release
@@ -104,30 +103,39 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	release
 	end
 
-MauvilleCity_Gym_EventScript_GiveShockWave2::
-	additem ITEM_TM_VOLT_SWITCH
-	additem ITEM_TM_ELECTROWEB
-	additem ITEM_MENTAL_HERB
-	additem ITEM_POWER_HERB
-	additem ITEM_WHITE_HERB
-	additem ITEM_MIRROR_HERB
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	msgbox MauvilleCity_Gym_Text_ExplainShockWave, MSGBOX_DEFAULT
+MauvilleCity_Gym_EventScript_GiveShockWave::
+	giveitem ITEM_TM_VOLT_SWITCH
+	giveitem ITEM_TM_BREAKING_SWIPE
 	setflag FLAG_RECEIVED_TM_SHOCK_WAVE
+	msgbox MauvilleCity_Gym_Text_ExplainShockWave, MSGBOX_DEFAULT
+	multichoicedefault 0, 0, MULTI_GYM1, 0, TRUE
+	switch VAR_RESULT
+	case 0, MauvilleCity_Gym_EventScript_SamItem1
+	case 1, MauvilleCity_Gym_EventScript_SamItem2
+	case 2, MauvilleCity_Gym_EventScript_SamItem3
+	case 3, MauvilleCity_Gym_EventScript_SamItem4
 	release
 	end
 
-MauvilleCity_Gym_EventScript_GiveShockWave::
-	additem ITEM_TM_VOLT_SWITCH
-	additem ITEM_TM_ELECTROWEB
-	additem ITEM_MENTAL_HERB
-	additem ITEM_POWER_HERB
-	additem ITEM_WHITE_HERB
-	additem ITEM_MIRROR_HERB
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
-	msgbox MauvilleCity_Gym_Text_ExplainShockWave, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM_SHOCK_WAVE
-	return
+MauvilleCity_Gym_EventScript_SamItem1::
+	giveitem ITEM_MENTAL_HERB
+	release
+	end
+
+MauvilleCity_Gym_EventScript_SamItem2::
+	giveitem ITEM_POWER_HERB
+	release
+	end
+
+MauvilleCity_Gym_EventScript_SamItem3::
+	giveitem ITEM_WHITE_HERB
+	release
+	end
+
+MauvilleCity_Gym_EventScript_SamItem4::
+	giveitem ITEM_MIRROR_HERB
+	release
+	end
 
 MauvilleCity_Gym_EventScript_CompletedNewMauville::
 	msgbox MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor, MSGBOX_DEFAULT

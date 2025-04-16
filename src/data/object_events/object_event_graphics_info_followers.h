@@ -49,9 +49,5 @@ const struct ObjectEventGraphicsInfo gPokeballGraphics[POKEBALL_COUNT] = {
     POKEBALL_GFX_INFO(DREAM),
     // Gen VII
     POKEBALL_GFX_INFO(BEAST),
-    // Gen VIII
-    #ifdef ITEM_STRANGE_BALL
-    POKEBALL_GFX_INFO(STRANGE),
     #endif
 };
-#endif //OW_FOLLOWERS_POKEBALLS

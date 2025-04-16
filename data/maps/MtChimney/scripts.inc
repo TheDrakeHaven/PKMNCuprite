@@ -415,7 +415,7 @@ MtChimney_EventScript_BusyAquaGrunt3::
 MtChimney_EventScript_Tabitha::
 	trainerbattle_single TRAINER_TABITHA_MT_CHIMNEY, MtChimney_Text_TabithaIntro, MtChimney_Text_TabithaDefeat
 	msgbox MtChimney_Text_TabithaPostBattle, MSGBOX_AUTOCLOSE
-	additem ITEM_TM_FLAMETHROWER
+	additem ITEM_TM_KNOCK_OFF
 	additem ITEM_TM_EARTH_POWER
 	additem ITEM_EJECT_BUTTON
 	additem ITEM_EJECT_PACK

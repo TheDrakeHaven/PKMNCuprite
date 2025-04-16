@@ -2262,7 +2262,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .catchRate = 120,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 49 : 63,
         .evYield_Speed = 1,
-        .itemRare = ITEM_HONEY,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 15,
         .friendship = STANDARD_FRIENDSHIP,
@@ -7243,85 +7242,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .levelUpLearnset = sShayminLandLevelUpLearnset,
         .teachableLearnset = sShayminLandTeachableLearnset,
         .formSpeciesIdTable = sShayminFormSpeciesIdTable,
-        .formChangeTable = sShayminFormChangeTable,
-    },
-
-    [SPECIES_SHAYMIN_SKY] =
-    {
-        .baseHP        = 100,
-        .baseAttack    = 103,
-        .baseDefense   = 75,
-        .baseSpeed     = 127,
-        .baseSpAttack  = 120,
-        .baseSpDefense = 75,
-        .types = MON_TYPES(TYPE_GRASS, TYPE_FLYING),
-        .catchRate = 45,
-        .expYield = SHAYMIN_EXP_YIELD,
-    #if P_UPDATED_EVS >= GEN_5
-        .evYield_Speed = 3,
-    #else
-        .evYield_HP = 3,
-    #endif
-        .itemCommon = ITEM_LUM_BERRY,
-        .itemRare = ITEM_LUM_BERRY,
-        .genderRatio = MON_GENDERLESS,
-        .eggCycles = 120,
-        .friendship = 100,
-        .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
-        .abilities = { ABILITY_SERENE_GRACE, ABILITY_NONE, ABILITY_NONE },
-        .bodyColor = BODY_COLOR_GREEN,
-        .noFlip = TRUE,
-        .speciesName = _("Shaymin"),
-        .cryId = CRY_SHAYMIN_SKY,
-        .natDexNum = NATIONAL_DEX_SHAYMIN,
-        .categoryName = _("Gratitude"),
-        .height = 4,
-        .weight = 52,
-        .description = COMPOUND_STRING(
-            "Upon taking in the scent of a particular\n"
-            "rare flower, Shaymin is enveloped in light\n"
-            "and its tiny body transforms, confering\n"
-            "the power of flight upon it."),
-        .pokemonScale = 682,
-        .pokemonOffset = 24,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        .frontPic = gMonFrontPic_ShayminSky,
-        .frontPicSize = MON_COORDS_SIZE(56, 56),
-        .frontPicYOffset = 7,
-        .frontAnimFrames = ANIM_FRAMES(
-            ANIMCMD_FRAME(0, 1),
-            ANIMCMD_FRAME(1, 36),
-            ANIMCMD_FRAME(0, 10),
-        ),
-        .frontAnimId = ANIM_V_STRETCH,
-        .backPic = gMonBackPic_ShayminSky,
-        .backPicSize = MON_COORDS_SIZE(56, 64),
-        .backPicYOffset = 2,
-        .backAnimId = BACK_ANIM_TRIANGLE_DOWN,
-        .palette = gMonPalette_ShayminSky,
-        .shinyPalette = gMonShinyPalette_ShayminSky,
-        .iconSprite = gMonIcon_ShayminSky,
-        .iconPalIndex = 1,
-        SHADOW(3, 7, SHADOW_SIZE_M)
-        FOOTPRINT(Shaymin)
-        OVERWORLD(
-            sPicTable_ShayminSky,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            sAnimTable_Following,
-            gOverworldPalette_ShayminSky,
-            gShinyOverworldPalette_ShayminSky
-        )
-        .isMythical = TRUE,
-        .isFrontierBanned = TRUE,
-        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
-        .levelUpLearnset = sShayminSkyLevelUpLearnset,
-        .teachableLearnset = sShayminSkyTeachableLearnset,
-        .formSpeciesIdTable = sShayminFormSpeciesIdTable,
-        .formChangeTable = sShayminFormChangeTable,
     },
 #endif //P_FAMILY_SHAYMIN
 

@@ -53,11 +53,18 @@ Route119_WeatherInstitute_2F_EventScript_Shelly::
 Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
 	msgbox Route119_WeatherInstitute_2F_Text_ShellyPostBattle, MSGBOX_DEFAULT
 	closemessage
-	giveitem ITEM_TM_FLIP_TURN
+	giveitem ITEM_TM_SCALD
 	giveitem ITEM_TM_POISON_JAB
-	giveitem ITEM_BLACK_SLUDGE
-	giveitem ITEM_COVERT_CLOAK
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
+	multichoicedefault 4, 0, MULTI_SHELLY, 0, TRUE
+	switch VAR_RESULT
+	case 0, WeatherInstitute_EventScript_ShellyItem1
+	case 1, WeatherInstitute_EventScript_ShellyItem2
+	case 2, WeatherInstitute_EventScript_ShellyItem3
+	case 3, WeatherInstitute_EventScript_ShellyItem4
+	case 4, WeatherInstitute_EventScript_ShellyItem5
+	end
+
+	Route119_WeatherInstitute_2F_EventScript_ShellyDefeatedSequence::
 	addobject LOCALID_GRUNT_3
 	applymovement LOCALID_GRUNT_3, Route119_WeatherInstitute_2F_Movement_GruntApproachShelly
 	applymovement OBJ_EVENT_ID_PLAYER, Route119_WeatherInstitute_2F_Movement_ShovePlayerOutOfWay
@@ -99,6 +106,41 @@ Route119_WeatherInstitute_2F_EventScript_ReceiveCastform::
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, Route119_WeatherInstitute_2F_EventScript_ReceiveCastformPC
 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
+
+WeatherInstitute_EventScript_ShellyItem1::
+	msgbox Route119_WeatherInstitute_2F_Text_ShellyItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_REAPER_CLOTH
+	goto Route119_WeatherInstitute_2F_EventScript_ShellyDefeatedSequence
+	end
+
+WeatherInstitute_EventScript_ShellyItem2::
+	msgbox Route119_WeatherInstitute_2F_Text_ShellyItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_MAGMARIZER
+	goto Route119_WeatherInstitute_2F_EventScript_ShellyDefeatedSequence
+	end
+
+WeatherInstitute_EventScript_ShellyItem3::
+	msgbox Route119_WeatherInstitute_2F_Text_ShellyItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_ELECTIRIZER
+	goto Route119_WeatherInstitute_2F_EventScript_ShellyDefeatedSequence
+	end
+
+WeatherInstitute_EventScript_ShellyItem4::
+	msgbox Route119_WeatherInstitute_2F_Text_ShellyItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_DUBIOUS_DISC
+	goto Route119_WeatherInstitute_2F_EventScript_ShellyDefeatedSequence
+	end
+
+WeatherInstitute_EventScript_ShellyItem5::
+	msgbox Route119_WeatherInstitute_2F_Text_ShellyItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_PROTECTOR
+	goto Route119_WeatherInstitute_2F_EventScript_ShellyDefeatedSequence
+	end	
 
 Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty::
 	call Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare
@@ -274,6 +316,10 @@ Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
 	.string "blunder about, but now there's you!\p"
 	.string "What makes you want to sniff around\n"
 	.string "in our business, anyway?$"
+
+Route119_WeatherInstitute_2F_Text_ShellyItem:
+	.string "Take it then.\n"
+	.string "I wasn't using it!$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 	.string "We have a situation here!\p"

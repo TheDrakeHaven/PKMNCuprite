@@ -28,15 +28,44 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	end
 
 RustboroCity_Gym_EventScript_GiveRockTomb::
-	additem ITEM_TM_STEALTH_ROCK
-	additem ITEM_TM_ACCELEROCK
-	additem ITEM_QUICK_CLAW
-	additem ITEM_RAZOR_CLAW
-	additem ITEM_BINDING_BAND
-	additem ITEM_BIG_ROOT
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	giveitem ITEM_TM_STEALTH_ROCK
+	giveitem ITEM_TM_ACCELEROCK
 	setflag FLAG_RECEIVED_TM_ROCK_TOMB
 	msgbox RustboroCity_Gym_Text_ExplainRockTomb, MSGBOX_DEFAULT
+	multichoicedefault 0, 0, MULTI_GYM1, 0, TRUE
+	switch VAR_RESULT
+	case 0, RustboroCity_Gym_EventScript_AlecItem1
+	case 1, RustboroCity_Gym_EventScript_AlecItem2
+	case 2, RustboroCity_Gym_EventScript_AlecItem3
+	case 3, RustboroCity_Gym_EventScript_AlecItem4
+	release
+	end
+
+RustboroCity_Gym_EventScript_AlecItem1::
+	msgbox RustboroCity_Gym_Text_AlecItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_QUICK_CLAW
+	release
+	end
+
+RustboroCity_Gym_EventScript_AlecItem2::
+	msgbox RustboroCity_Gym_Text_AlecItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_RAZOR_CLAW
+	release
+	end
+
+RustboroCity_Gym_EventScript_AlecItem3::
+	msgbox RustboroCity_Gym_Text_AlecItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_WISE_GLASSES
+	release
+	end
+
+RustboroCity_Gym_EventScript_AlecItem4::
+	msgbox RustboroCity_Gym_Text_AlecItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_BIG_ROOT
 	release
 	end
 
@@ -229,6 +258,9 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "that occasion as much as me!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
+
+RustboroCity_Gym_Text_AlecItem:
+	.string "Use it well.$"
 
 `
 

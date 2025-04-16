@@ -2,7 +2,7 @@
 #define GUARD_CONSTANTS_TMS_HMS_H
 
 #define FOREACH_TM(F) \
-    F(FOCUS_PUNCH) \
+    F(UPPER_HAND) \
     F(DRAGON_CLAW) \
     F(WATER_PULSE) \
     F(CALM_MIND) \
@@ -50,9 +50,9 @@
     F(ALLURING_VOICE) \
     F(HYDRO_PUMP) \
     F(SKILL_SWAP) \
-    F(SNATCH) \
+    F(SUCKER_PUNCH) \
     F(OVERHEAT)\
-    F(STRUGGLE_BUG) \
+    F(DUAL_WINGBEAT) \
     F(U_TURN)\
     F(NASTY_PLOT) \
     F(KNOCK_OFF) \
@@ -70,7 +70,7 @@
     F(BODY_PRESS) \
     F(AURA_SPHERE) \
     F(CLOSE_COMBAT) \
-    F(HEAT_CRASH) \
+    F(BURNING_JEALOUSY) \
     F(FIRE_PUNCH) \
     F(WILL_O_WISP) \
     F(ACROBATICS) \
@@ -104,7 +104,7 @@
     F(FLASH_CANNON) \
     F(POLLEN_PUFF) \
     F(LEECH_LIFE) \
-    F(X_SCISSOR) \
+    F(MEGAHORN) \
     F(LUNGE) \
     F(SKITTER_SMACK) \
     F(FLING) \

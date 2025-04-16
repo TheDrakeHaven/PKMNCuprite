@@ -152,6 +152,7 @@ SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGrunt::
 	waitmovement 0
 	msgbox SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis, MSGBOX_DEFAULT
 	giveitem ITEM_TM_THROAT_CHOP
+	giveitem ITEM_TM_TORMENT
 	goto_if_eq VAR_RESULT, 0, SlateportCity_OceanicMuseum_1F_EventScript_NoRoomForThief
 	setflag FLAG_RECEIVED_TM_THIEF
 	msgbox SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain, MSGBOX_DEFAULT

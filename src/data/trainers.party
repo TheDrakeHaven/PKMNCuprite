@@ -1352,7 +1352,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BROOKE ===
 Name: BROOKE
-Class: Rich
+Class: Beauty
 Pic: Cooltrainer F
 Gender: Female
 Music: Cool
@@ -1901,8 +1901,8 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Simipour
-Level: 26
+Rampardos
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JEROME ===
@@ -3086,15 +3086,15 @@ Hasty Nature
 -Techno Blast
 -Ice Beam
 
-Leavanny @ Focus Sash
-Ability: Chlorophyll
+Leavanny @ Assault Vest
+Ability: Overcoat
 Level: 75
 Shiny: Yes  
-Naughty Nature
--Struggle Bug
+Adamant Nature
+-X Scissor
 -Leaf Storm
--Electroweb
--Sunny Day
+-Triple Axel
+-Low Kick
 
 === TRAINER_DIEGO ===
 Name: DIEGO
@@ -3174,8 +3174,17 @@ Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
+Feraligatr @ Life Orb
+Ability: Sheer Force
+Level: 75
+Adamant Nature
+-Crunch
+-Liquidation
+-Ice Punch
+-Iron Tail
+
 Tyranitar @ Assault Vest
-Ability: Sand Stream
+Ability: Unnerve
 Level: 75
 Adamant Nature
 -Stone Edge
@@ -3183,17 +3192,8 @@ Adamant Nature
 -Fire Punch
 -Earthquake
 
-Sableye @ Safety Goggles
-Ability: Prankster
-Level: 75
-Jolly Nature
--Encore
--Foul Play
--Will-O-Wisp
--Taunt
-
-Weavile @ Heavy-duty Boots
-Ability: Pickpocket
+Weavile @ Choice Band
+Ability: Pressure
 Level: 75
 Jolly Nature
 -Aerial Ace
@@ -3219,14 +3219,14 @@ Jolly Nature
 -Thunder Fang
 -Gunk Shot
 
-Jirachi @ Leftovers
-Ability: Serene Grace
+Giratina @ Leftovers
+Ability: Pressure
 Level: 75
-Jolly Nature
--Psychic
+Adamant Nature
+-Poltergeist
+-Outrage
 -Iron Head
--Wish
--Body Slam
+-Earthquake
 
 === TRAINER_ALEC ===
 Name: ALEC

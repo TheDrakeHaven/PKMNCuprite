@@ -7,6 +7,8 @@ VerdanturfTown_WandasHouse_EventScript_Wally::
 	goto_if_set FLAG_WALLY_SPEECH, VerdanturfTown_WandasHouse_EventScript_WallyShortSpeech
 	msgbox VerdanturfTown_WandasHouse_Text_StrongerSpeech, MSGBOX_DEFAULT
 	setflag FLAG_WALLY_SPEECH
+	giveitem ITEM_TM_ATTRACT
+	giveitem ITEM_TM_ACROBATICS
 	release
 	end
 
@@ -89,10 +91,9 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 	.string "Together with my ARON, I'm going\l"
 	.string "to challenge POKéMON GYMS and become\l"
 	.string "a great TRAINER.\p"
-	.string "Please watch me, {PLAYER}.\n"
-	.string "I'm going to be stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
-	.string "to another battle.$"
+	.string "My ARON can't fly and is ugly.\n"
+	.string "So you can have these.$"
+
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
 	.string "WALLY: Please watch me, {PLAYER}.\n"

@@ -151,12 +151,11 @@ SkyPillar_TOP_EventScript_Jordangone::
 	giveitem ITEM_TM_SECRET_POWER
 	additem ITEM_TM_FLING
 	giveitem ITEM_BRIGHT_POWDER
-	giveitem ITEM_TOXIC_ORB
 	giveitem ITEM_WEAKNESS_POLICY
 	giveitem ITEM_SHELL_BELL
 	clearflag FLAG_UNUSED_0x265
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
-	clearflag FLAG_UNUSED_0x040
+	setflag FLAG_UNUSED_0x040
 	end
 
 @ Rayquaza has unusual movement frames

@@ -33,7 +33,6 @@
 static void ClearDaycareMonMail(struct DaycareMail *mail);
 static void SetInitialEggData(struct Pokemon *mon, u16 species, struct DayCare *daycare);
 static void DaycarePrintMonInfo(u8 windowId, u32 daycareSlotId, u8 y);
-static u8 ModifyBreedingScoreForOvalCharm(u8 score);
 static u16 GetEggSpecies(u16 species);
 
 // RAM buffers used to assist with BuildEggMoveset()
@@ -1154,15 +1153,7 @@ static bool8 TryProduceOrHatchEgg(struct DayCare *daycare)
         if (GetBoxMonData(&daycare->mons[i].mon, MON_DATA_SANITY_HAS_SPECIES))
             daycare->mons[i].steps++, validEggs++;
     }
-
-    // Check if an egg should be produced
-    if (daycare->offspringPersonality == 0 && validEggs == DAYCARE_MON_COUNT && (daycare->mons[1].steps & 0xFF) == 0xFF)
-    {
-        u8 compatibility = ModifyBreedingScoreForOvalCharm(GetDaycareCompatibilityScore(daycare));
-        if (compatibility > (Random() * 100u) / USHRT_MAX)
-            TriggerPendingDaycareEgg();
-    }
-
+    
     // Try to hatch Egg
     daycare->stepCounter++;
     if (((P_EGG_CYCLE_LENGTH <= GEN_3 || P_EGG_CYCLE_LENGTH == GEN_7) && daycare->stepCounter >= 256)
@@ -1572,22 +1563,4 @@ void ChooseSendDaycareMon(void)
 {
     ChooseMonForDaycare();
     gMain.savedCallback = CB2_ReturnToField;
-}
-
-static u8 ModifyBreedingScoreForOvalCharm(u8 score)
-{
-    if (CheckBagHasItem(ITEM_OVAL_CHARM, 1))
-    {
-        switch (score)
-        {
-        case 20:
-            return 40;
-        case 50:
-            return 80;
-        case 70:
-            return 88;
-        }
-    }
-
-    return score;
 }

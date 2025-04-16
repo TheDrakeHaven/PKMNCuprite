@@ -52,11 +52,8 @@ AquaHideout_B2F_EventScript_SubmarineEscape::
 	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_DEFAULT
 	additem ITEM_TM_LIQUIDATION
 	giveitem ITEM_TM_SLUDGE_WAVE
-	additem ITEM_REAPER_CLOTH
-	additem ITEM_MAGMARIZER
-	additem ITEM_ELECTIRIZER
-	additem ITEM_DUBIOUS_DISC
-	additem ITEM_PROTECTOR
+	giveitem ITEM_BLACK_SLUDGE
+	giveitem ITEM_COVERT_CLOAK
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE
 	clearflag FLAG_UNUSED_0x265

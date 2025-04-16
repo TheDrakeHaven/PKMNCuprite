@@ -62,18 +62,18 @@ Route109_SeashoreHouse_EventScript_AlreadyReceivedSodaPop::
 	end
 
 Route109_SeashoreHouse_EventScript_BuySodaPop::
-	checkmoney 300
+	checkmoney 5000
 	goto_if_eq VAR_RESULT, FALSE, Route109_SeashoreHouse_EventScript_NotEnoughMoney
-	checkitemspace ITEM_SODA_POP
+	checkitemspace ITEM_PP_UP
 	goto_if_eq VAR_RESULT, FALSE, Route109_SeashoreHouse_EventScript_NotEnoughSpace
 	msgbox Route109_SeashoreHouse_Text_HereYouGo, MSGBOX_DEFAULT
-	removemoney 300
+	removemoney 5000
 	updatemoneybox
 .if OW_SHOW_ITEM_DESCRIPTIONS != OW_ITEM_DESCRIPTIONS_OFF
 	hidemoneybox
-	additem ITEM_SODA_POP
+	additem ITEM_PP_UP
 .else
-	additem ITEM_SODA_POP
+	additem ITEM_PP_UP
 	hidemoneybox
 .endif
 	release
@@ -145,9 +145,9 @@ Route109_SeashoreHouse_Text_BagFull:
 	.string "I'll hang on to these for you.$"
 
 Route109_SeashoreHouse_Text_WantToBuySodaPop:
-	.string "Want to buy some SODA POP?\n"
-	.string "POKéMON love it!\p"
-	.string "Just ¥300 a bottle!\n"
+	.string "Want to buy some Dick Pills?\n"
+	.string "Men love it!\p"
+	.string "Just ¥5000 a bottle!\n"
 	.string "Buy some!$"
 
 Route109_SeashoreHouse_Text_HereYouGo:
@@ -183,7 +183,7 @@ Route109_SeashoreHouse_Text_JohannaDefeated:
 
 Route109_SeashoreHouse_Text_JohannaPostBattle:
 	.string "Whew, I'm all thirsty.\n"
-	.string "Maybe I'll have a SODA POP.$"
+	.string "Maybe I'll ask the boss.$"
 
 Route109_SeashoreHouse_Text_SimonIntro:
 	.string "I'm going to show you how great\n"

@@ -724,7 +724,7 @@ SlateportCity_EventScript_BerryPowderClerk::
 	faceplayer
 	goto_if_set FLAG_RECEIVED_POWDER_JAR, SlateportCity_EventScript_ReceivedPowderJar
 	msgbox SlateportCity_Text_ExplainBerries, MSGBOX_DEFAULT
-	giveitem ITEM_POWDER_JAR
+	giveitem ITEM_APICOT_BERRY
 	setflag FLAG_RECEIVED_POWDER_JAR
 	msgbox SlateportCity_Text_ExplainBerryPowder, MSGBOX_DEFAULT
 	release
@@ -1250,15 +1250,8 @@ SlateportCity_Text_ExplainBerries:
 	.string "like you.$"
 
 SlateportCity_Text_ExplainBerryPowder:
-	.string "I recently had machines installed at\n"
-	.string "POKéMON CENTERS for crushing BERRIES.\p"
-	.string "The BERRY CRUSH machines are at\n"
-	.string "the DIRECT CORNER upstairs.\p"
-	.string "Did you know?\p"
-	.string "Could you make BERRY POWDER for\n"
-	.string "me using those machines?\p"
-	.string "I can make you all sorts of medicine\n"
-	.string "if you bring me lots of BERRY POWDER.$"
+	.string "Berries yum! Berries yum!\n"
+	.string "I get paid to say that.$"
 
 SlateportCity_Text_BroughtMeSomeBerryPowder:
 	.string "Have you brought me some\n"

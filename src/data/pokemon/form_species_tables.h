@@ -1113,7 +1113,6 @@ static const u16 sGiratinaFormSpeciesIdTable[] = {
 #if P_FAMILY_SHAYMIN
 static const u16 sShayminFormSpeciesIdTable[] = {
     SPECIES_SHAYMIN_LAND,
-    SPECIES_SHAYMIN_SKY,
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_SHAYMIN

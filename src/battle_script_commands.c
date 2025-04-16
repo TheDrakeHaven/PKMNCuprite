@@ -1049,11 +1049,8 @@ static const u16 sNaturePowerMoves[BATTLE_TERRAIN_COUNT] =
 static const struct PickupItem sPickupTable[] =
 {//   Item                      1+  11+  21+  31+  41+  51+  61+  71+  81+  91+   Levels
     { ITEM_POTION,          {  35,   _,   _,   _,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_TINY_MUSHROOM,   {  25,  10,   _,   _,   _,   _,   _,   _,   _,   _, } },
     { ITEM_REPEL,           {   8,  30,   _,   _,   _,   _,   _,   _,   _,   _, } },
     { ITEM_SUPER_POTION,    {   8,  10,  30,   _,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_POKE_DOLL,       {   8,  10,   9,  30,   _,   _,   _,   _,   _,   _, } },
-    { ITEM_BIG_MUSHROOM,    {   3,  10,   9,   _,   _,   _,   _,   _,   _,   _, } },
     { ITEM_SUPER_REPEL,     {   3,  10,   9,   9,  30,   _,   _,   _,   _,   _, } },
     { ITEM_FULL_HEAL,       {   3,   3,   9,   8,   9,  30,   _,   _,   _,   _, } },
     { ITEM_REVIVE,          {   3,   3,   3,   8,   8,   9,  30,   _,   _,   _, } },
@@ -1072,7 +1069,6 @@ static const struct PickupItem sPickupTable[] =
     { ITEM_MENTAL_HERB,     {   _,   _,   1,   1,   1,   1,   1,   1,   1,   1, } },
     { ITEM_POWER_HERB,      {   _,   _,   1,   1,   1,   1,   1,   1,   1,   1, } },
     { ITEM_WHITE_HERB,      {   _,   _,   1,   1,   1,   1,   1,   1,   1,   1, } },
-    { ITEM_BALM_MUSHROOM,   {   _,   _,   1,   4,   4,   4,   4,   5,   4,   5, } },
     { ITEM_MAX_REVIVE,      {   _,   _,   _,   4,   4,   4,   4,   7,   9,   9, } },
     { ITEM_ELIXIR,          {   _,   _,   _,   _,   1,   1,   4,   5,   4,   5, } },
     { ITEM_MAX_ELIXIR,      {   _,   _,   _,   _,   _,   _,   1,   1,   4,   5, } },
@@ -15485,17 +15481,6 @@ static void Cmd_pickup(void)
                     }
                 }
             }
-            else if (ability == ABILITY_HONEY_GATHER
-                && species != 0
-                && species != SPECIES_EGG
-                && heldItem == ITEM_NONE)
-            {
-                if ((lvlDivBy10 + 1 ) * 5 > Random() % 100)
-                {
-                    heldItem = ITEM_HONEY;
-                    SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &heldItem);
-                }
-            }
             else if (P_SHUCKLE_BERRY_JUICE == GEN_2
                 && species == SPECIES_SHUCKLE
                 && heldItem == ITEM_ORAN_BERRY
@@ -16784,9 +16769,6 @@ static bool32 CriticalCapture(u32 odds)
     else
         odds = (odds * 250) / 100;
 
-    if (CheckBagHasItem(ITEM_CATCHING_CHARM, 1))
-        odds = (odds * (100 + B_CATCHING_CHARM_BOOST)) / 100;
-
     odds /= 6;
     if ((Random() % 255) < odds)
         return TRUE;
@@ -17018,8 +17000,6 @@ void ApplyExperienceMultipliers(s32 *expAmount, u8 expGetterMonId, u8 faintedBat
         *expAmount = (*expAmount * 4915) / 4096;
     if (B_AFFECTION_MECHANICS == TRUE && GetMonAffectionHearts(&gPlayerParty[expGetterMonId]) >= AFFECTION_FOUR_HEARTS)
         *expAmount = (*expAmount * 4915) / 4096;
-    if (CheckBagHasItem(ITEM_EXP_CHARM, 1)) //is also for other exp boosting Powers if/when implemented
-        *expAmount = (*expAmount * 150) / 100;
 
     if (B_SCALED_EXP >= GEN_5 && B_SCALED_EXP != GEN_6)
     {

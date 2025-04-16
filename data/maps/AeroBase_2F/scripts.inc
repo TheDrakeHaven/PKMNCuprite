@@ -25,13 +25,44 @@ TrainerHill_EventScript_Ghostess::
 TrainerHill_ghostgift::
 	additem ITEM_TM_HEX
 	additem ITEM_TM_ENERGY_BALL
-	additem ITEM_LOADED_DICE
-	additem ITEM_METRONOME
-	additem ITEM_FLAME_ORB
-	additem ITEM_DESTINY_KNOT
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
+	multichoicedefault 5, 10, MULTI_GHOSTESS, 0, TRUE
+	switch VAR_RESULT
+	case 0, TrainerHill_EventScript_GhostessItem1
+	case 1, TrainerHill_EventScript_GhostessItem2
+	case 2, TrainerHill_EventScript_GhostessItem3
+	case 3, TrainerHill_EventScript_GhostessItem4
 	release
 	end
 
+TrainerHill_EventScript_GhostessItem1::
+	msgbox TrainerHill_Text_GhostItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_LOADED_DICE
+	release
+	end
 
+TrainerHill_EventScript_GhostessItem2::
+	msgbox TrainerHill_Text_GhostItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_METRONOME
+	release
+	end
+
+TrainerHill_EventScript_GhostessItem3::
+	msgbox TrainerHill_Text_GhostItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_FLAME_ORB
+	release
+	end
+
+TrainerHill_EventScript_GhostessItem4::
+	msgbox TrainerHill_Text_GhostItem MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_TOXIC_ORB
+	release
+	end
+
+TrainerHill_Text_GhostItem:
+	.string "I thrifted these from \n"
+	.string "An old casino!$"
 

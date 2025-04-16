@@ -2397,11 +2397,11 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 # 1199 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "We'll battle one day, {PLAYER}.\p"
 # 1200 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "But that's only after you become\n"
+	.string "To help you out, here are some \n"
 # 1201 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "stronger."
+	.string "weather effect TMs. \p"
 # 1202 "data/maps/PetalburgCity_Gym/scripts.pory"
-    .string "Until then, here is an Eevee.$"
+    .string "Also, take this.$"
 # 1203 "data/maps/PetalburgCity_Gym/scripts.pory"
 
 # 1204 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -3063,70 +3063,147 @@ PetalburgCity_Gym_EventScript_GiveEevee::
 # 1536 "data/maps/PetalburgCity_Gym/scripts.pory"
 	lockall
 # 1537 "data/maps/PetalburgCity_Gym/scripts.pory"
-	additem ITEM_LEAF_STONE
+	additem ITEM_TM_SANDSTORM
 # 1538 "data/maps/PetalburgCity_Gym/scripts.pory"
-	additem ITEM_WATER_STONE
+	additem ITEM_TM_RAIN_DANCE
 # 1539 "data/maps/PetalburgCity_Gym/scripts.pory"
-	additem ITEM_FIRE_STONE
+	additem ITEM_TM_SUNNY_DAY
 # 1540 "data/maps/PetalburgCity_Gym/scripts.pory"
-	additem ITEM_ICE_STONE
+	additem ITEM_TM_HAIL
 # 1541 "data/maps/PetalburgCity_Gym/scripts.pory"
-	additem ITEM_THUNDER_STONE
+	additem ITEM_TM_ELECTRIC_TERRAIN
 # 1542 "data/maps/PetalburgCity_Gym/scripts.pory"
-	additem ITEM_SUN_STONE
+	additem ITEM_TM_MISTY_TERRAIN
 # 1543 "data/maps/PetalburgCity_Gym/scripts.pory"
-	additem ITEM_MOON_STONE
+	additem ITEM_TM_PSYCHIC_TERRAIN
 # 1544 "data/maps/PetalburgCity_Gym/scripts.pory"
-	givemon SPECIES_EEVEE, 10, ITEM_SOOTHE_BELL, , , , , , , , , , , , , , , , , MOVE_QUICK_ATTACK, MOVE_CHARM, MOVE_COVET, MOVE_SAND_ATTACK
+	additem ITEM_TM_GRASSY_TERRAIN
 # 1545 "data/maps/PetalburgCity_Gym/scripts.pory"
-	compare VAR_RESULT, MON_GIVEN_TO_PARTY
-	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_1
-# 1552 "data/maps/PetalburgCity_Gym/scripts.pory"
-	compare VAR_RESULT, MON_GIVEN_TO_PC
+	message PetalburgCity_Gym_EventScript_GiveEevee_Text_0
+# 1546 "data/maps/PetalburgCity_Gym/scripts.pory"
+	multichoice 0, 106, MULTI_EEVEE_STONE, 0
+# 1547 "data/maps/PetalburgCity_Gym/scripts.pory"
+	closemessage
+# 1548 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, 0
 	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_2
+# 1551 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_3
+# 1554 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_4
+# 1557 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, 3
+	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_5
 # 1560 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, 4
+	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_6
+# 1563 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, 5
+	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_7
+# 1566 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, 6
+	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_8
+# 1569 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, 7
+	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_9
+PetalburgCity_Gym_EventScript_GiveEevee_1:
+# 1572 "data/maps/PetalburgCity_Gym/scripts.pory"
+	givemon SPECIES_EEVEE, 10, , , , , , , , , , , , , , , , , , MOVE_QUICK_ATTACK, MOVE_CHARM, MOVE_COVET, MOVE_SAND_ATTACK
+# 1573 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_18
+# 1580 "data/maps/PetalburgCity_Gym/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq PetalburgCity_Gym_EventScript_GiveEevee_19
+# 1588 "data/maps/PetalburgCity_Gym/scripts.pory"
 	hidemonpic
-# 1561 "data/maps/PetalburgCity_Gym/scripts.pory"
-	msgbox PetalburgCity_Gym_EventScript_GiveEevee_Text_2
-# 1562 "data/maps/PetalburgCity_Gym/scripts.pory"
+# 1589 "data/maps/PetalburgCity_Gym/scripts.pory"
+	msgbox PetalburgCity_Gym_EventScript_GiveEevee_Text_3
+# 1590 "data/maps/PetalburgCity_Gym/scripts.pory"
 	release
 	end
 
-PetalburgCity_Gym_EventScript_GiveEevee_1:
-# 1546 "data/maps/PetalburgCity_Gym/scripts.pory"
-	playfanfare MUS_OBTAIN_ITEM
-# 1547 "data/maps/PetalburgCity_Gym/scripts.pory"
-	msgbox PetalburgCity_Gym_EventScript_GiveEevee_Text_0
-# 1548 "data/maps/PetalburgCity_Gym/scripts.pory"
-	removeobject 3
+PetalburgCity_Gym_EventScript_GiveEevee_2:
 # 1549 "data/maps/PetalburgCity_Gym/scripts.pory"
+	giveitem ITEM_FIRE_STONE
+	goto PetalburgCity_Gym_EventScript_GiveEevee_1
+
+PetalburgCity_Gym_EventScript_GiveEevee_3:
+# 1552 "data/maps/PetalburgCity_Gym/scripts.pory"
+	giveitem ITEM_WATER_STONE
+	goto PetalburgCity_Gym_EventScript_GiveEevee_1
+
+PetalburgCity_Gym_EventScript_GiveEevee_4:
+# 1555 "data/maps/PetalburgCity_Gym/scripts.pory"
+	giveitem ITEM_THUNDER_STONE
+	goto PetalburgCity_Gym_EventScript_GiveEevee_1
+
+PetalburgCity_Gym_EventScript_GiveEevee_5:
+# 1558 "data/maps/PetalburgCity_Gym/scripts.pory"
+	giveitem ITEM_SUN_STONE
+	goto PetalburgCity_Gym_EventScript_GiveEevee_1
+
+PetalburgCity_Gym_EventScript_GiveEevee_6:
+# 1561 "data/maps/PetalburgCity_Gym/scripts.pory"
+	giveitem ITEM_MOON_STONE
+	goto PetalburgCity_Gym_EventScript_GiveEevee_1
+
+PetalburgCity_Gym_EventScript_GiveEevee_7:
+# 1564 "data/maps/PetalburgCity_Gym/scripts.pory"
+	giveitem ITEM_LEAF_STONE
+	goto PetalburgCity_Gym_EventScript_GiveEevee_1
+
+PetalburgCity_Gym_EventScript_GiveEevee_8:
+# 1567 "data/maps/PetalburgCity_Gym/scripts.pory"
+	giveitem ITEM_ICE_STONE
+	goto PetalburgCity_Gym_EventScript_GiveEevee_1
+
+PetalburgCity_Gym_EventScript_GiveEevee_9:
+# 1570 "data/maps/PetalburgCity_Gym/scripts.pory"
+	giveitem ITEM_SOOTHE_BELL
+	goto PetalburgCity_Gym_EventScript_GiveEevee_1
+
+PetalburgCity_Gym_EventScript_GiveEevee_18:
+# 1574 "data/maps/PetalburgCity_Gym/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 1575 "data/maps/PetalburgCity_Gym/scripts.pory"
+	msgbox PetalburgCity_Gym_EventScript_GiveEevee_Text_1
+# 1576 "data/maps/PetalburgCity_Gym/scripts.pory"
+	removeobject 3
+# 1577 "data/maps/PetalburgCity_Gym/scripts.pory"
 	setflag FLAG_UNUSED_0x024
-# 1550 "data/maps/PetalburgCity_Gym/scripts.pory"
+# 1578 "data/maps/PetalburgCity_Gym/scripts.pory"
 	call NicknamePartyMon
 	return
 
-PetalburgCity_Gym_EventScript_GiveEevee_2:
-# 1553 "data/maps/PetalburgCity_Gym/scripts.pory"
+PetalburgCity_Gym_EventScript_GiveEevee_19:
+# 1581 "data/maps/PetalburgCity_Gym/scripts.pory"
 	playfanfare MUS_OBTAIN_ITEM
-# 1554 "data/maps/PetalburgCity_Gym/scripts.pory"
-	msgbox PetalburgCity_Gym_EventScript_GiveEevee_Text_1
-# 1555 "data/maps/PetalburgCity_Gym/scripts.pory"
+# 1582 "data/maps/PetalburgCity_Gym/scripts.pory"
+	msgbox PetalburgCity_Gym_EventScript_GiveEevee_Text_2
+# 1583 "data/maps/PetalburgCity_Gym/scripts.pory"
 	removeobject 3
-# 1556 "data/maps/PetalburgCity_Gym/scripts.pory"
+# 1584 "data/maps/PetalburgCity_Gym/scripts.pory"
 	setflag FLAG_UNUSED_0x024
-# 1557 "data/maps/PetalburgCity_Gym/scripts.pory"
+# 1585 "data/maps/PetalburgCity_Gym/scripts.pory"
 	call NicknameBoxMon
 	return
 
 
 PetalburgCity_Gym_EventScript_GiveEevee_Text_0:
-# 1547 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "Recieved Eevee and its stones$"
+# 1545 "data/maps/PetalburgCity_Gym/scripts.pory"
+	.string "Which evolution item for Eevee do you want?$"
 
 PetalburgCity_Gym_EventScript_GiveEevee_Text_1:
-# 1554 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "Recieved Eevee$"
+# 1575 "data/maps/PetalburgCity_Gym/scripts.pory"
+	.string "Recieved Eevee and a stone$"
 
 PetalburgCity_Gym_EventScript_GiveEevee_Text_2:
-# 1561 "data/maps/PetalburgCity_Gym/scripts.pory"
+# 1582 "data/maps/PetalburgCity_Gym/scripts.pory"
+	.string "Recieved Eevee$"
+
+PetalburgCity_Gym_EventScript_GiveEevee_Text_3:
+# 1589 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "No More Room$"

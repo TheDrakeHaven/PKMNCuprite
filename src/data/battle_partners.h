@@ -49,7 +49,7 @@
 #line 18
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 17
-            .lvl = 57,
+            .lvl = 63,
 #line 16
             .nature = NATURE_BRAVE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -72,7 +72,7 @@
 #line 28
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 27
-            .lvl = 57,
+            .lvl = 63,
 #line 26
             .nature = NATURE_IMPISH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -95,7 +95,7 @@
 #line 38
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 37
-            .lvl = 57,
+            .lvl = 63,
 #line 36
             .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,

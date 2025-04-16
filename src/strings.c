@@ -1300,3 +1300,38 @@ const u8 gtext_Firetype[] = _("FIRE");
 const u8 gtext_Watertype[] = _("WATER");
 const u8 gtext_Grasstype[] = _("GRASS");
 
+const u8 gtext_ReaperCloth[] = _("REAPER CLOTH");
+const u8 gtext_Magmarizer[] = _("MAGMARIZER");
+const u8 gtext_Electririzer[] = _("ELECTRIRIZER");
+const u8 gtext_DubiousDisc[] = _("DUBIOUS DISC");
+const u8 gtext_Protector[] = _("PROTECTOR");
+
+const u8 gtext_LoadedDice[] = _("LOADED DICE");
+const u8 gtext_Metronome[] = _("METRONOME");
+const u8 gtext_Flameorb[] = _("FLAME ORB");
+const u8 gtext_Toxicorb[] = _("TOXIC ORB");
+
+const u8 gtext_zoomlens[]= _("ZOOM LENS");
+const u8 gtext_widelens[]= _("WIDE LENS");
+const u8 gtext_scopelens[]= _("SCOPE LENS");
+const u8 gtext_amuletcoin[]= _("AMULET COIN");
+
+const u8 gtext_mentalherb[]= _("MENTAL HERB");
+const u8 gtext_powerherb[]= _("POWER HERB");
+const u8 gtext_whiteherb[]= _("WHITE HERB");
+const u8 gtext_mirrorherb[]= _("MIRROR HERB");
+
+const u8 gtext_quickclaw[]= _("QUICK CLAW");
+const u8 gtext_razorclaw[]= _("RAZOR CLAW");
+const u8 gtext_wiseglasses[]= _("WISE GLASSES");
+const u8 gtext_bigroot[]= _("BIG ROOT");
+
+const u8 gtext_Leafstone[]= _("LEAF STONE");
+const u8 gtext_Firestone[]= _("FIRE STONE");
+const u8 gtext_Thunderstone[]= _("THUNDER STONE");
+const u8 gtext_Waterstone[]= _("WATER STONE");
+const u8 gtext_Sunstone[]= _("SUN STONE");
+const u8 gtext_Moonstone[]= _("MOON STONE");
+const u8 gtext_Icestone[]= _("ICE STONE");
+const u8 gtext_Soothebell[]= _("SOOTHE BELL");
+

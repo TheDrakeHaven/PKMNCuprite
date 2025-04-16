@@ -267,10 +267,10 @@ static const struct MenuAction MultichoiceList_GameCornerDolls[] =
 static const struct MenuAction MultichoiceList_GameCornerTMs[] =
 {
     {COMPOUND_STRING("TM29{CLEAR_TO 0x48}2,000 COINS")},
-    {COMPOUND_STRING("TM42{CLEAR_TO 0x48}2,000 COINS")},
-    {COMPOUND_STRING("TM97{CLEAR_TO 0x48}2,000 COINS")},
-    {COMPOUND_STRING("TM80{CLEAR_TO 0x48}2,000 COINS")},
+    {COMPOUND_STRING("TM35{CLEAR_TO 0x48}2,000 COINS")},
     {COMPOUND_STRING("TM66{CLEAR_TO 0x48}2,000 COINS")},
+    {COMPOUND_STRING("TM80{CLEAR_TO 0x48}2,000 COINS")},
+    {COMPOUND_STRING("TM97{CLEAR_TO 0x48}2,000 COINS")},
     {gText_Exit},
 };
 
@@ -789,6 +789,81 @@ static const struct MenuAction MultichoiceList_Starters[] =
     {gtext_Grasstype},
 };
 
+
+static const struct MenuAction MultichoiceList_GYM1[] =
+{
+    {gtext_quickclaw},
+    {gtext_razorclaw},
+    {gtext_wiseglasses},
+    {gtext_bigroot},
+};
+
+static const struct MenuAction MultichoiceList_GYM2[] =
+{
+    {gtext_zoomlens},
+    {gtext_widelens},
+    {gtext_scopelens},
+    {gtext_amuletcoin},
+};
+
+static const struct MenuAction MultichoiceList_GYM3[] =
+{
+    {gtext_mentalherb},
+    {gtext_powerherb},
+    {gtext_whiteherb},
+    {gtext_mirrorherb},
+};
+
+static const struct MenuAction MultichoiceList_GYM4[] =
+{
+    {gtext_Firetype},
+    {gtext_Watertype},
+    {gtext_Grasstype},
+};
+
+static const struct MenuAction MultichoiceList_SHELLY[] =
+{
+    {gtext_ReaperCloth},
+    {gtext_Magmarizer},
+    {gtext_Electririzer},
+    {gtext_DubiousDisc},
+    {gtext_Protector},
+};
+
+static const struct MenuAction MultichoiceList_GHOSTESS[] =
+{
+    {gtext_LoadedDice},
+    {gtext_Metronome},
+    {gtext_Flameorb},
+    {gtext_Toxicorb},
+};
+
+static const struct MenuAction MultichoiceList_GYM7[] =
+{
+    {gtext_Firetype},
+    {gtext_Watertype},
+    {gtext_Grasstype},
+};
+
+static const struct MenuAction MultichoiceList_GYM8[] =
+{
+    {gtext_Firetype},
+    {gtext_Watertype},
+    {gtext_Grasstype},
+};
+
+static const struct MenuAction MultichoiceList_EEVEE[] =
+{
+    {gtext_Firestone},
+    {gtext_Waterstone},
+    {gtext_Thunderstone},
+    {gtext_Sunstone},
+    {gtext_Moonstone},
+    {gtext_Leafstone},
+    {gtext_Icestone},
+    {gtext_Soothebell},
+};
+
 struct MultichoiceListStruct
 {
     const struct MenuAction *list;
@@ -912,6 +987,15 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_FALLARBOR_TENT_RULES]       = MULTICHOICE(MultichoiceList_FallarborTentRules),
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
     [MULTI_STARTER_CHOICE]             = MULTICHOICE(MultichoiceList_Starters),
+    [MULTI_GYM1]                       = MULTICHOICE(MultichoiceList_GYM1),
+    [MULTI_GYM2]                       = MULTICHOICE(MultichoiceList_GYM2),
+    [MULTI_GYM3]                       = MULTICHOICE(MultichoiceList_GYM3),
+    [MULTI_GYM4]                       = MULTICHOICE(MultichoiceList_GYM4),
+    [MULTI_SHELLY]                     = MULTICHOICE(MultichoiceList_SHELLY),
+    [MULTI_GHOSTESS]                   = MULTICHOICE(MultichoiceList_GHOSTESS),
+    [MULTI_GYM7]                       = MULTICHOICE(MultichoiceList_GYM7),
+    [MULTI_GYM8]                       = MULTICHOICE(MultichoiceList_GYM8),
+    [MULTI_EEVEE_STONE]                = MULTICHOICE(MultichoiceList_EEVEE),
 };
 
 const u8 *const gStdStrings[] =

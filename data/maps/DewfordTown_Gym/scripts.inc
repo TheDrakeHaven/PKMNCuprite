@@ -135,7 +135,6 @@ DewfordTown_Gym_EventScript_StopCountingTrainers::
 DewfordTown_Gym_EventScript_Brawly::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_GARRETT, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
-	goto_if_unset FLAG_RECEIVED_TM_BULK_UP, DewfordTown_Gym_EventScript_GiveBulkUp2
 	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -153,34 +152,47 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
-	call DewfordTown_Gym_EventScript_GiveBulkUp
-	closemessage
-	delay 30
-	release
+	goto DewfordTown_Gym_EventScript_GiveBulkUp
 	end
 
 DewfordTown_Gym_EventScript_GiveBulkUp::
-	additem ITEM_TM_WATER_PULSE
-	additem ITEM_TM_ICY_WIND
-	additem ITEM_ZOOM_LENS
-	additem ITEM_WIDE_LENS
-	additem ITEM_SCOPE_LENS
-	additem ITEM_AMULET_COIN
 	setflag FLAG_RECEIVED_AMULET_COIN
-	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
-	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_BULK_UP
-	return
+	giveitem ITEM_TM_WATER_PULSE
+	giveitem ITEM_TM_FLIP_TURN
+	multichoicedefault 0, 0, MULTI_GYM2, 0, TRUE
+	switch VAR_RESULT
+	case 0, DewfordTown_Gym_EventScript_GarrettItem1
+	case 1, DewfordTown_Gym_EventScript_GarrettItem2
+	case 2, DewfordTown_Gym_EventScript_GarrettItem3
+	case 3, DewfordTown_Gym_EventScript_GarrettItem4
+	end
 
-DewfordTown_Gym_EventScript_GiveBulkUp2:
-	additem ITEM_TM_WATER_PULSE
-	additem ITEM_ZOOM_LENS
-	additem ITEM_WIDE_LENS
-	additem ITEM_SCOPE_LENS
-	additem ITEM_AMULET_COIN
-	goto_if_eq VAR_RESULT, 0, Common_EventScript_ShowBagIsFull
+DewfordTown_Gym_EventScript_GarrettItem1::
 	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM_BULK_UP
+	closemessage
+	giveitem ITEM_ZOOM_LENS
+	release
+	end
+
+DewfordTown_Gym_EventScript_GarrettItem2::
+	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_WIDE_LENS
+	release
+	end
+
+DewfordTown_Gym_EventScript_GarrettItem3::
+	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_SCOPE_LENS
+	release
+	end
+
+DewfordTown_Gym_EventScript_GarrettItem4::
+	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_AMULET_COIN
 	release
 	end
 

@@ -2410,4 +2410,39 @@ extern const u8 gtext_Firetype[];
 extern const u8 gtext_Watertype[];
 extern const u8 gtext_Grasstype[];
 
+extern const u8 gtext_ReaperCloth[];
+extern const u8 gtext_Magmarizer[];
+extern const u8 gtext_Electririzer[];
+extern const u8 gtext_DubiousDisc[];
+extern const u8 gtext_Protector[];
+
+extern const u8 gtext_LoadedDice[];
+extern const u8 gtext_Metronome[];
+extern const u8 gtext_Flameorb[];
+extern const u8 gtext_Toxicorb[];
+
+extern const u8 gtext_zoomlens[];
+extern const u8 gtext_widelens[];
+extern const u8 gtext_scopelens[];
+extern const u8 gtext_amuletcoin[];
+
+extern const u8 gtext_mentalherb[];
+extern const u8 gtext_powerherb[];
+extern const u8 gtext_whiteherb[];
+extern const u8 gtext_mirrorherb[];
+
+extern const u8 gtext_quickclaw[];
+extern const u8 gtext_razorclaw[];
+extern const u8 gtext_wiseglasses[];
+extern const u8 gtext_bigroot[];
+
+extern const u8 gtext_Leafstone[];
+extern const u8 gtext_Firestone[];
+extern const u8 gtext_Thunderstone[];
+extern const u8 gtext_Waterstone[];
+extern const u8 gtext_Sunstone[];
+extern const u8 gtext_Moonstone[];
+extern const u8 gtext_Icestone[];
+extern const u8 gtext_Soothebell[];
+
 #endif // GUARD_STRINGS_H

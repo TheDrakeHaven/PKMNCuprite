@@ -29,7 +29,7 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM_THUNDER
 	.2byte ITEM_TM_BLIZZARD
 	.2byte ITEM_TM_HURRICANE
-	.2byte ITEM_TM_X_SCISSOR
+	.2byte ITEM_TM_MEGAHORN
 	.2byte ITEM_TM_DRAGON_TAIL
 	.2byte ITEM_TM_HEAD_SMASH
 	pokemartlistend

@@ -283,351 +283,6 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_FIGY_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Figy"),
-        .firmness = BERRY_FIRMNESS_SOFT,
-        .color = BERRY_COLOR_RED,
-        .size = 100,
-        .maxYield = YIELD_RATE(3, 5, 15, 15),
-        .minYield = YIELD_RATE(2, 1, 3, 3),
-        .description1 = COMPOUND_STRING("The Berry, which looks chewed up,"),
-        .description2 = COMPOUND_STRING("brims with spicy substances."),
-        .growthDuration = GROWTH_DURATION(24, 20, 30, 24, 16, 24),
-        .spicy = 10,
-        .dry = 0,
-        .sweet = 0,
-        .bitter = 0,
-        .sour = 0,
-        .smoothness = 25,
-        .drainRate = 10,
-        .waterBonus = 15,
-        .weedsBonus = 2,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_WIKI_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Wiki"),
-        .firmness = BERRY_FIRMNESS_HARD,
-        .color = BERRY_COLOR_PURPLE,
-        .size = 115,
-        .maxYield = YIELD_RATE(3, 5, 15, 15),
-        .minYield = YIELD_RATE(2, 1, 3, 3),
-        .description1 = COMPOUND_STRING("The Berry is said to have grown lumpy"),
-        .description2 = COMPOUND_STRING("to help Pokémon grip it."),
-        .growthDuration = GROWTH_DURATION(24, 20, 30, 24, 16, 24),
-        .spicy = 0,
-        .dry = 10,
-        .sweet = 0,
-        .bitter = 0,
-        .sour = 0,
-        .smoothness = 25,
-        .drainRate = 10,
-        .waterBonus = 15,
-        .weedsBonus = 2,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_MAGO_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Mago"),
-        .firmness = BERRY_FIRMNESS_HARD,
-        .color = BERRY_COLOR_PINK,
-        .size = 126,
-        .maxYield = YIELD_RATE(3, 5, 15, 15),
-        .minYield = YIELD_RATE(2, 1, 3, 3),
-        .description1 = COMPOUND_STRING("The Berry turns curvy as it grows."),
-        .description2 = COMPOUND_STRING("The curvier, the sweeter and tastier."),
-        .growthDuration = GROWTH_DURATION(24, 20, 30, 24, 16, 24),
-        .spicy = 0,
-        .dry = 0,
-        .sweet = 10,
-        .bitter = 0,
-        .sour = 0,
-        .smoothness = 25,
-        .drainRate = 10,
-        .waterBonus = 15,
-        .weedsBonus = 2,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_AGUAV_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Aguav"),
-        .firmness = BERRY_FIRMNESS_SUPER_HARD,
-        .color = BERRY_COLOR_GREEN,
-        .size = 64,
-        .maxYield = YIELD_RATE(3, 5, 15, 15),
-        .minYield = YIELD_RATE(2, 1, 3, 3),
-        .description1 = COMPOUND_STRING("The flower is dainty. It is rare in its"),
-        .description2 = COMPOUND_STRING("ability to grow without light."),
-        .growthDuration = GROWTH_DURATION(24, 20, 30, 24, 16, 24),
-        .spicy = 0,
-        .dry = 0,
-        .sweet = 0,
-        .bitter = 10,
-        .sour = 0,
-        .smoothness = 25,
-        .drainRate = 10,
-        .waterBonus = 15,
-        .weedsBonus = 2,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_IAPAPA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Iapapa"),
-        .firmness = BERRY_FIRMNESS_SOFT,
-        .color = BERRY_COLOR_YELLOW,
-        .size = 223,
-        .maxYield = YIELD_RATE(3, 5, 15, 15),
-        .minYield = YIELD_RATE(2, 1, 3, 3),
-        .description1 = COMPOUND_STRING("The Berry is very big and sour."),
-        .description2 = COMPOUND_STRING("It takes at least a day to grow."),
-        .growthDuration = GROWTH_DURATION(24, 20, 30, 24, 16, 24),
-        .spicy = 0,
-        .dry = 0,
-        .sweet = 0,
-        .bitter = 0,
-        .sour = 10,
-        .smoothness = 25,
-        .drainRate = 10,
-        .waterBonus = 15,
-        .weedsBonus = 2,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_RAZZ_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Razz"),
-        .firmness = BERRY_FIRMNESS_VERY_HARD,
-        .color = BERRY_COLOR_RED,
-        .size = 120,
-        .maxYield = YIELD_RATE(6, 10, 15, 20),
-        .minYield = YIELD_RATE(3, 2, 3, 4),
-        .description1 = COMPOUND_STRING("The red Berry tastes slightly spicy."),
-        .description2 = COMPOUND_STRING("It grows quickly in just four hours."),
-        .growthDuration = GROWTH_DURATION(4, 8, 12, 24, 16, 24),
-        .spicy = 10,
-        .dry = 10,
-        .sweet = 0,
-        .bitter = 0,
-        .sour = 0,
-        .smoothness = 20,
-        .drainRate = 35,
-        .waterBonus = 10,
-        .weedsBonus = 2,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_BLUK_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Bluk"),
-        .firmness = BERRY_FIRMNESS_SOFT,
-        .color = BERRY_COLOR_PURPLE,
-        .size = 108,
-        .maxYield = YIELD_RATE(6, 10, 15, 20),
-        .minYield = YIELD_RATE(3, 2, 3, 4),
-        .description1 = COMPOUND_STRING("The Berry is blue on the outside, but"),
-        .description2 = COMPOUND_STRING("it blackens the mouth when eaten."),
-        .growthDuration = GROWTH_DURATION(4, 8, 12, 24, 16, 24),
-        .spicy = 0,
-        .dry = 10,
-        .sweet = 10,
-        .bitter = 0,
-        .sour = 0,
-        .smoothness = 20,
-        .drainRate = 35,
-        .waterBonus = 10,
-        .weedsBonus = 2,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_NANAB_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Nanab"),
-        .firmness = BERRY_FIRMNESS_VERY_HARD,
-        .color = BERRY_COLOR_PINK,
-        .size = 77,
-        .maxYield = YIELD_RATE(6, 10, 15, 20),
-        .minYield = YIELD_RATE(3, 2, 3, 4),
-        .description1 = COMPOUND_STRING("This Berry was the seventh"),
-        .description2 = COMPOUND_STRING("discovered in the world. It is sweet."),
-        .growthDuration = GROWTH_DURATION(4, 8, 12, 24, 16, 24),
-        .spicy = 0,
-        .dry = 0,
-        .sweet = 10,
-        .bitter = 10,
-        .sour = 0,
-        .smoothness = 20,
-        .drainRate = 35,
-        .waterBonus = 10,
-        .weedsBonus = 2,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_PINAP_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Pinap"),
-        .firmness = BERRY_FIRMNESS_HARD,
-        .color = BERRY_COLOR_YELLOW,
-        .size = 80,
-        .maxYield = YIELD_RATE(6, 10, 15, 20),
-        .minYield = YIELD_RATE(3, 2, 3, 4),
-        .description1 = COMPOUND_STRING("Weak against wind and cold."),
-        .description2 = COMPOUND_STRING("The fruit is spicy and the skin, sour."),
-        .growthDuration = GROWTH_DURATION(4, 8, 12, 24, 16, 24),
-        .spicy = 10,
-        .dry = 0,
-        .sweet = 0,
-        .bitter = 0,
-        .sour = 10,
-        .smoothness = 20,
-        .drainRate = 35,
-        .waterBonus = 10,
-        .weedsBonus = 2,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_POMEG_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Pomeg"),
-        .firmness = BERRY_FIRMNESS_VERY_HARD,
-        .color = BERRY_COLOR_RED,
-        .size = 135,
-        .maxYield = YIELD_RATE(6, 5, 20, 26),
-        .minYield = YIELD_RATE(2, 1, 1, 2),
-        .description1 = COMPOUND_STRING("However much it is watered,"),
-        .description2 = COMPOUND_STRING("it only grows up to six Berries."),
-        .growthDuration = GROWTH_DURATION(12, 32, 48, 48, 32, 48),
-        .spicy = 10,
-        .dry = 0,
-        .sweet = 10,
-        .bitter = 10,
-        .sour = 0,
-        .smoothness = 20,
-        .drainRate = 8,
-        .waterBonus = 5,
-        .weedsBonus = 3,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_KELPSY_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Kelpsy"),
-        .firmness = BERRY_FIRMNESS_HARD,
-        .color = BERRY_COLOR_BLUE,
-        .size = 150,
-        .maxYield = YIELD_RATE(6, 5, 20, 26),
-        .minYield = YIELD_RATE(2, 1, 1, 2),
-        .description1 = COMPOUND_STRING("A rare variety shaped like a root."),
-        .description2 = COMPOUND_STRING("Grows a very large flower."),
-        .growthDuration = GROWTH_DURATION(12, 32, 48, 48, 32, 48),
-        .spicy = 0,
-        .dry = 10,
-        .sweet = 0,
-        .bitter = 10,
-        .sour = 10,
-        .smoothness = 20,
-        .drainRate = 8,
-        .waterBonus = 5,
-        .weedsBonus = 3,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_QUALOT_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Qualot"),
-        .firmness = BERRY_FIRMNESS_HARD,
-        .color = BERRY_COLOR_YELLOW,
-        .size = 110,
-        .maxYield = YIELD_RATE(6, 5, 20, 26),
-        .minYield = YIELD_RATE(2, 1, 1, 2),
-        .description1 = COMPOUND_STRING("Loves water. Grows strong even in"),
-        .description2 = COMPOUND_STRING("locations with constant rainfall."),
-        .growthDuration = GROWTH_DURATION(12, 32, 48, 48, 32, 48),
-        .spicy = 10,
-        .dry = 0,
-        .sweet = 10,
-        .bitter = 0,
-        .sour = 10,
-        .smoothness = 20,
-        .drainRate = 8,
-        .waterBonus = 5,
-        .weedsBonus = 3,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Hondew"),
-        .firmness = BERRY_FIRMNESS_HARD,
-        .color = BERRY_COLOR_GREEN,
-        .size = 162,
-        .maxYield = YIELD_RATE(6, 5, 20, 26),
-        .minYield = YIELD_RATE(2, 1, 1, 2),
-        .description1 = COMPOUND_STRING("A Berry that is very valuable and"),
-        .description2 = COMPOUND_STRING("rarely seen. It is very delicious."),
-        .growthDuration = GROWTH_DURATION(12, 32, 48, 48, 32, 48),
-        .spicy = 10,
-        .dry = 10,
-        .sweet = 0,
-        .bitter = 10,
-        .sour = 0,
-        .smoothness = 20,
-        .drainRate = 8,
-        .waterBonus = 5,
-        .weedsBonus = 3,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Grepa"),
-        .firmness = BERRY_FIRMNESS_SOFT,
-        .color = BERRY_COLOR_YELLOW,
-        .size = 149,
-        .maxYield = YIELD_RATE(6, 5, 20, 26),
-        .minYield = YIELD_RATE(2, 1, 1, 2),
-        .description1 = COMPOUND_STRING("Despite its tenderness and round"),
-        .description2 = COMPOUND_STRING("shape, the Berry is unimaginably sour."),
-        .growthDuration = GROWTH_DURATION(12, 32, 48, 48, 32, 48),
-        .spicy = 0,
-        .dry = 10,
-        .sweet = 10,
-        .bitter = 0,
-        .sour = 10,
-        .smoothness = 20,
-        .drainRate = 8,
-        .waterBonus = 5,
-        .weedsBonus = 3,
-        .pestsBonus = 6,
-    },
-
-    [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Tamato"),
-        .firmness = BERRY_FIRMNESS_SOFT,
-        .color = BERRY_COLOR_RED,
-        .size = 200,
-        .maxYield = YIELD_RATE(4, 5, 20, 26),
-        .minYield = YIELD_RATE(2, 1, 1, 2),
-        .description1 = COMPOUND_STRING("The Berry is lip-bendingly spicy."),
-        .description2 = COMPOUND_STRING("It takes time to grow."),
-        .growthDuration = GROWTH_DURATION(24, 32, 48, 48, 32, 48),
-        .spicy = 20,
-        .dry = 10,
-        .sweet = 0,
-        .bitter = 0,
-        .sour = 0,
-        .smoothness = 30,
-        .drainRate = 8,
-        .waterBonus = 5,
-        .weedsBonus = 3,
-        .pestsBonus = 6,
-    },
-
     [ITEM_CHILAN_BERRY - FIRST_BERRY_INDEX] =
     {
         .name = _("Chilan"),
@@ -1203,29 +858,6 @@ const struct Berry gBerries[] =
         .pestsBonus = 1,
     },
 
-    [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX] =
-    {
-        .name = _("Enigma"),
-        .firmness = BERRY_FIRMNESS_HARD,
-        .color = BERRY_COLOR_PURPLE,
-        .size = 155,
-        .maxYield = YIELD_RATE(2, 5, 5, 13),
-        .minYield = YIELD_RATE(1, 1, 1, 1),
-        .description1 = COMPOUND_STRING("A completely enigmatic Berry."),
-        .description2 = COMPOUND_STRING("Appears to have the power of stars."),
-        .growthDuration = GROWTH_DURATION(96, 96, 144, 72, 48, 72),
-        .spicy = 40,
-        .dry = 10,
-        .sweet = 0,
-        .bitter = 0,
-        .sour = 0,
-        .smoothness = 60,
-        .drainRate = 7,
-        .waterBonus = 2,
-        .weedsBonus = 0,
-        .pestsBonus = 0,
-    },
-
     [ITEM_MICLE_BERRY - FIRST_BERRY_INDEX] =
     {
         .name = _("Micle"),
@@ -1399,21 +1031,6 @@ const struct BerryCrushBerryData gBerryCrush_BerryData[] = {
     [ITEM_PERSIM_BERRY - FIRST_BERRY_INDEX]          = {.difficulty =  50, .powder =  30},
     [ITEM_LUM_BERRY - FIRST_BERRY_INDEX]             = {.difficulty =  50, .powder =  30},
     [ITEM_SITRUS_BERRY - FIRST_BERRY_INDEX]          = {.difficulty =  50, .powder =  30},
-    [ITEM_FIGY_BERRY - FIRST_BERRY_INDEX]            = {.difficulty =  60, .powder =  50},
-    [ITEM_WIKI_BERRY - FIRST_BERRY_INDEX]            = {.difficulty =  60, .powder =  50},
-    [ITEM_MAGO_BERRY - FIRST_BERRY_INDEX]            = {.difficulty =  60, .powder =  50},
-    [ITEM_AGUAV_BERRY - FIRST_BERRY_INDEX]           = {.difficulty =  60, .powder =  50},
-    [ITEM_IAPAPA_BERRY - FIRST_BERRY_INDEX]          = {.difficulty =  60, .powder =  50},
-    [ITEM_RAZZ_BERRY - FIRST_BERRY_INDEX]            = {.difficulty =  80, .powder =  70},
-    [ITEM_BLUK_BERRY - FIRST_BERRY_INDEX]            = {.difficulty =  80, .powder =  70},
-    [ITEM_NANAB_BERRY - FIRST_BERRY_INDEX]           = {.difficulty =  80, .powder =  70},
-    [ITEM_PINAP_BERRY - FIRST_BERRY_INDEX]           = {.difficulty =  80, .powder =  70},
-    [ITEM_POMEG_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 100, .powder = 100},
-    [ITEM_KELPSY_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 100, .powder = 100},
-    [ITEM_QUALOT_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 100, .powder = 100},
-    [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 100, .powder = 100},
-    [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 100, .powder = 100},
-    [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
     [ITEM_CHILAN_BERRY - FIRST_BERRY_INDEX]          = {.difficulty =  80, .powder =  70},
     [ITEM_OCCA_BERRY - FIRST_BERRY_INDEX]            = {.difficulty = 100, .powder = 100},
     [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX]          = {.difficulty =  60, .powder =  30},
@@ -1439,7 +1056,6 @@ const struct BerryCrushBerryData gBerryCrush_BerryData[] = {
     [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 180, .powder = 500},
     [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 200, .powder = 750},
     [ITEM_STARF_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 200, .powder = 750},
-    [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 150, .powder = 200},
     [ITEM_MICLE_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 130, .powder = 250},
     [ITEM_CUSTAP_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 200, .powder = 750},
     [ITEM_JABOCA_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 250},
@@ -1610,7 +1226,7 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
         tree->berryYield = 0;
         tree->stage = BERRY_STAGE_SPROUTED;
         tree->moistureLevel = 100;
-        if (++tree->regrowthCount == ((tree->mulch == ITEM_TO_MULCH(ITEM_GOOEY_MULCH)) ? 15 : 10))
+        if (++tree->regrowthCount == ((tree->mulch == ITEM_TO_MULCH(ITEM_GROWTH_MULCH)) ? 15 : 10))
             *tree = gBlankBerryTree;
         break;
     }
@@ -1623,8 +1239,6 @@ static u16 GetMulchAffectedGrowthRate(u16 berryDuration, u8 mulch, u8 stage)
         return berryDuration;
     if (mulch == ITEM_TO_MULCH(ITEM_GROWTH_MULCH))
         return berryDuration / 4 * 3;
-    if (mulch == ITEM_TO_MULCH(ITEM_DAMP_MULCH))
-        return berryDuration / 2 * 3;
     return berryDuration;
 }
 
@@ -1662,10 +1276,6 @@ void BerryTreeTimeUpdate(s32 minutes)
                             {
                                 if (tree->mulch == ITEM_TO_MULCH(ITEM_GROWTH_MULCH))
                                     drainVal *= 2;
-                                if (tree->mulch == ITEM_TO_MULCH(ITEM_DAMP_MULCH))
-                                    drainVal /= 2;
-                                if (tree->mulch == ITEM_TO_MULCH(ITEM_BOOST_MULCH) || tree->mulch == ITEM_TO_MULCH(ITEM_AMAZE_MULCH))
-                                    drainVal = 25;
                             }
                             if (OW_BERRY_ALWAYS_WATERABLE && tree->moistureLevel == 0)
                             {
@@ -1705,7 +1315,7 @@ void BerryTreeTimeUpdate(s32 minutes)
                     if (!BerryTreeGrow(tree))
                         break;
                     if (tree->stage == BERRY_STAGE_BERRIES)
-                        tree->minutesUntilNextStage = GetStageDurationByBerryType(tree->berry) * ((tree->mulch == ITEM_TO_MULCH(ITEM_STABLE_MULCH)) ? 6 : 4);
+                        tree->minutesUntilNextStage = GetStageDurationByBerryType(tree->berry) * ((tree->mulch == ITEM_TO_MULCH(ITEM_GROWTH_MULCH)) ? 6 : 4);
                 }
             }
         }
@@ -1725,7 +1335,7 @@ void PlantBerryTree(u8 id, u8 berry, u8 stage, bool8 allowGrowth)
     if (stage == BERRY_STAGE_BERRIES)
     {
         tree->berryYield = CalcBerryYield(tree);
-        tree->minutesUntilNextStage *= ((tree->mulch == ITEM_TO_MULCH(ITEM_STABLE_MULCH)) ? 6 : 4);
+        tree->minutesUntilNextStage *= ((tree->mulch == ITEM_TO_MULCH(ITEM_GROWTH_MULCH)) ? 6 : 4);
     }
 
     // Stop growth, to keep tree at this stage until the player has seen it
@@ -1848,7 +1458,7 @@ static u8 CalcBerryYield(struct BerryTree *tree)
     u8 min = tree->berryYield;
     u8 max = berry->maxYield;
     u8 result;
-    if (OW_BERRY_MULCH_USAGE && (tree->mulch == ITEM_TO_MULCH(ITEM_RICH_MULCH) || tree->mulch == ITEM_TO_MULCH(ITEM_AMAZE_MULCH)))
+    if (OW_BERRY_MULCH_USAGE && (tree->mulch == ITEM_TO_MULCH(ITEM_GROWTH_MULCH) || tree->mulch == ITEM_TO_MULCH(ITEM_GROWTH_MULCH)))
         min += 2;
     if (!(OW_BERRY_MOISTURE && OW_BERRY_ALWAYS_WATERABLE))
         min += berry->minYield;
@@ -2075,90 +1685,10 @@ bool8 PlayerHasMulch(void)
         return FALSE;
     if (CheckBagHasItem(ITEM_GROWTH_MULCH, 1))
         return TRUE;
-    if (CheckBagHasItem(ITEM_DAMP_MULCH, 1))
-        return TRUE;
-    if (CheckBagHasItem(ITEM_STABLE_MULCH, 1))
-        return TRUE;
-    if (CheckBagHasItem(ITEM_GOOEY_MULCH, 1))
-        return TRUE;
-    if (CheckBagHasItem(ITEM_RICH_MULCH, 1))
-        return TRUE;
-    if (CheckBagHasItem(ITEM_SURPRISE_MULCH, 1))
-        return TRUE;
-    if (CheckBagHasItem(ITEM_BOOST_MULCH, 1))
-        return TRUE;
-    if (CheckBagHasItem(ITEM_AMAZE_MULCH, 1))
-        return TRUE;
     return FALSE;
 }
 
 #if OW_BERRY_MUTATIONS == TRUE
-static const u8 sBerryMutations[][3] = {
-    {ITEM_TO_BERRY(ITEM_IAPAPA_BERRY), ITEM_TO_BERRY(ITEM_MAGO_BERRY),   ITEM_TO_BERRY(ITEM_POMEG_BERRY)},
-    {ITEM_TO_BERRY(ITEM_CHESTO_BERRY), ITEM_TO_BERRY(ITEM_PERSIM_BERRY), ITEM_TO_BERRY(ITEM_KELPSY_BERRY)},
-    {ITEM_TO_BERRY(ITEM_ORAN_BERRY),   ITEM_TO_BERRY(ITEM_PECHA_BERRY),  ITEM_TO_BERRY(ITEM_QUALOT_BERRY)},
-    {ITEM_TO_BERRY(ITEM_CHESTO_BERRY), ITEM_TO_BERRY(ITEM_PERSIM_BERRY), ITEM_TO_BERRY(ITEM_KELPSY_BERRY)},
-    {ITEM_TO_BERRY(ITEM_ASPEAR_BERRY), ITEM_TO_BERRY(ITEM_LEPPA_BERRY),  ITEM_TO_BERRY(ITEM_HONDEW_BERRY)},
-    {ITEM_TO_BERRY(ITEM_AGUAV_BERRY),  ITEM_TO_BERRY(ITEM_FIGY_BERRY),   ITEM_TO_BERRY(ITEM_GREPA_BERRY)},
-    {ITEM_TO_BERRY(ITEM_LUM_BERRY),    ITEM_TO_BERRY(ITEM_SITRUS_BERRY), ITEM_TO_BERRY(ITEM_TAMATO_BERRY)},
-    {ITEM_TO_BERRY(ITEM_HONDEW_BERRY), ITEM_TO_BERRY(ITEM_YACHE_BERRY),  ITEM_TO_BERRY(ITEM_LIECHI_BERRY)},
-    {ITEM_TO_BERRY(ITEM_QUALOT_BERRY), ITEM_TO_BERRY(ITEM_TANGA_BERRY),  ITEM_TO_BERRY(ITEM_GANLON_BERRY)},
-    {ITEM_TO_BERRY(ITEM_GREPA_BERRY),  ITEM_TO_BERRY(ITEM_ROSELI_BERRY), ITEM_TO_BERRY(ITEM_SALAC_BERRY)},
-    {ITEM_TO_BERRY(ITEM_POMEG_BERRY),  ITEM_TO_BERRY(ITEM_KASIB_BERRY),  ITEM_TO_BERRY(ITEM_PETAYA_BERRY)},
-    {ITEM_TO_BERRY(ITEM_KELPSY_BERRY), ITEM_TO_BERRY(ITEM_WACAN_BERRY),  ITEM_TO_BERRY(ITEM_APICOT_BERRY)},
-    {ITEM_TO_BERRY(ITEM_GANLON_BERRY), ITEM_TO_BERRY(ITEM_LIECHI_BERRY), ITEM_TO_BERRY(ITEM_KEE_BERRY)},
-    {ITEM_TO_BERRY(ITEM_SALAC_BERRY),  ITEM_TO_BERRY(ITEM_PETAYA_BERRY), ITEM_TO_BERRY(ITEM_MARANGA_BERRY)},
-    // Up to one more Mutation can be added here for a total of 15 (only 4 bits are allocated)
-};
-
-static u8 GetMutationOutcome(u8 berry1, u8 berry2)
-{
-    u8 i;
-    for(i = 0; i < ARRAY_COUNT(sBerryMutations); i++)
-    {
-        if ((sBerryMutations[i][0] == berry1 && sBerryMutations[i][1] == berry2)
-          ||(sBerryMutations[i][0] == berry2 && sBerryMutations[i][1] == berry1))
-            return (i + 1);
-    }
-    return 0;
-}
-
-static u8 TryForMutation(u8 berryTreeId, u8 berry)
-{
-    u8 i, j, mulch;
-    s16 x1, x2, y1, y2;
-
-    // Get location of current tree
-    for (i = 0; i < OBJECT_EVENTS_COUNT; i++)
-    {
-        if (gObjectEvents[i].trainerRange_berryTreeId == berryTreeId && gObjectEvents[i].movementType == MOVEMENT_TYPE_BERRY_TREE_GROWTH)
-            break;
-    }
-    if (i == OBJECT_EVENTS_COUNT)
-        return 0;
-
-    x1 = gObjectEvents[i].currentCoords.x;
-    y1 = gObjectEvents[i].currentCoords.y;
-
-    mulch = GetMulchByBerryTreeId(GetObjectEventBerryTreeId(i));
-
-    // Try mutation for each adjacent tree
-    for (j = 0; j < OBJECT_EVENTS_COUNT; j++)
-    {
-        if (gObjectEvents[j].active && gObjectEvents[j].movementType == MOVEMENT_TYPE_BERRY_TREE_GROWTH && GetStageByBerryTreeId(GetObjectEventBerryTreeId(j)) != BERRY_STAGE_NO_BERRY && j != i)
-        {
-            x2 = gObjectEvents[j].currentCoords.x;
-            y2 = gObjectEvents[j].currentCoords.y;
-            if (Random() % 100 < (OW_BERRY_MUTATION_CHANCE * (mulch == ITEM_TO_MULCH(ITEM_SURPRISE_MULCH) || mulch == ITEM_TO_MULCH(ITEM_AMAZE_MULCH))) && (
-                (x1 == x2 && y1 == y2 - 1) ||
-                (x1 == x2 && y1 == y2 + 1) ||
-                (x1 == x2 - 1 && y1 == y2) ||
-                (x1 == x2 + 1 && y1 == y2)))
-                return GetMutationOutcome(berry, gSaveBlock1Ptr->berryTrees[GetObjectEventBerryTreeId(j)].berry);
-        }
-    }
-    return 0;
-}
 #endif
 
 struct TreeMutationBitfield {
