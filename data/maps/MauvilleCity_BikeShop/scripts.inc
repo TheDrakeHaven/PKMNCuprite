@@ -185,7 +185,7 @@ MauvilleCity_BikeShop_Text_RydelGreeting:
 MauvilleCity_BikeShop_Text_DidYouComeFromFarAway:
 	.string "RYDEL: Your RUNNING SHOES…\n"
 	.string "They're awfully filthy.\p"
-	.string "Did you come from far away?$"
+	.string "Are you poor?$"
 
 MauvilleCity_BikeShop_Text_GuessYouDontNeedBike:
 	.string "RYDEL: Is that right?\p"
@@ -194,10 +194,8 @@ MauvilleCity_BikeShop_Text_GuessYouDontNeedBike:
 
 MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
 	.string "RYDEL: Hm, hm… … … … …\p"
-	.string "You're saying that you came all this\n"
-	.string "way from LITTLEROOT?\p"
 	.string "My goodness!\n"
-	.string "That's ridiculously far!\p"
+	.string "You could never afford my BIKES!\p"
 	.string "If you had one of my BIKES, you could\n"
 	.string "go anywhere easily while feeling the\l"
 	.string "gentle caress of the wind!\p"
@@ -208,12 +206,10 @@ MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
 	.string "two kinds of BIKES!\p"
 	.string "They are the MACH BIKE and\n"
 	.string "the ACRO BIKE!\p"
-	.string "The MACH BIKE is for cyclists who want\n"
-	.string "to feel the wind with their bodies!\p"
+	.string "The MACH BIKE is for golden boys who\n"
+	.string "to feel the wind as they ride!\p"
 	.string "And an ACRO BIKE is for those who\n"
-	.string "prefer technical rides!\p"
-	.string "I'm a real sweetheart, so you can\n"
-	.string "have whichever one you like!\p"
+	.string "prefer X-Games and Monster!\p"
 	.string "Which one will you choose?$"
 
 MauvilleCity_BikeShop_Text_ChoseMachBike:
@@ -250,17 +246,17 @@ MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
 	.string "Oh? What happened to that BIKE\n"
 	.string "I gave you?\p"
 	.string "Oh, I get it, you stored it using your PC.\p"
-	.string "Well, take it out of PC storage,\n"
-	.string "and I'll be happy to exchange it!\p"
-	.string "May the wind always be at your back\n"
-	.string "on your adventure!$"
+	.string "If you don't want it, then I'll\n"
+	.string "take it back!\p"
+	.string "The second-hand market is currently\n"
+	.string "booming online!$"
 
 MauvilleCity_BikeShop_Text_HandbooksAreInBack:
 	.string "I'm learning about BIKES while\n"
 	.string "I work here.\p"
-	.string "If you need advice on how to ride your\n"
-	.string "BIKE, there're a couple handbooks in\l"
-	.string "the back.$"
+	.string "The owner only lets me ride\n"
+	.string "tricycles until I sell 1000\l"
+	.string "BIKES.$"
 
 MauvilleCity_BikeShop_Text_MachHandbookWhichPage:
 	.string "It's a handbook on the MACH BIKE.\p"

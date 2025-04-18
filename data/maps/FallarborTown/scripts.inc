@@ -39,10 +39,6 @@ FallarborTown_EventScript_Azurill::
 	release
 	end
 
-FallarborTown_EventScript_BattleTentSign::
-	msgbox FallarborTown_Text_BattleTentSign, MSGBOX_SIGN
-	end
-
 FallarborTown_EventScript_TownSign::
 	msgbox FallarborTown_Text_TownSign, MSGBOX_SIGN
 	end
@@ -80,10 +76,6 @@ FallarborTown_Text_HaveYouChallengedFlannery:
 	.string "It wouldn't surprise me to see JOSE\n"
 	.string "become a great TRAINER in his own\l"
 	.string "right.$"
-
-FallarborTown_Text_BattleTentSign:
-	.string "BATTLE TENT FALLARBOR SITE\n"
-	.string "“May the Greatest Teams Gather!”$"
 
 FallarborTown_Text_TownSign:
 	.string "FALLARBOR TOWN\n"

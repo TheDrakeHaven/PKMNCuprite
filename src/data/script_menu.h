@@ -276,8 +276,8 @@ static const struct MenuAction MultichoiceList_GameCornerTMs[] =
 
 static const struct MenuAction MultichoiceList_GameCornerCoins[] =
 {
-    {COMPOUND_STRING("  50 COINS    ¥500")},
-    {COMPOUND_STRING("500 COINS  ¥5,000")},
+    {COMPOUND_STRING("100 COINS    ¥1,000")},
+    {COMPOUND_STRING("1000 COINS  ¥10,000")},
     {gText_Exit},
 };
 
@@ -816,9 +816,10 @@ static const struct MenuAction MultichoiceList_GYM3[] =
 
 static const struct MenuAction MultichoiceList_GYM4[] =
 {
-    {gtext_Firetype},
-    {gtext_Watertype},
-    {gtext_Grasstype},
+    {gtext_icyrock},
+    {gtext_damprock},
+    {gtext_heatrock},
+    {gtext_smoothrock},
 };
 
 static const struct MenuAction MultichoiceList_SHELLY[] =

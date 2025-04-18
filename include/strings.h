@@ -2445,4 +2445,9 @@ extern const u8 gtext_Moonstone[];
 extern const u8 gtext_Icestone[];
 extern const u8 gtext_Soothebell[];
 
+extern const u8 gtext_icyrock[];
+extern const u8 gtext_damprock[];
+extern const u8 gtext_heatrock[];
+extern const u8 gtext_smoothrock[];
+
 #endif // GUARD_STRINGS_H

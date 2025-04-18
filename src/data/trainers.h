@@ -8106,7 +8106,7 @@ F_TRAINER_FEMALE |
 #line 3290
             .ability = ABILITY_MARVEL_SCALE,
 #line 3291
-            .lvl = 21,
+            .lvl = 22,
 #line 3292
             .nature = NATURE_MODEST,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -8143,6 +8143,8 @@ F_TRAINER_FEMALE |
 #line 3309
             .species = SPECIES_CLOYSTER,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 3309
+            .heldItem = ITEM_SCOPE_LENS,
 #line 3313
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
 #line 3310
@@ -8329,7 +8331,7 @@ F_TRAINER_FEMALE |
 #line 3389
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 3390
-        .trainerPic = TRAINER_PIC_LEADER_FLANNERY,
+        .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
 #line 3392
             TRAINER_ENCOUNTER_MUSIC_FEMALE,

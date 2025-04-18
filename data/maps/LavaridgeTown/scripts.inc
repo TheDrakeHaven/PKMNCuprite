@@ -163,12 +163,14 @@ LavaridgeTown_Movement_RivalExit1:
 
 LavaridgeTown_Movement_RivalApproachPlayer2:
 	walk_up
+	walk_in_place_faster_left
 	step_end
 
 LavaridgeTown_Movement_RivalApproachPlayer1:
 	walk_left
 	walk_left
 	walk_up
+	walk_in_place_faster_left
 	step_end
 
 LavaridgeTown_Movement_RivalExitHerbShop:

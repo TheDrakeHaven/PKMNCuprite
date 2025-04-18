@@ -632,15 +632,15 @@ LilycoveCity_Text_ImArtDealer:
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
 	.string "Even as we grow old and wrinkled,\n"
-	.string "the sea remains forever young with\l"
+	.string "the sea remains forever filled with\l"
 	.string "the vivid brilliance of life…\p"
-	.string "Fwohoho fwohohohoho…$"
+	.string "And all of the trash we throw…$"
 
 LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
 	.string "It was sixty years ago that my husband\n"
 	.string "proposed to me here.\l"
-	.string "The sea remains as beautiful as ever.\p"
-	.string "Mufufufu mufufufufufu…$"
+	.string "I said no, but he kept asking.\p"
+	.string "So eventually I said yes…$"
 
 LilycoveCity_Text_TeamAquaRenovatedCavern:
 	.string "Hm, you know of the peculiar cavern\n"
@@ -743,13 +743,13 @@ LilycoveCity_Text_JustArrivedAndSawRarePokemon:
 	.string "honeymoon vacation.\p"
 	.string "We happened to see a DRAGON-type\n"
 	.string "POKéMON flying way up in the sky.\p"
-	.string "Do cool POKéMON like that live in\n"
-	.string "the HOENN region?$"
+	.string "A strange man who called himself\n"
+	.string "JORDAN said he wanted it?$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "On our honeymoon, we vowed to see as\n"
 	.string "many rare POKéMON as we can.\p"
 	.string "So we were delighted to see a rare\n"
 	.string "POKéMON as soon as we arrived.\p"
-	.string "I mean, we are totally happy!$"
+	.string "Now time to see another!$"
 

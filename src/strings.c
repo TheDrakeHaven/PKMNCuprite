@@ -1335,3 +1335,8 @@ const u8 gtext_Moonstone[]= _("MOON STONE");
 const u8 gtext_Icestone[]= _("ICE STONE");
 const u8 gtext_Soothebell[]= _("SOOTHE BELL");
 
+const u8 gtext_icyrock[]= _("ICY ROCK");
+const u8 gtext_damprock[]= _("DAMP ROCK");
+const u8 gtext_heatrock[]= _("HEAT ROCK");
+const u8 gtext_smoothrock[]= _("SMOOTH ROCK");
+

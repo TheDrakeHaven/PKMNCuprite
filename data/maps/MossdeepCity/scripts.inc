@@ -395,7 +395,7 @@ MossdeepCity_Text_SpecialSpaceCenterRock:
 	.string "That's what I do.$"
 
 MossdeepCity_Text_ItsAWhiteRock:
-	.string "It's a white rock.$"
+	.string "It's a rock covered in bird poop.$"
 
 MossdeepCity_Text_GymSign:
 	.string "MOSSDEEP CITY POKéMON GYM\n"

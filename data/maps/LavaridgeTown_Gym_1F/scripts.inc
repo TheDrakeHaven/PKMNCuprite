@@ -51,7 +51,6 @@ LavaridgeTown_Gym_1F_EventScript_EndCheckBuryTrainers::
 LavaridgeTown_Gym_1F_EventScript_Flannery::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_JOSE, LavaridgeTown_Gym_1F_Text_FlanneryIntro, LavaridgeTown_Gym_1F_Text_FlanneryDefeat, LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated, NO_MUSIC
-	goto_if_unset FLAG_RECEIVED_TM_OVERHEAT, LavaridgeTown_Gym_1F_EventScript_GiveOverheat2
 	msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -71,36 +70,50 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	call Common_EventScript_SetGymTrainers
 	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
 	setvar VAR_LAVARIDGE_TOWN_STATE, 1
-	call LavaridgeTown_Gym_1F_EventScript_GiveOverheat
-	closemessage
-	delay 30
-	release
-	end
-
-LavaridgeTown_Gym_1F_EventScript_GiveOverheat2::
-	additem ITEM_TM_DRAGON_PULSE
-	additem ITEM_TM_SCALE_SHOT
-	additem ITEM_SMOOTH_ROCK
-	additem ITEM_DAMP_ROCK
-	additem ITEM_HEAT_ROCK
-	additem ITEM_ICY_ROCK
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_OVERHEAT
+	call LavaridgeTown_Gym_1F_EventScript_GiveOverheat
 	release
 	end
 
 LavaridgeTown_Gym_1F_EventScript_GiveOverheat::
 	additem ITEM_TM_DRAGON_PULSE
 	additem ITEM_TM_SCALE_SHOT
-	additem ITEM_SMOOTH_ROCK
-	additem ITEM_DAMP_ROCK
-	additem ITEM_HEAT_ROCK
-	additem ITEM_ICY_ROCK
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
+	multichoicedefault 0, 0, MULTI_GYM4, 0 , TRUE 
+	switch VAR_RESULT
+	case 0, LavaridgeTown_Gym_1F_EventScript_GiveItem1
+	case 1, LavaridgeTown_Gym_1F_EventScript_GiveItem2
+	case 2, LavaridgeTown_Gym_1F_EventScript_GiveItem3
+	case 3, LavaridgeTown_Gym_1F_EventScript_GiveItem4
+	release
+	end
+
+LavaridgeTown_Gym_1F_EventScript_GiveItem1::
 	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM_OVERHEAT
-	return
+	closemessage
+	giveitem ITEM_ICY_ROCK
+	release
+	end
+
+LavaridgeTown_Gym_1F_EventScript_GiveItem2::
+	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_DAMP_ROCK
+	release
+	end
+
+LavaridgeTown_Gym_1F_EventScript_GiveItem3::
+	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_HEAT_ROCK
+	release
+	end
+
+LavaridgeTown_Gym_1F_EventScript_GiveItem4::
+	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
+	closemessage
+	giveitem ITEM_SMOOTH_ROCK
+	release
+	end
 
 LavaridgeTown_Gym_1F_EventScript_Cole::
 	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, LOCALID_COLE, TRAINER_COLE, LavaridgeTown_Gym_1F_Text_ColeIntro, LavaridgeTown_Gym_1F_Text_ColeDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript, OBJ_ID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE

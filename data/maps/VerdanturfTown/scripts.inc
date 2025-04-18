@@ -55,10 +55,6 @@ VerdanturfTown_EventScript_WandasHouseSign::
 	msgbox VerdanturfTown_Text_WandasHouse, MSGBOX_SIGN
 	end
 
-VerdanturfTown_EventScript_BattleTentSign::
-	msgbox VerdanturfTown_Text_BattleTentSign, MSGBOX_SIGN
-	end
-
 VerdanturfTown_EventScript_RusturfTunnelSign::
 	msgbox VerdanturfTown_Text_RusturfTunnelSign, MSGBOX_SIGN
 	end
@@ -114,10 +110,6 @@ VerdanturfTown_Text_TownSign:
 
 VerdanturfTown_Text_WandasHouse:
 	.string "WANDA'S HOUSE$"
-
-VerdanturfTown_Text_BattleTentSign:
-	.string "BATTLE TENT VERDANTURF SITE\n"
-	.string "“Feast Your Eyes on Battles!”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
 	.string "RUSTURF TUNNEL\n"

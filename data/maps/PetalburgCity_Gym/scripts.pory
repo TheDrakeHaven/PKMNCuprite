@@ -378,7 +378,6 @@ PetalburgCity_Gym_EventScript_Grayson::
 	clearflag FLAG_UNUSED_0x265
 	setvar VAR_0x8008, 5
 	call Common_EventScript_SetGymTrainers
-	clearflag FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN
 	call PetalburgCity_Gym_EventScript_UnlockAllDoors
 	special DrawWholeMapView
 	call PetalburgCity_Gym_EventScript_GiveFacade
@@ -1543,7 +1542,7 @@ script PetalburgCity_Gym_EventScript_GiveEevee{
 	additem(ITEM_TM_PSYCHIC_TERRAIN)
 	additem(ITEM_TM_GRASSY_TERRAIN)
 	message("Which evolution item for Eevee do you want?")
-	multichoice (0,106, MULTI_EEVEE_STONE, 0)
+	multichoice (0,98, MULTI_EEVEE_STONE, 0)
     closemessage
         if(var(VAR_RESULT) == 0){
             giveitem(ITEM_FIRE_STONE)

@@ -1012,9 +1012,9 @@ Route111_Text_DaisukeDefeat:
 	.string "Uncle! I give up!$"
 
 Route111_Text_DaisukePostBattle:
-	.string "All I can do is keep training until\n"
-	.string "I can defeat strong TRAINERS such\l"
-	.string "as yourself.$"
+	.string "The tower keeps coming back \n"
+	.string "each time it crumbles,\l"
+	.string "but a bit more empty.$"
 
 Route111_Text_WiltonIntro:
 	.string "Show me how much you've toughened\n"

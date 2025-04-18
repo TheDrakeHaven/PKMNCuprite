@@ -5456,7 +5456,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sScraggyLevelUpLearnset,
         .teachableLearnset = sScraggyTeachableLearnset,
         .eggMoveLearnset = sScraggyEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_SCRAFTY}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_SCRAFTY}),
     },
 
     [SPECIES_SCRAFTY] =
@@ -9033,7 +9033,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sKlinkLevelUpLearnset,
         .teachableLearnset = sKlinkTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_KLANG}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_KLANG}),
     },
 
     [SPECIES_KLANG] =
@@ -9825,7 +9825,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sAxewLevelUpLearnset,
         .teachableLearnset = sAxewTeachableLearnset,
         .eggMoveLearnset = sAxewEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_FRAXURE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_FRAXURE}),
     },
 
     [SPECIES_FRAXURE] =

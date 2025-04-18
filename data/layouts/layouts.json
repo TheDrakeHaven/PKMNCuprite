@@ -4490,6 +4490,26 @@
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/AeroBase_Lobby/border.bin",
       "blockdata_filepath": "data/layouts/AeroBase_Lobby/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_CITY_HOUSE6",
+      "name": "FortreeCity_House6_Layout",
+      "width": 8,
+      "height": 6,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/FortreeCity_House6/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeCity_House6/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_CITY_HOUSE7",
+      "name": "FortreeCity_House7_Layout",
+      "width": 8,
+      "height": 6,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/FortreeCity_House7/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeCity_House7/map.bin"
     }
   ]
 }

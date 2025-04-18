@@ -108,7 +108,7 @@ MauvilleCity_Gym_EventScript_GiveShockWave::
 	giveitem ITEM_TM_BREAKING_SWIPE
 	setflag FLAG_RECEIVED_TM_SHOCK_WAVE
 	msgbox MauvilleCity_Gym_Text_ExplainShockWave, MSGBOX_DEFAULT
-	multichoicedefault 0, 0, MULTI_GYM1, 0, TRUE
+	multichoicedefault 0, 0, MULTI_GYM3, 0, TRUE
 	switch VAR_RESULT
 	case 0, MauvilleCity_Gym_EventScript_SamItem1
 	case 1, MauvilleCity_Gym_EventScript_SamItem2
