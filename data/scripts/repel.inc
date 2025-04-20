@@ -11,7 +11,6 @@ EventScript_BufferSprayName::
 	specialvar LOCAL_VAR_SPRAY_TYPE, GetLastUsedSprayType
 	compare LOCAL_VAR_SPRAY_TYPE, ITEM_REPEL
 	goto_if_eq EventScript_BufferSprayName_2
-	bufferitemname STR_VAR_1, ITEM_REPEL
 EventScript_BufferSprayName_1:
 	return
 
@@ -150,3 +149,4 @@ Text_SprayWoreOffAskUseX::
 Text_SprayWoreOffUseX::
 	.string "{PLAYER} used the\n"
 	.string "{STR_VAR_2}.$"
+

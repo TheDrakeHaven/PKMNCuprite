@@ -68,9 +68,9 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_VendingMachine::
 	lockall
 	message LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike
 	waitmessage
+	closemessage
+	releaseall
 	end
-
-
 
 LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales:
 	.string "Don't they have set dates for their\n"

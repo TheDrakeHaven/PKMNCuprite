@@ -58,7 +58,7 @@ u32 GetSprayId(void)
 
 u32 GetLastUsedSprayType(void)
 {
-        return ITEM_REPEL;
+        return ITEM_MAX_REPEL;
 }
 
 u32 SetSprayMenuCursorPosition(int currentSpray, int count)

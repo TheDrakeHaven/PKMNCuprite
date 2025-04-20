@@ -4263,7 +4263,7 @@ Venusaur @ Leftovers
 Ability: Chlorophyll
 Level: 78
 Timid Nature
-EVs: 252 SpA / 252 Spe / 4 SpD
+EVs: 252 SpA / 4 Spe / 252 SpD
 -Leaf Storm
 -Sludge Bomb
 -Earth Power
@@ -8241,6 +8241,7 @@ Level: 1
 Bold Nature
 IVs: 0 HP
 -Endeavor
+-Quick Attack
 
 === TRAINER_BRENDAN_LILYCOVE ===
 Name: SAMUEL
