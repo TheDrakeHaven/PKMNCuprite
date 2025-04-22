@@ -54,7 +54,6 @@ static void FeebasSeedRng(u16 seed);
 static void UpdateChainFishingStreak();
 static bool8 IsWildLevelAllowedByRepel(u8 level);
 static void ApplyFluteEncounterRateMod(u32 *encRate);
-static void ApplyCleanseTagEncounterRateMod(u32 *encRate);
 static u8 GetMaxLevelOfSpeciesInWildTable(const struct WildPokemon *wildMon, u16 species, u8 area);
 #ifdef BUGFIX
 static bool8 TryGetAbilityInfluencedWildMonIndex(const struct WildPokemon *wildMon, u8 type, u16 ability, u8 *monIndex, u32 size);
@@ -565,7 +564,6 @@ static bool8 WildEncounterCheck(u32 encounterRate, bool8 ignoreAbility)
     if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_MACH_BIKE | PLAYER_AVATAR_FLAG_ACRO_BIKE))
         encounterRate = encounterRate * 80 / 100;
     ApplyFluteEncounterRateMod(&encounterRate);
-    ApplyCleanseTagEncounterRateMod(&encounterRate);
     if (LURE_STEP_COUNT != 0)
         encounterRate *= 2;
     if (!ignoreAbility && !GetMonData(&gPlayerParty[0], MON_DATA_SANITY_IS_EGG))
@@ -1104,13 +1102,7 @@ static void ApplyFluteEncounterRateMod(u32 *encRate)
     if (FlagGet(FLAG_SYS_ENC_UP_ITEM) == TRUE)
         *encRate += *encRate / 2;
     else if (FlagGet(FLAG_SYS_ENC_DOWN_ITEM) == TRUE)
-        *encRate = *encRate / 2;
-}
-
-static void ApplyCleanseTagEncounterRateMod(u32 *encRate)
-{
-    if (GetMonData(&gPlayerParty[0], MON_DATA_HELD_ITEM) == ITEM_CLEANSE_TAG)
-        *encRate = *encRate * 2 / 3;
+        *encRate = *encRate / 4;
 }
 
 bool8 TryDoDoubleWildBattle(void)

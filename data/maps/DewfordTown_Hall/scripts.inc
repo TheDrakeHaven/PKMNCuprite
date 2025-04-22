@@ -26,8 +26,72 @@ DewfordTown_Hall_EventScript_Woman::
 	faceplayer
 	call Common_EventScript_BufferTrendyPhrase
 	msgbox DewfordTown_Hall_Text_TeachingMonAboutTrend, MSGBOX_DEFAULT
+	closemessage
+	multichoice 0, 0, MULTI_EEVEE_STONE2, 0
+	compare VAR_RESULT, 0
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_2
+	compare VAR_RESULT, 1
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_3
+	compare VAR_RESULT, 2
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_4
+	compare VAR_RESULT, 3
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_5
+	compare VAR_RESULT, 4
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_6
+	compare VAR_RESULT, 5
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_7
+	compare VAR_RESULT, 6
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_8
+	compare VAR_RESULT, 7
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_9
+	compare VAR_RESULT, 8
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_10
+	compare VAR_RESULT, 9
+	goto_if_eq DewfordTown_Hall_EventScript_Woman_11
+
+DewfordTown_Hall_EventScript_Woman_1:
 	release
 	end
+
+DewfordTown_Hall_EventScript_Woman_2:
+	giveitem ITEM_FIRE_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
+
+DewfordTown_Hall_EventScript_Woman_3:
+	giveitem ITEM_WATER_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
+
+DewfordTown_Hall_EventScript_Woman_4:
+	giveitem ITEM_THUNDER_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
+
+DewfordTown_Hall_EventScript_Woman_5:
+	giveitem ITEM_SUN_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
+
+DewfordTown_Hall_EventScript_Woman_6:
+	giveitem ITEM_MOON_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
+
+DewfordTown_Hall_EventScript_Woman_7:
+	giveitem ITEM_LEAF_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
+	
+DewfordTown_Hall_EventScript_Woman_8:
+	giveitem ITEM_ICE_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
+
+DewfordTown_Hall_EventScript_Woman_9:
+	giveitem ITEM_SHINY_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
+
+DewfordTown_Hall_EventScript_Woman_10:
+	giveitem ITEM_DUSK_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
+
+DewfordTown_Hall_EventScript_Woman_11:
+	giveitem ITEM_DAWN_STONE
+	goto DewfordTown_Hall_EventScript_Woman_1
 
 DewfordTown_Hall_EventScript_Man::
 	lock
@@ -257,7 +321,6 @@ DewfordTown_Hall_EventScript_SludgeBombMan::
 DewfordTown_Hall_EventScript_ReceivedSludgeBomb::
 	msgbox DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo, MSGBOX_DEFAULT
 	release
-	end
 
 DewfordTown_Hall_Text_CantImagineLifeWithoutTrend:
 	.string "What's in vogue? Why, it has to be\n"
@@ -275,7 +338,7 @@ DewfordTown_Hall_Text_TeachingMonAboutTrend:
 	.string "I'm teaching my POKéMON about\n"
 	.string "“{STR_VAR_1},”\l"
 	.string "but it's not going well.\p"
-	.string "It's a bit too much, I think.$"
+	.string "Here, take a stone for your help.$"
 
 DewfordTown_Hall_Text_DeepLinkBetweenXAndY:
 	.string "I'm studying up on the hip and trendy\n"

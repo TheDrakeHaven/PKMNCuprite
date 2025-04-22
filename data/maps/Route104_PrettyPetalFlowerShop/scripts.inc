@@ -71,11 +71,11 @@ Route104_PrettyPetalFlowerShop_EventScript_WailmerPailGirl::
 
 Route104_PrettyPetalFlowerShop_EventScript_GiveWailmerPail::
 	msgbox Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis, MSGBOX_DEFAULT
-	giveitem ITEM_WAILMER_PAIL
+	giveitem ITEM_TM_DRAGON_CLAW
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_WAILMER_PAIL
-	release
+	release 
 	end
 
 Route104_PrettyPetalFlowerShop_EventScript_RandomBerryGirl::

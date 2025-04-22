@@ -4,14 +4,14 @@ MysteryGiftScript_OldSeaMap::
 	faceplayer
 	vgoto_if_set FLAG_RECEIVED_OLD_SEA_MAP, OldSeaMap_Obtained
 	vgoto_if_set FLAG_CAUGHT_MEW, OldSeaMap_Obtained
-	checkitem ITEM_OLD_SEA_MAP
+	checkitem ITEM_OLD_ROD
 	vgoto_if_eq VAR_RESULT, TRUE, OldSeaMap_Obtained
 	vmessage sText_MysteryGiftOldSeaMapForYou
 	waitmessage
 	waitbuttonpress
-	checkitemspace ITEM_OLD_SEA_MAP
+	checkitemspace ITEM_OLD_ROD
 	vgoto_if_eq VAR_RESULT, FALSE, OldSeaMap_NoBagSpace
-	giveitem ITEM_OLD_SEA_MAP
+	giveitem ITEM_OLD_ROD
 	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
 	setflag FLAG_RECEIVED_OLD_SEA_MAP
 	vmessage sText_MysteryGiftOldSeaMapUseAtPort

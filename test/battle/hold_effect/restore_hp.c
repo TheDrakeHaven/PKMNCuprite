@@ -5,13 +5,11 @@ DOUBLE_BATTLE_TEST("Restore HP Item effects do not miss timing")
 {
     u16 item;
 
-    PARAMETRIZE { item = ITEM_BERRY_JUICE; }
     PARAMETRIZE { item = ITEM_ORAN_BERRY; }
     PARAMETRIZE { item = ITEM_SITRUS_BERRY; }
 
     GIVEN {
         ASSUME(gItemsInfo[ITEM_ORAN_BERRY].holdEffect == HOLD_EFFECT_RESTORE_HP);
-        ASSUME(gItemsInfo[ITEM_BERRY_JUICE].holdEffect == HOLD_EFFECT_RESTORE_HP);
         ASSUME(gItemsInfo[ITEM_SITRUS_BERRY].holdEffect == HOLD_EFFECT_RESTORE_PCT_HP);
         PLAYER(SPECIES_WOBBUFFET);
         PLAYER(SPECIES_WOBBUFFET);
@@ -32,14 +30,12 @@ DOUBLE_BATTLE_TEST("Restore HP Item effects do not miss timing after a recoil mo
 {
     u16 item;
 
-    PARAMETRIZE { item = ITEM_BERRY_JUICE; }
     PARAMETRIZE { item = ITEM_ORAN_BERRY; }
     PARAMETRIZE { item = ITEM_SITRUS_BERRY; }
 
     GIVEN {
         ASSUME(GetMoveRecoil(MOVE_TAKE_DOWN) == 25);
         ASSUME(gItemsInfo[ITEM_ORAN_BERRY].holdEffect == HOLD_EFFECT_RESTORE_HP);
-        ASSUME(gItemsInfo[ITEM_BERRY_JUICE].holdEffect == HOLD_EFFECT_RESTORE_HP);
         ASSUME(gItemsInfo[ITEM_SITRUS_BERRY].holdEffect == HOLD_EFFECT_RESTORE_PCT_HP);
         PLAYER(SPECIES_WOBBUFFET);
         PLAYER(SPECIES_WOBBUFFET);

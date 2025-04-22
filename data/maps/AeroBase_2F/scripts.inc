@@ -2,8 +2,8 @@ AeroBase_2F_MapScripts::
 	.byte 0
 
 TrainerHill_EventScript_Grunt5::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_2, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
-	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TATE_AND_LIZA_2, TrainerHill_GruntIntro2, TrainerHill_GruntDefeat2
+	msgbox TrainerHill_GruntPost2, MSGBOX_AUTOCLOSE
 	end
 
 TrainerHill_EventScript_Grunt6::
@@ -12,8 +12,8 @@ TrainerHill_EventScript_Grunt6::
 	end
 
 TrainerHill_EventScript_Grunt7::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_4, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
-	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_TATE_AND_LIZA_4, TrainerHill_GruntIntro2, TrainerHill_GruntDefeat2
+	msgbox TrainerHill_GruntPost2, MSGBOX_AUTOCLOSE
 	end
 
 TrainerHill_EventScript_Ghostess::
@@ -23,8 +23,8 @@ TrainerHill_EventScript_Ghostess::
 	end
 
 TrainerHill_ghostgift::
-	additem ITEM_TM_HEX
-	additem ITEM_TM_ENERGY_BALL
+	giveitem ITEM_TM_HEX
+	giveitem ITEM_TM_ENERGY_BALL
 	multichoicedefault 5, 10, MULTI_GHOSTESS, 0, TRUE
 	switch VAR_RESULT
 	case 0, TrainerHill_EventScript_GhostessItem1

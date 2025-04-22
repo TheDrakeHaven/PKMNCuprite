@@ -38,7 +38,8 @@ RustboroCity_Mart_Pokemart_Expanded:
 	.2byte ITEM_POTION
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_REPEL
+	.2byte ITEM_REVIVE
+	.2byte ITEM_SUPER_REPEL
 	pokemartlistend
 
 RustboroCity_Mart_EventScript_PokefanF::

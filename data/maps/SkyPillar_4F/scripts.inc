@@ -19,6 +19,6 @@ SkyPillar_4F_SetHoleWarp:
 	end
 
 TrainerHill_EventScript_GruntB::
-	trainerbattle_single TRAINER_GRUNT_D, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
-	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_GRUNT_D, TrainerHill_GruntIntro2, TrainerHill_GruntDefeat2
+	msgbox TrainerHill_GruntPost2, MSGBOX_AUTOCLOSE
 	end

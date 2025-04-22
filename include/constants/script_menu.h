@@ -132,7 +132,7 @@
 #define MULTI_GYM7                         121
 #define MULTI_GYM8                         122
 #define MULTI_EEVEE_STONE                  123
-
+#define MULTI_EEVEE_STONE2                 124
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0

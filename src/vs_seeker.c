@@ -230,12 +230,6 @@ bool8 UpdateVsSeekerStepCounter(void)
 
     if (!I_VS_SEEKER_CHARGING) return FALSE;
 
-    if (CheckBagHasItem(ITEM_VS_SEEKER, 1))
-    {
-        if ((gSaveBlock1Ptr->trainerRematchStepCounter & 0xFF) < VSSEEKER_RECHARGE_STEPS)
-            gSaveBlock1Ptr->trainerRematchStepCounter++;
-    }
-
     if (FlagGet(I_VS_SEEKER_CHARGING))
     {
         if (((gSaveBlock1Ptr->trainerRematchStepCounter >> 8) & 0xFF) < VSSEEKER_RECHARGE_STEPS)
@@ -577,13 +571,6 @@ u16 GetRematchTrainerIdVSSeeker(u16 trainerId)
     return gRematchTable[tableId].trainerIds[rematchTrainerIdx];
 }
 
-bool32 IsVsSeekerEnabled(void)
-{
-    if (I_VS_SEEKER_CHARGING == 0)
-        return FALSE;
-
-    return (CheckBagHasItem(ITEM_VS_SEEKER, 1));
-}
 
 static bool8 ObjectEventIdIsSane(u8 objectEventId)
 {
@@ -729,9 +716,6 @@ static void ClearAllTrainerRematchStates(void)
 {
 #if FREE_MATCH_CALL == FALSE
     u32 i;
-
-    if (!CheckBagHasItem(ITEM_VS_SEEKER, 1))
-        return;
 
     for (i = 0; i < ARRAY_COUNT(gSaveBlock1Ptr->trainerRematches); i++)
         gSaveBlock1Ptr->trainerRematches[i] = 0;

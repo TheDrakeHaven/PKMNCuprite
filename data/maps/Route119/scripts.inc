@@ -128,10 +128,10 @@ Route119_EventScript_BattleBrendanMudkip::
 
 Route119_EventScript_DefeatedBrendan::
 	msgbox Route119_Text_BrendanIllGiveYouThis, MSGBOX_DEFAULT
-	additem ITEM_TM_THUNDER_PUNCH
-	additem ITEM_TM_ICE_PUNCH
-	additem ITEM_TM_FIRE_PUNCH
-	additem ITEM_RAZOR_FANG
+	giveitem ITEM_TM_THUNDER_PUNCH
+	giveitem ITEM_TM_ICE_PUNCH
+	giveitem ITEM_TM_FIRE_PUNCH
+	giveitem ITEM_RAZOR_FANG
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	call Route119_EventScript_GiveFlyHM
 	msgbox Route119_Text_BrendanExplainFly, MSGBOX_DEFAULT
@@ -139,7 +139,7 @@ Route119_EventScript_DefeatedBrendan::
 	end
 
 Route119_EventScript_GiveFlyHM::
-	additem ITEM_HM_FLY
+	giveitem ITEM_HM_FLY
 	setflag FLAG_RECEIVED_HM_FLY
 	return
 
@@ -508,18 +508,17 @@ Route119_Text_BrendanExplainFly:
 	.string "Anyway, I need to find my 6th.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-	.string "SCOTT: Hahahah!\n"
+	.string "MATT: Hahahah!\n"
 	.string "Way to go, {PLAYER}{KUN}!\p"
-	.string "I just passed by a TRAINER riding\n"
-	.string "a BIKE.\p"
-	.string "You just beat that TRAINER, didn't you?\n"
+	.string "I just passed by SAMUEL.\p"
+	.string "You just beat him, didn't you?\n"
 	.string "It was pretty obvious that you did.\p"
 	.string "The kid looked really upset with\n"
-	.string "a face all red from anger.\p"
+	.string "his team composition and movesets.\p"
 	.string "I sure seem to run into you often.\n"
 	.string "Are you off to FORTREE GYM next?\p"
 	.string "I expect that you'll do well at the GYM.\n"
-	.string "Well, I'll be seeing you!$"
+	.string "Make sure to bring some FIRE-types!$"
 
 
 Route119_Text_ScottYouWonAtFortreeGym:

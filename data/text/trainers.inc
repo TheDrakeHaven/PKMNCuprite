@@ -1692,13 +1692,28 @@ TrainerHill_GruntPost:
 	.string "Next man get ready!\n"
 	.string "Take them out!$"
 
-TrainerHill_GhostessIntro:
-	.string "Time to slay!\n"
-	.string "See the ghastly power!$"
+TrainerHill_GruntIntro2:
+	.string "I gotta guard the tower!\n"
+	.string "I'll stop you!$"
 
-TrainerHill_GhostessDefeat::
+TrainerHill_GruntDefeat2:
+	.string "It was for a good cause!\n"
+	.string "You just get it...$"
+
+TrainerHill_GruntPost2:
+	.string "We'll convince you!\n"
+	.string "Or die trying!$"
+
+TrainerHill_GhostessIntro:
+	.string "Time to slay!\p"
+	.string "I hate the desert, so \n"
+	.string "Team Aero speaks to me.\p"
+	.string "See my ghostess power!$"
+
+TrainerHill_GhostessDefeat:
+	.string "...... \l"
 	.string "You may have won,\n"
-	.string "but you're a loser$"
+	.string "but you're still a loser$"
 
 TrainerHill_GhostessPost:
 	.string "JORDAN will surly win!\n"
@@ -3810,10 +3825,17 @@ Route103_Text_LivNotEnoughPokemon:
 	
 TrainerHill_JordanIntro::
 	.string "Have you come to join\n"
-	.string "our wonderful team?$"
+	.string "our wonderful team?\p"
+	.string "I despise those brutes \n"
+	.string "on Team MAGMA and AQUA. \p"
+	.string "I want to erase weather \n"
+	.string "all together.$"
 
 TrainerHill_JordanDefeated::
-	.string "Please reconsider.$"
+	.string "Please reconsider your options.\p"
+	.string "I will regroup and find a way \n"
+	.string "to rid this region of weather.\p"
+	.string "Until then, {PLAYER}!$"
 
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
 	.string "The battery isn't charged enough.\p"

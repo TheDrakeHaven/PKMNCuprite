@@ -187,7 +187,7 @@ EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon:
 # 94 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
 # 95 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "SCOTT: {PLAYER}{KUN}, you've clawed your\n"
+	.string "MATT: {PLAYER}{KUN}, you've clawed your\n"
 # 96 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "way up to face the POKéMON LEAGUE!\p"
 # 97 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
@@ -199,7 +199,7 @@ EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
 # 100 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "the POKéMON LEAGUE CHAMPION…\p"
 # 101 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
-	.string "I'll get in touch with you then.\p"
+	.string "I'll see you in the Elite Four.\p"
 # 102 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "Okay, {PLAYER}{KUN}.\n"
 # 103 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"

@@ -559,7 +559,6 @@ script ScriptWithPokemart {
 mart MyMartItems {
 	ITEM_LAVA_COOKIE
 	ITEM_RARE_CANDY
-	ITEM_BERRY_JUICE
 }
 ```
 
@@ -578,7 +577,6 @@ ScriptWithPokemart::
 MyMartItems:
 	.2byte ITEM_LAVA_COOKIE
 	.2byte ITEM_RARE_CANDY
-	.2byte ITEM_BERRY_JUICE
 	.2byte ITEM_NONE
 
 ScriptWithPokemart_Text_0:
@@ -857,11 +855,8 @@ mart MyMart {
     poryswitch(GAME_VERSION) {
         RUBY {
             ITEM_LAVA_COOKIE
-            ITEM_RED_SCARF
         }
         SAPPHIRE {
-        
-            ITEM_BLUE_SCARF
         }
     }
 }

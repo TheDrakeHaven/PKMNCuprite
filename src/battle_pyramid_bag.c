@@ -104,7 +104,6 @@ static void BagAction_UseOnField(u8);
 static void BagAction_Toss(u8);
 static void BagAction_Give(u8);
 static void BagAction_Cancel(u8);
-static void BagAction_UseInBattle(u8);
 static void BagCursorMoved(s32, bool8, struct ListMenu *);
 static void PrintItemQuantity(u8 windowId, u32 itemId, u8 y);
 static void TossItem(u8);
@@ -178,7 +177,6 @@ static const struct MenuAction sMenuActions[] =
     [ACTION_TOSS] =         { gMenuText_Toss, {BagAction_Toss} },
     [ACTION_GIVE] =         { gMenuText_Give, {BagAction_Give} },
     [ACTION_CANCEL] =       { gText_Cancel2, {BagAction_Cancel} },
-    [ACTION_USE_BATTLE] =   { gMenuText_Use, {BagAction_UseInBattle} },
     [ACTION_DUMMY] =        { gText_EmptyString2, {NULL} },
 };
 
@@ -1307,22 +1305,6 @@ static void TryCloseBagToGiveItem(u8 taskId)
         CloseBattlePyramidBag(taskId);
     else
         ShowCantHoldMessage(taskId);
-}
-
-static void BagAction_UseInBattle(u8 taskId)
-{
-    // Safety check
-    u16 type = ItemId_GetType(gSpecialVar_ItemId);
-    if (!ItemId_GetBattleUsage(gSpecialVar_ItemId))
-        return;
-
-    CloseMenuActionWindow();
-    if (type == ITEM_USE_BAG_MENU)
-        ItemUseInBattle_BagMenu(taskId);
-    else if (type == ITEM_USE_PARTY_MENU)
-        ItemUseInBattle_PartyMenu(taskId);
-    else if (type == ITEM_USE_PARTY_MENU_MOVES)
-        ItemUseInBattle_PartyMenuChooseMove(taskId);
 }
 
 static void Task_BeginItemSwap(u8 taskId)

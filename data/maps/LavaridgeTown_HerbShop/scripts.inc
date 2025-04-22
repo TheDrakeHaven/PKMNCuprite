@@ -14,6 +14,8 @@ LavaridgeTown_HerbShop_EventScript_Clerk::
 	.align 2
 LavaridgeTown_HerbShop_Pokemart:
 	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_REVIVE
+	.2byte ITEM_SUPER_REPEL
 	pokemartlistend
 
 LavaridgeTown_HerbShop_EventScript_ExpertM::

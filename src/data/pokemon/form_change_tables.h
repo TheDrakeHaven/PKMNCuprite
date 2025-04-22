@@ -612,32 +612,6 @@ static const struct FormChange sRotomFormChangeTable[] = {
 };
 #endif //P_FAMILY_ROTOM
 
-#if P_FAMILY_DIALGA
-static const struct FormChange sDialgaFormChangeTable[] = {
-    {FORM_CHANGE_ITEM_HOLD, SPECIES_DIALGA, ITEM_NONE},
-    {FORM_CHANGE_ITEM_HOLD, SPECIES_DIALGA_ORIGIN, ITEM_ADAMANT_CRYSTAL},
-    {FORM_CHANGE_TERMINATOR},
-};
-#endif //P_FAMILY_DIALGA
-
-#if P_FAMILY_PALKIA
-static const struct FormChange sPalkiaFormChangeTable[] = {
-    {FORM_CHANGE_ITEM_HOLD, SPECIES_PALKIA, ITEM_NONE},
-    {FORM_CHANGE_ITEM_HOLD, SPECIES_PALKIA_ORIGIN, ITEM_LUSTROUS_GLOBE},
-    {FORM_CHANGE_TERMINATOR},
-};
-#endif //P_FAMILY_PALKIA
-
-#if P_FAMILY_GIRATINA
-static const struct FormChange sGiratinaFormChangeTable[] = {
-    {FORM_CHANGE_ITEM_HOLD, SPECIES_GIRATINA_ALTERED, ITEM_NONE},
-#if I_GRISEOUS_ORB_FORM_CHANGE < GEN_9
-    {FORM_CHANGE_ITEM_HOLD, SPECIES_GIRATINA_ORIGIN, ITEM_GRISEOUS_ORB},
-#endif
-    {FORM_CHANGE_ITEM_HOLD, SPECIES_GIRATINA_ORIGIN, ITEM_GRISEOUS_CORE},
-    {FORM_CHANGE_TERMINATOR},
-};
-#endif //P_FAMILY_GIRATINA
 
 #if P_FAMILY_AUDINO
 static const struct FormChange sAudinoFormChangeTable[] = {
@@ -678,13 +652,7 @@ static const struct FormChange sGarbodorFormChangeTable[] =
 };
 #endif //P_FAMILY_TRUBBISH
 
-#if P_FAMILY_KYUREM
-static const struct Fusion sKyuremFusionTable[] = {
-    {0, ITEM_DNA_SPLICERS,   SPECIES_KYUREM,   SPECIES_RESHIRAM,  SPECIES_KYUREM_WHITE},
-    {0, ITEM_DNA_SPLICERS,   SPECIES_KYUREM,   SPECIES_ZEKROM,    SPECIES_KYUREM_BLACK},
-    {FUSION_TERMINATOR},
-};
-#endif //P_FAMILY_KYUREM
+
 
 #if P_FAMILY_KELDEO
 static const struct FormChange sKeldeoFormChangeTable[] = {

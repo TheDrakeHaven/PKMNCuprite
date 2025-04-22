@@ -155,7 +155,7 @@ MauvilleCity_GameCorner_EventScript_BuyTreeckoDoll::
 	goto_if_lt VAR_TEMP_2, DOLL_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForDoll
 	bufferitemname STR_VAR_2, ITEM_ABILITY_PATCH
 	removecoins DOLL_COINS
-	additem ITEM_ABILITY_PATCH
+	giveitem ITEM_ABILITY_PATCH
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_SendToYourHomePC, MSGBOX_DEFAULT
@@ -167,7 +167,7 @@ MauvilleCity_GameCorner_EventScript_BuyTorchicDoll::
 	goto_if_lt VAR_TEMP_2, DOLL_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForDoll
 	bufferitemname STR_VAR_2, ITEM_ABILITY_CAPSULE
 	removecoins DOLL_COINS
-	additem ITEM_ABILITY_CAPSULE
+	giveitem ITEM_ABILITY_CAPSULE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	updatecoinsbox 1, 1
 	playse SE_SHOP
@@ -180,7 +180,7 @@ MauvilleCity_GameCorner_EventScript_BuyMudkipDoll::
 	goto_if_lt VAR_TEMP_2, DOLL_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForDoll
 	bufferitemname STR_VAR_2, ITEM_ABILITY_PATCH
 	removecoins DOLL_COINS
-	additem ITEM_ABILITY_PATCH
+	giveitem ITEM_ABILITY_PATCH
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	updatecoinsbox 1, 1
 	playse SE_SHOP
@@ -285,7 +285,7 @@ MauvilleCity_GameCorner_EventScript_BuyFlamethrower::
 	checkitemspace ITEM_TM_FLAMETHROWER
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM_COINS
-	additem ITEM_TM_FLAMETHROWER
+	giveitem ITEM_TM_FLAMETHROWER
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -298,7 +298,7 @@ MauvilleCity_GameCorner_EventScript_BuyZenheadbutt::
 	checkitemspace ITEM_TM_ZEN_HEADBUTT
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM_COINS
-	additem ITEM_TM_ZEN_HEADBUTT
+	giveitem ITEM_TM_ZEN_HEADBUTT
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -311,7 +311,7 @@ MauvilleCity_GameCorner_EventScript_BuyStompingTantrum::
 	checkitemspace ITEM_TM_STOMPING_TANTRUM
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM_COINS
-	additem ITEM_TM_STOMPING_TANTRUM
+	giveitem ITEM_TM_STOMPING_TANTRUM
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -324,7 +324,7 @@ MauvilleCity_GameCorner_EventScript_BuyBodyPress::
 	checkitemspace ITEM_TM_BODY_PRESS
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM_COINS
-	additem ITEM_TM_BODY_PRESS
+	giveitem ITEM_TM_BODY_PRESS
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -337,7 +337,7 @@ MauvilleCity_GameCorner_EventScript_BuyTMPsychic::
 	checkitemspace ITEM_TM_PSYCHIC
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM_COINS
-	additem ITEM_TM_PSYCHIC
+	giveitem ITEM_TM_PSYCHIC
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -350,7 +350,7 @@ MauvilleCity_GameCorner_EventScript_BuyTMThunderbolt::
 	checkitemspace ITEM_TM_THUNDERBOLT
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM_COINS
-	additem ITEM_TM_THUNDERBOLT
+	giveitem ITEM_TM_THUNDERBOLT
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
@@ -396,7 +396,7 @@ MauvilleCity_GameCorner_EventScript_Girl::
 MauvilleCity_GameCorner_EventScript_GiveTreeckoDoll::
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo2, MSGBOX_DEFAULT
 	bufferitemname STR_VAR_2, ITEM_ABILITY_PATCH
-	additem ITEM_ABILITY_PATCH
+	giveitem ITEM_ABILITY_PATCH
 	setflag FLAG_RECEIVED_STARTER_DOLL
 	goto MauvilleCity_GameCorner_EventScript_ReceivedStarterDoll
 	end
@@ -404,7 +404,7 @@ MauvilleCity_GameCorner_EventScript_GiveTreeckoDoll::
 MauvilleCity_GameCorner_EventScript_GiveTorchicDoll::
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo2, MSGBOX_DEFAULT
 	bufferitemname STR_VAR_2, ITEM_ABILITY_CAPSULE
-	additem ITEM_ABILITY_CAPSULE
+	giveitem ITEM_ABILITY_CAPSULE
 	setflag FLAG_RECEIVED_STARTER_DOLL
 	goto MauvilleCity_GameCorner_EventScript_ReceivedStarterDoll
 	end
@@ -412,7 +412,7 @@ MauvilleCity_GameCorner_EventScript_GiveTorchicDoll::
 MauvilleCity_GameCorner_EventScript_GiveMudkipDoll::
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo2, MSGBOX_DEFAULT
 	bufferitemname STR_VAR_2, ITEM_ABILITY_PATCH
-	additem ITEM_ABILITY_PATCH
+	giveitem ITEM_ABILITY_PATCH
 	setflag FLAG_RECEIVED_STARTER_DOLL
 	goto MauvilleCity_GameCorner_EventScript_ReceivedStarterDoll
 	end

@@ -27,12 +27,8 @@ ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:
 	.string "There! Done!$"
 
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
-	.string "Have a POKéMON hold on to that.\n"
-	.string "It'll love it, that's for certain.\p"
-	.string "Why, the SHELL BELL's chime…\n"
-	.string "It's simply sublime!\p"
-	.string "You can get its ingredients every day,\n"
-	.string "so I can make you more.$"
+	.string "I got lost in this cave.\n"
+	.string "At least it's calming.$"
 
 ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell:
 	.string "Oh… Is that so…\n"
@@ -45,9 +41,9 @@ ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag:
 	.string "for a SHELL BELL.$"
 
 ShoalCave_Text_WasShoalSaltNowNothing:
-	.string "There was some SHOAL SALT here.\n"
+	.string "There were some PILLS here.\n"
 	.string "But, there's nothing here now.$"
 
 ShoalCave_Text_WasShoallShellNowNothing:
-	.string "There was a SHOAL SHELL here.\n"
+	.string "There were some PILLS here.\n"
 	.string "But, there's nothing here now.$"

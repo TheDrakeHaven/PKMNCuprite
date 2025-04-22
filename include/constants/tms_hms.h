@@ -145,7 +145,7 @@
     F(PSYCHIC_TERRAIN) \
     F(TRICK) \
     F(POWER_GEM) \
-    F(METEOR_BEAM) \
+    F(SALT_CURE) \
     F(ACCELEROCK) \
     F(HEAD_SMASH) \
     F(METAL_CLAW) \

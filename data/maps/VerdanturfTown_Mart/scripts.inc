@@ -17,7 +17,6 @@ VerdanturfTown_Mart_Pokemart:
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_FULL_HEAL
 	.2byte ITEM_SUPER_REPEL
-	.2byte ITEM_FLUFFY_TAIL
 	pokemartlistend
 
 VerdanturfTown_Mart_EventScript_Boy::

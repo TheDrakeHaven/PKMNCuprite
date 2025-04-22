@@ -525,6 +525,15 @@ Music: Aqua
 Double Battle: No
 AI: Smart Trainer
 
+Muk @ Black Sludge
+Ability: Poison Touch
+Level: 59
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Gunk Shot
+- Lunge
+- Toxic Spikes
+- Protect
+
 Sealeo @ Leftovers
 Ability: Thick Fat
 Level: 59
@@ -584,7 +593,7 @@ Double Battle: No
 AI: Smart Trainer
 
 Sharpedo @ Rocky Helmet
-Ability: Speed Boost
+Ability: Drizzle
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Crunch
@@ -592,7 +601,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Aqua Jet
 -Waterfall
 
-Manectric @ Damp Rock
+Manectric @ Magnet
 Ability: Static
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -635,7 +644,7 @@ Double Battle: No
 AI: Smart Trainer
 
 Sharpedo @ Rocky Helmet
-Ability: Speed Boost
+Ability: Drizzle
 Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Crunch
@@ -643,7 +652,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Aqua Jet
 -Waterfall
 
-Manectric @ Damp Rock
+Manectric @ Magnet
 Ability: Static
 Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -652,7 +661,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Rain Dance
 -Thunder
 
-Corphish @ Focus Band
+Corphish @ Choice Band
 Ability:Adaptability
 Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -672,7 +681,7 @@ Crobat @ Sharp Beak
 Ability:Inner Focus
 Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Air Slash
+-Hurricane
 -Venoshock
 -Shadow Ball
 -Confuse Ray
@@ -2964,7 +2973,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_MATT ===
 Name: MATT
 Class: Elite Four
-Pic: Elite Four Sidney
+Pic: Gentleman
 Gender: Male
 Music: Elite Four
 Double Battle: No
@@ -3036,7 +3045,7 @@ Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Green
 
-Beedrill @ Scope Lens
+Beedrill @ Heavy-duty Boots
 Ability: Sniper
 Level: 75
 Shiny: Yes  
@@ -3081,7 +3090,7 @@ Ability: Download
 Level: 75
 Shiny: Yes  
 Hasty Nature
-- U-Turn
+- First Impression
 - Iron-Head
 - Techno Blast
 - Ice Beam
@@ -3091,7 +3100,7 @@ Ability: Overcoat
 Level: 75
 Shiny: Yes  
 Adamant Nature
-- X-Scissor
+- Leech Life
 - Leaf Storm
 - Triple Axel
 - Low Kick
@@ -6091,7 +6100,7 @@ Music: Magma
 Double Battle: No
 AI: Smart Trainer
 
-Torkoal @ Heat Rock
+Torkoal @ Sitrus Berry
 Ability: Drought
 Level: 63
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
@@ -7422,7 +7431,7 @@ Music: Magma
 Double Battle: No
 AI: Smart Trainer
 
-Torkoal
+Torkoal @ Sitrus Berry
 Ability: Drought
 Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -8222,26 +8231,41 @@ Level: 46
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WALLY_MAUVILLE ===
-Name: WALLY
+Name: CHAD
 Class: Rival
 Pic: Dome Ace Tucker
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Hippopotas
-Ability: Sand Stream
-Level:1
--Sand Attack
-
-Aron @ Shell Bell
+Aron
 Ability: Sturdy
-Level: 1
-Bold Nature
-IVs: 0 HP
--Endeavor
--Quick Attack
+Level: 26
+-Rock Slide
+-Metal Claw
+
+Baltoy
+Ability: Sand Stream
+Level: 26
+-Psychic
+-Bulldoze
+-Rock slide
+-Stealth Rock
+
+Cubone
+Ability:Lightning Rod
+Level: 26
+-Stomping Tantrum
+-Retaliate
+-Mud slap
+
+Diglett
+Ability: Sand Veil
+Level: 26
+-Bulldoze
+-Astonish
+-Throat Chop
 
 === TRAINER_BRENDAN_LILYCOVE ===
 Name: SAMUEL
@@ -9402,7 +9426,7 @@ Music: Magma
 Double Battle: No
 AI: Smart Trainer
 
-Torkoal
+Torkoal @ Sitrus Berry
 Ability: Drought
 Level: 56
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe

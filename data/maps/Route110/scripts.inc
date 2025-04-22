@@ -381,11 +381,11 @@ Route110_EventScript_BrendanBattle::
 
 Route110_EventScript_BrendanDefeated::
 	msgbox Route110_Text_BrendanTakeThis, MSGBOX_DEFAULT
-	additem ITEM_KINGS_ROCK
-	additem ITEM_TM_SUCKER_PUNCH
-	additem ITEM_TM_BURNING_JEALOUSY
-	additem ITEM_TM_BITTER_MALICE
-	additem ITEM_TM_ELECTROWEB
+	giveitem ITEM_KINGS_ROCK
+	giveitem ITEM_TM_SUCKER_PUNCH
+	giveitem ITEM_TM_BURNING_JEALOUSY
+	giveitem ITEM_TM_BITTER_MALICE
+	giveitem ITEM_TM_ELECTROWEB
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_UNUSED_0x043 
 	clearflag FLAG_UNUSED_0x265

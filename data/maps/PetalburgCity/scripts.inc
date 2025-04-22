@@ -750,18 +750,18 @@ PetalburgCity_Text_WallyHouseSign:
 	.string "CHAD'S HOUSE$"
 
 PetalburgCity_Text_AreYouATrainer:
-	.string "Excuse me!\p"
-	.string "Let me guess, from the way you're\n"
-	.string "dressed, are you a POKéMON TRAINER?$"
+	.string "MATT: Excuse me {PLAYER}!\p"
+	.string "Let me guess, you're a friend\n"
+	.string "of Drake's trying to win?$"
 
 PetalburgCity_Text_WellMaybeNot:
 	.string "… … … … … …\p"
 	.string "Well, maybe not.\n"
-	.string "Your clothes aren't all that dirty.\p"
+	.string "You don't even have a badge yet.\p"
 	.string "You're either a rookie TRAINER,\n"
-	.string "or maybe you're just an ordinary kid.$"
+	.string "or maybe you're just bad.$"
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
-	.string "talented TRAINERS.\p"
+	.string "NORMAL-type POKeMON.\p"
 	.string "I'm sorry to have taken your time.$"

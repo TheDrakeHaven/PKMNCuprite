@@ -2443,7 +2443,9 @@ extern const u8 gtext_Waterstone[];
 extern const u8 gtext_Sunstone[];
 extern const u8 gtext_Moonstone[];
 extern const u8 gtext_Icestone[];
-extern const u8 gtext_Soothebell[];
+extern const u8 gtext_Shinystone[];
+extern const u8 gtext_Duskstone[];
+extern const u8 gtext_Dawnstone[];
 
 extern const u8 gtext_icyrock[];
 extern const u8 gtext_damprock[];

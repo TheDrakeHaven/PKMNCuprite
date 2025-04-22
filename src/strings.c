@@ -1333,7 +1333,9 @@ const u8 gtext_Waterstone[]= _("WATER STONE");
 const u8 gtext_Sunstone[]= _("SUN STONE");
 const u8 gtext_Moonstone[]= _("MOON STONE");
 const u8 gtext_Icestone[]= _("ICE STONE");
-const u8 gtext_Soothebell[]= _("SOOTHE BELL");
+const u8 gtext_Shinystone[]= _("SHINY STONE");
+const u8 gtext_Duskstone[]= _("DUSK STONE");
+const u8 gtext_Dawnstone[]= _("DAWN STONE");
 
 const u8 gtext_icyrock[]= _("ICY ROCK");
 const u8 gtext_damprock[]= _("DAMP ROCK");

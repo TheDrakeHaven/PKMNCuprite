@@ -76,8 +76,8 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	end
 
 LavaridgeTown_Gym_1F_EventScript_GiveOverheat::
-	additem ITEM_TM_DRAGON_PULSE
-	additem ITEM_TM_SCALE_SHOT
+	giveitem ITEM_TM_DRAGON_PULSE
+	giveitem ITEM_TM_SCALE_SHOT
 	multichoicedefault 0, 0, MULTI_GYM4, 0 , TRUE 
 	switch VAR_RESULT
 	case 0, LavaridgeTown_Gym_1F_EventScript_GiveItem1

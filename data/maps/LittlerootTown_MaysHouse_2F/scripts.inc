@@ -349,7 +349,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "Huh? Hey, {PLAYER}, don't you have\n"
 	.string "a POKéMON?\p"
 	.string "That sucks...\p"
-	.string "You should go to Route 101\l"
+	.string "You should go to Route 101 \n"
 	.string "and catch one.$"
 
 RivalsHouse_2F_Text_BrendanGettingReady:

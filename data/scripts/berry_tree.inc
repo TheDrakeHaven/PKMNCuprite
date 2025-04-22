@@ -89,7 +89,8 @@ BerryTree_EventScript_CheckBerryStage1::
 	message BerryTree_Text_BerryGrowthStage1
 	waitmessage
 	waitbuttonpress
-	goto BerryTree_EventScript_WantToWater
+	releaseall
+	end
 
 BerryTree_EventScript_CheckBerryStage2::
 	lockall
@@ -97,7 +98,8 @@ BerryTree_EventScript_CheckBerryStage2::
 	message BerryTree_Text_BerryGrowthStage2
 	waitmessage
 	waitbuttonpress
-	goto BerryTree_EventScript_WantToWater
+	releaseall
+	end
 
 BerryTree_EventScript_CheckBerryStage3::
 	lockall
@@ -105,7 +107,8 @@ BerryTree_EventScript_CheckBerryStage3::
 	message BerryTree_Text_BerryGrowthStage3
 	waitmessage
 	waitbuttonpress
-	goto BerryTree_EventScript_WantToWater
+	releaseall
+	end
 
 BerryTree_EventScript_CheckBerryStageTrunk::
 	lockall
@@ -113,7 +116,8 @@ BerryTree_EventScript_CheckBerryStageTrunk::
 	message BerryTree_Text_BerryGrowthStageTrunk
 	waitmessage
 	waitbuttonpress
-	goto BerryTree_EventScript_WantToWater
+	releaseall
+	end
 
 BerryTree_EventScript_CheckBerryStageBudding::
 	lockall
@@ -121,7 +125,8 @@ BerryTree_EventScript_CheckBerryStageBudding::
 	message BerryTree_Text_BerryGrowthStageBudding
 	waitmessage
 	waitbuttonpress
-	goto BerryTree_EventScript_WantToWater
+	releaseall
+	end
 
 BerryTree_EventScript_CheckBerryStage4::
 	call BerryTree_EventScript_GetCareAdverb
@@ -130,7 +135,8 @@ BerryTree_EventScript_CheckBerryStage4::
 	message BerryTree_Text_BerryGrowthStage4
 	waitmessage
 	waitbuttonpress
-	goto BerryTree_EventScript_WantToWater
+	releaseall
+	end
 
 @ VAR_0x8005 here is the number of times watered
 @ Buffered by ObjectEventInteractionGetBerryTreeData
@@ -207,42 +213,6 @@ BerryTree_EventScript_ItemUsePlantBerry::
 	lockall
 	special ObjectEventInteractionGetBerryTreeData
 	call BerryTree_EventScript_PlantBerry
-	releaseall
-	end
-
-BerryTree_EventScript_WantToWater::
-.if OW_BERRY_PESTS == TRUE
-	call BerryTree_EventScript_CheckForPests
-.endif
-.if OW_BERRY_WEEDS == TRUE
-	call BerryTree_EventScript_CheckForWeed
-.endif
-	checkitem ITEM_WAILMER_PAIL
-	goto_if_eq VAR_RESULT, FALSE, BerryTree_EventScript_DontWater
-	specialvar VAR_RESULT, CanWaterBerryPlot
-	goto_if_eq VAR_RESULT, FALSE, BerryTree_EventScript_DontWater
-	special ObjectEventInteractionGetBerryName
-	msgbox BerryTree_Text_WantToWater, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, BerryTree_EventScript_WaterBerry
-	goto_if_eq VAR_RESULT, NO, BerryTree_EventScript_DontWater
-
-BerryTree_EventScript_DontWater::
-	releaseall
-	end
-
-BerryTree_EventScript_ItemUseWailmerPail::
-	special ObjectEventInteractionGetBerryTreeData
-	lockall
-BerryTree_EventScript_WaterBerry::
-	special ObjectEventInteractionGetBerryName
-	message BerryTree_Text_WateredTheBerry
-	waitmessage
-	special ObjectEventInteractionWaterBerryTree
-	special DoWateringBerryTreeAnim
-	waitstate
-	message BerryTree_Text_PlantIsDelighted
-	waitmessage
-	waitbuttonpress
 	releaseall
 	end
 

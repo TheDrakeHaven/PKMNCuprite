@@ -38,9 +38,9 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	msgbox SeafloorCavern_Room9_Text_ArchieWithThisRedOrb, MSGBOX_DEFAULT
 	setweather WEATHER_NONE
 	doweather
-	additem ITEM_TM_HYDRO_PUMP
-	additem ITEM_TM_FOCUS_BLAST
-	additem ITEM_CLEAR_AMULET
+	giveitem ITEM_TM_HYDRO_PUMP
+	giveitem ITEM_TM_FOCUS_BLAST
+	giveitem ITEM_CLEAR_AMULET
 	special Script_FadeOutMapMusic
 	waitstate
 	msgbox SeafloorCavern_Room9_Text_RedOrbShinesByItself, MSGBOX_DEFAULT

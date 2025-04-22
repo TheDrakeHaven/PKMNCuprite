@@ -58,7 +58,10 @@ u32 GetSprayId(void)
 
 u32 GetLastUsedSprayType(void)
 {
-        return ITEM_MAX_REPEL;
+    if (IS_LAST_USED_LURE(VarGet(VAR_REPEL_STEP_COUNT)))
+        return ITEM_LURE;
+    else
+        return ITEM_REPEL;
 }
 
 u32 SetSprayMenuCursorPosition(int currentSpray, int count)
@@ -102,7 +105,7 @@ void DrawSprayMenu(void)
 
 void HandleSprayMenuChoice(void)
 {
-    u32 lureMask = (GetLastUsedSprayType() == ITEM_REPEL) ? REPEL_LURE_MASK : 0;
+    u32 lureMask = (GetLastUsedSprayType() == ITEM_LURE) ? REPEL_LURE_MASK : 0;
 
     LOCAL_VAR_SPRAY = VarGet(LOCAL_VAR_SPRAY_CONST + gSpecialVar_Result);
 

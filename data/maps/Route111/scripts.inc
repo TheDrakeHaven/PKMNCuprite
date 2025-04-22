@@ -523,6 +523,21 @@ Route111_EventScript_TrainerHillSign::
 	msgbox Route111_Text_TrainerHillSign, MSGBOX_SIGN
 	end
 
+Route111_EventScript_Aerojump1::
+	msgbox Route111_Text_AeroJump1, MSGBOX_DEFAULT
+	release
+	end
+
+Route111_EventScript_Aerojump2::
+	msgbox Route111_Text_AeroJump2, MSGBOX_DEFAULT
+	release
+	end
+
+Route111_EventScript_Aeroropes::
+	msgbox Route111_Text_Aerorope, MSGBOX_DEFAULT
+	release
+	end
+
 Route111_Text_BattleOurFamily:
 	.string "Hello! I take it you're a traveler.\p"
 	.string "How's this? What do you say to taking\n"
@@ -671,6 +686,22 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 	.string "ROUTE 111!\p"
 	.string "My uncle? He lives across from\n"
 	.string "the bike shop in MAUVILLE.$"
+
+Route111_Text_AeroJump1:
+	.string "Birdie, birdie in the sky, \n"
+	.string "Why'd ya do that in my eye. \p"
+	.string "Birdie, birdie in the sky, \n"
+	.string "Rock Slide gonna make you cry $"
+
+Route111_Text_AeroJump2:
+	.string "Birdie, birdie with the 'tude, \n"
+	.string "What you did was very rude. \p"
+	.string "Birdie, birdie with the 'tude, \n"
+	.string "Watch out for his Geodude. $"
+
+Route111_Text_Aerorope:
+	.string "Leave us alone, \n"
+	.string "We gotta focus on the jumprope. $"
 
 Route111_Text_TrainerHillSign:
 	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"

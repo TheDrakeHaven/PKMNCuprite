@@ -311,8 +311,7 @@ static const u16 sQuizLadyPrizes[] =
     ITEM_MAX_ETHER,
     ITEM_MAX_ETHER,
     ITEM_MAX_ETHER,
-    ITEM_BIG_PEARL,
-    ITEM_STAR_PIECE,
+    ITEM_NUGGET,
     ITEM_RARE_CANDY,
     ITEM_RARE_CANDY,
 };
@@ -342,12 +341,8 @@ static const u16 sFavorLadyAcceptedItems_Slippery[] =
 
 static const u16 sFavorLadyAcceptedItems_Roundish[] =
 {
-    ITEM_FLUFFY_TAIL,
     ITEM_PEARL,
-    ITEM_BIG_PEARL,
     ITEM_HARD_STONE,
-    ITEM_SMOKE_BALL,
-    ITEM_SHOAL_SHELL,
     ITEM_PECHA_BERRY,
     ITEM_ASPEAR_BERRY,
     ITEM_ORAN_BERRY,
@@ -370,17 +365,12 @@ static const u16 sFavorLadyAcceptedItems_Whamish[] =
 static const u16 sFavorLadyAcceptedItems_Shiny[] =
 {
 
-    ITEM_BLUE_FLUTE,
-    ITEM_YELLOW_FLUTE,
-    ITEM_RED_FLUTE,
     ITEM_BLACK_FLUTE,
     ITEM_WHITE_FLUTE,
     ITEM_NUGGET,
     ITEM_SUN_STONE,
-    ITEM_STARDUST,
-    ITEM_STAR_PIECE,
+    ITEM_NUGGET,
     ITEM_PEARL,
-    ITEM_BIG_PEARL,
     ITEM_TWISTED_SPOON,
     ITEM_SILVER_POWDER,
     ITEM_BRIGHT_POWDER,
@@ -404,8 +394,7 @@ static const u16 sFavorLadyAcceptedItems_Pointy[] =
     ITEM_DRAGON_FANG,
     ITEM_PETAYA_BERRY,
     ITEM_SALAC_BERRY,
-    ITEM_STARDUST,
-    ITEM_STAR_PIECE,
+    ITEM_NUGGET,
     ITEM_NONE
 };
 

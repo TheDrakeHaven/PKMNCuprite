@@ -112,7 +112,7 @@ MtChimney_EventScript_LavaCookieLady::
 	checkitemspace ITEM_LAVA_COOKIE
 	call_if_eq VAR_RESULT, TRUE, MtChimney_EventScript_RemoveMoney
 .if OW_SHOW_ITEM_DESCRIPTIONS == OW_ITEM_DESCRIPTIONS_OFF
-	additem ITEM_LAVA_COOKIE
+	giveitem ITEM_LAVA_COOKIE
 	goto_if_eq VAR_RESULT, FALSE, MtChimney_EventScript_BagIsFull
 	hidemoneybox
 	release
@@ -125,7 +125,7 @@ MtChimney_EventScript_BagIsFull::
 	end
 .else
 	hidemoneybox
-	additem ITEM_LAVA_COOKIE
+	giveitem ITEM_LAVA_COOKIE
 	goto_if_eq VAR_RESULT, FALSE, MtChimney_EventScript_BagIsFull
 	release
 	end
@@ -413,13 +413,17 @@ MtChimney_EventScript_BusyAquaGrunt3::
 	end
 
 MtChimney_EventScript_Tabitha::
-	trainerbattle_single TRAINER_TABITHA_MT_CHIMNEY, MtChimney_Text_TabithaIntro, MtChimney_Text_TabithaDefeat
+	trainerbattle_single TRAINER_TABITHA_MT_CHIMNEY, MtChimney_Text_TabithaIntro, MtChimney_Text_TabithaDefeat, MtChimney_EventScript_Tabithadefeat
 	msgbox MtChimney_Text_TabithaPostBattle, MSGBOX_AUTOCLOSE
-	additem ITEM_TM_KNOCK_OFF
-	additem ITEM_TM_EARTH_POWER
-	additem ITEM_EJECT_BUTTON
-	additem ITEM_EJECT_PACK
+	end
+
+MtChimney_EventScript_Tabithadefeat::
+	giveitem ITEM_TM_KNOCK_OFF
+	giveitem ITEM_TM_EARTH_POWER
+	giveitem ITEM_EJECT_BUTTON
+	giveitem ITEM_EJECT_PACK
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
+	closemessage
 	end
 
 MtChimney_EventScript_Grunt2::
@@ -466,7 +470,7 @@ MtChimney_EventScript_MeteoriteMachine::
 	msgbox MtChimney_Text_RemoveTheMeteorite, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MtChimney_EventScript_LeaveMeteoriteAlone
 	msgbox MtChimney_Text_PlayerRemovedMeteorite, MSGBOX_DEFAULT
-	additem ITEM_METEORITE
+	giveitem ITEM_METEORITE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_METEORITE
 	releaseall

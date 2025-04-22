@@ -862,7 +862,20 @@ static const struct MenuAction MultichoiceList_EEVEE[] =
     {gtext_Moonstone},
     {gtext_Leafstone},
     {gtext_Icestone},
-    {gtext_Soothebell},
+};
+
+static const struct MenuAction MultichoiceList_EEVEE2[] =
+{
+    {gtext_Firestone},
+    {gtext_Waterstone},
+    {gtext_Thunderstone},
+    {gtext_Sunstone},
+    {gtext_Moonstone},
+    {gtext_Leafstone},
+    {gtext_Icestone},
+    {gtext_Shinystone},
+    {gtext_Duskstone},
+    {gtext_Dawnstone},
 };
 
 struct MultichoiceListStruct

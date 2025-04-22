@@ -66,7 +66,7 @@
       "x": 63,
       "y": 19,
       "elevation": 3,
-      "item": "ITEM_STARDUST",
+      "item": "ITEM_PEARL",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_STARDUST"
     },
     {
@@ -90,7 +90,7 @@
       "x": 12,
       "y": 35,
       "elevation": 3,
-      "item": "ITEM_YELLOW_SHARD",
+      "item": "ITEM_MAX_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_YELLOW_SHARD"
     },
     {
@@ -98,7 +98,7 @@
       "x": 65,
       "y": 52,
       "elevation": 3,
-      "item": "ITEM_BIG_PEARL",
+      "item": "ITEM_PEARL",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_BIG_PEARL"
     },
     {
@@ -106,7 +106,7 @@
       "x": 6,
       "y": 61,
       "elevation": 3,
-      "item": "ITEM_BLUE_SHARD",
+      "item": "ITEM_PROTEIN",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_BLUE_SHARD"
     }
   ]
