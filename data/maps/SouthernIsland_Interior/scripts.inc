@@ -18,7 +18,6 @@ SouthernIsland_Interior_EventScript_TryRemoveLati::
 SouthernIsland_Interior_OnTransition:
 	call_if_eq VAR_ROAMER_POKEMON, 0, SouthernIsland_Interior_EventScript_SetUpLatios
 	call_if_ne VAR_ROAMER_POKEMON, 0, SouthernIsland_Interior_EventScript_SetUpLatias
-	call SouthernIsland_Interior_EventScript_SetUpPlayerGfx
 	end
 
 SouthernIsland_Interior_EventScript_SetUpLatios::
@@ -29,20 +28,6 @@ SouthernIsland_Interior_EventScript_SetUpLatios::
 SouthernIsland_Interior_EventScript_SetUpLatias::
 	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_LATIAS
 	setvar VAR_TEMP_4, SPECIES_LATIAS
-	return
-
-SouthernIsland_Interior_EventScript_SetUpPlayerGfx::
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, SouthernIsland_Interior_EventScript_SetBrendanGfx
-	goto_if_eq VAR_RESULT, FEMALE, SouthernIsland_Interior_EventScript_SetMayGfx
-	end
-
-SouthernIsland_Interior_EventScript_SetBrendanGfx::
-	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_RIVAL_BRENDAN_NORMAL
-	return
-
-SouthernIsland_Interior_EventScript_SetMayGfx::
-	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_RIVAL_MAY_NORMAL
 	return
 
 SouthernIsland_Interior_EventScript_TryLatiEncounter::

@@ -28,7 +28,7 @@
     F(THUNDERBOLT) \
     F(THUNDER) \
     F(EARTHQUAKE) \
-    F(RETURN) \
+    F(TEMPER_FLARE) \
     F(DIG) \
     F(PSYCHIC) \
     F(SHADOW_BALL) \

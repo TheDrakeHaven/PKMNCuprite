@@ -2,22 +2,22 @@ AeroBase_2F_MapScripts::
 	.byte 0
 
 TrainerHill_EventScript_Grunt5::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_2, TrainerHill_GruntIntro2, TrainerHill_GruntDefeat2
+	trainerbattle_single TRAINER_AEROGRUNT_5, TrainerHill_GruntIntro2, TrainerHill_GruntDefeat2
 	msgbox TrainerHill_GruntPost2, MSGBOX_AUTOCLOSE
 	end
 
 TrainerHill_EventScript_Grunt6::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_3, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
+	trainerbattle_single TRAINER_AEROGRUNT_6, TrainerHill_GruntIntro, TrainerHill_GruntDefeat
 	msgbox TrainerHill_GruntPost, MSGBOX_AUTOCLOSE
 	end
 
 TrainerHill_EventScript_Grunt7::
-	trainerbattle_single TRAINER_TATE_AND_LIZA_4, TrainerHill_GruntIntro2, TrainerHill_GruntDefeat2
+	trainerbattle_single TRAINER_AEROGRUNT_7, TrainerHill_GruntIntro2, TrainerHill_GruntDefeat2
 	msgbox TrainerHill_GruntPost2, MSGBOX_AUTOCLOSE
 	end
 
 TrainerHill_EventScript_Ghostess::
-	trainerbattle_single TRAINER_LUCY, TrainerHill_GhostessIntro, TrainerHill_GhostessDefeat, TrainerHill_ghostgift
+	trainerbattle_single TRAINER_GHOSTESS, TrainerHill_GhostessIntro, TrainerHill_GhostessDefeat, TrainerHill_ghostgift
 	msgbox TrainerHill_GhostessPost, MSGBOX_DEFAULT
 	release
 	end

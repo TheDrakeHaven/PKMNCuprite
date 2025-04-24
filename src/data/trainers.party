@@ -3502,7 +3502,7 @@ Adamant Nature
 Heracross @ Focus Band
 Ability: Moxie
 Level:43
-Adamant Nature
+Adamant Nature 
 - Brick Break
 - Lunge
 - Throat Chop
@@ -6127,7 +6127,7 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 -Cosmic Power
 -Power Split
 
-=== TRAINER_WALLY_VR_1 ===
+=== TRAINER_SAMUEL_VR ===
 Name: SAMUEL
 Class: Rival
 Pic: Brendan
@@ -6194,7 +6194,7 @@ Quiet Nature
 - Trick Room
 - Will-O-Wisp
 
-=== TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
+=== TRAINER_BRENDAN_ROUTE_103 ===
 Name: SAMUEL
 Class: Rival
 Pic: Brendan
@@ -6211,54 +6211,6 @@ IVs: 0 Atk
 - Tackle
 - Curse
 - Growl 
-
-=== TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Smart Trainer / Prediction
-
-Slowpoke (M) @ Sitrus Berry  
-Ability: Regenerator  
-Level: 24  
-Quiet Nature  
-IVs: 0 Atk  
-- Yawn  
-- Water Pulse  
-- Confusion  
-- Disable  
-
-Foongus @ Lum Berry  
-Ability: Regenerator  
-Level: 24 
-Relaxed Nature  
-IVs: 0 Atk  
-- Mega Drain  
-- Synthesis  
-- Stun Spore  
-- Clear Smog  
-
-Gligar (F) @ Razor Fang  
-Ability: Hyper Cutter  
-Level: 24   
-Careful Nature  
-IVs: 0 SpA  
-- Taunt  
-- Acrobatics  
-- Knock Off  
-- Poison Tail 
-
-Metang 
-Ability: Clear Body
-Level: 24
-Jolly Nature
-- Zen Headbutt
-- Metal Claw
-- Hone Claws
-- Magnet Rise
 
 === TRAINER_BRENDAN_ROUTE_119 ===
 Name: SAMUEL
@@ -6316,24 +6268,6 @@ Jolly Nature
 - Confuse Ray
 - Perish Song 
 
-=== TRAINER_BRENDAN_ROUTE_103_TREECKO ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Basic Trainer
-
-Slowpoke (M)  
-Ability: Regenerator  
-Level: 5  
-Quiet Nature  
-IVs: 0 Atk  
-- Tackle
-- Curse
-- Growl 
-
 === TRAINER_BRENDAN_ROUTE_110 ===
 Name: SAMUEL
 Class: Rival
@@ -6381,322 +6315,6 @@ Jolly Nature
 - Metal Claw
 - Bullet Punch
 - Magnet Rise 
-
-
-=== TRAINER_BRENDAN_ROUTE_119_TREECKO ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Smart Trainer / Prediction
-
-Slowpoke (M) @ Life Orb  
-Ability: Regenerator  
-Level: 44  
-Quiet Nature  
-IVs: 0 Atk  
-- Yawn  
-- Slack Off  
-- Psychic  
-- Surf  
-
-Amoonguss @ Rocky Helmet  
-Ability: Regenerator  
-Relaxed Nature  
-- Rage Powder  
-- Stomping Tantrum  
-- Stun Spore  
-- Giga Drain  
-
-Gligar (F) @ Razor Fang  
-Ability: Hyper Cutter  
-Level: 44    
-Careful Nature  
-IVs: 0 SpA  
-- Taunt  
-- Acrobatics  
-- Knock Off  
-- U-turn  
-
-Metang @ Assault Vest  
-Ability: Clear Body  
-Level: 44  
-Jolly Nature  
-- Meteor Mash  
-- Earthquake  
-- Rock Slide  
-- Zen Headbutt  
-
-=== TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Basic Trainer 
-
-Slowpoke (M)  
-Ability: Regenerator  
-Level: 5 
-Quiet Nature  
-IVs: 0 Atk  
-- Tackle
-- Curse
-- Growl 
-
-=== TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Smart Trainer / Prediction
-
-Slowpoke (M) @ Sitrus Berry  
-Ability: Regenerator  
-Level: 24  
-Quiet Nature  
-IVs: 0 Atk  
-- Yawn  
-- Water Pulse  
-- Confusion  
-- Disable  
-
-Foongus @ Lum Berry  
-Ability: Regenerator  
-Level: 24 
-Relaxed Nature  
-IVs: 0 Atk  
-- Mega Drain  
-- Synthesis  
-- Stun Spore  
-- Clear Smog  
-
-Gligar (F) @ Razor Fang  
-Ability: Hyper Cutter  
-Level: 24   
-Careful Nature  
-IVs: 0 SpA  
-- Taunt  
-- Acrobatics  
-- Knock Off  
-- Poison Tail  
-
-
-=== TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Smart Trainer / Prediction
-
-Slowpoke (M) @ Life Orb  
-Ability: Regenerator  
-Level: 44  
-Quiet Nature  
-IVs: 0 Atk  
-- Yawn  
-- Slack Off  
-- Psychic  
-- Surf  
-
-Amoonguss @ Rocky Helmet  
-Ability: Regenerator  
-Relaxed Nature  
-- Rage Powder  
-- Stomping Tantrum  
-- Stun Spore  
-- Giga Drain  
-
-Gligar (F) @ Razor Fang  
-Ability: Hyper Cutter  
-Level: 44    
-Careful Nature  
-IVs: 0 SpA  
-- Taunt  
-- Acrobatics  
-- Knock Off  
-- U-turn  
-
-Metang @ Assault Vest  
-Ability: Clear Body  
-Level: 44  
-Jolly Nature  
-- Meteor Mash  
-- Earthquake  
-- Rock Slide  
-- Zen Headbutt  
-
-=== TRAINER_MAY_ROUTE_103_MUDKIP ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Slowpoke
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MAY_ROUTE_110_MUDKIP ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Grovyle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_MAY_ROUTE_119_MUDKIP ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-=== TRAINER_MAY_ROUTE_103_TREECKO ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Torchic
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MAY_ROUTE_110_TREECKO ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Combusken
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_MAY_ROUTE_119_TREECKO ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-=== TRAINER_MAY_ROUTE_103_TORCHIC ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Mudkip
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_MAY_ROUTE_110_TORCHIC ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Marshtomp
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_MAY_ROUTE_119_TORCHIC ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_ISAAC ===
 Name: ISAAC
@@ -6962,23 +6580,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Corphish
 Level: 53
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_GRUNT_UNUSED ===
-Name: GRUNT
-Class: Team Magma
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Wailmer
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zubat
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MT_PYRE_4 ===
 Name: GRUNT
@@ -7345,36 +6946,6 @@ Jolly Nature
 -Zen Headbutt
 -Iron Defense
 
-=== TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Smart Trainer / Prediction
-
-Slowpoke (M)  
-Ability: Regenerator  
-Level: 16    
-Quiet Nature  
-IVs: 0 Atk  
-- Yawn  
-- Water Gun  
-- Confusion  
-- Disable  
-
-Foongus  
-Ability: Regenerator  
-Level: 16   
-Relaxed Nature
-- Mega Drain  
-- Synthesis  
-- Stun Spore  
-- Astonish  
-
-
-
 === TRAINER_PAXTON ===
 Name: PAXTON
 Class: Expert
@@ -7483,52 +7054,6 @@ Staraptor
 Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BRENDAN_RUSTBORO_TORCHIC ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Smart Trainer / Prediction
-
-Slowpoke (M)  
-Ability: Regenerator  
-Level: 16   
-Quiet Nature  
-IVs: 0 Atk  
-- Yawn  
-- Water Gun  
-- Confusion  
-- Disable  
-
-Foongus  
-Ability: Regenerator  
-Level: 16  
-Relaxed Nature
-- Mega Drain  
-- Synthesis  
-- Stun Spore  
-- Astonish  
-
-
-
-=== TRAINER_MAY_RUSTBORO_MUDKIP ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Smart Trainer / Prediction
-
-Wingull
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Treecko
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
 Name: MAXIE
@@ -8333,200 +7858,6 @@ IVs: 0 Atk
 -Confuse Ray
 -Foul Play
 -Perish Song
-
-
-=== TRAINER_BRENDAN_LILYCOVE_TREECKO ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move  / Force Setup First Turn
-
-Slowking (M) @ Life Orb  
-Ability: Regenerator  
-Level: 54   
-Quiet Nature  
-IVs: 0 Atk  
--Scald
--Psychic
--Nasty Plot
--Trick Room
-
-Amoonguss @ Rocky Helmet  
-Ability: Regenerator  
-Level: 54  
-Relaxed Nature  
-- Rage Powder  
-- Stomping Tantrum  
-- Stun Spore  
-- Giga Drain  
-
-Gliscor (F) @ Toxic Orb  
-Ability: Poison Heal  
-Level: 54  
-Careful Nature  
-IVs: 0 Atk  
--Taunt
--Earthquake
--Knock Off
--U-Turn
-
-Metagross @ Assault Vest  
-Ability: Clear Body  
-Level: 54  
-Jolly Nature  
-IVs: 0 Atk  
--Meteor Mash
--Earthquake
--Rock Slide
--Zen Headbutt
-
-Honchkrow (M) @ Focus Sash  
-Ability: Moxie  
-Level: 54  
-Jolly Nature  
-IVs: 0 Atk  
--Brave Bird
--Confuse Ray
--Roost
--Perish Song
-
-
-=== TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
-Name: SAMUEL
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move  / Force Setup First Turn
-
-Slowking (M) @ Life Orb  
-Ability: Regenerator  
-Level: 54   
-Quiet Nature  
-IVs: 0 Atk  
--Scald
--Psychic
--Nasty Plot
--Trick Room
-
-Amoonguss @ Rocky Helmet  
-Ability: Regenerator  
-Level: 54  
-Relaxed Nature  
-- Rage Powder  
-- Stomping Tantrum  
-- Stun Spore  
-- Giga Drain  
-
-Gliscor (F) @ Toxic Orb  
-Ability: Poison Heal  
-Level: 54  
-Careful Nature  
-IVs: 0 Atk  
--Taunt
--Earthquake
--Knock Off
--U-Turn
-
-Metagross @ Assault Vest  
-Ability: Clear Body  
-Level: 54  
-Jolly Nature  
-IVs: 0 Atk  
--Meteor Mash
--Earthquake
--Rock Slide
--Zen Headbutt
-
-Honchkrow (M) @ Focus Sash  
-Ability: Moxie  
-Level: 54  
-Jolly Nature  
-IVs: 0 Atk  
--Brave Bird
--Confuse Ray
--Roost
--Perish Song
-
-
-=== TRAINER_MAY_LILYCOVE_MUDKIP ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Grovyle
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_MAY_LILYCOVE_TREECKO ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Combusken
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-
-=== TRAINER_MAY_LILYCOVE_TORCHIC ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Marshtomp
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_JONAH ===
 Name: JONAH
@@ -10072,40 +9403,6 @@ Nuzleaf
 Level: 44
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_MAY_RUSTBORO_TREECKO ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Lotad
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Torchic
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_MAY_RUSTBORO_TORCHIC ===
-Name: MAY
-Class: Rival
-Pic: May
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Basic Trainer
-
-Torkoal
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Mudkip
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
 === TRAINER_GRUNT_A ===
 Name: GRUNT
 Class: Factory Head
@@ -10169,7 +9466,7 @@ Level:64
 Swalot
 Level:64
 
-=== TRAINER_WINONA_2 ===
+=== TRAINER_AEROGRUNT_1 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10182,7 +9479,7 @@ Zubat
 Level:37
 
 
-=== TRAINER_WINONA_3 ===
+=== TRAINER_AEROGRUNT_2 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10194,7 +9491,7 @@ AI: Check Bad Move
 Bagon
 Level:37
 
-=== TRAINER_WINONA_4 ===
+=== TRAINER_AEROGRUNT_3 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10206,7 +9503,7 @@ AI: Check Bad Move
 Shuppet
 Level:37
 
-=== TRAINER_WINONA_5 ===
+=== TRAINER_AEROGRUNT_4 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10221,7 +9518,7 @@ Level:37
 Duskull
 Level:37
 
-=== TRAINER_TATE_AND_LIZA_2 ===
+=== TRAINER_AEROGRUNT_5 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10233,7 +9530,7 @@ AI: Check Bad Move
 Gulpin
 Level:37
 
-=== TRAINER_TATE_AND_LIZA_3 ===
+=== TRAINER_AEROGRUNT_6 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10248,7 +9545,7 @@ Level:37
 Delcatty
 Level:37
 
-=== TRAINER_TATE_AND_LIZA_4 ===
+=== TRAINER_AEROGRUNT_7 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10262,64 +9559,6 @@ Level:37
 
 Duskull
 Level:37
-
-=== TRAINER_TATE_AND_LIZA_5 ===
-Name: TATE&LIZA
-Class: Leader
-Pic: Leader Tate And Liza
-Gender: Male
-Music: Female
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Basic Trainer
-
-Hypno
-Level: 63
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Dream Eater
-- Headbutt
-- Protect
-
-Claydol
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Explosion
-- Psychic
-- Light Screen
-
-Slowking
-Level: 63
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Yawn
-- Psychic
-- Calm Mind
-- Protect
-
-Xatu @ Chesto Berry
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Rest
-- Confuse Ray
-- Calm Mind
-
-Lunatone @ Chesto Berry
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
-- Rest
-- Calm Mind
-
-Solrock @ Sitrus Berry
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
 
 === TRAINER_ANGELO ===
 Name: ANGELO
@@ -10409,72 +9648,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Meteor Mash
 - Shadow Ball
 
-=== TRAINER_ANABEL ===
-Name: ANABEL
-Class: Salon Maiden
-Pic: Hiker
-Gender: Female
-Music: Male
-Double Battle: No
-AI: Basic Trainer
-
-Beldum
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_TUCKER ===
-Name: TUCKER
-Class: Dome Ace
-Pic: Dome Ace Tucker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Basic Trainer
-
-Beldum
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_SPENSER ===
-Name: SPENSER
-Class: Palace Maven
-Pic: Hiker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Basic Trainer
-
-Beldum
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GRETA ===
-Name: GRETA
-Class: Hiker
-Pic: Hiker
-Gender: Female
-Music: Male
-Double Battle: No
-AI: Basic Trainer
-
-Beldum
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_NOLAND ===
-Name: GRUNT
-Class: Factory Head
-Pic: Factory Head Noland
-Gender: Male
-Music: Rich
-Double Battle: No
-AI: Basic Trainer
-
-Beldum
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LUCY ===
+=== TRAINER_GHOSTESS ===
 Name: GHOSTESS
 Class: Pike Queen
 Pic: Pike Queen Lucy
@@ -10515,7 +9689,7 @@ Level: 40
 -Poltergeist
 -Lash Out
 
-=== TRAINER_BRANDON ===
+=== TRAINER_JORDAN ===
 Name: JORDAN
 Class: Pyramid King
 Pic: Pyramid King Brandon
@@ -10564,7 +9738,7 @@ Level: 42
 -Absorb
 -Supersonic
 
-=== TRAINER_ANDRES_2 ===
+=== TRAINER_JORDAN2 ===
 Name: JORDAN
 Class: Pyramid King
 Pic: Pyramid King Brandon
@@ -10621,7 +9795,7 @@ Level: 69
 -Extreme Speed
 -Flamethrower
 
-=== TRAINER_ANDRES_3 ===
+=== TRAINER_GHOSTESS2 ===
 Name: GHOSTESS
 Class: Pike Queen
 Pic: Pike Queen Lucy
@@ -10662,7 +9836,7 @@ Level: 68
 -Poltergeist
 -Lash Out
 
-=== TRAINER_ANDRES_4 ===
+=== TRAINER_AEROGRUNT_8 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10674,7 +9848,7 @@ AI: Check Bad Move
 Golbat
 Level:38
 
-=== TRAINER_ANDRES_5 ===
+=== TRAINER_AEROGRUNT_9 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10686,7 +9860,7 @@ AI: Check Bad Move
 Dusclops
 Level:38
 
-=== TRAINER_CORY_2 ===
+=== TRAINER_AEROGRUNT_10 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10698,7 +9872,7 @@ AI: Check Bad Move
 Skitty
 Level:38
 
-=== TRAINER_CORY_3 ===
+=== TRAINER_AEROGRUNT_11 ===
 Name: GRUNT
 Class: Factory Head
 Pic: Factory Head Noland
@@ -10710,47 +9884,6 @@ AI: Check Bad Move
 Gulpin
 Level:38
 
-=== TRAINER_CORY_4 ===
-Name: CORY
-Class: Sailor
-Pic: Sailor
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Pelipper
-Level: 34
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Machop
-Level: 34
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Tentacruel
-Level: 34
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-=== TRAINER_CORY_5 ===
-Name: CORY
-Class: Sailor
-Pic: Sailor
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Pelipper
-Level: 36
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Machoke
-Level: 36
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Tentacruel
-Level: 36
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_MARIELA ===
 Name: MARIELA

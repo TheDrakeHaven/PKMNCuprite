@@ -1,5 +1,6 @@
 raw `
 .set LOCALID_NORMAN, 1
+.set LOCALID_GRAYSON, 5
 .set LOCALID_WALLY, 10
 .set LOCALID_WALLYS_DAD, 11
 
@@ -357,7 +358,20 @@ PetalburgCity_Gym_EventScript_GiveEnigmaBerry::
 	end
 
 PetalburgCity_Gym_EventScript_NormanDown::
+	goto_if_set FLAG_UNUSED_0x2B0, PetalburgCity_Gym_EventScript_NormanDownnout
+	setvar VAR_0x8008, LOCALID_NORMAN
+	playse SE_PIN
+	applymovement VAR_0x8008, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement VAR_0x8008, Common_Movement_FacePlayer
+	waitmovement 0
 	msgbox PetalburgCity_Gym_Text_NormanDef MSGBOX_DEFAULT
+	setflag FLAG_UNUSED_0x2B0
+	release
+	end
+
+PetalburgCity_Gym_EventScript_NormanDownnout::
+	msgbox PetalburgCity_Gym_Text_Gogetem, MSGBOX_DEFAULT
 	release
 	end
 
@@ -377,7 +391,7 @@ PetalburgCity_Gym_EventScript_Grayson::
 	setflag FLAG_HIDE_MAUVILLE_GYM_SAM
 	clearflag FLAG_HIDE_MAUVILLE_CITY_SAM
 	clearflag FLAG_UNUSED_0x265
-	setvar VAR_0x8008, 5
+	setvar VAR_0x8008, LOCALID_GRAYSON
 	call Common_EventScript_SetGymTrainers
 	call PetalburgCity_Gym_EventScript_UnlockAllDoors
 	special DrawWholeMapView
@@ -1182,6 +1196,11 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "Oh! The gym leader is waiting for me,\n"
 	.string "so I have to go!\p"
 	.string "Bye, {PLAYER}!$"
+
+PetalburgCity_Gym_Text_Gogetem:
+	.string "What are you waiting for?\p"
+	.string "Go get 'em {PLAYER}!\n"
+	.string "You've already surpassed me.$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "DAD: Now…\p"

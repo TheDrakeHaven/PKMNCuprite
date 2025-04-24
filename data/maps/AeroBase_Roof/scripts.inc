@@ -7,7 +7,7 @@ TrainerHill_Roof_EventScript_Owner::
 	lock
 	faceplayer
 	setflag FLAG_UNUSED_0x265
-	trainerbattle_single TRAINER_BRANDON, TrainerHill_JordanIntro, TrainerHill_JordanDefeated, AeroBase_EventScript_Jordanescape
+	trainerbattle_single TRAINER_JORDAN, TrainerHill_JordanIntro, TrainerHill_JordanDefeated, AeroBase_EventScript_Jordanescape
 	release
 	end
 

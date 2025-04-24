@@ -266,8 +266,8 @@ static const struct MenuAction MultichoiceList_GameCornerDolls[] =
 
 static const struct MenuAction MultichoiceList_GameCornerTMs[] =
 {
+    {COMPOUND_STRING("TM27{CLEAR_TO 0x48}2,000 COINS")},
     {COMPOUND_STRING("TM29{CLEAR_TO 0x48}2,000 COINS")},
-    {COMPOUND_STRING("TM35{CLEAR_TO 0x48}2,000 COINS")},
     {COMPOUND_STRING("TM66{CLEAR_TO 0x48}2,000 COINS")},
     {COMPOUND_STRING("TM80{CLEAR_TO 0x48}2,000 COINS")},
     {COMPOUND_STRING("TM97{CLEAR_TO 0x48}2,000 COINS")},

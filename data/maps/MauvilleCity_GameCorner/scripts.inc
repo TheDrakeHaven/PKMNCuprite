@@ -228,8 +228,8 @@ MauvilleCity_GameCorner_EventScript_ReturnToChooseTMPrize::
 MauvilleCity_GameCorner_EventScript_ChooseTMPrize::
 	multichoice 12, 0, MULTI_GAME_CORNER_TMS, FALSE
 	switch VAR_RESULT
-	case 0, MauvilleCity_GameCorner_EventScript_TMPsychic
-	case 1, MauvilleCity_GameCorner_EventScript_TMFlamethrower
+	case 0, MauvilleCity_GameCorner_EventScript_TMTemperFlare
+	case 1, MauvilleCity_GameCorner_EventScript_TMPsychic
 	case 2, MauvilleCity_GameCorner_EventScript_TMBodyPress
 	case 3, MauvilleCity_GameCorner_EventScript_TMStompingTantrum
 	case 4, MauvilleCity_GameCorner_EventScript_TMZenheadbutt
@@ -243,10 +243,10 @@ MauvilleCity_GameCorner_EventScript_TMPsychic::
 	setvar VAR_0x8004, ITEM_TM_PSYCHIC
 	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
 
-	MauvilleCity_GameCorner_EventScript_TMFlamethrower::
+	MauvilleCity_GameCorner_EventScript_TMTemperFlare::
 	setvar VAR_TEMP_1, 1
-	bufferitemname STR_VAR_1, ITEM_TM_FLAMETHROWER
-	setvar VAR_0x8004, ITEM_TM_FLAMETHROWER
+	bufferitemname STR_VAR_1, ITEM_TM_TEMPER_FLARE
+	setvar VAR_0x8004, ITEM_TM_TEMPER_FLARE
 	goto MauvilleCity_GameCorner_EventScript_ConfirmTMPrize
 
 	MauvilleCity_GameCorner_EventScript_TMZenheadbutt::
@@ -282,10 +282,10 @@ MauvilleCity_GameCorner_EventScript_ConfirmTMPrize::
 MauvilleCity_GameCorner_EventScript_BuyFlamethrower::
 	checkcoins VAR_TEMP_2
 	goto_if_lt VAR_TEMP_2, TM_COINS, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForTM
-	checkitemspace ITEM_TM_FLAMETHROWER
+	checkitemspace ITEM_TM_TEMPER_FLARE
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NoRoomForTM
 	removecoins TM_COINS
-	giveitem ITEM_TM_FLAMETHROWER
+	giveitem ITEM_TM_TEMPER_FLARE
 	updatecoinsbox 1, 1
 	playse SE_SHOP
 	msgbox MauvilleCity_GameCorner_Text_HereYouGo, MSGBOX_DEFAULT
