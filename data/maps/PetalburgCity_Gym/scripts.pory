@@ -1553,14 +1553,14 @@ PetalburgCity_Gym_Text_GymStatueCertified:
 
 script PetalburgCity_Gym_EventScript_GiveEevee{
     lockall
-	giveitem(ITEM_TM_SANDSTORM)
-	giveitem(ITEM_TM_RAIN_DANCE)
-	giveitem(ITEM_TM_SUNNY_DAY)
-	giveitem(ITEM_TM_HAIL)
-	giveitem(ITEM_TM_ELECTRIC_TERRAIN)
-	giveitem(ITEM_TM_MISTY_TERRAIN)
-	giveitem(ITEM_TM_PSYCHIC_TERRAIN)
-	giveitem(ITEM_TM_GRASSY_TERRAIN)
+	additem(ITEM_TM_SANDSTORM)
+	additem(ITEM_TM_RAIN_DANCE)
+	additem(ITEM_TM_SUNNY_DAY)
+	additem(ITEM_TM_HAIL)
+	additem(ITEM_TM_ELECTRIC_TERRAIN)
+	additem(ITEM_TM_MISTY_TERRAIN)
+	additem(ITEM_TM_PSYCHIC_TERRAIN)
+	additem(ITEM_TM_GRASSY_TERRAIN)
 	multichoice (0,96, MULTI_EEVEE_STONE, 0)
     closemessage
         if(var(VAR_RESULT) == 0){

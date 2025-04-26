@@ -119,7 +119,7 @@ RustboroCity_Gym_EventScript_AlecItem3::
 # 60 "data/maps/RustboroCity_Gym/scripts.pory"
 	closemessage
 # 61 "data/maps/RustboroCity_Gym/scripts.pory"
-	giveitem ITEM_WISE_GLASSES
+	giveitem ITEM_BINDING_BAND
 # 62 "data/maps/RustboroCity_Gym/scripts.pory"
 	release
 # 63 "data/maps/RustboroCity_Gym/scripts.pory"

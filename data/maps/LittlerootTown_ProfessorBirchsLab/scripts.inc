@@ -596,7 +596,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Book::
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_Egg::
-	random 11
+	random 14
 	call_if_eq VAR_RESULT, 0, LittlerootTown_ProfessorBirchsLab_EventScript_Egg1
 	call_if_eq VAR_RESULT, 1, LittlerootTown_ProfessorBirchsLab_EventScript_Egg2
 	call_if_eq VAR_RESULT, 2, LittlerootTown_ProfessorBirchsLab_EventScript_Egg3
@@ -609,7 +609,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Egg::
 	call_if_eq VAR_RESULT, 9, LittlerootTown_ProfessorBirchsLab_EventScript_Egg10
 	call_if_eq VAR_RESULT, 10, LittlerootTown_ProfessorBirchsLab_EventScript_Egg11
 	call_if_eq VAR_RESULT, 11, LittlerootTown_ProfessorBirchsLab_EventScript_Egg12
-
+	call_if_eq VAR_RESULT, 12, LittlerootTown_ProfessorBirchsLab_EventScript_Egg13
+	call_if_eq VAR_RESULT, 13, LittlerootTown_ProfessorBirchsLab_EventScript_Egg14
+	call_if_eq VAR_RESULT, 14, LittlerootTown_ProfessorBirchsLab_EventScript_Egg15
 
 LittlerootTown_ProfessorBirchsLab_EventScript_Egg1::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT
@@ -716,6 +718,33 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Egg12::
 	message LittlerootTown_ProfessorBirchsLab_Text_ReceivedTheEgg
 	waitfanfare
 	giveegg SPECIES_RIOLU
+	release
+	end
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Egg13::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT
+	playfanfare MUS_OBTAIN_ITEM
+	message LittlerootTown_ProfessorBirchsLab_Text_ReceivedTheEgg
+	waitfanfare
+	giveegg SPECIES_ELEKID
+	release
+	end
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Egg14::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT
+	playfanfare MUS_OBTAIN_ITEM
+	message LittlerootTown_ProfessorBirchsLab_Text_ReceivedTheEgg
+	waitfanfare
+	giveegg SPECIES_MAGBY
+	release
+	end
+
+LittlerootTown_ProfessorBirchsLab_EventScript_Egg15::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT
+	playfanfare MUS_OBTAIN_ITEM
+	message LittlerootTown_ProfessorBirchsLab_Text_ReceivedTheEgg
+	waitfanfare
+	giveegg SPECIES_AZURILL
 	release
 	end
 

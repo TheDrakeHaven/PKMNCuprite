@@ -510,7 +510,7 @@ SlateportCity_EventScript_DecorClerk::
 	goto_if_unset FLAG_DELIVERED_DEVON_GOODS, SlateportCity_EventScript_ComeBackWithSecretPower
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemart SlateportCity_Pokemart_PowerTMs
+	pokemart SlateportCity_PokemartDecor
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end

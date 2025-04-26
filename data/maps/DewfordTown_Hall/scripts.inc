@@ -25,6 +25,7 @@ DewfordTown_Hall_EventScript_Woman::
 	lock
 	faceplayer
 	call Common_EventScript_BufferTrendyPhrase
+	goto_if_set FLAG_UNUSED_0x472, DewfordTown_Hall_EventScript_Woman9
 	msgbox DewfordTown_Hall_Text_TeachingMonAboutTrend, MSGBOX_DEFAULT
 	closemessage
 	multichoice 0, 0, MULTI_EEVEE_STONE2, 0
@@ -43,13 +44,9 @@ DewfordTown_Hall_EventScript_Woman::
 	compare VAR_RESULT, 6
 	goto_if_eq DewfordTown_Hall_EventScript_Woman_8
 	compare VAR_RESULT, 7
-	goto_if_eq DewfordTown_Hall_EventScript_Woman_9
-	compare VAR_RESULT, 8
-	goto_if_eq DewfordTown_Hall_EventScript_Woman_10
-	compare VAR_RESULT, 9
-	goto_if_eq DewfordTown_Hall_EventScript_Woman_11
 
 DewfordTown_Hall_EventScript_Woman_1:
+	setflag FLAG_UNUSED_0x472
 	release
 	end
 
@@ -76,22 +73,15 @@ DewfordTown_Hall_EventScript_Woman_6:
 DewfordTown_Hall_EventScript_Woman_7:
 	giveitem ITEM_LEAF_STONE
 	goto DewfordTown_Hall_EventScript_Woman_1
-	
-DewfordTown_Hall_EventScript_Woman_8:
-	giveitem ITEM_ICE_STONE
-	goto DewfordTown_Hall_EventScript_Woman_1
 
-DewfordTown_Hall_EventScript_Woman_9:
+DewfordTown_Hall_EventScript_Woman_8:
 	giveitem ITEM_SHINY_STONE
 	goto DewfordTown_Hall_EventScript_Woman_1
 
-DewfordTown_Hall_EventScript_Woman_10:
-	giveitem ITEM_DUSK_STONE
-	goto DewfordTown_Hall_EventScript_Woman_1
-
-DewfordTown_Hall_EventScript_Woman_11:
-	giveitem ITEM_DAWN_STONE
-	goto DewfordTown_Hall_EventScript_Woman_1
+DewfordTown_Hall_EventScript_Woman9::
+	msgbox DewfordTown_Hall_Text_TeachingMonAboutTrenddone MSGBOX_NPC
+	release
+	end
 
 DewfordTown_Hall_EventScript_Man::
 	lock
@@ -339,6 +329,11 @@ DewfordTown_Hall_Text_TeachingMonAboutTrend:
 	.string "“{STR_VAR_1},”\l"
 	.string "but it's not going well.\p"
 	.string "Here, take a stone for your help.$"
+
+DewfordTown_Hall_Text_TeachingMonAboutTrenddone:
+	.string "Thanks for your help with\n"
+	.string "“{STR_VAR_1}.”\l"
+	.string "My POKéMON are trendy!$"
 
 DewfordTown_Hall_Text_DeepLinkBetweenXAndY:
 	.string "I'm studying up on the hip and trendy\n"

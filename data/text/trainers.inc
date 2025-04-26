@@ -942,6 +942,18 @@ Route111_Text_HeidiPostBattle:
 	.string "It can faint if you don't keep\n"
 	.string "an eye on it!$"
 
+Route111_Text_BonneyIntro:
+	.string "I'm guarding this egg.\p"
+	.string "With the prices increasing,\n"
+	.string "I wanna make sure I can eat!$"
+
+Route111_Text_BonneyDefeat:
+	.string "Ohhh! My egg!$"
+
+Route111_Text_BonneyPostBattle:
+	.string "You can have it.\n"
+	.string "I'm going to become vegan.$"
+
 Route111_Text_BeauIntro:
 	.string "Wearing these GO-GOGGLES makes me\n"
 	.string "feel like a superhero.\l"
@@ -3836,6 +3848,88 @@ TrainerHill_JordanDefeated::
 	.string "I will regroup and find a way \n"
 	.string "to rid this region of weather.\p"
 	.string "Until then, {PLAYER}!$"
+
+Ecrudune_Text_SondheimIntro::
+	.string "What does it mean to be lost?\p"
+	.string "I wouldn't know!$"
+
+Ecrudune_Text_SondheimDefeated::
+	.string "Hmmm…\n"
+	.string "I'm beginning to understand$"
+
+Ecrudune_Text_SondheimPostBattle::
+	.string "This desert just seems\n"
+	.string "to never end!$"
+
+Ecrudune_Text_AsherIntro::
+	.string "I wanted to come here to\p"
+	.string "feel the sand on my skin!$"
+
+Ecrudune_Text_AsherDefeated::
+	.string "A real gamer would\n"
+	.string "never use those POKéMON...$"
+
+Ecrudune_Text_AsherPostBattle::
+	.string "Leave me alone with\n"
+	.string "my Caniac Combo!$"
+
+Ecrudune_Text_BridgetteIntro::
+	.string "I hate sand.\p"
+	.string "It gets everywhere!$"
+
+Ecrudune_Text_BridgetteDefeated::
+	.string "I got sand in my eye!\n"
+	.string "That's the only reason you won.$"
+
+Ecrudune_Text_BridgettePostBattle::
+	.string "I would rematch you but\n"
+	.string "I need to go shower!$"
+
+Ecrudune_Text_FlaviaIntro::
+	.string "I want to be a gym leader\p"
+	.string "when I grow up!$"
+
+Ecrudune_Text_FlaviaDefeated::
+	.string "Is being 40 too\n"
+	.string "old to be a gym leader?$"
+
+Ecrudune_Text_FlaviaPostBattle::
+	.string "Let me cry in peace!$"
+
+Ecrudune_Text_OliveIntro::
+	.string "I packed a whole picnic but\p"
+	.string "nobody showed up!$"
+
+Ecrudune_Text_OliveDefeated::
+	.string "I feel like an\n"
+	.string "idiot sandwich$"
+
+Ecrudune_Text_OlivePostBattle::
+	.string "I'm bringing the wich,\n"
+	.string "and this town brings the sand!$"
+
+Ecrudune_Text_ViolaIntro::
+	.string "My disguise was perfect.\p"
+	.string "You must be scared!$"
+
+Ecrudune_Text_ViolaDefeated::
+	.string "A little too prepared for me.$"
+
+Ecrudune_Text_ViolaPostBattle::
+	.string "Are you sure you didn't\n"
+	.string "know I was hiding?!$"
+
+Ecrudune_Text_ReijuIntro::
+	.string "I do my psychedelics\p"
+	.string "behind this tower!$"
+
+Ecrudune_Text_ReijuDefeated::
+	.string "Oh god,\n"
+	.string "The colors are blurring together.$"
+
+Ecrudune_Text_ReijuPostBattle::
+	.string "Let me come down\n"
+	.string "on my own please!$"
 
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
 	.string "The battery isn't charged enough.\p"

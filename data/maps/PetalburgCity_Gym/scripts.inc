@@ -3101,21 +3101,21 @@ PetalburgCity_Gym_EventScript_GiveEevee::
 # 1555 "data/maps/PetalburgCity_Gym/scripts.pory"
 	lockall
 # 1556 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_TM_SANDSTORM
+	additem ITEM_TM_SANDSTORM
 # 1557 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_TM_RAIN_DANCE
+	additem ITEM_TM_RAIN_DANCE
 # 1558 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_TM_SUNNY_DAY
+	additem ITEM_TM_SUNNY_DAY
 # 1559 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_TM_HAIL
+	additem ITEM_TM_HAIL
 # 1560 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_TM_ELECTRIC_TERRAIN
+	additem ITEM_TM_ELECTRIC_TERRAIN
 # 1561 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_TM_MISTY_TERRAIN
+	additem ITEM_TM_MISTY_TERRAIN
 # 1562 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_TM_PSYCHIC_TERRAIN
+	additem ITEM_TM_PSYCHIC_TERRAIN
 # 1563 "data/maps/PetalburgCity_Gym/scripts.pory"
-	giveitem ITEM_TM_GRASSY_TERRAIN
+	additem ITEM_TM_GRASSY_TERRAIN
 # 1564 "data/maps/PetalburgCity_Gym/scripts.pory"
 	multichoice 0, 96, MULTI_EEVEE_STONE, 0
 # 1565 "data/maps/PetalburgCity_Gym/scripts.pory"

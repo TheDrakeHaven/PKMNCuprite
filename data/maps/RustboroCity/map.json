@@ -588,14 +588,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RustboroCity_EventScript_TunnelSign"
-    },
-    {
-      "type": "sign",
-      "x": 12,
-      "y": 38,
-      "elevation": 3,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "RustboroCity_EventScript_CuttersHouseSign"
     }
   ]
 }

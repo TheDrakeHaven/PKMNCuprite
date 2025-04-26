@@ -542,6 +542,14 @@
 #define TRAINER_AEROGRUNT_9                 815
 #define TRAINER_AEROGRUNT_10                816
 #define TRAINER_AEROGRUNT_11                817
+#define TRAINER_SONDHEIM                    818
+#define TRAINER_ASHER                       819
+#define TRAINER_BRIDGETTE                   820
+#define TRAINER_FLAVIA                      821
+#define TRAINER_OLIVE                       822
+#define TRAINER_VIOLA                       823
+#define TRAINER_REIJU                       824
+#define TRAINER_BONNEY                      825
 #define TRAINER_MARIELA                     848
 #define TRAINER_ALVARO                      849
 #define TRAINER_EVERETT                     850

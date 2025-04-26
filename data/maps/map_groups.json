@@ -92,7 +92,9 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "EcruDune",
+    "Route135"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -307,7 +309,10 @@
   "gMapGroup_IndoorRoute111": [
     "Route111_WinstrateFamilysHouse",
     "Route111_OldLadysRestStop",
-    "NewMap1"
+    "NewMap1",
+    "EcruduneCenter",
+    "EcruduneCenter2",
+    "Route135_Pokemart"
   ],
   "gMapGroup_IndoorRoute112": [
     "Route112_CableCarStation",

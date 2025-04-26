@@ -2309,7 +2309,7 @@ void ShowScrollableMultichoice(void)
         break;
     case SCROLL_MULTI_GLASS_WORKSHOP_VENDOR:
         task->tMaxItemsOnScreen = MAX_SCROLL_MULTI_ON_SCREEN - 1;
-        task->tNumItems = 8;
+        task->tNumItems = 2;
         task->tLeft = 1;
         task->tTop = 1;
         task->tWidth = 9;
@@ -2433,8 +2433,8 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
     },
     [SCROLL_MULTI_GLASS_WORKSHOP_VENDOR] =
     {
-        COMPOUND_STRING("WHITE FLUTE"),
         COMPOUND_STRING("BLACK FLUTE"),
+        COMPOUND_STRING("CANCEL"),
         gText_Exit
     },
     [SCROLL_MULTI_POKEMON_FAN_CLUB_RATER] =

@@ -3,6 +3,7 @@
 .set LOCALID_VIVI, 3
 .set LOCALID_VICKY, 4
 .set LOCALID_ROCK_SMASH_MAN, 46
+.set LOCALID_OWNER, 51
 
 @ Note: LOCALID_ROUTE111_PLAYER_FALLING is a local id for this map used elsewhere. It's defined in event_objects.h
 
@@ -439,6 +440,11 @@ Route111_EventScript_Heidi::
 	msgbox Route111_Text_HeidiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route111_EventScript_Bonney::
+	trainerbattle_single TRAINER_BONNEY, Route111_Text_BonneyIntro, Route111_Text_BonneyDefeat
+	msgbox Route111_Text_BonneyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route111_EventScript_Beau::
 	trainerbattle_single TRAINER_BEAU, Route111_Text_BeauIntro, Route111_Text_BeauDefeat
 	msgbox Route111_Text_BeauPostBattle, MSGBOX_AUTOCLOSE
@@ -535,6 +541,47 @@ Route111_EventScript_Aeroropes::
 	msgbox Route111_Text_Aerorope, MSGBOX_DEFAULT
 	release
 	end
+
+Route111_EventScript_Aeroblocked::
+	lockall
+	playse SE_PIN
+	applymovement LOCALID_OWNER, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_OWNER, Common_Movement_Delay48
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	msgbox Route111_EventScript_Aero_CantSeeTheTV, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Route111_EventScript_Aero_Movement_PlayerPushFromTV
+	applymovement LOCALID_OWNER, Route111_EventScript_Aero_Movement_OwnerPushPlayer
+	waitmovement 0
+	applymovement LOCALID_OWNER, Route111_EventScript_Aero_Movement_OwnerReturn
+	waitmovement 0
+	release
+	end
+
+Route111_EventScript_Aeroblocked2::
+	msgbox Route111_Text_Aeroblocko, MSGBOX_DEFAULT
+	release
+	end
+
+Route111_EventScript_Aero_Movement_PlayerPushFromTV:
+	face_right
+	lock_facing_direction
+	walk_left
+	unlock_facing_direction
+	step_end
+
+Route111_EventScript_Aero_Movement_OwnerPushPlayer:
+	walk_left
+	step_end
+
+Route111_EventScript_Aero_Movement_OwnerReturn:
+	face_right
+	walk_right
+	face_left
+	step_end
 
 Route111_Text_BattleOurFamily:
 	.string "Hello! I take it you're a traveler.\p"
@@ -700,6 +747,14 @@ Route111_Text_AeroJump2:
 Route111_Text_Aerorope:
 	.string "Leave us alone, \n"
 	.string "We gotta focus on the jumprope. $"
+
+Route111_EventScript_Aero_CantSeeTheTV:
+	.string "Boss says we gotta guard \n"
+	.string "the city until he can clear \p"
+	.string "all of the weather somehow.$"
+
+Route111_Text_Aeroblocko::
+	.string "Can't let you through bud$"
 
 Route111_Text_TrainerHillSign:
 	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"

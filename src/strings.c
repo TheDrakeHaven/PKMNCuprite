@@ -1323,7 +1323,7 @@ const u8 gtext_mirrorherb[]= _("MIRROR HERB");
 
 const u8 gtext_quickclaw[]= _("QUICK CLAW");
 const u8 gtext_razorclaw[]= _("RAZOR CLAW");
-const u8 gtext_wiseglasses[]= _("WISE GLASSES");
+const u8 gtext_bindingband[]= _("BINDING BAND");
 const u8 gtext_bigroot[]= _("BIG ROOT");
 
 const u8 gtext_Leafstone[]= _("LEAF STONE");

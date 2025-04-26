@@ -1178,3 +1178,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FortreeCity_House6/scripts.inc"
 
 	.include "data/maps/FortreeCity_House7/scripts.inc"
+
+	.include "data/maps/EcruDune/scripts.inc"
+
+	.include "data/maps/EcruduneCenter/scripts.inc"
+
+	.include "data/maps/EcruduneCenter2/scripts.inc"
+
+	.include "data/maps/Route135/scripts.inc"
+
+	.include "data/maps/Route135_Pokemart/scripts.inc"

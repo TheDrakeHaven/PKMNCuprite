@@ -30,6 +30,7 @@ AeroBase_EventScript_Jordanescape::
 	delay 20
 	setflag FLAG_UNUSED_0x02C
 	clearflag FLAG_UNUSED_0x265
+	setflag FLAG_UNUSED_0x025
 	release
 	end
 

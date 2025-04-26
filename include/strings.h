@@ -2433,7 +2433,7 @@ extern const u8 gtext_mirrorherb[];
 
 extern const u8 gtext_quickclaw[];
 extern const u8 gtext_razorclaw[];
-extern const u8 gtext_wiseglasses[];
+extern const u8 gtext_bindingband[];
 extern const u8 gtext_bigroot[];
 
 extern const u8 gtext_Leafstone[];

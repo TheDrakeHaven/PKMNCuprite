@@ -76,22 +76,22 @@ Comments can be added as C comment blocks
 === TRAINER_NONE ===
 Name:
 Class: Pkmn Trainer 1
-Pic: Hiker
+Pic: Wally
 Gender: Male
 Music: Male
 Double Battle: No
 
 === TRAINER_SAWYER ===
 Name: SAWYER
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
 Monferno
-Level: 39
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
@@ -1625,7 +1625,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Zebstrika
-Level: 39
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHIRLEY ===
@@ -1638,7 +1638,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Gloom
-Level: 39
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JESSICA===
@@ -2413,7 +2413,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COLE ===
 Name: COLE
-Class: Hiker
+Class: Gamer
 Pic: Wally
 Gender: Male
 Music: Hiker
@@ -2426,7 +2426,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JEFF ===
 Name: JEFF
-Class: Hiker
+Class: Gamer
 Pic: Wally
 Gender: Male
 Music: Hiker
@@ -2443,7 +2443,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_AXLE ===
 Name: AXLE
-Class: Hiker
+Class: Gamer
 Pic: Wally
 Gender: Male
 Music: Hiker
@@ -2459,7 +2459,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JACE ===
 Name: JACE
-Class: Hiker
+Class: Gamer
 Pic: Wally
 Gender: Male
 Music: Hiker
@@ -2472,7 +2472,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_KEEGAN ===
 Name: KEEGAN
-Class: Hiker
+Class: Gamer
 Pic: Wally
 Gender: Male
 Music: Hiker
@@ -2480,7 +2480,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Sceptile
-Level: 39
+Level: 38
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 -Giga Drain
 -Dragon Breath
@@ -2488,7 +2488,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BERNIE ===
 Name: BERNIE
-Class: Hiker
+Class: Gamer
 Pic: Wally
 Gender: Male
 Music: Hiker
@@ -2591,11 +2591,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Bronzor
-Level: 37
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nosepass
-Level: 37
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_AUTUMN ===
@@ -2973,7 +2973,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_MATT ===
 Name: MATT
 Class: Elite Four
-Pic: Gentleman
+Pic: Salon Maiden Anabel
 Gender: Male
 Music: Elite Four
 Double Battle: No
@@ -3085,15 +3085,15 @@ Adamant Nature
 - U-Turn
 - Aerial Ace
 
-Genesect @ Douse Drive
-Ability: Download
+Shuckle @ Leftovers
+Ability: Contrary
 Level: 75
 Shiny: Yes  
-Hasty Nature
-- First Impression
-- Iron-Head
-- Techno Blast
-- Ice Beam
+Bold Nature
+- Rest
+- Toxic
+- Body Press
+- Rock Tomb
 
 Leavanny @ Assault Vest
 Ability: Overcoat
@@ -3404,7 +3404,7 @@ AI: Smart Trainer
 
 Altaria @ Fairy Feather
 Ability: Natural Cure
-Level: 39
+Level: 38
 Naive Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Pluck
@@ -3414,7 +3414,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Charizard @ Charcoal
 Ability: Blaze
-Level: 39
+Level: 38
 Quiet Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dragon Breath
@@ -3424,7 +3424,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Vibrava @ Assault Vest
 Ability: Levitate
-Level: 39
+Level: 38
 Modest Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - U-Turn
@@ -3434,7 +3434,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Dragonair @ Rocky Helmet
 Ability: Marvel Scale
-Level: 39
+Level: 38
 Brave Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dragon Tail
@@ -3444,17 +3444,17 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Kingdra @ Dragon Fang
 Ability: Sniper
-Level: 39
+Level: 38
 Adamant Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Dragon Breath
-- Bubble Beam
-- Agility
+- Scale Shot
+- Flip Turn
+- Dragon Dance
 - Yawn
 
 Gabite @ Life Orb
 Ability: Rough Skin
-Level: 39
+Level: 38
 Adamant Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dragon Claw
@@ -4013,11 +4013,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Cofagrigus
-Level: 39
+Level: 37
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Noctowl
-Level: 39
+Level: 37
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CALVIN ===
@@ -5894,8 +5894,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ELI ===
 Name: ELI
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -6617,8 +6617,8 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MARC ===
 Name: MARC
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -7349,6 +7349,31 @@ Swablu
 Level: 12
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
+=== TRAINER_BONNEY ===
+Name: BONNEY
+Class: Lady
+Pic: Lady
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Check Bad Move
+
+Pikachu
+Level: 26
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Volbeat
+Level: 26
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Illumise
+Level: 26
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Kakuna
+Level: 26
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
 === TRAINER_DOUG ===
 Name: DOUG
 Class: Bug Catcher
@@ -7415,8 +7440,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRICE ===
 Name: BRICE
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -7432,8 +7457,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TRENT ===
 Name: TRENT
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -7453,8 +7478,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LENNY ===
 Name: LENNY
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -7470,8 +7495,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LUCAS ===
 Name: LUCAS
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -7487,8 +7512,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALAN ===
 Name: ALAN
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -7508,8 +7533,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CLARK ===
 Name: CLARK
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -7521,8 +7546,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ERIC ===
 Name: ERIC
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -7538,8 +7563,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MIKE ===
 Name: MIKE
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -7663,7 +7688,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Deino
-Level: 39
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_HIDEO ===
@@ -8389,7 +8414,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HAYDEN ===
 Name: HAYDEN
-Class: Hiker
+Class: Gamer
 Pic: Wally
 Gender: Male
 Music: Hiker
@@ -9030,7 +9055,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRYANT ===
 Name: BRYANT
-Class: Hiker
+Class: Gamer
 Pic: Wally
 Gender: Male
 Music: Hiker
@@ -9149,8 +9174,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DEVAN ===
 Name: DEVAN
-Class: Hiker
-Pic: Hiker
+Class: Gamer
+Pic: Wally
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -9204,7 +9229,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Vigoroth
-Level: 39
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRANDI ===
@@ -9266,7 +9291,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAYTON ===
 Name: DAYTON
-Class: Hiker
+Class: Gamer
 Pic: Wally
 Gender: Male
 Music: Hiker
@@ -9340,6 +9365,127 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Swadloon
 Level: 44
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_SONDHEIM ===
+Name: SONDHEIM
+Class: Kindler
+Pic: Kindler
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Krokorok
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Onix
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ASHER ===
+Name: ASHER
+Class: Gamer
+Pic: Pokemon Breeder M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Swampert
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Steelix
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+
+=== TRAINER_BRIDGETTE ===
+Name: BRIDGETTE
+Class: Ruin Maniac
+Pic: Ruin Maniac
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Palpitoad
+Level: 39
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Graveler
+Level: 39
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drilbur
+Level: 39
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_FLAVIA ===
+Name: FLAVIA
+Class: Ruin Maniac
+Pic: Ruin Maniac
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Rhydon
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_OLIVE ===
+Name: OLIVE
+Class: Camper
+Pic: Camper
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Stunfisk
+Level: 39
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Stunfisk
+Level: 39
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_VIOLA ===
+Name: VIOLA
+Class: Picnicker
+Pic: Picnicker
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Sandslash
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Donphan
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+
+=== TRAINER_REIJU ===
+Name: VIOLA
+Class: Psychic
+Pic: Psychic F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Pupitar
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gible
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MYLES ===
@@ -9704,12 +9850,12 @@ Level: 42
 -Acrobatics
 -Leaf Storm
 -Zen Headbutt
--Giga Impact
+-Body Press
 
 Dusclops @ Eviolite
 Ability: Pressure
 Level: 42
--Shadow Sneak
+-Zen Headbutt
 -Shadow Punch
 -Brick Break
 -Thunder Punch
@@ -9727,15 +9873,15 @@ Ability: Oblivious
 Level: 42
 -Ice Beam
 -Surf
--Earth Power
--Future Sight
+-Earthquake
+-Rock slide
 
 Golbat @ Sharp Beak
 Ability: Inner Focus
 Level: 42
--Air Cutter
--Poison Fang
--Absorb
+-Aerial Ace
+-Cross Poison
+-Knock Off
 -Supersonic
 
 === TRAINER_JORDAN2 ===

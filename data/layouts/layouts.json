@@ -4510,6 +4510,56 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/FortreeCity_House7/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity_House7/map.bin"
+    },
+    {
+      "id": "LAYOUT_ECRU_DUNE",
+      "name": "EcruDune_Layout",
+      "width": 71,
+      "height": 37,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/EcruDune/border.bin",
+      "blockdata_filepath": "data/layouts/EcruDune/map.bin"
+    },
+    {
+      "id": "LAYOUT_ECRUDUNE_CENTER",
+      "name": "EcruduneCenter_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattlePyramid",
+      "border_filepath": "data/layouts/EcruduneCenter/border.bin",
+      "blockdata_filepath": "data/layouts/EcruduneCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_ECRUDUNE_CENTER2",
+      "name": "EcruduneCenter2_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattlePyramid",
+      "border_filepath": "data/layouts/EcruduneCenter2/border.bin",
+      "blockdata_filepath": "data/layouts/EcruduneCenter2/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE135",
+      "name": "Route135_Layout",
+      "width": 40,
+      "height": 65,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/Route135/border.bin",
+      "blockdata_filepath": "data/layouts/Route135/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE135_POKEMART",
+      "name": "Route135_Pokemart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/Route135_Pokemart/border.bin",
+      "blockdata_filepath": "data/layouts/Route135_Pokemart/map.bin"
     }
   ]
 }
