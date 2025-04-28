@@ -15,24 +15,24 @@
   "connections": [
     {
       "map": "MAP_ECRU_DUNE",
-      "offset": -8,
+      "offset": -6,
       "direction": "left"
     },
     {
       "map": "MAP_ROUTE119",
-      "offset": -57,
+      "offset": -50,
       "direction": "right"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_F",
-      "x": 24,
-      "y": 13,
+      "x": 32,
+      "y": 19,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
-      "movement_range_y": 0,
+      "movement_range_y": 5,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
@@ -40,8 +40,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
-      "x": 20,
-      "y": 14,
+      "x": 25,
+      "y": 21,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
@@ -53,8 +53,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
-      "x": 32,
-      "y": 21,
+      "x": 37,
+      "y": 27,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
@@ -67,10 +67,17 @@
   ],
   "warp_events": [
     {
-      "x": 17,
-      "y": 46,
+      "x": 23,
+      "y": 53,
       "elevation": 0,
       "dest_map": "MAP_ROUTE135_POKEMART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 37,
+      "elevation": 0,
+      "dest_map": "MAP_NEW_MAP1",
       "dest_warp_id": "0"
     }
   ],
@@ -80,10 +87,42 @@
   "bg_events": [
     {
       "type": "secret_base",
-      "x": 38,
-      "y": 34,
+      "x": 43,
+      "y": 41,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_SHRUB2_3"
+    },
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 37,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "type": "sign",
+      "x": 19,
+      "y": 37,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "type": "sign",
+      "x": 24,
+      "y": 53,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "type": "sign",
+      "x": 25,
+      "y": 53,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_ShowPokemartSign"
     }
   ]
 }

@@ -147,6 +147,12 @@ static const struct HealLocation sHealLocationsPokemonCenter[HEAL_LOCATION_COUNT
         .x = 4,
         .y = 11,
     },
+    [HEAL_LOCATION_ROUTE_135 - 1] =
+    {
+        .group = MAP_GROUP(NEW_MAP1),
+        .map = MAP_NUM(NEW_MAP1),
+        DEFAULT_POKEMON_CENTER_COORDS,
+    },
 };
 
 #undef DEFAULT_POKEMON_CENTER_COORDS
@@ -180,4 +186,5 @@ static const u8 sHealNpcLocalId[HEAL_LOCATION_COUNT - 1] =
     [HEAL_LOCATION_SOUTHERN_ISLAND_EXTERIOR - 1] = 0, // no heal npc
     [HEAL_LOCATION_BATTLE_FRONTIER_OUTSIDE_EAST - 1] = 1,
     [HEAL_LOCATION_AEROBASE - 1] = 1,
+    [HEAL_LOCATION_ROUTE_135 - 1] = 1,
 };

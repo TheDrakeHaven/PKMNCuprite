@@ -281,12 +281,12 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Hyper Potion"),
         .price = (I_PRICE >= GEN_2 && I_PRICE <= GEN_6) ? 1000 : 1000,
-        .holdEffectParam = 120,
+        .holdEffectParam = 200,
         .description = COMPOUND_STRING(
             "Restores the HP of\n"
             "a Pokémon by\n"
         #if I_HEALTH_RECOVERY >= GEN_7
-            "120 points."),
+            "200 points."),
         #else
             "200 points."),
         #endif

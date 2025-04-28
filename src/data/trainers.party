@@ -8207,11 +8207,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Gastrodon
-Level: 44
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Furret
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
@@ -8219,7 +8219,7 @@ Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bisharp
-Level: 35
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAWSON ===
@@ -9922,8 +9922,8 @@ Ability: Oblivious
 Level: 69
 -Ice Beam
 -Surf
--Earth Power
--Future Sight
+-Earthquake
+-Zen Headbutt
 
 Crobat @ Sharp Beak
 Ability: Inner Focus

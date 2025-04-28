@@ -12984,6 +12984,9 @@ static const u16 sTogekissTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_SURF,
+    MOVE_ALLURING_VOICE,
+    MOVE_MOONBLAST,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -26079,6 +26082,7 @@ static const u16 sLuxrayTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_FLING,
     MOVE_NASTY_PLOT,
+    MOVE_STOMPING_TANTRUM,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SHINX

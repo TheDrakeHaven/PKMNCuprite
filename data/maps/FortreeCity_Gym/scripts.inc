@@ -20,7 +20,6 @@ FortreeCity_Gym_EventScript_InitRotatingGates::
 FortreeCity_Gym_EventScript_Winona::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_MATTHEW, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
-	goto_if_unset FLAG_RECEIVED_TM_AERIAL_ACE, FortreeCity_Gym_EventScript_GiveAerialAce2
 	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -38,19 +37,6 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	call FortreeCity_Gym_EventScript_GiveAerialAce
 	closemessage
 	delay 30
-	release
-	end
-
-FortreeCity_Gym_EventScript_GiveAerialAce2::
-	giveitem ITEM_TM_HEAVY_SLAM
-	giveitem ITEM_TM_AUTOTOMIZE
-	giveitem ITEM_ROCKY_HELMET
-	giveitem ITEM_SAFETY_GOGGLES
-	giveitem ITEM_PROTECTIVE_PADS
-	giveitem ITEM_HEAVY_DUTY_BOOTS
-	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	msgbox FortreeCity_Gym_Text_ExplainAerialAce, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM_AERIAL_ACE
 	release
 	end
 
@@ -139,7 +125,7 @@ FortreeCity_Gym_Text_GymGuideAdvice:
 	.string "He's waiting at the back of this GYM,\n"
 	.string "behind the rotating doors.\p"
 	.string "He's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
+	.string "who are trying to steel themselves!\p"
 	.string "Okay, go for it!$"
 
 FortreeCity_Gym_Text_GymGuidePostVictory:
@@ -232,10 +218,10 @@ FortreeCity_Gym_Text_WinonaIntro:
 	.string "I am MATTHEW. I am the LEADER of\n"
 	.string "the FORTREE POKéMON GYM.\p"
 	.string "I have become one with STEEL POKéMON\n"
-	.string "and have soared the skies…\p"
+	.string "and have braved the forge…\p"
 	.string "However grueling the battle, we have\n"
 	.string "triumphed with grace…\p"
-	.string "Witness the elegant choreography\n"
+	.string "Witness the sleek efficiency\n"
 	.string "of STEEL POKéMON and I!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:

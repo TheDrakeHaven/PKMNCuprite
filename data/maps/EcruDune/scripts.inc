@@ -81,15 +81,21 @@ Ecrudune_EventScript_Reiju::
 	msgbox Ecrudune_Text_ReijuPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Ecrudune_EventScript_Fisherman::
+	msgbox Ecrudune_Text_fishintime, MSGBOX_NPC
+	end
+
 Ecrudune_Text_TownSign:
 	.string "Welcome to the dryest \n"
 	.string "place in HOENN, ECRUDUNE TOWN!$"
 
-Ecrudune_Text_Jordanback::
+Ecrudune_Text_Jordanback:
 	.string "All I ever wished for was \n"
 	.string "a way to free this area of sand.\p"
 	.string "Have you come to mock me? \n"
 	.string "I just wanted to help my people.\p"
 	.string "I now have my means, so I must act!$"
 
-
+Ecrudune_Text_fishintime:
+	.string "I'm hoping to catch a STUNFISK!\n"
+	.string "So let me fish alone.$"

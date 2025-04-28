@@ -4,12 +4,7 @@ ShoalCave_LowTideInnerRoom_MapScripts::
 	.byte 0
 
 ShoalCave_LowTideInnerRoom_OnTransition:
-	goto_if_set FLAG_SYS_SHOAL_TIDE, ShoalCave_LowTideInnerRoom_EventScript_SetHighTide
 	goto ShoalCave_LowTideInnerRoom_EventScript_SetLowTide
-
-ShoalCave_LowTideInnerRoom_EventScript_SetHighTide::
-	setmaplayoutindex LAYOUT_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM
-	end
 
 ShoalCave_LowTideInnerRoom_EventScript_SetLowTide::
 	setmaplayoutindex LAYOUT_SHOAL_CAVE_LOW_TIDE_INNER_ROOM

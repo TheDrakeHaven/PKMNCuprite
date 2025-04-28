@@ -148,12 +148,12 @@ SkyPillar_TOP_EventScript_Jordan::
 	end
 
 SkyPillar_TOP_EventScript_Jordangone::
+	clearflag FLAG_UNUSED_0x265
 	giveitem ITEM_TM_SECRET_POWER
 	giveitem ITEM_TM_FLING
 	giveitem ITEM_BRIGHT_POWDER
 	giveitem ITEM_WEAKNESS_POLICY
 	giveitem ITEM_SHELL_BELL
-	clearflag FLAG_UNUSED_0x265
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	setflag FLAG_UNUSED_0x040
 	end

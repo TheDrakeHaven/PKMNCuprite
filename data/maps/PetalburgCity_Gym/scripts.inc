@@ -2627,7 +2627,7 @@ PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 # 1314 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "It would bother me as a TRAINER to\n"
 # 1315 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "not avenge my loss to you, {PLAYER}!$"
+	.string "not avenge my loss to GRAYSON!$"
 # 1316 "data/maps/PetalburgCity_Gym/scripts.pory"
 
 # 1317 "data/maps/PetalburgCity_Gym/scripts.pory"

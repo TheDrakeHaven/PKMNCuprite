@@ -5108,7 +5108,6 @@ static const struct LevelUpMove sTogepiLevelUpLearnset[] = {
 
 static const struct LevelUpMove sTogeticLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_FAIRY_WIND),
-    LEVEL_UP_MOVE( 1, MOVE_FAIRY_WIND),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_KISS),
@@ -5130,7 +5129,7 @@ static const struct LevelUpMove sTogeticLevelUpLearnset[] = {
 #if P_GEN_4_CROSS_EVOS
 static const struct LevelUpMove sTogekissLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_AIR_SLASH),
-    LEVEL_UP_MOVE( 1, MOVE_AIR_SLASH),
+    LEVEL_UP_MOVE( 1, MOVE_MOONBLAST),
     LEVEL_UP_MOVE( 1, MOVE_FAIRY_WIND),
     LEVEL_UP_MOVE( 1, MOVE_SKY_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_AURA_SPHERE),
@@ -10192,11 +10191,10 @@ static const struct LevelUpMove sLuxrayLevelUpLearnset[] = {
     LEVEL_UP_MOVE(24, MOVE_TAUNT),
     LEVEL_UP_MOVE(33, MOVE_VOLT_SWITCH),
     LEVEL_UP_MOVE(40, MOVE_SCARY_FACE),
-    LEVEL_UP_MOVE(48, MOVE_THUNDER_WAVE),
-    LEVEL_UP_MOVE(56, MOVE_CRUNCH),
-    LEVEL_UP_MOVE(64, MOVE_DISCHARGE),
-    LEVEL_UP_MOVE(72, MOVE_SWAGGER),
-    LEVEL_UP_MOVE(80, MOVE_WILD_CHARGE),
+    LEVEL_UP_MOVE(48, MOVE_THUNDER_FANG),
+    LEVEL_UP_MOVE(50, MOVE_BEAT_UP),
+    LEVEL_UP_MOVE(57, MOVE_DISCHARGE),
+    LEVEL_UP_MOVE(65, MOVE_WILD_CHARGE),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_SHINX

@@ -2892,7 +2892,6 @@ DefaultHash = '''E74F20C6'''
    '''GetPokeblockFeederInFront''',
    '''OpenPokeblockCaseOnFeeder''',
    '''IsMirageIslandPresent''',
-   '''UpdateShoalTideFlag''',
    '''InitBirchState''',
    '''ScriptGetPokedexInfo''',
    '''ShowPokedexRatingMessage''',

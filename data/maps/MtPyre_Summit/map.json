@@ -117,6 +117,32 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POKE_BALL",
+      "x": 29,
+      "y": 27,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_SEE_ALL_DIRECTIONS",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM_STEEL_BEAM",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_RARE_CANDY"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POKE_BALL",
+      "x": 8,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_SEE_ALL_DIRECTIONS",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM_WILL_O_WISP",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_ZINC"
     }
   ],
   "warp_events": [
@@ -199,21 +225,6 @@
     }
   ],
   "bg_events": [
-    {
-      "type": "hidden_item",
-      "x": 9,
-      "y": 25,
-      "elevation": 0,
-      "item": "ITEM_ZINC",
-      "flag": "FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_ZINC"
-    },
-    {
-      "type": "hidden_item",
-      "x": 37,
-      "y": 7,
-      "elevation": 3,
-      "item": "ITEM_RARE_CANDY",
-      "flag": "FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_RARE_CANDY"
-    }
+
   ]
 }
