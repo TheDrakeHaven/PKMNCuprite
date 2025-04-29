@@ -55,7 +55,7 @@
       "x": 62,
       "y": 33,
       "elevation": 3,
-      "item": "ITEM_PEARL",
+      "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_124_PEARL"
     },
     {
@@ -63,7 +63,7 @@
       "x": 60,
       "y": 53,
       "elevation": 3,
-      "item": "ITEM_PEARL",
+      "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_124_BIG_PEARL"
     },
     {

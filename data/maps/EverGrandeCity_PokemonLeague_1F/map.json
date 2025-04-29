@@ -76,8 +76,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "FLAG_UNUSED_0x4A0"
+      "script": "EverGrandeCity_PokemonLeague_1F_EventScript_MoveRelearner",
+      "flag": "NULL"
     }
   ],
   "warp_events": [

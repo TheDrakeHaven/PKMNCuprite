@@ -531,6 +531,7 @@
 #define TRAINER_AEROGRUNT_5                 794
 #define TRAINER_AEROGRUNT_6                 795
 #define TRAINER_AEROGRUNT_7                 796
+#define TRAINER_DRAKE2                      797
 #define TRAINER_ANGELO                      802
 #define TRAINER_DARIUS                      803
 #define TRAINER_STEVEN                      804

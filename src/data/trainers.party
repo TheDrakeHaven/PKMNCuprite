@@ -3237,6 +3237,70 @@ Adamant Nature
 - Iron Head
 - Earthquake
 
+=== TRAINER_DRAKE2 ===
+Name: DRAKE
+Class: Gamer
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Double Battle: No
+AI: Smart Trainer / Prediction
+Mugshot: Blue
+
+Tyranitar @ Assault Vest
+Ability: Sand Stream
+Level: 80
+Adamant Nature
+- Stone Edge
+- Knock Off
+- Fire Punch
+- Earthquake
+
+Salamence @ Safety Goggles
+Ability: Intimidate
+Level: 80
+Adamant Nature
+- Dragon Rush
+- Psychic Fangs
+- Earthquake
+- Dragon Ascent
+
+Mamoswine @ Life Orb
+Ability: Oblivious
+Level:80 
+Adamant Nature
+- Earthquake
+- Ice Spinner
+- Knock Off
+- Bulk Up
+
+Hydreigon @ Choice Specs
+Ability: Levitate
+Level: 80
+Timid Nature
+- Draco Meteor
+- Dark Pulse
+- Flamethrower
+- U-Turn
+
+Aggron @ Rocky Helmet
+Ability: Sturdy
+Level: 80
+Jolly Nature
+- Ice Punch
+- Stone Edge
+- Heavy Slam
+- Body Press
+
+Heatran @ Leftovers
+Ability: Flame Body
+Level: 80
+Adamant Nature
+- Overheat
+- Steel Beam
+- Dark Pulse
+- Scorching Sands
+
 === TRAINER_ALEC ===
 Name: ALEC
 Class: Leader
@@ -4250,7 +4314,7 @@ Mugshot: Yellow
 
 Snorlax @ Life Orb
 Ability: Thick Fat
-Level: 78
+Level: 77
 Adamant Nature
 EVs: 252 HP / 252 Atk / 4 SpD
 -Body Press
@@ -4260,7 +4324,7 @@ EVs: 252 HP / 252 Atk / 4 SpD
 
 Arcanine @ Choice Band
 Ability: Intimidate
-Level: 78
+Level: 77
 Jolly Nature
 EVs: 252 Atk / 252 Spe / 4 SpD
 -Flare Blitz
@@ -4270,7 +4334,7 @@ EVs: 252 Atk / 252 Spe / 4 SpD
 
 Venusaur @ Leftovers
 Ability: Chlorophyll
-Level: 78
+Level: 77
 Timid Nature
 EVs: 252 SpA / 4 Spe / 252 SpD
 -Leaf Storm
@@ -4280,9 +4344,9 @@ EVs: 252 SpA / 4 Spe / 252 SpD
 
 Alakazam @ Focus Sash
 Ability: Magic Guard
-Level: 78
+Level: 77
 Timid Nature
-EVs: 252 SpA / 252 Spe / 4 SpD
+EVs: 252 SpA / 4 Spe / 252 SpD
 -Nasty Plot
 -Psychic 
 -Focus Blast
@@ -4290,7 +4354,7 @@ EVs: 252 SpA / 252 Spe / 4 SpD
 
 Zapdos @ Wide Lens
 Ability: Static
-Level: 78
+Level: 77
 Bold Nature
 EVs: 248 HP / 252 SpA / 8 SpD
 -Hurricane
@@ -4300,7 +4364,7 @@ EVs: 248 HP / 252 SpA / 8 SpD
 
 Psyduck @ Eviolite
 Ability: Swift Swim
-Level: 78
+Level: 77
 Modest Nature
 EVs: 252 SpA / 252 Spe / 4 SpD
 -Surf

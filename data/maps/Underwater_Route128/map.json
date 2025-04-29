@@ -53,7 +53,7 @@
       "x": 69,
       "y": 18,
       "elevation": 3,
-      "item": "ITEM_PEARL",
+      "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_128_PEARL"
     }
   ]
