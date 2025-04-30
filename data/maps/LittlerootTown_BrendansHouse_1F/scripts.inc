@@ -392,18 +392,12 @@ PlayersHouse_1F_Text_RunningShoesManual:
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "DAD: Hm?\p"
 	.string "Hey, it's {PLAYER}!\p"
-	.string "It's been a while since I saw you,\n"
-	.string "but you look…stronger, somehow.\p"
-	.string "That's the impression I get.\n"
-	.string "But your old man hasn't given up yet!\p"
-	.string "Oh, yes, I have something for you.\n"
-	.string "This came to you from someone named\l"
-	.string "DRAKE.$"
+	.string "The game is over already.\p"
+	.string "Anything past this will be buggy!$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
-	.string "DAD: Hm, a challenge for battle?\p"
-	.string "If I recall, the hometown gym\n"
-	.string "just reopened.$"
+	.string "DAD: Hmm?\p"
+	.string "Oh you're still here.$"
 
 PlayersHouse_1F_Text_BetterGetBackToGym:
 	.string "I'd better get back to PETALBURG GYM.\p"

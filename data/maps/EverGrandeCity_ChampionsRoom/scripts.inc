@@ -216,14 +216,14 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "are put to the test against what\l"
 	.string "others like you have achieved.\p"
 	.string "Now!\p"
-	.string "Who can most elegantly battle with\n"
-	.string "their POKéMON\p"
+	.string "I will show you the power of\n"
+	.string "cherishing your POKéMON.\p"
 	.string "Show me right here and now!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "I, the CHAMPION, fall in defeat…\p"
 	.string "That was wonderful work.\n"
-	.string "You were elegant, infuriatingly so.\l"
+	.string "You were strategic, infuriatingly so.\l"
 	.string "And yet it was utterly glorious!\p"
 	.string "Kudos to you, {PLAYER}{KUN}!\p"
 	.string "You are a truly noble POKéMON\n"

@@ -70,25 +70,25 @@ EverGrandeCity_DrakesRoom_Text_IntroSpeech:
 	.string "ELITE FOUR, DRAKE the DARK master!\p"
 	.string "I created this world, and in it\n"
 	.string "all wild living things are free.\p"
-	.string "But you will be trapped.\n"
-	.string "This torment will continue eternally.\p"
+	.string "But you will be trapped here,\n"
+	.string "and your torment will continue eternally.\p"
 	.string "Did you prepare for me?\p"
 	.string "If you did't, then you will never\n"
 	.string "prevail over me!$"
 
 EverGrandeCity_DrakesRoom_Text_Defeat:
-	.string "My wish is granted.$"
+	.string "A worthy challenger.$"
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
 	.string "You deserve credit for coming\n"
 	.string "this far as a TRAINER of POKéMON.\p"
 	.string "You do seem to know what is needed.\p"
 	.string "Yes, what a TRAINER needs is a\n"
-	.string "virtuous heart.\p"
-	.string "POKéMON touch the good hearts of\n"
-	.string "TRAINERS and learn good from wrong.\p"
-	.string "They touch the good hearts of\n"
-	.string "TRAINERS and grow strong.\p"
+	.string "good strategy and good Pokemon.\p"
+	.string "The LEVEL CAP is now raised to 77 \n"
+	.string "until you beat the CHAMPION.\p"
+	.string "But I believe you are already\n"
+	.string "prepared and strong enough.\p"
 	.string "Go! Go onwards!\n"
 	.string "The CHAMPION is waiting!$"
 

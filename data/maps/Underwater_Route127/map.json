@@ -54,32 +54,32 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 15,
-      "y": 48,
+      "x": 69,
+      "y": 47,
       "elevation": 3,
       "item": "ITEM_NUGGET",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_127_STAR_PIECE"
     },
     {
       "type": "hidden_item",
-      "x": 48,
-      "y": 47,
+      "x": 73,
+      "y": 42,
       "elevation": 3,
       "item": "ITEM_HP_UP",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_127_HP_UP"
     },
     {
       "type": "hidden_item",
-      "x": 34,
-      "y": 72,
+      "x": 58,
+      "y": 10,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_127_HEART_SCALE"
     },
     {
       "type": "hidden_item",
-      "x": 72,
-      "y": 20,
+      "x": 57,
+      "y": 10,
       "elevation": 3,
       "item": "ITEM_MOON_STONE",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_127_RED_SHARD"
