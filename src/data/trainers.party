@@ -598,32 +598,32 @@ Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Crunch
 -Ice Fang
--Aqua Jet
--Waterfall
+-Poison Fang
+-Liquidation
 
 Manectric @ Magnet
 Ability: Static
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Thunderbolt
--Quick Attack  
+-Wild Charge
+-Bite
 -Rain Dance
 -Thunder Wave
 
 Corphish @ Choice Band
-Ability:Adaptability
+Ability: Hyper Cutter
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Razor Shell
--Crunch
+-Crabhammer
 
 Muk @ Black Sludge
 Ability:Sticky Hold
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Gunk shot
+-Sludge Wave
 -Disable
 -Minimize
+-Acid Armor
 
 Golbat @ Sharp Beak
 Ability:Inner Focus
@@ -3206,8 +3206,8 @@ Ability: Pressure
 Level: 75
 Jolly Nature
 - Aerial Ace
-- Ice Shard
-- Triple Axel
+- Ice Spinner
+- Dire Claw
 - Knock Off
 
 Hydreigon @ Choice Specs
@@ -3316,7 +3316,7 @@ Level:16
 Brave Nature
 IVs:0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 - Stealth Rock
-- Copycat
+- Mimic
 - Flail
 - Rock Throw
 
@@ -3338,14 +3338,14 @@ IVs: 0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
 - Ancient Power
 - Confuse Ray
 - Ingrain
-- Mega Drain
+- Bullet Seed
 
 Aerodactyl @ Salac Berry
 Ability:Unnerve
 Level:16
 Quiet Nature
 IVs: 0 HP / 1 Atk / 2 Def / 3 SpA / 0 SpD / 0 Spe
-- Rock Slide
+- Ancient Power
 - Wing Attack
 - Supersonic
 - Scary Face
@@ -3394,7 +3394,7 @@ Ability: Torrent
 Level: 22
 Adamant Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Sand Tomb
+- Bulldoze
 - Rock Throw
 - Water Pulse
 - Supersonic
@@ -3414,8 +3414,8 @@ Level: 32
 Bold Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Magnet Rise
-- Thunder Shock
-- Flash Cannon
+- Charge Beam
+- Mirror Shot
 - Thunder Wave
 
 Porygon2 @ Silk Scarf
@@ -3434,8 +3434,8 @@ Adamant Nature
 Level: 32
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Thunder Punch
-- Low Sweep
-- Screech
+- Low Kick
+- Metal Sound
 - Quick Attack
 
 Luxray @ Sitrus Berry
@@ -3443,9 +3443,9 @@ Ability: Intimidate
 Adamant Nature
 Level:32
 - Bite
-- Volt Switch
+- Double Kick
 - Thunder Fang
-- Ice Fang
+- Taunt
 
 Stunfisk @ Magnet
 Ability: Static
@@ -3453,9 +3453,9 @@ Level: 32
 Modest Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Electric Terrain
-- Sucker Punch
-- Mud Shot
-- Spark
+- Payback
+- Mud Bomb
+- Electroweb
 
 === TRAINER_JOSE ===
 Name: JOSE
@@ -3471,7 +3471,7 @@ Ability: Natural Cure
 Level: 38
 Naive Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Pluck
+- Cotton Guard
 - Sing
 - Dragon Pulse
 - Fairy Wind
@@ -3503,7 +3503,7 @@ Brave Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dragon Tail
 - Thunder Wave
-- Weather Ball
+- Slam
 - Extreme Speed
 
 Kingdra @ Dragon Fang
@@ -3512,7 +3512,7 @@ Level: 38
 Adamant Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Scale Shot
-- Flip Turn
+- Octazooka
 - Dragon Dance
 - Yawn
 
@@ -3540,10 +3540,9 @@ Ability: Iron Fist
 Level:43
 Adamant Nature
 - Bulk Up
-- Ice Punch
+- Rock Slide
 - Hammer Arm
 - Thunder Punch
-
 
 Machamp @ Black Belt
 Ability: Guts
@@ -3572,7 +3571,6 @@ Adamant Nature
 - Throat Chop
 - Reversal
 
-
 Lucario @ Expert Belt
 Ability: Inner Focus
 Level:43
@@ -3580,7 +3578,7 @@ Modest Nature
 - Aura Sphere
 - Flash Cannon
 - Shadow Ball
-- Psychic
+- Metal Sound
 
 Toxicroak @ Focus Band
 Ability: Poison Touch
@@ -3613,8 +3611,8 @@ Skarmory @ Bright Powder
 Ability: Weak Armor
 Level:51
 Adamant Nature
-- Spikes
-- Brave Bird
+- Agility
+- Drill Peck
 - Steel Wing
 - Rock Slide
 
@@ -3630,11 +3628,11 @@ Adamant Nature
 Empoleon @ Choice Specs
 Ability: Competitive
 Level:51
-Adamant Nature
-- Brine
+Modest Nature
+- Scald
 - Flash Cannon
 - Ice Beam
-- Roost
+- Air Slash
 
 Scizor @ Choice Band
 Ability: Technician
@@ -3679,20 +3677,21 @@ Modest Nature
 - Hyper Voice
 - Psyshock
 - Shadow Ball
-- Draining Kiss
+- Moonblast
 
 Azumarill @ Choice Band
 Ability: Huge Power
 Level: 61
+Adamant Nature
 - Liquidation
 - Play Rough
 - Aqua Jet
 - Knock Off
 
-Gardevoir @ Choice Scarf
+Gardevoir @ Assault Vest
 Ability: Serene Grace
 Level: 61
-Modest Nature
+Timid Nature
 - Moonblast
 - Psychic
 - Healing Wish
@@ -3701,7 +3700,7 @@ Modest Nature
 Togekiss @ Leftovers
 Ability: Magic Guard
 Level: 61
-Modest Nature
+Bold Nature
 - Draining Kiss
 - Ancient Power
 - Flamethrower
@@ -3710,6 +3709,7 @@ Modest Nature
 Mawile @ Occa Berry
 Ability: Intimidate
 Level: 61
+Adamant Nature
 - Play Rough
 - Iron Head
 - Stone Edge
@@ -3728,7 +3728,7 @@ Gengar @ Black Sludge
 Ability: Cursed Body
 Level: 67
 Modest Nature
-- Shadow Ball
+- Astral Barrage
 - Sludge Wave
 - Protect
 - Perish Song
@@ -3765,7 +3765,7 @@ Ability: No Guard
 Level: 67
 Brave Nature
 - Earthquake
-- Poltergeist
+- Rage Fist
 - Dynamic Punch
 - Ice Punch
 
@@ -6168,7 +6168,7 @@ Torkoal @ Sitrus Berry
 Ability: Drought
 Level: 63
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Rapid Spin
+-Shell Smash
 -Heat Wave
 -Solar Beam
 -Curse
@@ -6177,9 +6177,9 @@ Weezing @ Poison Barb
 Ability: Levitate
 Level: 63
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Self Destruct
--Sludge Bomb
--Toxic
+-Heat Wave
+-Sludge Wave
+-Strange Steam
 -Smokescreen
 
 Claydol @ Life Orb
@@ -6187,9 +6187,9 @@ Level: 63
 Ability: Levitate
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 -Earth power
--Psychic
+-Expanding Force
 -Cosmic Power
--Power Split
+-Trick
 
 === TRAINER_SAMUEL_VR ===
 Name: SAMUEL
@@ -6378,7 +6378,7 @@ Jolly Nature
 - Zen Headbutt
 - Metal Claw
 - Bullet Punch
-- Magnet Rise 
+- Hone Claws
 
 === TRAINER_ISAAC ===
 Name: ISAAC
@@ -7007,7 +7007,7 @@ Ability: Clear Body
 Level:16
 Jolly Nature
 -Tackle
--Zen Headbutt
+-Metal Claw
 -Iron Defense
 
 === TRAINER_PAXTON ===
@@ -7071,9 +7071,9 @@ Ability: Drought
 Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Rapid Spin
--Flame Wheel
--Smog
--Protect
+-Lava Plume
+-Iron Defense
+-Body Slam
 
 Koffing @ Lum Berry
 Ability: Levitate
@@ -7082,23 +7082,25 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Self Destruct
 -Sludge Bomb
 -Assurance
+-Toxic
 
 Baltoy @ Sitrus Berry
 Ability: Levitate
 Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Earth Power 
--Lava Plume
--Focus Energy
+-Scorching Sands
+-Extrasensory
+-Cosmic Power
+-Imprison
 
 Numel @ Lum Berry
 Ability: Own Tempo
 Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 -Earth Power 
--Extrasensory
--Self-Destruct
--Cosmic Power
+-Lava Plume
+-Focus Energy
+-Take Down
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN
@@ -7133,8 +7135,8 @@ Ability: Heavy Metal
 Level: 58
 -Heavy Slam
 -Stone Edge
--Autotomize
--Thunder Punch
+-Dragon Rush
+-Bulk Up
 
 Crobat @ Sharp Beak
 Ability: Inner Focus
@@ -7192,17 +7194,17 @@ Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 -Crush Claw
 -Quick Attack
--Leer
+-Hone Claws
 -Night Slash
 
 Houndoom @ Lum Berry
 Ability: Unnerve
 Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
--Incinerate
--Beat Up
--Smog
--Leer
+-Fire Spin
+-Torment
+-Snarl
+-Howl
 
 Rhyhorn @ Rocky Helmet
 Ability: Rock Head
@@ -7219,7 +7221,7 @@ Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 -Air Cutter
 -Poison Fang
--Absorb
+-Bite
 -Supersonic
 
 === TRAINER_TIANA ===
@@ -8859,9 +8861,9 @@ Weezing @ Poison Barb
 Ability: Levitate
 Level: 56
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Self Destruct
--Sludge Bomb
--Toxic
+-Heat Wave
+-Sludge Wave
+-Strange Steam
 -Smokescreen
 
 Claydol @ Life Orb
@@ -8869,7 +8871,7 @@ Ability: Levitate
 Level: 56
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 -Earth power
--Psychic
+-Expanding Force
 -Cosmic Power
 -Power Split
 
@@ -8878,9 +8880,9 @@ Ability: Own Tempo
 Level: 56
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 -Earthquake
--Heat Crash
+-Eruption
 -Yawn
--Curse
+-Fissure
 
 === TRAINER_DARCY ===
 Name: DARCY
@@ -8913,9 +8915,9 @@ Rhyperior @ Rocky Helmet
 Ability: Rock Head
 Level: 63
 -Earthquake
--Rock Blast
+-Stone Edge
 -Stealth Rock
--Thunder Punch
+-Breaking Swipe
 
 Aggron @ Air Balloon
 Ability: Heavy Metal 
@@ -9881,20 +9883,20 @@ Level: 40
 -Fake Out
 -Play Rough
 -Double Edge
--Rock Smash
+-Payback
 
 Shelgon @ Metronome
 Ability: Rock Head
 Level: 40
 -Dragon Claw
 -Fire Fang
--Rock Tomb
+-Zen Headbutt
 -Thunder Fang
 
 Banette @ Assault Vest
 Ability: Cursed Body
 Level: 40
--Shadow Sneak
+-Sucker Punch
 -Gunk Shot
 -Poltergeist
 -Lash Out

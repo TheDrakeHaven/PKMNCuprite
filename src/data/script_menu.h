@@ -875,6 +875,17 @@ static const struct MenuAction MultichoiceList_EEVEE2[] =
     {gtext_Shinystone},
 };
 
+static const struct MenuAction MultichoiceList_EEVEE3[] =
+{
+    {gtext_Duskstone},
+    {gtext_Dawnstone},
+    {gtext_Shinystone},
+    {gtext_Sunstone},
+    {gtext_Moonstone},
+    {gtext_Leafstone},
+
+};
+
 struct MultichoiceListStruct
 {
     const struct MenuAction *list;
@@ -1008,6 +1019,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_GYM8]                       = MULTICHOICE(MultichoiceList_GYM8),
     [MULTI_EEVEE_STONE]                = MULTICHOICE(MultichoiceList_EEVEE),
     [MULTI_EEVEE_STONE2]                = MULTICHOICE(MultichoiceList_EEVEE2),
+    [MULTI_EEVEE_STONE3]                = MULTICHOICE(MultichoiceList_EEVEE3),
 };
 
 const u8 *const gStdStrings[] =
