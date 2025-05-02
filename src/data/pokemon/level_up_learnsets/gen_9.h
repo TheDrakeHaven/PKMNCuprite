@@ -3703,7 +3703,7 @@ static const struct LevelUpMove sJynxLevelUpLearnset[] = {
     LEVEL_UP_MOVE(16, MOVE_COVET),
     LEVEL_UP_MOVE(20, MOVE_SING),
     LEVEL_UP_MOVE(24, MOVE_FAKE_TEARS),
-    LEVEL_UP_MOVE(28, MOVE_FROST_BREATH),
+    LEVEL_UP_MOVE(31, MOVE_FROST_BREATH),
     LEVEL_UP_MOVE(34, MOVE_PSYSHOCK),
     LEVEL_UP_MOVE(40, MOVE_LOVELY_KISS),
     LEVEL_UP_MOVE(46, MOVE_ICE_BEAM),
@@ -10607,7 +10607,7 @@ static const struct LevelUpMove sDrifblimLevelUpLearnset[] = {
 
 #if P_FAMILY_BUNEARY
 static const struct LevelUpMove sBunearyLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_SPLASH),
+    LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 4, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 8, MOVE_BABY_DOLL_EYES),
@@ -10628,7 +10628,7 @@ static const struct LevelUpMove sBunearyLevelUpLearnset[] = {
 static const struct LevelUpMove sLopunnyLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_MIRROR_COAT),
     LEVEL_UP_MOVE( 1, MOVE_MAGIC_COAT),
-    LEVEL_UP_MOVE( 1, MOVE_SPLASH),
+    LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 1, MOVE_BABY_DOLL_EYES),

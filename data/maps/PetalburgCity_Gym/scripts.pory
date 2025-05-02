@@ -1171,10 +1171,10 @@ PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "SAMUEL:I want to battle the first gym\n"
 	.string "but I need to catch another POKEMON.\p"
-	.string "You want me to show you how?$"
+	.string "You want me to show {PLAYER} howt to?$"
 
 PetalburgCity_Gym_Text_DadHmISee:
-	.string "DAD: Hm. I see.$"
+	.string "DAD: I think that's a good idea SAMUEL.$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 	.string "DAD: {PLAYER}, you heard that,\n"
@@ -1186,11 +1186,11 @@ PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 	.string "Here, I'll loan you my POKéBALL.$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
-	.string " $"
+	.string "DAD: Nice catch SAMUEL!$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
-	.string "{PLAYER}, thank you for coming along\n"
-	.string "with me.\p"
+	.string "SAMUEL:{PLAYER}, thank you for \n"
+	.string "coming along with me.\p"
 	.string "I promise I'm gonna stun spore\n"
 	.string "everyone with it.\p"
 	.string "Oh! The gym leader is waiting for me,\n"
@@ -1218,7 +1218,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "We'll battle one day, {PLAYER}.\p"
 	.string "To help you out, here are some \n"
 	.string "weather effect TMs. \p"
-    .string "Also, take this.$"
+    .string "Also, pick an EEVEE evolution stone.$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "DAD: Hm? Aren't you going to the\n"

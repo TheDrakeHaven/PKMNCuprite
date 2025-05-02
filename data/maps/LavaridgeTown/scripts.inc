@@ -241,12 +241,12 @@ LavaridgeTown_EventScript_HerbShopSign::
 	end
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
-	.string "BRENDAN: {PLAYER}, hey, it's been a while.\n"
+	.string "SAMUEL: {PLAYER}, hey, it's been a while.\n"
 	.string "We have some urgent business?\p"
 	.string "You'll need these too.$"
 
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
-	.string "BRENDAN: You need those goggles to\n"
+	.string "SAMUEL: You need those goggles to\n"
 	.string "go into that desert near ROUTE 111.\p"
 	.string "The old battle tower has been taken\n"
 	.string "over by a new team tha calls\l"

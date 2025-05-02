@@ -379,7 +379,7 @@ OldaleTown_Text_FinishedSketchingFootprints:
 	.string "own footprints…$"
 
 OldaleTown_Text_BrendanLetsGoBack:
-	.string "BRENDAN: I'm heading back to the\n"
+	.string "SAMUEL: I'm heading back to the\n"
 	.string "LAB now.\l"
 	.string "{PLAYER}, last one there sucks eggs.$"
 

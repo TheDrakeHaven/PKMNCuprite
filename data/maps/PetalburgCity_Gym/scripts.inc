@@ -2345,13 +2345,13 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 # 1173 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "but I need to catch another POKEMON.\p"
 # 1174 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "You want me to show you how?$"
+	.string "You want me to show {PLAYER} howt to?$"
 # 1175 "data/maps/PetalburgCity_Gym/scripts.pory"
 
 # 1176 "data/maps/PetalburgCity_Gym/scripts.pory"
 PetalburgCity_Gym_Text_DadHmISee:
 # 1177 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "DAD: Hm. I see.$"
+	.string "DAD: I think that's a good idea SAMUEL.$"
 # 1178 "data/maps/PetalburgCity_Gym/scripts.pory"
 
 # 1179 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -2375,15 +2375,15 @@ PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 # 1188 "data/maps/PetalburgCity_Gym/scripts.pory"
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
 # 1189 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string " $"
+	.string "DAD: Nice catch SAMUEL!$"
 # 1190 "data/maps/PetalburgCity_Gym/scripts.pory"
 
 # 1191 "data/maps/PetalburgCity_Gym/scripts.pory"
 PetalburgCity_Gym_Text_WallyThankYouBye:
 # 1192 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "{PLAYER}, thank you for coming along\n"
+	.string "SAMUEL:{PLAYER}, thank you for \n"
 # 1193 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "with me.\p"
+	.string "coming along with me.\p"
 # 1194 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "I promise I'm gonna stun spore\n"
 # 1195 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -2439,7 +2439,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 # 1220 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "weather effect TMs. \p"
 # 1221 "data/maps/PetalburgCity_Gym/scripts.pory"
-    .string "Also, take this.$"
+    .string "Also, pick an EEVEE evolution stone.$"
 # 1222 "data/maps/PetalburgCity_Gym/scripts.pory"
 
 # 1223 "data/maps/PetalburgCity_Gym/scripts.pory"

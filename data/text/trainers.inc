@@ -1892,6 +1892,15 @@ Route117_Text_DerekPostBattle:
 	.string "so it's only natural that they call me\l"
 	.string "a BUG MANIAC.$"
 
+Route117_Text_KidDefeat:
+	.string "You're old and stinky…$"
+
+Route117_Text_KidPostBattle:
+	.string "All I did was follow my dreams,\n"
+	.string "but then you came and ruined them…\p"
+	.string "I'm gonna tell my dad\n"
+	.string "and he'll beat you up.$"
+
 Route117_Text_AnnaIntro:
 	.string "ANNA: I'm with my pretty junior student\n"
 	.string "partner. I have to do good!$"

@@ -153,6 +153,7 @@ LittlerootTown_EventScript_GoInsideWithMom::
 	msgbox LittlerootTown_Text_OurNewHomeLetsGoInside, MSGBOX_DEFAULT
 	setflag FLAG_SYS_B_DASH
 	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
 	closemessage
 	applymovement LOCALID_MOM, LittlerootTown_Movement_MomApproachDoor
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_Movement_PlayerApproachDoor
@@ -829,6 +830,7 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	waitfanfare
 	msgbox LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
+	savebgm MUS_DUMMY
 	closemessage
 	delay 30
 	return
@@ -837,12 +839,13 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "MOM: {PLAYER}, we're here, honey!\p"
 	.string "Sorry, I forgot you\n"
 	.string "in the moving truck.\p"
-	.string "Here are some running shoes.\n"
-	.string "Hold B to run!\p"
 	.string "This is our new home!\p"
 	.string "You probably will never be here\l"
 	.string "so I'll enjoy the house alone.\p"
-	.string "And, you get your own room, {PLAYER}!\n"
+	.string "And, you get your own room, {PLAYER}!\p"
+	.string "Oh, you forgot these \n"
+	.string "old running shoes.\p"
+	.string "Just hold B to run!\p"
 	.string "Let's go inside.$"
 
 LittlerootTown_Text_WaitPlayer:
@@ -944,7 +947,7 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 
 script LittlerootTown_EventScript_Gymsign {
     lockall
-    msgbox("Free starter")
+    msgbox("New GYM coming soon!")
     releaseall
 }
 

@@ -36,6 +36,11 @@ Route110_TrickHousePuzzle1_EventScript_Robin::
 	msgbox Route110_TrickHousePuzzle1_Text_RobinPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route110_TrickHousePuzzle1_EventScript_Nami::
+	trainerbattle_single TRAINER_NAMI, Route110_TrickHousePuzzle1_Text_NamiIntro, Route110_TrickHousePuzzle1_Text_NamiDefeat
+	msgbox Route110_TrickHousePuzzle1_Text_NamiPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened::
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
@@ -74,4 +79,14 @@ Route110_TrickHousePuzzle1_Text_RobinDefeat:
 Route110_TrickHousePuzzle1_Text_RobinPostBattle:
 	.string "You're strong!\n"
 	.string "Just who are you?$"
+
+Route110_TrickHousePuzzle1_Text_NamiIntro:
+	.string "Some say that this puzzle never ends,$"
+
+Route110_TrickHousePuzzle1_Text_NamiDefeat:
+	.string "I can see my ending clearly!$"
+
+Route110_TrickHousePuzzle1_Text_NamiPostBattle:
+	.string "Amazing!\n"
+	.string "You battle so well.$"
 

@@ -5151,7 +5151,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .levelUpLearnset = sMedititeLevelUpLearnset,
         .teachableLearnset = sMedititeTeachableLearnset,
         .eggMoveLearnset = sMedititeEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_MEDICHAM}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_MEDICHAM}),
     },
 
     [SPECIES_MEDICHAM] =
@@ -6694,7 +6694,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .levelUpLearnset = sNumelLevelUpLearnset,
         .teachableLearnset = sNumelTeachableLearnset,
         .eggMoveLearnset = sNumelEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_CAMERUPT}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 32, SPECIES_CAMERUPT}),
     },
 
     [SPECIES_CAMERUPT] =

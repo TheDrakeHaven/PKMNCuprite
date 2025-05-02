@@ -347,6 +347,9 @@
 #define TRAINER_ISAAC                       538
 #define TRAINER_DAVIS                       539
 #define TRAINER_MITCHELL                    540
+#define TRAINER_NAMI                        541
+#define TRAINER_KIDDO                       542
+#define TRAINER_GARTH                       542
 #define TRAINER_LYDIA                       545
 #define TRAINER_HALLE                       546
 #define TRAINER_GARRISON                    547
@@ -400,7 +403,7 @@
 #define TRAINER_CRISSY                      614
 #define TRAINER_RICK                        615
 #define TRAINER_LYLE                        616
-#define TRAINER_JOSIE                        617
+#define TRAINER_JOSIE                       617
 #define TRAINER_DOUG                        618
 #define TRAINER_GREG                        619
 #define TRAINER_KENT                        620

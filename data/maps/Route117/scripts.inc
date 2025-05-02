@@ -55,7 +55,9 @@ Route117_EventScript_Woman::
 	end
 
 Route117_EventScript_LittleBoy::
-	msgbox Route117_Text_AirIsTastyHere, MSGBOX_NPC
+	trainerbattle_single TRAINER_KIDDO, Route117_Text_AirIsTastyHere, Route117_Text_KidDefeat
+	msgbox Route117_Text_KidPostBattle, MSGBOX_DEFAULT
+	release
 	end
 
 Route117_EventScript_Girl::

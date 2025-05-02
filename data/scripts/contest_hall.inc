@@ -58,13 +58,6 @@ LilycoveCity_ContestLobby_EventScript_NoRoomForLuxuryBallAtCounter::
 
 LilycoveCity_ContestLobby_EventScript_AskEnterContest::
 	message LilycoveCity_ContestLobby_Text_EnterContest1
-	waitmessage
-	multichoice 0, 0, MULTI_ENTERINFO, FALSE
-	switch VAR_RESULT
-	case 0, LilycoveCity_ContestLobby_EventScript_ChooseContestRank
-	case 1, LilycoveCity_ContestLobby_EventScript_ContestInfo
-	case 2, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
-	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
 	end
 
 LilycoveCity_ContestLobby_EventScript_ContestInfo::
@@ -1400,8 +1393,8 @@ LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests:
 	.string "for 4-player POKéMON CONTESTS.$"
 
 LilycoveCity_ContestLobby_Text_EnterContest1:
-	.string "Would you like to enter your POKéMON\n"
-	.string "in our CONTESTS?$"
+	.string "The contest lobby is closed\n"
+	.string "for a SUPER SENTAI filming!$"
 
 LilycoveCity_ContestLobby_Text_WhichTopic1:
 	.string "Which topic would you like?$"
