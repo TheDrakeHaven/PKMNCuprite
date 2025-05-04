@@ -1680,6 +1680,41 @@ Route116_Text_ClarkPostBattle:
 	.string "It's no big deal if there's no tunnel.\n"
 	.string "To a HIKER, mountains are roads!$"
 
+Route116_Text_GlassesIntro:
+	.string "My friends and I are\n"
+	.string "obsessed with fossils.$"
+
+Route116_Text_GlassesDefeat:
+	.string "Time to dig\n"
+	.string "for something better…$"
+
+Route116_Text_GlassesPostBattle:
+	.string "Once we beat the GYM LEADER SAM,\n"
+	.string "we can smash rocks!$"
+
+Route116_Text_PerkeoIntro:
+	.string "Was Glasses too easy?\n"
+	.string "I'll show you the true power of fossils.$"
+
+Route116_Text_PerkeoDefeat:
+	.string "Gasp… Gasp…\n"
+	.string "I need to go back to Mirage Tower…$"
+
+Route116_Text_PerkeoPostBattle:
+	.string "You look as ancient as\n"
+	.string "the POKéMON we use!$"
+
+Route116_Text_DannyIntro:
+	.string "I'm the final boss.\n"
+	.string "Let's see if you can beat me.$"
+
+Route116_Text_DannyDefeat:
+	.string "You deserved the win.$"
+
+Route116_Text_DannyPostBattle:
+	.string "I hope I can be as\n"
+	.string "strong as you!$"
+	
 Route116_Text_JoeyIntro:
 	.string "My POKéMON rule!\n"
 	.string "Check them out!$"
@@ -3871,7 +3906,7 @@ Ecrudune_Text_SondheimPostBattle::
 	.string "to never end!$"
 
 Ecrudune_Text_AsherIntro::
-	.string "I wanted to come here to\p"
+	.string "I wanted to come here to\n"
 	.string "feel the sand on my skin!$"
 
 Ecrudune_Text_AsherDefeated::
@@ -3883,7 +3918,7 @@ Ecrudune_Text_AsherPostBattle::
 	.string "my Caniac Combo!$"
 
 Ecrudune_Text_BridgetteIntro::
-	.string "I hate sand.\p"
+	.string "I hate sand.\n"
 	.string "It gets everywhere!$"
 
 Ecrudune_Text_BridgetteDefeated::
@@ -3895,7 +3930,7 @@ Ecrudune_Text_BridgettePostBattle::
 	.string "I need to go shower!$"
 
 Ecrudune_Text_FlaviaIntro::
-	.string "I want to be a gym leader\p"
+	.string "I want to be a gym leader\n"
 	.string "when I grow up!$"
 
 Ecrudune_Text_FlaviaDefeated::
@@ -3906,7 +3941,7 @@ Ecrudune_Text_FlaviaPostBattle::
 	.string "Let me cry in peace!$"
 
 Ecrudune_Text_OliveIntro::
-	.string "I packed a whole picnic but\p"
+	.string "I packed a whole picnic, but\n"
 	.string "nobody showed up!$"
 
 Ecrudune_Text_OliveDefeated::
@@ -3918,7 +3953,7 @@ Ecrudune_Text_OlivePostBattle::
 	.string "and this town brings the sand!$"
 
 Ecrudune_Text_ViolaIntro::
-	.string "My disguise was perfect.\p"
+	.string "My disguise was perfect.\n"
 	.string "You must be scared!$"
 
 Ecrudune_Text_ViolaDefeated::
@@ -3929,12 +3964,12 @@ Ecrudune_Text_ViolaPostBattle::
 	.string "know I was hiding?!$"
 
 Ecrudune_Text_ReijuIntro::
-	.string "I do my psychedelics\p"
+	.string "I do my psychedelics\n"
 	.string "behind this tower!$"
 
 Ecrudune_Text_ReijuDefeated::
 	.string "Oh god,\n"
-	.string "The colors are blurring together.$"
+	.string "the colors are blurring together.$"
 
 Ecrudune_Text_ReijuPostBattle::
 	.string "Let me come down\n"

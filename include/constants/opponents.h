@@ -32,7 +32,7 @@
 #define TRAINER_GRUNT_WEATHER_INST_4         26
 #define TRAINER_GRUNT_AQUA_HIDEOUT_5         27
 #define TRAINER_GRUNT_AQUA_HIDEOUT_6         28
-#define TRAINER_FREDRICK                     29
+#define TRAINER_FREDRICK                     29 
 #define TRAINER_MATTIAS                      30
 #define TRAINER_ZANDER                       31
 #define TRAINER_SHELLY_WEATHER_INSTITUTE     32
@@ -62,6 +62,9 @@
 #define TRAINER_GRUNT_C                      56
 #define TRAINER_GRUNT_D                      57
 #define TRAINER_GRUNT_E                      58
+#define TRAINER_GLASSES                      59
+#define TRAINER_PERKEO                       60
+#define TRAINER_DANNY                        61
 #define TRAINER_BERKE                        74
 #define TRAINER_BRAXTON                      75
 #define TRAINER_VINCENT                      76

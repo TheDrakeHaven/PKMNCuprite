@@ -25,7 +25,8 @@ TrainerHill_EventScript_Ghostess::
 TrainerHill_ghostgift::
 	giveitem ITEM_TM_HEX
 	giveitem ITEM_TM_ENERGY_BALL
-	multichoicedefault 5, 10, MULTI_GHOSTESS, 0, TRUE
+	msgbox TrainerHill_Text_GhostItem MSGBOX_DEFAULT
+	multichoicedefault 5, 0, MULTI_GHOSTESS, 0, TRUE
 	switch VAR_RESULT
 	case 0, TrainerHill_EventScript_GhostessItem1
 	case 1, TrainerHill_EventScript_GhostessItem2
@@ -35,28 +36,24 @@ TrainerHill_ghostgift::
 	end
 
 TrainerHill_EventScript_GhostessItem1::
-	msgbox TrainerHill_Text_GhostItem MSGBOX_DEFAULT
 	closemessage
 	giveitem ITEM_LOADED_DICE
 	release
 	end
 
 TrainerHill_EventScript_GhostessItem2::
-	msgbox TrainerHill_Text_GhostItem MSGBOX_DEFAULT
 	closemessage
 	giveitem ITEM_METRONOME
 	release
 	end
 
 TrainerHill_EventScript_GhostessItem3::
-	msgbox TrainerHill_Text_GhostItem MSGBOX_DEFAULT
 	closemessage
 	giveitem ITEM_FLAME_ORB
 	release
 	end
 
-TrainerHill_EventScript_GhostessItem4::
-	msgbox TrainerHill_Text_GhostItem MSGBOX_DEFAULT
+TrainerHill_EventScript_GhostessItem4:
 	closemessage
 	giveitem ITEM_TOXIC_ORB
 	release

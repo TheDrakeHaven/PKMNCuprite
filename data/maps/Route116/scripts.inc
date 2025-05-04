@@ -153,81 +153,19 @@ Route116_EventScript_BrineyTrigger::
 	end
 
 Route116_EventScript_GlassesMan::
-	lock
-	faceplayer
-	checkitem ITEM_BLACK_GLASSES
-	goto_if_eq VAR_RESULT, TRUE, Route116_EventScript_PlayerHasGlasses
-	specialvar VAR_RESULT, FoundBlackGlasses
-	goto_if_eq VAR_RESULT, TRUE, Route116_EventScript_FoundGlassesNotOnPlayer
-	msgbox Route116_Text_CanYouHelpMeFindGlasses, MSGBOX_DEFAULT
-	release
+	trainerbattle_single TRAINER_GLASSES, Route116_Text_GlassesIntro, Route116_Text_GlassesDefeat
+	msgbox Route116_Text_GlassesPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route116_EventScript_FoundGlassesNotOnPlayer::
-	msgbox Route116_Text_CantFindGlassesNotHere, MSGBOX_DEFAULT
-	closemessage
-	goto Route116_EventScript_GlassesManExit
+Route116_EventScript_Perkeo::
+	trainerbattle_single TRAINER_PERKEO, Route116_Text_PerkeoIntro, Route116_Text_PerkeoDefeat
+	msgbox Route116_Text_PerkeoPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route116_EventScript_PlayerHasGlasses::
-	msgbox Route116_Text_CanYouHelpMeFindGlasses, MSGBOX_DEFAULT
-	msgbox Route116_Text_MayISeeThoseGlasses, MSGBOX_DEFAULT
-	specialvar VAR_RESULT, FoundBlackGlasses
-	goto_if_eq VAR_RESULT, TRUE, Route116_EventScript_FoundGlassesOnPlayer
-	msgbox Route116_Text_NotWhatImLookingFor, MSGBOX_DEFAULT
-	release
+Route116_EventScript_Danny::
+	trainerbattle_single TRAINER_DANNY, Route116_Text_DannyIntro, Route116_Text_DannyDefeat
+	msgbox Route116_Text_DannyPostBattle, MSGBOX_AUTOCLOSE
 	end
-
-Route116_EventScript_FoundGlassesOnPlayer::
-	msgbox Route116_Text_NotWhatImLookingForMaybeTheyArentHere, MSGBOX_DEFAULT
-	closemessage
-	goto Route116_EventScript_GlassesManExit
-	end
-
-Route116_EventScript_GlassesManExit::
-	delay 20
-	call_if_eq VAR_FACING, DIR_NORTH, Route116_EventScript_GlassesManExitNormal
-	call_if_eq VAR_FACING, DIR_SOUTH, Route116_EventScript_GlassesManExitNormal
-	call_if_eq VAR_FACING, DIR_WEST, Route116_EventScript_GlassesManExitNormal
-	call_if_eq VAR_FACING, DIR_EAST, Route116_EventScript_GlassesManExitEast
-	removeobject VAR_LAST_TALKED
-	release
-	end
-
-Route116_EventScript_GlassesManExitNormal::
-	applymovement VAR_LAST_TALKED, Route116_Movement_GlassesManExit
-	waitmovement 0
-	return
-
-Route116_EventScript_GlassesManExitEast::
-	applymovement VAR_LAST_TALKED, Route116_Movement_GlassesManExitEast
-	waitmovement 0
-	return
-
-Route116_Movement_GlassesManExit:
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	step_end
-
-Route116_Movement_GlassesManExitEast:
-	walk_up
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	step_end
 
 Route116_EventScript_Joey::
 	trainerbattle_single TRAINER_JOEY, Route116_Text_JoeyIntro, Route116_Text_JoeyDefeat
@@ -346,31 +284,6 @@ Route116_Text_TokenOfAppreciation:
 	.string "your delivering our package, I have\l"
 	.string "a gift of a new kind of POKé BALL\l"
 	.string "for our most wonderful TRAINER!$"
-
-Route116_Text_CanYouHelpMeFindGlasses:
-	.string "I dropped my glasses…\n"
-	.string "Can you help me find them?$"
-
-Route116_Text_MayISeeThoseGlasses:
-	.string "Those glasses!\n"
-	.string "May I see them for a second?$"
-
-Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
-	.string "Hmm…\n"
-	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…\p"
-	.string "Maybe my glasses aren't around\n"
-	.string "here…$"
-
-Route116_Text_CantFindGlassesNotHere:
-	.string "Hmm…\n"
-	.string "I can't find my glasses anywhere…\l"
-	.string "Maybe they're not around here…$"
-
-Route116_Text_NotWhatImLookingFor:
-	.string "Hmm…\n"
-	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…$"
 
 Route116_Text_RouteSignRustboro:
 	.string "ROUTE 116\n"

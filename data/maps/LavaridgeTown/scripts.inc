@@ -249,7 +249,7 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "SAMUEL: You need those goggles to\n"
 	.string "go into that desert near ROUTE 111.\p"
 	.string "The old battle tower has been taken\n"
-	.string "over by a new team tha calls\l"
+	.string "over by a new team that calls\l"
 	.string "themselves team AERO.\p"
 	.string "I need you to see what they are\n"
 	.string "planning to do with the building.\p"
