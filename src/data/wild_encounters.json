@@ -2727,28 +2727,28 @@
             "mons": [
               {
                 "min_level": 32,
-                "max_level": 37,
-                "species": "SPECIES_TENTACOOL"
+                "max_level": 40,
+                "species": "SPECIES_POLIWHIRL"
+              },
+              {
+                "min_level": 32,
+                "max_level": 40,
+                "species": "SPECIES_QUAGSIRE"
               },
               {
                 "min_level": 32,
                 "max_level": 37,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_SHELLOS"
               },
               {
                 "min_level": 32,
                 "max_level": 37,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_SHELLOS"
               },
               {
                 "min_level": 32,
                 "max_level": 37,
-                "species": "SPECIES_PELIPPER"
-              },
-              {
-                "min_level": 32,
-                "max_level": 37,
-                "species": "SPECIES_PELIPPER"
+                "species": "SPECIES_SHELLOS"
               }
             ]
           },

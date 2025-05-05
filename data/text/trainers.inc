@@ -1560,14 +1560,14 @@ Route115_Text_TimothyPostBattle:
 
 Route115_Text_KoichiIntro:
 	.string "You!\p"
-	.string "My MACHOP!\p"
+	.string "My KRABBY!\p"
 	.string "Demand a battle!$"
 
 Route115_Text_KoichiDefeat:
 	.string "Ouch, ouch, ouch!$"
 
 Route115_Text_KoichiPostBattle:
-	.string "My MACHOP crew!\p"
+	.string "My KRABBY crew!\p"
 	.string "So long as they seek power, I will\n"
 	.string "grow strong with them!$"
 
