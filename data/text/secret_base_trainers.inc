@@ -27,6 +27,10 @@ SecretBase_Text_Trainer0PreChampion:
 	.string "choosing this place.\p"
 	.string "Feel free to hang out!$"
 
+SecretBase_Text_Abase::
+	.string "You already have a secret base.\p"
+	.string "You cannot get another!$"
+
 SecretBase_Text_Trainer5Intro:
 	.string "There're a lot of places where\n"
 	.string "you can make a SECRET BASE.\p"

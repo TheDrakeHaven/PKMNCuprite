@@ -58,6 +58,8 @@ LilycoveCity_ContestLobby_EventScript_NoRoomForLuxuryBallAtCounter::
 
 LilycoveCity_ContestLobby_EventScript_AskEnterContest::
 	message LilycoveCity_ContestLobby_Text_EnterContest1
+	closemessage
+	release
 	end
 
 LilycoveCity_ContestLobby_EventScript_ContestInfo::
@@ -1383,8 +1385,8 @@ LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp:
 
 LilycoveCity_ContestLobby_Text_ContestReception:
 	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "POKéMON CONTESTS.$"
+	.string "The contest lobby is closed\n"
+	.string "for a SUPER SENTAI filming!$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests:

@@ -41,6 +41,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	giveitem ITEM_TM_HYDRO_PUMP
 	giveitem ITEM_TM_FOCUS_BLAST
 	giveitem ITEM_CLEAR_AMULET
+	savebgm MUS_DUMMY
 	special Script_FadeOutMapMusic
 	waitstate
 	msgbox SeafloorCavern_Room9_Text_RedOrbShinesByItself, MSGBOX_DEFAULT

@@ -54,6 +54,23 @@ SINGLE_BATTLE_TEST("Hail fails if Desolate Land or Primordial Sea are active")
     }
 }
 
+SINGLE_BATTLE_TEST("Hail multiplies the defense of Ice-types by 1.5x", s16 damage)
+{
+    u16 move;
+    PARAMETRIZE { move = MOVE_HAIL; }
+    PARAMETRIZE { move = MOVE_CELEBRATE; }
+    GIVEN {
+        PLAYER(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_GLALIE);
+    } WHEN {
+        TURN { MOVE(opponent, move); }
+        TURN { MOVE(player, MOVE_TACKLE); }
+    } SCENE {
+        HP_BAR(opponent, captureDamage: &results[i].damage);
+    } FINALLY {
+        EXPECT_MUL_EQ(results[0].damage, Q_4_12(1.5), results[1].damage);
+    }
+
 DOUBLE_BATTLE_TEST("Hail deals damage based on turn order")
 {
     GIVEN {

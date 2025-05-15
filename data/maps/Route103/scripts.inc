@@ -195,7 +195,7 @@ Route103_EventScript_Isabelle::
 
 
 Route103_Text_BrendanRoute103Pokemon:
-	.string "SAMUEL: Okay, this POKéMON\n"
+	.string "SAMUEL: Okay, this POKéMON\p"
 	.string "is very slow…$"
 
 Route103_Text_BrendanLetsBattle:

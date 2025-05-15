@@ -65,11 +65,7 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_ThirstyMan::
 	end
 
 LilycoveCity_DepartmentStoreRooftop_EventScript_VendingMachine::
-	lockall
-	message LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike
-	waitmessage
-	closemessage
-	releaseall
+	msgbox LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike MSGBOX_NPC
 	end
 
 LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales:
@@ -88,6 +84,6 @@ LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
 	.string "Ohh… I'm bone-dry thirsty!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
-	.string "It's an old VENDING MACHINE.\n"
+	.string "It's an old VENDING MACHINE.\p"
 	.string "It seems to be broken...$"
 

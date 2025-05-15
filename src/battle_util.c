@@ -176,7 +176,7 @@ static const struct BattleWeatherInfo sBattleWeatherInfo[BATTLE_WEATHER_COUNT] =
 
     [BATTLE_WEATHER_SNOW] =
     {
-        .flag = B_WEATHER_SNOW,
+        .flag = B_WEATHER_HAIL,
         .rock = HOLD_EFFECT_ICY_ROCK,
         .endMessage = B_MSG_WEATHER_END_SNOW,
         .continuesMessage = B_MSG_WEATHER_TURN_SNOW,

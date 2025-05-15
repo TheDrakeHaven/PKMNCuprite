@@ -68,7 +68,7 @@ EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
 	.string "I did my training in Petalburg Woods.\p"
 	.string "While I trained, I gained the ability\n"
 	.string "to commune with BUG-type POKéMON.\p"
-	.string "Let me heal you real quick\n"
+	.string "Let me heal you real quick.\p"
 	.string "Yes, the bond I developed with POKéMON\n"
 	.string "is extremely tight.\p"
 	.string "So, come on, just try and see if you can\n"

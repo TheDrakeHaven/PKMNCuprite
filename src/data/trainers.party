@@ -160,7 +160,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Sharpedo
-Level: 53
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
@@ -173,7 +173,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Golbat
-Level: 53
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
@@ -186,7 +186,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Manectric
-Level: 53
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GABRIELLE ===
@@ -286,7 +286,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Cacturne
-Level: 53
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DECLAN ===
@@ -3592,7 +3592,7 @@ Adamant Nature
 === TRAINER_MATTHEW ===
 Name: MATTHEW
 Class: Leader
-Pic: Leader Winona
+Pic: Leader Juan
 Gender: Male
 Music: Female
 Double Battle: No
@@ -6701,11 +6701,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Mightyena
-Level: 53
+Level: 63
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Corphish
-Level: 53
+Level: 63
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_GRUNT_MT_PYRE_4 ===

@@ -26,6 +26,7 @@ LilycoveCity_DepartmentStore_2F_EventScript_ClerkLeft::
 	.align 2
 LilycoveCity_DepartmentStore_2F_Pokemart1:
 	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_HYPER_POTION
 	.2byte ITEM_FULL_HEAL
 	.2byte ITEM_SHED_SHELL
 	.2byte ITEM_ROOM_SERVICE

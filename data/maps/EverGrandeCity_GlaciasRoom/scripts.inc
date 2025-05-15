@@ -71,7 +71,7 @@ EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
 	.string "weak TRAINERS and their POKéMON.\p"
 	.string "What about you?\p"
 	.string "I will heal you so there's no excuse.\p"
-	.string "Will you crumble to ash\l"
+	.string "Will you crumble to ash\n"
 	.string "if I go all out against you!?$"
 
 EverGrandeCity_GlaciasRoom_Text_Defeat:
@@ -84,6 +84,6 @@ EverGrandeCity_GlaciasRoom_Text_Defeat:
 EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech:
 	.string "Advance to the next room.\p"
 	.string "And there, confirm the truly fearsome\n"
-	.string "side of the POKéMON LEAGUE.\l"
+	.string "side of the POKéMON LEAGUE.\p"
 	.string "....My brother.$"
 

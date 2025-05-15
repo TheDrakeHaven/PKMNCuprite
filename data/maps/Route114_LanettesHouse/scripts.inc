@@ -13,9 +13,6 @@ Route114_LanettesHouse_EventScript_Lanette::
 	setflag FLAG_SYS_PC_LANETTE
 	msgbox Route114_LanettesHouse_Text_EverythingClutteredKeepThis, MSGBOX_DEFAULT
 	giveitem ITEM_POKEMON_BOX_LINK
-	givemon SPECIES_ZIGZAGOON, 1, move1=MOVE_CUT, move2=MOVE_FLASH, move3=MOVE_STRENGTH, move4=MOVE_ROCK_SMASH
-	givemon SPECIES_ZIGZAGOON, 1, move1=MOVE_SURF, move2=MOVE_DIVE, move3=MOVE_WATERFALL, move4=MOVE_FLY
-	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
 	setflag FLAG_RECEIVED_DOLL_LANETTE
 	release
 	end
@@ -48,14 +45,13 @@ Route114_LanettesHouse_EventScript_PC::
 	end
 
 Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
-	.string "LANETTE: Oh! {PLAYER}{KUN}!\p"
-	.string "I'm sorry everything is so cluttered…\n"
+	.string "LANETTE: Oh! {PLAYER}{KUN}!\n"
+	.string "I'm sorry everything is so cluttered…\p"
 	.string "When I get engrossed in research,\l"
 	.string "things end up this way…\p"
 	.string "This is embarrassing… Please keep\n"
 	.string "this a secret in exchange for these.\p"
-	.string "It's a portable PC and two \n"
-	.string "Zigzagoons that know all HMs!$"
+	.string "It's a portable PC!$"
 
 Route114_LanettesHouse_Text_OrganizeYourBoxes:
 	.string "May I offer advice about my POKéMON\n"
