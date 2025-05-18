@@ -1171,7 +1171,7 @@ PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "SAMUEL:I want to battle the first gym\n"
 	.string "but I need to catch another POKEMON.\p"
-	.string "You want me to show {PLAYER} howt to?$"
+	.string "You want me to show {PLAYER} how to?$"
 
 PetalburgCity_Gym_Text_DadHmISee:
 	.string "DAD: I think that's a good idea SAMUEL.$"

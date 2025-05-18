@@ -57,6 +57,7 @@ MossdeepCity_Gym_EventScript_TateAndLiza::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_MARK, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, MossdeepCity_Gym_EventScript_TateAndLizaDefeated,
 	msgbox MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
 	release
 	end
 

@@ -136,6 +136,7 @@ DewfordTown_Gym_EventScript_Brawly::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_GARRETT, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
 	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
 	release
 	end
 
@@ -318,7 +319,7 @@ DewfordTown_Gym_Text_TakaoPostBattle:
 	.string "Your technique is commendable!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "There's no need for BRAWLY to be\n"
+	.string "There's no need for GARRETT to be\n"
 	.string "involved!\p"
 	.string "I'll crush you!$"
 

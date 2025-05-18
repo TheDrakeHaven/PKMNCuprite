@@ -21,6 +21,7 @@ FortreeCity_Gym_EventScript_Winona::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_MATTHEW, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
 	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
 	release
 	end
 

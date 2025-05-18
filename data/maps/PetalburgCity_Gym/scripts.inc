@@ -2345,7 +2345,7 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 # 1173 "data/maps/PetalburgCity_Gym/scripts.pory"
 	.string "but I need to catch another POKEMON.\p"
 # 1174 "data/maps/PetalburgCity_Gym/scripts.pory"
-	.string "You want me to show {PLAYER} howt to?$"
+	.string "You want me to show {PLAYER} how to?$"
 # 1175 "data/maps/PetalburgCity_Gym/scripts.pory"
 
 # 1176 "data/maps/PetalburgCity_Gym/scripts.pory"

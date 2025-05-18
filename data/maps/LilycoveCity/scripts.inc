@@ -264,6 +264,7 @@ LilycoveCity_EventScript_BattleBrendan::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE, LilycoveCity_Text_BrendanDefeat
 	goto LilycoveCity_EventScript_DefeatedBrendan
+	clearflag FLAG_UNUSED_0x265
 	end
 
 LilycoveCity_EventScript_CheckFinalBadge::

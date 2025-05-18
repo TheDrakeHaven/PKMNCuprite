@@ -29,6 +29,7 @@ AquaHideout_B2F_EventScript_Matt::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_MATTIAS, AquaHideout_B2F_Text_MattIntro, AquaHideout_B2F_Text_MattDefeat, AquaHideout_B2F_EventScript_SubmarineEscape
 	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
 	release
 	end
 

@@ -339,6 +339,7 @@ Route110_EventScript_BrendanBattle::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110, Route110_Text_BrendanDefeated
 	goto Route110_EventScript_BrendanDefeated
+	clearflag FLAG_UNUSED_0x265
 	end
 
 

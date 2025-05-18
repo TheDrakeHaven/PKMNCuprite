@@ -52,6 +52,7 @@ LavaridgeTown_Gym_1F_EventScript_Flannery::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_JOSE, LavaridgeTown_Gym_1F_Text_FlanneryIntro, LavaridgeTown_Gym_1F_Text_FlanneryDefeat, LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated, NO_MUSIC
 	msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
 	release
 	end
 

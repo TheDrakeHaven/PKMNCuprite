@@ -8,6 +8,7 @@ TrainerHill_Roof_EventScript_Owner::
 	faceplayer
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_JORDAN, TrainerHill_JordanIntro, TrainerHill_JordanDefeated, AeroBase_EventScript_Jordanescape
+	clearflag FLAG_UNUSED_0x265
 	release
 	end
 
