@@ -1911,8 +1911,8 @@ LittlerootTown_Text_normando::
 
 LittlerootTown_EventScript_Gymsign_Text_0:
 # 950 "data/maps/LittlerootTown/scripts.pory"
-	.string "New GYM coming soon!$"
+	.string "Free Starter Pokemon!$"
 
 LittlerootTown_Text_normando_Text_0:
 # 956 "data/maps/LittlerootTown/scripts.pory"
-	.string "DAD:Come back when you have a pokemon!$"
+	.string "DAD: Come back when you have a pokemon for another starter!$"

@@ -3022,17 +3022,17 @@ Level: 75
 Timid Nature
 - Relic Song
 - Calm Mind
-- Psyshock
-- Shadow Ball
+- Psychic
+- Focus Blast
 
 Wigglytuff @ Rocky Helmet
 Ability: Cute Charm
 Level: 75
-Modest Nature
+Adamant Nature
 - Knock Off
-- Thunder Wave
-- Flamethrower
-- Alluring Voice
+- Thunder Punch
+- Body Slam
+- Spirit Break
 
 
 === TRAINER_OZ ===
@@ -3053,15 +3053,15 @@ Jolly Nature
 - U-Turn
 - Poison Jab
 - Knock Off
-- Toxic Spikes
+- First Impression
 
-Volcarona @ Charti Berry
+Volcarona @ Leftovers
 Ability: Flame Body
 Level: 75
 Shiny: Yes  
 Timid Nature
 - Quiver Dance
-- Flamethrower
+- Fiery Dance
 - Morning Sun
 - Bug Buzz
 
@@ -3085,15 +3085,15 @@ Adamant Nature
 - U-Turn
 - Aerial Ace
 
-Shuckle @ Leftovers
+Shuckle @ Chesto Berry
 Ability: Contrary
 Level: 75
 Shiny: Yes  
 Bold Nature
 - Rest
-- Toxic
+- Shell Smash
 - Body Press
-- Rock Tomb
+- Infestation 
 
 Leavanny @ Assault Vest
 Ability: Overcoat
@@ -3120,7 +3120,7 @@ Ability: Drought
 Level: 75
 Impish Nature
 - Spikes
-- Earthquake
+- Precipice Blades
 - Stealth Rock
 - Solar Beam
 
@@ -3159,8 +3159,8 @@ Level: 75
 Timid Nature
 - Overheat
 - Volt Switch
-- Toxic
-- Pain Split
+- Will-O-Wisp
+- Hex
 
 
 Chandelure @ Choice Specs
@@ -3217,7 +3217,7 @@ Timid Nature
 - Draco Meteor
 - Dark Pulse
 - Flamethrower
-- U-Turn
+- Flash Cannon
 
 Krookodile @ Rocky Helmet
 Ability: Intimidate
@@ -3372,9 +3372,9 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Prinplup
 Ability: Torrent
 Level: 22
-Modest Nature
+Adamant Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bubblebeam
+- Flip Turn
 - Metal Claw
 - Peck
 - Aqua Ring
@@ -3414,9 +3414,9 @@ Level: 32
 Bold Nature
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Magnet Rise
-- Charge Beam
-- Mirror Shot
-- Thunder Wave
+- Spark
+- Flash Cannon
+- Tri Attack
 
 Porygon2 @ Silk Scarf
 Ability: Download
@@ -3474,7 +3474,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Cotton Guard
 - Sing
 - Dragon Pulse
-- Fairy Wind
+- Alluring Voice
 
 Charizard @ Charcoal
 Ability: Blaze
@@ -3594,7 +3594,7 @@ Name: MATTHEW
 Class: Leader
 Pic: Leader Juan
 Gender: Male
-Music: Female
+Music: Male
 Double Battle: No
 AI: Smart Trainer
 
@@ -3607,14 +3607,14 @@ Adamant Nature
 - Stealth Rock
 - Body Press
 
-Skarmory @ Bright Powder
-Ability: Weak Armor
+Skarmory @ Muscle Band
+Ability: Sturdy
 Level:51
 Adamant Nature
-- Agility
+- Roost
 - Drill Peck
-- Steel Wing
-- Rock Slide
+- Iron Head
+- Drill Run
 
 Metagross @ Assault Vest
 Ability: Clear Body
@@ -3639,9 +3639,9 @@ Ability: Technician
 Level:51
 Adamant Nature
 - Bullet Punch
-- X-Scissor
+- Megahorn
 - U-Turn
-- Metal Claw
+- Iron Head
 
 Ferrothorn @ Rocky Helmet
 Ability: Iron Barbs
@@ -3659,7 +3659,7 @@ Pic: Parasol Lady
 Gender: Male
 Music: Female
 Double Battle: No
-AI: Smart Trainer
+AI: Smart Trainer / Prediction
 
 Ninetales @ Rocky Helmet
 Ability: Flash Fire
@@ -3667,7 +3667,7 @@ Level: 61
 Modest Nature
 - Fire Blast
 - Will-O-Wisp
-- Dazzling Gleam
+- Moonblast
 - Calm Mind
 
 Sylveon @ Choice Specs
@@ -3686,7 +3686,7 @@ Adamant Nature
 - Liquidation
 - Play Rough
 - Aqua Jet
-- Knock Off
+- Superpower
 
 Gardevoir @ Assault Vest
 Ability: Serene Grace
@@ -3698,13 +3698,13 @@ Timid Nature
 - Energy Ball
 
 Togekiss @ Leftovers
-Ability: Magic Guard
+Ability: Serene Grace
 Level: 61
 Bold Nature
-- Draining Kiss
+- Moonblast
 - Ancient Power
-- Flamethrower
-- Wish
+- Fiery Dance
+- Air Slash
 
 Mawile @ Occa Berry
 Ability: Intimidate
@@ -3739,7 +3739,7 @@ Level: 67
 Relaxed Nature
 - Trick Room
 - Will-O-Wisp
-- Night Shade
+- Shadow Ball
 - Protect
 
 Chandelure @ Choice Specs
@@ -6310,7 +6310,7 @@ Jolly Nature
 - Brave Bird
 - Confuse Ray
 - Roost
-- Perish Song
+- Foul Play
 
 Spiritomb @ Safety Goggles  
 Ability: Infiltrator

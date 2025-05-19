@@ -179,6 +179,7 @@ DewfordTown_EventScript_SailToSlateport::
 	closemessage
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
 	resetobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
+	setvar VAR_BOARD_BRINEY_BOAT_STATE, 2
 	resetobjectsubpriority LOCALID_BRINEY_R109, MAP_ROUTE109
 	copyobjectxytoperm LOCALID_BRINEY_R109
 	release

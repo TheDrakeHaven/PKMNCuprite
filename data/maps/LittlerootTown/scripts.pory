@@ -947,12 +947,12 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 
 script LittlerootTown_EventScript_Gymsign {
     lockall
-    msgbox("New GYM coming soon!")
+    msgbox("Free Starter Pokemon!")
     releaseall
 }
 
 script LittlerootTown_Text_normando {
 	lockall
-	msgbox("DAD:Come back when you have a pokemon!")
+	msgbox("DAD: Come back when you have a pokemon for another starter!")
 	releaseall
 }

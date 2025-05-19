@@ -18649,6 +18649,8 @@ static const u16 sTaillowTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DUAL_WINGBEAT,
+    MOVE_ACROBATICS,
     MOVE_UNAVAILABLE,
 };
 
@@ -18676,6 +18678,9 @@ static const u16 sSwellowTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_DUAL_WINGBEAT,
+    MOVE_ACROBATICS,
+    MOVE_FEATHER_DANCE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_TAILLOW

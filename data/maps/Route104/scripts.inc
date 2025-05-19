@@ -276,9 +276,6 @@ Route104_EventScript_SailToDewford::
 	goto_if_unset FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_ArriveInDewford
 	end
 
-Route104_EventScript_SailToDewfordNoCall::
-	goto Route104_EventScript_ArriveInDewford
-
 Route104_EventScript_ArriveInDewford::
 	delay 50
 	warp MAP_DEWFORD_TOWN, 11, 9

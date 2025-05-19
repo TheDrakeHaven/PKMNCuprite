@@ -5165,6 +5165,7 @@ static const struct LevelUpMove sTogekissLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_KISS),
     LEVEL_UP_MOVE( 1, MOVE_LIFE_DEW),
+    LEVEL_UP_MOVE( 60, MOVE_FIERY_DANCE),
     LEVEL_UP_END
 };
 #endif //P_GEN_4_CROSS_EVOS

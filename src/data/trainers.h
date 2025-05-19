@@ -8836,7 +8836,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_LEADER_JUAN,
         .encounterMusic_gender =
 #line 3597
-            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+            TRAINER_ENCOUNTER_MUSIC_MALE,
 #line 3598
         .doubleBattle = FALSE,
 #line 3599
@@ -8999,7 +8999,7 @@ F_TRAINER_FEMALE |
 #line 3661
         .doubleBattle = FALSE,
 #line 3662
-        .aiFlags = AI_FLAG_SMART_TRAINER,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
         .partySize = 6,
         .party = (const struct TrainerMon[])
         {
