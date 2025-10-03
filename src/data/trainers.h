@@ -7445,7 +7445,7 @@ F_TRAINER_FEMALE |
                 MOVE_SACRED_SWORD,
                 MOVE_PSYCHO_CUT,
                 MOVE_KNOCK_OFF,
-                MOVE_LEAF_BLADE,
+                MOVE_AERIAL_ACE,
             },
             },
             {

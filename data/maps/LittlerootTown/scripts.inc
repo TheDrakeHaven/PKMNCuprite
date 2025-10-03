@@ -1915,4 +1915,4 @@ LittlerootTown_EventScript_Gymsign_Text_0:
 
 LittlerootTown_Text_normando_Text_0:
 # 956 "data/maps/LittlerootTown/scripts.pory"
-	.string "DAD: Come back when you have a pokemon for another starter!$"
+	.string "DAD: Come back when you have a pokemon!$"
