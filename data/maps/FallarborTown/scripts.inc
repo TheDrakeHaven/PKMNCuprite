@@ -52,11 +52,11 @@ FallarborTown_EventScript_Gentleman_1:
 	end
 
 FallarborTown_EventScript_Gentleman_2:
-	giveitem ITEM_DAWN_STONE
+	giveitem ITEM_DUSK_STONE
 	goto FallarborTown_EventScript_Gentleman_1
 
 FallarborTown_EventScript_Gentleman_3:
-	giveitem ITEM_DUSK_STONE
+	giveitem ITEM_DAWN_STONE
 	goto FallarborTown_EventScript_Gentleman_1
 
 FallarborTown_EventScript_Gentleman_4:

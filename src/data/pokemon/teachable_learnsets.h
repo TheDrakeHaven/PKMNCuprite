@@ -10035,6 +10035,10 @@ static const u16 sMagmortarTeachableLearnset[] = {
     MOVE_THUNDER_PUNCH,
     MOVE_BURNING_JEALOUSY,
     MOVE_TEMPER_FLARE,
+    MOVE_DARK_PULSE,
+    MOVE_SUCKER_PUNCH,
+    MOVE_NASTY_PLOT,
+    MOVE_KNOCK_OFF,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -28493,6 +28497,7 @@ static const u16 sRotomTeachableLearnset[] = {
     MOVE_BITTER_MALICE,
     MOVE_POLTERGEIST,
     MOVE_HEX,
+    MOVE_SURF,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_ROTOM

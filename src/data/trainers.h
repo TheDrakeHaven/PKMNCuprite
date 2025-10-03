@@ -7467,8 +7467,8 @@ F_TRAINER_FEMALE |
 #line 3023
                 MOVE_RELIC_SONG,
                 MOVE_CALM_MIND,
-                MOVE_PSYSHOCK,
-                MOVE_SHADOW_BALL,
+                MOVE_PSYCHIC,
+                MOVE_FOCUS_BLAST,
             },
             },
             {
@@ -7484,14 +7484,14 @@ F_TRAINER_FEMALE |
 #line 3030
             .lvl = 75,
 #line 3031
-            .nature = NATURE_MODEST,
+            .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 3032
                 MOVE_KNOCK_OFF,
-                MOVE_THUNDER_WAVE,
-                MOVE_FLAMETHROWER,
-                MOVE_ALLURING_VOICE,
+                MOVE_THUNDER_PUNCH,
+                MOVE_BODY_SLAM,
+                MOVE_SPIRIT_BREAK,
             },
             },
         },
@@ -7539,7 +7539,7 @@ F_TRAINER_FEMALE |
                 MOVE_U_TURN,
                 MOVE_POISON_JAB,
                 MOVE_KNOCK_OFF,
-                MOVE_TOXIC_SPIKES,
+                MOVE_FIRST_IMPRESSION,
             },
             },
             {
@@ -7547,7 +7547,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_VOLCARONA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3058
-            .heldItem = ITEM_CHARTI_BERRY,
+            .heldItem = ITEM_LEFTOVERS,
 #line 3063
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 3059
@@ -7562,7 +7562,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 3063
                 MOVE_QUIVER_DANCE,
-                MOVE_FLAMETHROWER,
+                MOVE_FIERY_DANCE,
                 MOVE_MORNING_SUN,
                 MOVE_BUG_BUZZ,
             },
@@ -7622,7 +7622,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_SHUCKLE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3088
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_CHESTO_BERRY,
 #line 3093
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 3089
@@ -7637,9 +7637,9 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 3093
                 MOVE_REST,
-                MOVE_TOXIC,
+                MOVE_SHELL_SMASH,
                 MOVE_BODY_PRESS,
-                MOVE_ROCK_TOMB,
+                MOVE_INFESTATION,
             },
             },
             {
@@ -7708,7 +7708,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 3122
                 MOVE_SPIKES,
-                MOVE_EARTHQUAKE,
+                MOVE_PRECIPICE_BLADES,
                 MOVE_STEALTH_ROCK,
                 MOVE_SOLAR_BEAM,
             },
@@ -7801,8 +7801,8 @@ F_TRAINER_FEMALE |
 #line 3160
                 MOVE_OVERHEAT,
                 MOVE_VOLT_SWITCH,
-                MOVE_TOXIC,
-                MOVE_PAIN_SPLIT,
+                MOVE_WILL_O_WISP,
+                MOVE_HEX,
             },
             },
             {
@@ -7940,7 +7940,7 @@ F_TRAINER_FEMALE |
                 MOVE_DRACO_METEOR,
                 MOVE_DARK_PULSE,
                 MOVE_FLAMETHROWER,
-                MOVE_U_TURN,
+                MOVE_FLASH_CANNON,
             },
             },
             {
@@ -8312,11 +8312,11 @@ F_TRAINER_FEMALE |
 #line 3374
             .lvl = 22,
 #line 3375
-            .nature = NATURE_MODEST,
+            .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 3377
-                MOVE_BUBBLEBEAM,
+                MOVE_FLIP_TURN,
                 MOVE_METAL_CLAW,
                 MOVE_PECK,
                 MOVE_AQUA_RING,
@@ -8407,9 +8407,9 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 3416
                 MOVE_MAGNET_RISE,
-                MOVE_CHARGE_BEAM,
-                MOVE_MIRROR_SHOT,
-                MOVE_THUNDER_WAVE,
+                MOVE_SPARK,
+                MOVE_FLASH_CANNON,
+                MOVE_TRI_ATTACK,
             },
             },
             {
@@ -8545,7 +8545,7 @@ F_TRAINER_FEMALE |
                 MOVE_COTTON_GUARD,
                 MOVE_SING,
                 MOVE_DRAGON_PULSE,
-                MOVE_FAIRY_WIND,
+                MOVE_ALLURING_VOICE,
             },
             },
             {
@@ -8872,11 +8872,11 @@ F_TRAINER_FEMALE |
             .species = SPECIES_SKARMORY,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3610
-            .heldItem = ITEM_BRIGHT_POWDER,
+            .heldItem = ITEM_MUSCLE_BAND,
 #line 3614
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 3611
-            .ability = ABILITY_WEAK_ARMOR,
+            .ability = ABILITY_STURDY,
 #line 3612
             .lvl = 51,
 #line 3613
@@ -8884,10 +8884,10 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 3614
-                MOVE_AGILITY,
+                MOVE_ROOST,
                 MOVE_DRILL_PECK,
-                MOVE_STEEL_WING,
-                MOVE_ROCK_SLIDE,
+                MOVE_IRON_HEAD,
+                MOVE_DRILL_RUN,
             },
             },
             {
@@ -8954,9 +8954,9 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 3641
                 MOVE_BULLET_PUNCH,
-                MOVE_X_SCISSOR,
+                MOVE_MEGAHORN,
                 MOVE_U_TURN,
-                MOVE_METAL_CLAW,
+                MOVE_IRON_HEAD,
             },
             },
             {
@@ -9022,7 +9022,7 @@ F_TRAINER_FEMALE |
 #line 3668
                 MOVE_FIRE_BLAST,
                 MOVE_WILL_O_WISP,
-                MOVE_DAZZLING_GLEAM,
+                MOVE_MOONBLAST,
                 MOVE_CALM_MIND,
             },
             },
@@ -9069,7 +9069,7 @@ F_TRAINER_FEMALE |
                 MOVE_LIQUIDATION,
                 MOVE_PLAY_ROUGH,
                 MOVE_AQUA_JET,
-                MOVE_KNOCK_OFF,
+                MOVE_SUPERPOWER,
             },
             },
             {
@@ -9104,7 +9104,7 @@ F_TRAINER_FEMALE |
 #line 3704
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 3701
-            .ability = ABILITY_MAGIC_GUARD,
+            .ability = ABILITY_SERENE_GRACE,
 #line 3702
             .lvl = 61,
 #line 3703
@@ -9112,10 +9112,10 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 3704
-                MOVE_DRAINING_KISS,
+                MOVE_MOONBLAST,
                 MOVE_ANCIENT_POWER,
-                MOVE_FLAMETHROWER,
-                MOVE_WISH,
+                MOVE_FIERY_DANCE,
+                MOVE_AIR_SLASH,
             },
             },
             {
@@ -9204,7 +9204,7 @@ F_TRAINER_FEMALE |
 #line 3740
                 MOVE_TRICK_ROOM,
                 MOVE_WILL_O_WISP,
-                MOVE_NIGHT_SHADE,
+                MOVE_SHADOW_BALL,
                 MOVE_PROTECT,
             },
             },
@@ -15789,7 +15789,7 @@ F_TRAINER_FEMALE |
                 MOVE_BRAVE_BIRD,
                 MOVE_CONFUSE_RAY,
                 MOVE_ROOST,
-                MOVE_PERISH_SONG,
+                MOVE_FOUL_PLAY,
             },
             },
             {
