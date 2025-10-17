@@ -557,6 +557,12 @@
 #define TRAINER_VIOLA                       823
 #define TRAINER_REIJU                       824
 #define TRAINER_BONNEY                      825
+#define TRAINER_DRAKE_LG                    826
+#define TRAINER_DRAKE_EM                    827
+#define TRAINER_DRAKE_PT                    828
+#define TRAINER_DRAKE_SS                    829
+#define TRAINER_DRAKE_TCG                   830
+#define TRAINER_DRAKE_CHAMP                 831
 #define TRAINER_MARIELA                     848
 #define TRAINER_ALVARO                      849
 #define TRAINER_EVERETT                     850

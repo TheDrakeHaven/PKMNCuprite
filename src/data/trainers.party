@@ -3237,7 +3237,7 @@ Adamant Nature
 - Iron Head
 - Earthquake
 
-=== TRAINER_DRAKE2 ===
+=== TRAINER_DRAKE_LG ===
 Name: DRAKE
 Class: Gamer
 Pic: Elite Four Drake
@@ -3247,59 +3247,315 @@ Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
-Tyranitar @ Assault Vest
-Ability: Sand Stream
-Level: 80
-Adamant Nature
-- Stone Edge
-- Knock Off
-- Fire Punch
-- Earthquake
+Nidoking @ Life Orb
+Ability:Sheer Force
+Level:80
+Adamant nature
+-Thunder Punch
+-Earthquake
+-Poison Jab
+-Bite
+
+Blastoise @ Assault Vest
+Ability:Anger Shell
+Level:80
+Adamant nature
+-Jet Punch
+-Wave Crash
+-Zen Headbutt
+-Brick Break
+
+Clefable @ Leftovers
+Ability:Magic Guard
+Level:80
+Modest nature
+-Sparkly Swirl
+-Calm Mind
+-Psychic
+-Flamethrower
+
+Dragonite @ Lum Berry
+Ability:Inner Focus
+Level:80
+Adamant nature
+-Outrage
+-Dragon Ascent
+-Temper Flare
+-Earthquake
+
+Articuno @ Choice Specs
+Ability:Refrigerate
+Level:80
+Modest nature
+-Tri-Attack
+-Air Slash
+-Ancient Power
+-Glaciate
+
+Jolteon @ Air Baloon
+Ability:Volt Absorb
+Level:80
+Modest nature
+-Shadow Ball
+-Calm Mind
+-Thunderbolt
+-Double Team
+
+=== TRAINER_DRAKE_EM ===
+Name: DRAKE
+Class: Gamer
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Double Battle: No
+AI: Smart Trainer / Prediction
+Mugshot: Blue
+
+Aggron @ Air Baloon
+Ability:Sturdy
+Level:80
+Adamant nature
+-Iron Head
+-Stone Edge
+-Stealth Rock
+-Body Press
+
+Sableye @ Life Orb
+Ability:Prankster
+Level:80
+Adamant nature
+-Parting Shot
+-Will-O-Wisp
+-Knock Off
+-Poltergeist
+
+Deoxys - Attack @ White Herb
+Ability:Pressure
+Level:80
+Modest nature
+-Psycho Boost
+-Ice Beam
+-Nasty Plot
+-Flash Cannon
+
+Salamence @ Assault Vest
+Ability:Intimidate
+Level:80
+Adamant nature
+-Dragon Rush
+-Temper Flare
+-Air Slash
+-Earthquake
+
+Bellossom @ Rocky Helmet
+Ability:Flower Veil
+Level:80
+Mild nature
+-Moonblast
+-Energy Ball
+-Strength Sap
+-Pollen Puff
+
+Blaziken @ Life Orb
+Ability:Speed Boost
+Level:80
+Adamant nature
+-Swords Dance
+-Close Combat
+-Flare Blitz
+-Knock Off
+
+=== TRAINER_DRAKE_PT ===
+Name: DRAKE
+Class: Gamer
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Double Battle: No
+AI: Smart Trainer / Prediction
+Mugshot: Blue
+
+Torterra @ Choice Band
+Ability:Shell Armor
+Level:80
+Adamant nature
+-Headlong Rush
+-Superpower
+-Power Whip
+-Zen Headbutt
+
+Bronzong @ Leftovers
+Ability:Levitate
+Level:80
+Impish nature
+-Body Press
+-Iron Defense
+-Zen Headbutt
+-Iron Head
+
+Froslass @ Bright Powder
+Ability:Cursed Body
+Level:80
+Modest nature
+-Shadow Ball
+-Glaciate
+-Will-O-Wisp
+-Double Team
+
+Electivire @ Life Orb
+Ability:Motor Drive
+Level:80
+Adamant nature
+-Supercell Slam
+-Drain Punch
+-Knock Off
+-Ice Punch
+
+Togekiss @ Assault Vest
+Ability:Serene Grace
+Level:80
+Timid nature
+-Air Slash
+-Fiery Dance
+-Moonblast
+-Ancient Power
+
+Magmortar @ Rocky Helmet
+Ability:Vital Spirit
+Level:80
+Modest nature
+-Armor Cannon
+-Fiery Wrath
+-Nasty Plot
+-Scorching Sands
+
+=== TRAINER_DRAKE_SS ===
+Name: DRAKE
+Class: Gamer
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Double Battle: No
+AI: Smart Trainer / Prediction
+Mugshot: Blue
+
+Typhlosion @ Choice Specs
+Ability:Flash Fire
+Level:80
+Modest nature
+-Searing Shot
+-Infernal Parade
+-Solar Beam
+-Scorching Sand
+
+Lugia @ Leftovers
+Ability:Multiscale
+Level:80
+Quiet nature
+-Aeroblast
+-Esper Wing
+-Dragon Pulse
+-Calm Mind
+
+Kabutops @ Muscle Band
+Ability:Sharpness
+Level:80
+Adamant nature
+-Aqua Cutter
+-Stone Axe
+-Ceaseless Edge
+-X-Scissor
+
+Primape @ Leftovers
+Ability:Defiant
+Level:80
+Adamant nature
+-Rage Fist
+-Bulk Up
+-Close Combat
+-Knock Off
+
+Umbreon @ Assault Vest
+Ability:Inner Focus
+Level:80
+Calm nature
+-Night Shade
+-Moonblast
+-Shadow Ball
+-Lumina Crash
+
+Mamoswine @ Loaded Dice
+Ability:Thick Fat
+Level:80
+Adamant nature
+-Icicle Spear
+-Bone Rush
+-Rock Blast
+-Iron Head
+
+=== TRAINER_DRAKE_CHAMP ===
+Name: DRAKE
+Class: Gamer
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Double Battle: No
+AI: Smart Trainer / Prediction
+Mugshot: Blue
+
+Tyranitar @ Rocky Helmet
+Ability:Sand Stream
+Level:80
+Adamant nature
+-Knock Off
+-Stone Edge
+-Stealth Rock
+-Accelerock
+
+Garchomp @ Leftovers
+Ability:Sand Veil
+Level:80
+Adamant nature
+-Dragon Rush
+-Earthquake
+-Swords Dance
+-Iron Head
+
+Heatran @ Assault Vest
+Ability:Flame Body
+Level:80
+Hasty nature
+-Magma Storm
+-Flash Cannon
+-Body Press
+-Scorching Sands
 
 Salamence @ Safety Goggles
-Ability: Intimidate
-Level: 80
-Adamant Nature
-- Dragon Rush
-- Psychic Fangs
-- Earthquake
-- Dragon Ascent
+Ability:Intimidate
+Level:80
+Adamant nature
+-Dragon Rush
+-Temper Flare
+-Air Slash
+-Earthquake
 
-Mamoswine @ Life Orb
-Ability: Oblivious
-Level:80 
-Adamant Nature
-- Earthquake
-- Ice Spinner
-- Knock Off
-- Bulk Up
+Terrakion @ Choice Band
+Ability:Justified
+Level:80
+Adamant nature
+-Stone Edge
+-Close Combat
+-Iron Head
+-Earthquake
 
-Hydreigon @ Choice Specs
-Ability: Levitate
-Level: 80
-Timid Nature
-- Draco Meteor
-- Dark Pulse
-- Flamethrower
-- U-Turn
-
-Aggron @ Rocky Helmet
-Ability: Sturdy
-Level: 80
-Jolly Nature
-- Ice Punch
-- Stone Edge
-- Heavy Slam
-- Body Press
-
-Heatran @ Leftovers
-Ability: Flame Body
-Level: 80
-Adamant Nature
-- Overheat
-- Steel Beam
-- Dark Pulse
-- Scorching Sands
+Mamoswine @ Loaded Dice
+Ability:Thick Fat
+Level:80
+Adamant nature
+-Icicle Spear
+-Bone Rush
+-Rock Blast
+-Iron Head
 
 === TRAINER_ALEC ===
 Name: ALEC

@@ -2338,6 +2338,7 @@ static const u16 sClefableTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_SPARKLY_SWIRL,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_CLEFAIRY
@@ -11664,7 +11665,9 @@ static const u16 sDragoniteTeachableLearnset[] = {
     MOVE_DRACO_METEOR,
     MOVE_DRAGON_CLAW,
     MOVE_DRAGON_DANCE,
+    MOVE_DRAGON_RUSH,
     MOVE_DRAGON_PULSE,
+    MOVE_DRAGON_ASCENT,
     MOVE_DRAGON_TAIL,
     MOVE_DUAL_WINGBEAT,
     MOVE_EARTHQUAKE,
@@ -11705,6 +11708,7 @@ static const u16 sDragoniteTeachableLearnset[] = {
     MOVE_THUNDERBOLT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_TEMPER_FLARE,
     MOVE_TOXIC,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
@@ -15989,6 +15993,7 @@ static const u16 sMamoswineTeachableLearnset[] = {
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_ROCK_SMASH,
+    MOVE_ROCK_BLAST,
     MOVE_ROCK_TOMB,
     MOVE_SANDSTORM,
     MOVE_STEALTH_ROCK,
@@ -16015,6 +16020,8 @@ static const u16 sMamoswineTeachableLearnset[] = {
     MOVE_MUD_BOMB,
     MOVE_EARTH_POWER,
     MOVE_HIGH_HORSEPOWER,
+    MOVE_ICICLE_CRASH,
+    MOVE_BONE_RUSH,
     MOVE_UNAVAILABLE,
 };
 #endif //P_GEN_4_CROSS_EVOS
@@ -20180,6 +20187,7 @@ static const u16 sSableyeTeachableLearnset[] = {
     MOVE_METAL_CLAW,
     MOVE_NASTY_PLOT,
     MOVE_PAIN_SPLIT,
+    MOVE_PARTING_SHOT,
     MOVE_POISON_JAB,
     MOVE_POLTERGEIST,
     MOVE_POWER_GEM,
