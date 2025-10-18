@@ -3250,7 +3250,8 @@ Mugshot: Blue
 Nidoking @ Life Orb
 Ability:Sheer Force
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 4 Def / 252 SpD
 -Thunder Punch
 -Earthquake
 -Poison Jab
@@ -3259,7 +3260,8 @@ Adamant nature
 Blastoise @ Assault Vest
 Ability:Anger Shell
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 HP / 252 Atk / 4 Spe
 -Jet Punch
 -Wave Crash
 -Zen Headbutt
@@ -3268,7 +3270,8 @@ Adamant nature
 Clefable @ Leftovers
 Ability:Magic Guard
 Level:80
-Modest nature
+Modest Nature
+EVs: 252 Def / 4 SpA / 252 SpD
 -Sparkly Swirl
 -Calm Mind
 -Psychic
@@ -3277,7 +3280,8 @@ Modest nature
 Dragonite @ Lum Berry
 Ability:Inner Focus
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 4 SpD / 252 Spe
 -Outrage
 -Dragon Ascent
 -Temper Flare
@@ -3286,16 +3290,18 @@ Adamant nature
 Articuno @ Choice Specs
 Ability:Refrigerate
 Level:80
-Modest nature
+Modest Nature
+EVs: 252 SpA / 252 SpD / 4 Spe
 -Tri-Attack
 -Air Slash
 -Ancient Power
 -Glaciate
 
-Jolteon @ Air Baloon
+Jolteon @ Air Balloon
 Ability:Volt Absorb
 Level:80
-Modest nature
+Modest Nature
+EVs: 4 Def / 252 SpA / 252 Spe
 -Shadow Ball
 -Calm Mind
 -Thunderbolt
@@ -3311,10 +3317,11 @@ Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
-Aggron @ Air Baloon
+Aggron @ Air Balloon
 Ability:Sturdy
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 HP / 4 Atk / 252 Def
 -Iron Head
 -Stone Edge
 -Stealth Rock
@@ -3323,7 +3330,8 @@ Adamant nature
 Sableye @ Life Orb
 Ability:Prankster
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 HP / 4 Def / 252 Spe
 -Parting Shot
 -Will-O-Wisp
 -Knock Off
@@ -3332,7 +3340,8 @@ Adamant nature
 Deoxys - Attack @ White Herb
 Ability:Pressure
 Level:80
-Modest nature
+Modest Nature
+EVs: 4 HP / 252 SpA / 252 Spe
 -Psycho Boost
 -Ice Beam
 -Nasty Plot
@@ -3341,7 +3350,8 @@ Modest nature
 Salamence @ Assault Vest
 Ability:Intimidate
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 4 Def / 252 Spe
 -Dragon Rush
 -Temper Flare
 -Air Slash
@@ -3350,7 +3360,8 @@ Adamant nature
 Bellossom @ Rocky Helmet
 Ability:Flower Veil
 Level:80
-Mild nature
+Mild Nature
+EVs: 4 HP / 252 Def / 252 SpA
 -Moonblast
 -Energy Ball
 -Strength Sap
@@ -3359,7 +3370,8 @@ Mild nature
 Blaziken @ Life Orb
 Ability:Speed Boost
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 4 Def / 252 Spe
 -Swords Dance
 -Close Combat
 -Flare Blitz
@@ -3378,7 +3390,8 @@ Mugshot: Blue
 Torterra @ Choice Band
 Ability:Shell Armor
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 252 Def / 4 SpD
 -Headlong Rush
 -Superpower
 -Power Whip
@@ -3387,7 +3400,8 @@ Adamant nature
 Bronzong @ Leftovers
 Ability:Levitate
 Level:80
-Impish nature
+Impish Nature
+EVs: 4 Atk / 252 Def / 252 SpD
 -Body Press
 -Iron Defense
 -Zen Headbutt
@@ -3396,7 +3410,8 @@ Impish nature
 Froslass @ Bright Powder
 Ability:Cursed Body
 Level:80
-Modest nature
+Modest Nature
+EVs: 252 SpA / 4 SpD / 252 Spe
 -Shadow Ball
 -Glaciate
 -Will-O-Wisp
@@ -3405,7 +3420,8 @@ Modest nature
 Electivire @ Life Orb
 Ability:Motor Drive
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 4 Def / 252 Spe
 -Supercell Slam
 -Drain Punch
 -Knock Off
@@ -3414,7 +3430,8 @@ Adamant nature
 Togekiss @ Assault Vest
 Ability:Serene Grace
 Level:80
-Timid nature
+Timid Nature
+EVs: 252 SpA / 6 SpD / 252 Spe
 -Air Slash
 -Fiery Dance
 -Moonblast
@@ -3423,7 +3440,8 @@ Timid nature
 Magmortar @ Rocky Helmet
 Ability:Vital Spirit
 Level:80
-Modest nature
+Modest Nature
+EVs: 252 SpA / 252 SpD / 6 Spe
 -Armor Cannon
 -Fiery Wrath
 -Nasty Plot
@@ -3442,16 +3460,18 @@ Mugshot: Blue
 Typhlosion @ Choice Specs
 Ability:Flash Fire
 Level:80
-Modest nature
+Modest Nature
+EVs: 252 SpA / 6 SpD / 252 Spe
 -Searing Shot
 -Infernal Parade
 -Solar Beam
--Scorching Sand
+-Scorching Sands
 
 Lugia @ Leftovers
 Ability:Multiscale
 Level:80
-Quiet nature
+Quiet Nature
+EVs: 252 HP / 6 Def / 252 SpD
 -Aeroblast
 -Esper Wing
 -Dragon Pulse
@@ -3460,16 +3480,18 @@ Quiet nature
 Kabutops @ Muscle Band
 Ability:Sharpness
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 6 Def / 252 Spe
 -Aqua Cutter
 -Stone Axe
 -Ceaseless Edge
 -X-Scissor
 
-Primape @ Leftovers
+Primeape @ Rocky Helmet
 Ability:Defiant
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 252 Def / 6 SpD
 -Rage Fist
 -Bulk Up
 -Close Combat
@@ -3478,7 +3500,8 @@ Adamant nature
 Umbreon @ Assault Vest
 Ability:Inner Focus
 Level:80
-Calm nature
+Calm Nature
+EVs: 252 SpA / 252 SpD / 6 Spe
 -Night Shade
 -Moonblast
 -Shadow Ball
@@ -3487,7 +3510,8 @@ Calm nature
 Mamoswine @ Loaded Dice
 Ability:Thick Fat
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 6 Def / 252 Spe
 -Icicle Spear
 -Bone Rush
 -Rock Blast
@@ -3506,7 +3530,8 @@ Mugshot: Blue
 Tyranitar @ Rocky Helmet
 Ability:Sand Stream
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 HP / 6 Atk / 252 Def
 -Knock Off
 -Stone Edge
 -Stealth Rock
@@ -3515,7 +3540,8 @@ Adamant nature
 Garchomp @ Leftovers
 Ability:Sand Veil
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 158 HP / 252 Atk / 100 Spe
 -Dragon Rush
 -Earthquake
 -Swords Dance
@@ -3524,7 +3550,8 @@ Adamant nature
 Heatran @ Assault Vest
 Ability:Flame Body
 Level:80
-Hasty nature
+Hasty Nature
+EVs: 252 SpA / 252 SpD / 6 Spe
 -Magma Storm
 -Flash Cannon
 -Body Press
@@ -3533,7 +3560,8 @@ Hasty nature
 Salamence @ Safety Goggles
 Ability:Intimidate
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 2 HP / 252 Atk / 4 Def / 252 Spe
 -Dragon Rush
 -Temper Flare
 -Air Slash
@@ -3542,7 +3570,8 @@ Adamant nature
 Terrakion @ Choice Band
 Ability:Justified
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 6 Def / 252 Spe
 -Stone Edge
 -Close Combat
 -Iron Head
@@ -3551,7 +3580,8 @@ Adamant nature
 Mamoswine @ Loaded Dice
 Ability:Thick Fat
 Level:80
-Adamant nature
+Adamant Nature
+EVs: 252 Atk / 6 Def / 252 Spe
 -Icicle Spear
 -Bone Rush
 -Rock Blast
