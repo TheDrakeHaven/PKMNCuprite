@@ -15384,6 +15384,7 @@ static const u16 sWeavileTeachableLearnset[] = {
     MOVE_CUT,
     MOVE_DARK_PULSE,
     MOVE_DIG,
+    MOVE_DIRE_CLAW,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FLING,
@@ -18474,6 +18475,8 @@ static const u16 sLudicoloTeachableLearnset[] = {
     MOVE_LIQUIDATION,
     MOVE_SCALD,
     MOVE_HYDRO_PUMP,
+    MOVE_POWER_GEM,
+    MOVE_WOOD_HAMMER,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_LOTAD
@@ -23701,6 +23704,7 @@ static const u16 sGlalieTeachableLearnset[] = {
     MOVE_ICE_SPINNER,
     MOVE_TRIPLE_AXEL,
     MOVE_HAZE,
+    MOVE_GLACIAL_LANCE,
     MOVE_UNAVAILABLE,
 };
 
@@ -24523,6 +24527,7 @@ static const u16 sRegiceTeachableLearnset[] = {
     MOVE_ICE_SPINNER,
     MOVE_TRIPLE_AXEL,
     MOVE_HAZE,
+    MOVE_NASTY_PLOT,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_REGICE
@@ -24777,6 +24782,7 @@ static const u16 sKyogreTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_ANCIENT_POWER,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_KYOGRE

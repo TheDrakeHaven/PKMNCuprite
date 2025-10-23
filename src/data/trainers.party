@@ -3280,6 +3280,7 @@ EVs: 252 Def / 4 SpA / 252 SpD
 Dragonite @ Lum Berry
 Ability:Inner Focus
 Level:80
+Shiny: Yes
 Adamant Nature
 EVs: 252 Atk / 4 SpD / 252 Spe
 -Outrage
@@ -3305,7 +3306,7 @@ EVs: 4 Def / 252 SpA / 252 Spe
 -Shadow Ball
 -Calm Mind
 -Thunderbolt
--Double Team
+-Energy Ball
 
 === TRAINER_DRAKE_EM ===
 Name: DRAKE
@@ -3317,65 +3318,65 @@ Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
-Aggron @ Air Balloon
-Ability:Sturdy
+Kyogre @ Assault Vest
+Ability:Drizzle
+Level:80
+Timid Nature
+EVs: 6 SpA / 252 SpD / 252 Spe
+-Water Spout
+-Blizzard
+-Thunder
+-Ancient Power
+
+Sharpedo @ Rocky Helmet
+Ability:Rough Skin
 Level:80
 Adamant Nature
-EVs: 252 HP / 4 Atk / 252 Def
--Iron Head
--Stone Edge
--Stealth Rock
--Body Press
+EVs: 252 Atk / 6 Def / 252 Spe
+-Poison Fang
+-Crunch
+-Liquidation
+-Ice Fang
 
-Sableye @ Life Orb
-Ability:Prankster
-Level:80
-Adamant Nature
-EVs: 252 HP / 4 Def / 252 Spe
--Parting Shot
--Will-O-Wisp
--Knock Off
--Poltergeist
-
-Deoxys - Attack @ White Herb
-Ability:Pressure
+Milotic @ Life Orb
+Ability:Competitive
 Level:80
 Modest Nature
-EVs: 4 HP / 252 SpA / 252 Spe
--Psycho Boost
+EVs: 6 Def / 252 SpA / 252 Spe
+-Springtide Storm
+-Weather Ball
+-Scald
 -Ice Beam
--Nasty Plot
--Flash Cannon
 
-Salamence @ Assault Vest
-Ability:Intimidate
+Ludicolo @ Muscle Band
+Ability:Swift Swim
 Level:80
 Adamant Nature
-EVs: 252 Atk / 4 Def / 252 Spe
--Dragon Rush
--Temper Flare
--Air Slash
--Earthquake
-
-Bellossom @ Rocky Helmet
-Ability:Flower Veil
-Level:80
-Mild Nature
-EVs: 4 HP / 252 Def / 252 SpA
--Moonblast
--Energy Ball
--Strength Sap
--Pollen Puff
-
-Blaziken @ Life Orb
-Ability:Speed Boost
-Level:80
-Adamant Nature
-EVs: 252 Atk / 4 Def / 252 Spe
+EVs: 252 HP / 252 Atk / 6 Spe
+-Thunder Punch
 -Swords Dance
--Close Combat
--Flare Blitz
--Knock Off
+-Liquidation
+-Wood Hammer
+
+Pelipper @ Focus Sash
+Ability:Drizzle
+Level:80
+Modest Nature
+EVs: 252 SpA / 6 SpD / 252 Spe
+-Tailwind
+-Hurricane
+-Feather Dance
+-Hydro Pump
+
+Kingdra @ Scope Lens
+Ability:Sniper
+Level:80
+Modest Nature
+EVs: 6 HP / 252 SpA / 252 Spe
+-Snipe Shot
+-Draco Meteor
+-Flash Cannon
+-Ice Beam
 
 === TRAINER_DRAKE_PT ===
 Name: DRAKE
@@ -3387,24 +3388,24 @@ Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
-Torterra @ Choice Band
-Ability:Shell Armor
+Glalie @ Focus Sash
+Ability:Snow Warning
+Level:80
+Jolly Nature
+EVs: 6 HP / 252 Def / 252 Spe
+-Rock Wrecker
+-Glacial Lance
+-Crunch
+-Explosion
+
+Mamoswine @ Loaded Dice
+Ability:Thick Fat
 Level:80
 Adamant Nature
-EVs: 252 Atk / 252 Def / 4 SpD
--Headlong Rush
--Superpower
--Power Whip
--Zen Headbutt
-
-Bronzong @ Leftovers
-Ability:Levitate
-Level:80
-Impish Nature
-EVs: 4 Atk / 252 Def / 252 SpD
--Body Press
--Iron Defense
--Zen Headbutt
+EVs: 252 Atk / 6 Def / 252 Spe
+-Icicle Spear
+-Bone Rush
+-Rock Blast
 -Iron Head
 
 Froslass @ Bright Powder
@@ -3417,16 +3418,6 @@ EVs: 252 SpA / 4 SpD / 252 Spe
 -Will-O-Wisp
 -Double Team
 
-Electivire @ Life Orb
-Ability:Motor Drive
-Level:80
-Adamant Nature
-EVs: 252 Atk / 4 Def / 252 Spe
--Supercell Slam
--Drain Punch
--Knock Off
--Ice Punch
-
 Togekiss @ Assault Vest
 Ability:Serene Grace
 Level:80
@@ -3437,15 +3428,25 @@ EVs: 252 SpA / 6 SpD / 252 Spe
 -Moonblast
 -Ancient Power
 
-Magmortar @ Rocky Helmet
-Ability:Vital Spirit
+Regice @ Leftovers
+Ability:Ice Body
 Level:80
 Modest Nature
-EVs: 252 SpA / 252 SpD / 6 Spe
--Armor Cannon
--Fiery Wrath
+EVs: 252 HP / 252 Def / 6 SpA
+-Ice Beam
+-Ancient Power
 -Nasty Plot
--Scorching Sands
+-Thunder Cage
+
+Weavile @ Choice Band
+Ability:Slush Rush
+Level:80
+Adamant Nature
+EVs: 6 HP / 252 Atk / 252 Spe
+-Aerial Ace
+-Ice Spinner
+-Dire Claw
+-Knock Off
 
 === TRAINER_DRAKE_SS ===
 Name: DRAKE
@@ -3487,16 +3488,6 @@ EVs: 252 Atk / 6 Def / 252 Spe
 -Ceaseless Edge
 -X-Scissor
 
-Primeape @ Rocky Helmet
-Ability:Defiant
-Level:80
-Adamant Nature
-EVs: 252 Atk / 252 Def / 6 SpD
--Rage Fist
--Bulk Up
--Close Combat
--Knock Off
-
 Umbreon @ Assault Vest
 Ability:Inner Focus
 Level:80
@@ -3507,15 +3498,25 @@ EVs: 252 SpA / 252 SpD / 6 Spe
 -Shadow Ball
 -Lumina Crash
 
-Mamoswine @ Loaded Dice
-Ability:Thick Fat
+Bellossom @ Rocky Helmet
+Ability:Flower Veil
+Level:80
+Bold Nature
+EVs: 252 HP / 6 Def / 252 SpD
+-Moonblast
+-Energy Ball
+-Strength Sap
+-Pollen Puff
+
+Electivire @ Life Orb
+Ability:Motor Drive
 Level:80
 Adamant Nature
-EVs: 252 Atk / 6 Def / 252 Spe
--Icicle Spear
--Bone Rush
--Rock Blast
--Iron Head
+EVs: 6 HP / 252 Atk / 252 Spe
+-Supercell Slam
+-Drain Punch
+-Knock Off
+-Ice Punch
 
 === TRAINER_DRAKE_CHAMP ===
 Name: DRAKE
@@ -6557,8 +6558,8 @@ Quiet Nature
 IVs: 0 Atk  
 - Scald
 - Psychic
-- Nasty Plot
-- Trick Room
+- Flamethrower
+- Icy Wind
 
 Amoonguss @ Rocky Helmet  
 Ability: Regenerator  
@@ -6604,7 +6605,7 @@ Level: 70
 Quiet Nature    
 - Dark Pulse
 - Psyshock
-- Trick Room
+- Shadow Ball
 - Will-O-Wisp
 
 === TRAINER_BRENDAN_ROUTE_103 ===
