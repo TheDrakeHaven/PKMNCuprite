@@ -300,7 +300,17 @@
     "EverGrandeCity_HallOfFame",
     "EverGrandeCity_PokemonCenter_1F",
     "EverGrandeCity_PokemonCenter_2F",
-    "EverGrandeCity_PokemonLeague_2F"
+    "EverGrandeCity_PokemonLeague_2F",
+    "EverGrandeCity_PT2Hall5",
+    "EverGrandeCity_PT2Hall4",
+    "EverGrandeCity_PT2Hall3",
+    "EverGrandeCity_PT2Hall2",
+    "EverGrandeCity_PT2Hall1",
+    "EverGrandeCity_DrakeLG",
+    "EverGrandeCity_DrakeSS",
+    "EverGrandeCity_DrakePT",
+    "EverGrandeCity_DrakeEM",
+    "EverGrandeCity_DrakeChampions"
   ],
   "gMapGroup_IndoorRoute104": [
     "Route104_MrBrineysHouse",

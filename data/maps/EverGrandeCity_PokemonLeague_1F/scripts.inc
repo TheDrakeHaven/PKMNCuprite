@@ -2,6 +2,7 @@
 .set LOCALID_GUARD_1, 3
 .set LOCALID_GUARD_2, 4
 .set LOCALID_MOVE_RELEARNER, 5
+.set LOCAL_ID_DRAKEGUARD, 6
 
 EverGrandeCity_PokemonLeague_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonLeague_1F_OnTransition
@@ -13,11 +14,16 @@ EverGrandeCity_PokemonLeague_1F_OnTransition:
 	setflag FLAG_LANDMARK_POKEMON_LEAGUE
 	removeitem ITEM_POKEMON_BOX_LINK
 	call_if_unset FLAG_ENTERED_ELITE_FOUR, EverGrandeCity_PokemonLeague_1F_EventScript_GuardsBlockDoor
+	call_if_unset FLAG_UNUSED_0x0E9, EverGrandeCity_PokemonLeague_1F_EventScript_DrakeGuardsBlockDoor
 	end
 
 EverGrandeCity_PokemonLeague_1F_EventScript_GuardsBlockDoor::
 	setobjectxyperm LOCALID_GUARD_1, 9, 2
 	setobjectxyperm LOCALID_GUARD_2, 10, 2
+	return
+
+EverGrandeCity_PokemonLeague_1F_EventScript_DrakeGuardsBlockDoor::
+	setobjectxyperm LOCAL_ID_DRAKEGUARD, 15, 2
 	return
 
 EverGrandeCity_PokemonLeague_1F_EventScript_Nurse::
@@ -77,6 +83,28 @@ EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard::
 	releaseall
 	end
 
+EverGrandeCity_PokemonLeague_1F_EventScript_DrakeGuard::
+	lockall
+	goto_if_set FLAG_UNUSED_0x0E9, EverGrandeCity_PokemonLeague_1F_EventScript_GoForth
+	call EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeftdr
+	message EverGrandeCity_PokemonLeague_1F_Text_MustHaveChamp
+	waitmessage
+	delay 30
+	goto_if_unset FLAG_UNUSED_0x4EB, EverGrandeCity_PokemonLeague_1F_EventScript_NotChamp
+	closemessage
+	applymovement LOCAL_ID_DRAKEGUARD, EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWayDRAKE
+	waitmovement 0
+	delay 10
+	playfanfare MUS_OBTAIN_BADGE
+	message EverGrandeCity_PokemonLeague_1F_Text_GoForth
+	waitmessage
+	waitfanfare
+	closemessage
+	copyobjectxytoperm LOCAL_ID_DRAKEGUARD
+	setflag FLAG_UNUSED_0x0E9
+	releaseall
+	end
+
 EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromRight::
 	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight
 	waitmovement 0
@@ -87,9 +115,20 @@ EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeft::
 	waitmovement 0
 	return
 
+EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeftdr::
+	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeftdr
+	waitmovement 0
+	return
+
 EverGrandeCity_PokemonLeague_1F_EventScript_NotAllBadges::
 	playse SE_FAILURE
 	msgbox EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges, MSGBOX_DEFAULT
+	releaseall
+	end
+
+EverGrandeCity_PokemonLeague_1F_EventScript_NotChamp::
+	playse SE_FAILURE
+	msgbox EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedChamp, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -115,6 +154,13 @@ EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft:
 	walk_in_place_faster_up
 	step_end
 
+EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeftdr:
+	walk_down
+	walk_down
+	walk_up
+	walk_in_place_faster_up
+	step_end
+
 EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay:
 	walk_left
 	walk_in_place_faster_down
@@ -123,6 +169,11 @@ EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay:
 EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	walk_right
 	walk_in_place_faster_down
+	step_end
+
+EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWayDRAKE::
+	walk_in_place_faster_down
+	walk_right
 	step_end
 
 EverGrandeCity_PokemonLeague_1F_EventScript_MoveRelearner::
@@ -234,3 +285,14 @@ EverGrandeCity_PokemonLeague_1F_Text_GoForth:
 	.string "TRAINER! Believe in yourself and your\n"
 	.string "POKéMON, and go forth!$"
 
+EverGrandeCity_PokemonLeague_1F_Text_MustHaveChamp:
+	.string "Beyond this point, only those TRAINERS\n"
+	.string "who have defeated the Champion\l"
+	.string "are permitted to enter.\p"
+	.string "TRAINER, let us confirm that you have\n"
+	.string "become the Champion.$"
+
+EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedChamp:
+	.string "You haven't deafeated the Champion.\p"
+	.string "If you're bound for the DRAKE\n"
+	.string "LEAGUE, you must return with it.$"

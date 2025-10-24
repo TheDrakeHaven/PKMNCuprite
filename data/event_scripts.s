@@ -586,6 +586,7 @@ gStdScripts_End::
 
 EventScript_WhiteOut::
 	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour
+	call EverGrandeCity_HallOfFame_EventScript_ResetDrakeFour
 	clearflag FLAG_UNUSED_0x265
 	end
 
@@ -673,6 +674,14 @@ EverGrandeCity_HallOfFame_EventScript_ResetEliteFour::
 	clearflag FLAG_DEFEATED_ELITE_4_GLACIA
 	clearflag FLAG_DEFEATED_ELITE_4_DRAKE
 	setvar VAR_ELITE_4_STATE, 0
+	return
+
+EverGrandeCity_HallOfFame_EventScript_ResetDrakeFour::
+	clearflag FLAG_DEFEATED_ELITE_DRAKE_LG
+	clearflag FLAG_DEFEATED_ELITE_DRAKE_EM
+	clearflag FLAG_DEFEATED_ELITE_DRAKE_PT
+	clearflag FLAG_DEFEATED_ELITE_DRAKE_SS
+	setvar VAR_ELITE_DRAKE_STATE, 0
 	return
 
 Common_EventScript_UpdateBrineyLocation::
@@ -1188,3 +1197,23 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route135/scripts.inc"
 
 	.include "data/maps/Route135_Pokemart/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_PT2Hall5/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_PT2Hall4/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_PT2Hall3/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_PT2Hall2/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_PT2Hall1/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_DrakeLG/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_DrakeSS/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_DrakePT/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_DrakeEM/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_DrakeChampions/scripts.inc"
