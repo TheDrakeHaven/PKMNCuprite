@@ -9835,6 +9835,7 @@ static const u16 sElectivireTeachableLearnset[] = {
     MOVE_ELECTRIC_TERRAIN,
     MOVE_ELECTROWEB,
     MOVE_FACADE,
+    MOVE_FAKE_OUT,
     MOVE_FIRE_PUNCH,
     MOVE_FLAMETHROWER,
     MOVE_FLASH,

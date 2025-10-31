@@ -3388,35 +3388,45 @@ Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
-Glalie @ Focus Sash
-Ability:Snow Warning
-Level:80
-Jolly Nature
-EVs: 6 HP / 252 Def / 252 Spe
--Rock Wrecker
--Glacial Lance
--Crunch
--Explosion
-
-Mamoswine @ Loaded Dice
-Ability:Thick Fat
-Level:80
-Adamant Nature
-EVs: 252 Atk / 6 Def / 252 Spe
--Icicle Spear
--Bone Rush
--Rock Blast
--Iron Head
-
-Froslass @ Bright Powder
-Ability:Cursed Body
+Empoleon @ Rocky Helmet
+Ability:Competitive
 Level:80
 Modest Nature
-EVs: 252 SpA / 4 SpD / 252 Spe
+EVs: 252 HP / 142 Def / 114 SpD
+-Scald
+-Flash Cannon
+-Icy Wind
+-Air Slash
+
+Magmortar @ Choice Scarf
+Ability:Flame Body
+Level:80
+Timid Nature
+EVs: 252 SpA / 176 SpD / 80 Spe
+-Armor Cannon
+-Fiery Wrath
+-Scorching Sands
+-Thunderbolt
+
+Electivire @ Life Orb
+Ability:Motor Drive
+Level:80
+Adamant Nature
+EVs: 252 Atk / 6 HP / 252 Spe
+-Close Combat
+-Supercell Slam
+-Fake Out
+-Knock Off
+
+Cresselia @ Leftovers
+Ability:Levitate
+Level:80
+Modest Nature
+EVs: 252 HP / 4 Def / 252 SpD
+-Moonblast
+-Lumina Crash
+-Calm Mind
 -Shadow Ball
--Glaciate
--Will-O-Wisp
--Double Team
 
 Togekiss @ Assault Vest
 Ability:Serene Grace
@@ -3427,16 +3437,6 @@ EVs: 252 SpA / 6 SpD / 252 Spe
 -Fiery Dance
 -Moonblast
 -Ancient Power
-
-Regice @ Leftovers
-Ability:Ice Body
-Level:80
-Modest Nature
-EVs: 252 HP / 252 Def / 6 SpA
--Ice Beam
--Ancient Power
--Nasty Plot
--Thunder Cage
 
 Weavile @ Choice Band
 Ability:Slush Rush
@@ -3465,7 +3465,7 @@ Modest Nature
 EVs: 252 SpA / 6 SpD / 252 Spe
 -Searing Shot
 -Infernal Parade
--Solar Beam
+-Energy Ball
 -Scorching Sands
 
 Lugia @ Leftovers
@@ -3508,15 +3508,15 @@ EVs: 252 HP / 6 Def / 252 SpD
 -Strength Sap
 -Pollen Puff
 
-Electivire @ Life Orb
-Ability:Motor Drive
-Level:80
-Adamant Nature
-EVs: 6 HP / 252 Atk / 252 Spe
--Supercell Slam
--Drain Punch
--Knock Off
--Ice Punch
+Gengar @ Black Sludge
+Ability: Poison Puppeteer
+Level: 80
+Modest Nature
+EVs: 252 HP / 252 SpA / 4 SpD
+- Malignant Chain
+- Astral Barrage
+- Focus Blast
+- Toxic Spikes
 
 === TRAINER_DRAKE_CHAMP ===
 Name: DRAKE

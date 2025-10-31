@@ -77,6 +77,6 @@ EverGrandeCity_DrakesEM_Text_Defeat:
 
 EverGrandeCity_DrakesEM_Text_PostBattleSpeech:
 	.string "Prepare to fight my POKéMON \n"
-	.string "Platinum team next!\p"
+	.string "Platinum team next!$"
 
 
