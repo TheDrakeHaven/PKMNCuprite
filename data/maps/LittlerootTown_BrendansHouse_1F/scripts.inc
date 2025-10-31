@@ -392,8 +392,9 @@ PlayersHouse_1F_Text_RunningShoesManual:
 PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "DAD: Hm?\p"
 	.string "Hey, it's {PLAYER}!\p"
-	.string "The game is over already.\p"
-	.string "Anything past this will be buggy!$"
+	.string "You can go fight the Drake Elite 4.\p"
+	.string "But they will be hard!\p"
+	.string "Here are some rare candies!$"
 
 PlayersHouse_1F_Text_PortsInSlateportLilycove:
 	.string "DAD: Hmm?\p"
