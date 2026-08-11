@@ -8680,7 +8680,7 @@ F_TRAINER_FEMALE |
                 MOVE_MALIGNANT_CHAIN,
                 MOVE_ASTRAL_BARRAGE,
                 MOVE_FOCUS_BLAST,
-                MOVE_TOXIC_SPIKES,
+                MOVE_SHADOW_SNEAK,
             },
             },
         },
