@@ -20157,6 +20157,7 @@ static const u16 sDelcattyTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_ALLURING_VOICE,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SKITTY

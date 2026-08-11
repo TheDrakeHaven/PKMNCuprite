@@ -314,10 +314,10 @@ AI: Check Bad Move
 Poochyena
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
--Bite
--Sand Attack
--Swagger
--Snarl
+- Bite
+- Sand Attack
+- Swagger
+- Snarl
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -538,37 +538,37 @@ Sealeo @ Leftovers
 Ability: Thick Fat
 Level: 59
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Surf
--Aurora Beam
--Fissure
--Blizzard
+- Surf
+- Aurora Beam
+- Fissure
+- Blizzard
 
 Seviper @ Wise Glasses
 Ability: Shed Skin
 Level: 59
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Sludge Bomb
--Gastro Acid
--Dark Pulse
--Flamethrower
+- Sludge Bomb
+- Gastro Acid
+- Dark Pulse
+- Flamethrower
 
 Mightyena @ Expert Belt
 Ability: Intimidate
 Level: 59
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Crunch
--Fire Fang
--Trailblaze
--Thunder Fang
+- Crunch
+- Fire Fang
+- Trailblaze
+- Thunder Fang
 
 Cacturne @ Muscle Band
 Ability: Water Absorb
 Level: 59
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Seed Bomb
--Spikes
--Knock Off
--Pin Missile
+- Seed Bomb
+- Spikes
+- Knock Off
+- Pin Missile
 
 === TRAINER_ZANDER ===
 Name: ZANDER
@@ -596,43 +596,43 @@ Sharpedo @ Rocky Helmet
 Ability: Drizzle
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Crunch
--Ice Fang
--Poison Fang
--Liquidation
+- Crunch
+- Ice Fang
+- Poison Fang
+- Liquidation
 
 Manectric @ Magnet
 Ability: Static
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Wild Charge
--Bite
--Rain Dance
--Thunder Wave
+- Wild Charge
+- Bite
+- Rain Dance
+- Thunder Wave
 
-Corphish @ Choice Band
+Crawdaunt @ Choice Band
 Ability: Hyper Cutter
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Crabhammer
+- Crabhammer
 
 Muk @ Black Sludge
 Ability:Sticky Hold
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Sludge Wave
--Disable
--Minimize
--Acid Armor
+- Sludge Wave
+- Disable
+- Minimize
+- Acid Armor
 
 Golbat @ Sharp Beak
 Ability:Inner Focus
 Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Air Cutter
--Venoshock
--Haze
--Supersonic
+- Air Cutter
+- Venoshock
+- Haze
+- Supersonic
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
 Name: SHELLY
@@ -647,44 +647,44 @@ Sharpedo @ Rocky Helmet
 Ability: Drizzle
 Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Crunch
--Ice Fang
--Aqua Jet
--Waterfall
+- Crunch
+- Ice Fang
+- Aqua Jet
+- Waterfall
 
 Manectric @ Magnet
 Ability: Static
 Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Thunder Wave
--Volt Switch
--Rain Dance
--Thunder
+- Thunder Wave
+- Volt Switch
+- Rain Dance
+- Thunder
 
-Corphish @ Choice Band
+Crawdaunt @ Choice Band
 Ability:Adaptability
 Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Crabhammer
--Crunch
+- Crabhammer
+- Crunch
 
 Muk @ Black Sludge
 Ability:Sticky Hold
 Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Gunk shot
--Toxic
--Minimize
--Giga Drain
+- Gunk shot
+- Toxic
+- Minimize
+- Giga Drain
 
 Crobat @ Sharp Beak
 Ability:Inner Focus
 Level: 64
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Hurricane
--Venoshock
--Shadow Ball
--Confuse Ray
+- Hurricane
+- Venoshock
+- Shadow Ball
+- Confuse Ray
 
 === TRAINER_ARCHIE ===
 Name: ARCHIE
@@ -699,47 +699,47 @@ Cacturne @ Damp Rock
 Ability: Water Absorb
 Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Energy Ball
--Spikes
--Knock Off
--Rain Dance
+- Energy Ball
+- Spikes
+- Knock Off
+- Rain Dance
 
 Sharpedo @ Muscle Band
 Ability: Speed Boost
 Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Crunch
--Ice Fang
--Earthquake
--Liquidation
+- Crunch
+- Ice Fang
+- Earthquake
+- Liquidation
 
 Seviper @ Sticky Barb
 Ability: Shed Skin
 Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Sludge Bomb
--Gastro Acid
--Dark Pulse
--Switcheroo 
+- Sludge Bomb
+- Gastro Acid
+- Dark Pulse
+- Switcheroo 
 
 Lanturn @ Choice Specs
 Ability: Volt Absorb
 Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Hydro Pump
--Discharge
--Dazzling Gleam
--Flip Turn
+- Hydro Pump
+- Discharge
+- Dazzling Gleam
+- Flip Turn
 
 
 Walrein @ Leftovers
 Ability: Oblivious
 Level: 66
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Blizzard
--Surf
--Yawn
--Aqua Ring
+- Blizzard
+- Surf
+- Yawn
+- Aqua Ring
 
 === TRAINER_LEAH ===
 Name: LEAH
@@ -1316,8 +1316,8 @@ AI: Smart Trainer
 Gallade
 Level: 39
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Swords Dance
--Drain Punch
+- Swords Dance
+- Drain Punch
 
 === TRAINER_WENDY ===
 Name: WENDY
@@ -2453,9 +2453,9 @@ AI: Check Bad Move
 Ampharos
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
--Dragon Pulse
--Thunder Shock
--Cotton Spore
+- Dragon Pulse
+- Thunder Shock
+- Cotton Spore
 
 === TRAINER_JACE ===
 Name: JACE
@@ -2482,9 +2482,9 @@ AI: Check Bad Move
 Sceptile
 Level: 38
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
--Giga Drain
--Dragon Breath
--Assurance
+- Giga Drain
+- Dragon Breath
+- Assurance
 
 === TRAINER_BERNIE ===
 Name: BERNIE
@@ -3252,30 +3252,30 @@ Ability:Sheer Force
 Level:80
 Adamant Nature
 EVs: 252 Atk / 4 Def / 252 SpD
--Thunder Punch
--Earthquake
--Poison Jab
--Bite
+- Thunder Punch
+- Earthquake
+- Poison Jab
+- Bite
 
 Blastoise @ Assault Vest
 Ability:Anger Shell
 Level:80
 Adamant Nature
 EVs: 252 HP / 252 Atk / 4 Spe
--Jet Punch
--Wave Crash
--Zen Headbutt
--Brick Break
+- Jet Punch
+- Wave Crash
+- Zen Headbutt
+- Brick Break
 
 Clefable @ Leftovers
 Ability:Magic Guard
 Level:80
 Modest Nature
 EVs: 252 Def / 4 SpA / 252 SpD
--Sparkly Swirl
--Calm Mind
--Psychic
--Flamethrower
+- Sparkly Swirl
+- Calm Mind
+- Psychic
+- Flamethrower
 
 Dragonite @ Lum Berry
 Ability:Inner Focus
@@ -3283,30 +3283,30 @@ Level:80
 Shiny: Yes
 Adamant Nature
 EVs: 252 Atk / 4 SpD / 252 Spe
--Outrage
--Dragon Ascent
--Temper Flare
--Earthquake
+- Outrage
+- Dragon Ascent
+- Temper Flare
+- Earthquake
 
 Articuno @ Choice Specs
 Ability:Refrigerate
 Level:80
 Modest Nature
 EVs: 252 SpA / 252 SpD / 4 Spe
--Tri-Attack
--Air Slash
--Ancient Power
--Glaciate
+- Tri-Attack
+- Air Slash
+- Ancient Power
+- Glaciate
 
 Jolteon @ Air Balloon
 Ability:Volt Absorb
 Level:80
 Modest Nature
 EVs: 4 Def / 252 SpA / 252 Spe
--Shadow Ball
--Calm Mind
--Thunderbolt
--Energy Ball
+- Shadow Ball
+- Calm Mind
+- Thunderbolt
+- Energy Ball
 
 === TRAINER_DRAKE_EM ===
 Name: DRAKE
@@ -3323,60 +3323,60 @@ Ability:Drizzle
 Level:80
 Timid Nature
 EVs: 6 SpA / 252 SpD / 252 Spe
--Water Spout
--Blizzard
--Thunder
--Ancient Power
+- Water Spout
+- Blizzard
+- Thunder
+- Ancient Power
 
 Sharpedo @ Rocky Helmet
 Ability:Rough Skin
 Level:80
 Adamant Nature
 EVs: 252 Atk / 6 Def / 252 Spe
--Poison Fang
--Crunch
--Liquidation
--Ice Fang
+- Poison Fang
+- Crunch
+- Liquidation
+- Ice Fang
 
 Milotic @ Life Orb
 Ability:Competitive
 Level:80
 Modest Nature
 EVs: 6 Def / 252 SpA / 252 Spe
--Springtide Storm
--Weather Ball
--Scald
--Ice Beam
+- Springtide Storm
+- Weather Ball
+- Scald
+- Ice Beam
 
 Ludicolo @ Muscle Band
 Ability:Swift Swim
 Level:80
 Adamant Nature
 EVs: 252 HP / 252 Atk / 6 Spe
--Thunder Punch
--Swords Dance
--Liquidation
--Wood Hammer
+- Thunder Punch
+- Swords Dance
+- Liquidation
+- Wood Hammer
 
 Pelipper @ Focus Sash
 Ability:Drizzle
 Level:80
 Modest Nature
 EVs: 252 SpA / 6 SpD / 252 Spe
--Tailwind
--Hurricane
--Feather Dance
--Hydro Pump
+- Tailwind
+- Hurricane
+- Feather Dance
+- Hydro Pump
 
 Kingdra @ Scope Lens
 Ability:Sniper
 Level:80
 Modest Nature
 EVs: 6 HP / 252 SpA / 252 Spe
--Snipe Shot
--Draco Meteor
--Flash Cannon
--Ice Beam
+- Snipe Shot
+- Draco Meteor
+- Flash Cannon
+- Ice Beam
 
 === TRAINER_DRAKE_PT ===
 Name: DRAKE
@@ -3393,60 +3393,60 @@ Ability:Competitive
 Level:80
 Modest Nature
 EVs: 252 HP / 142 Def / 114 SpD
--Scald
--Flash Cannon
--Icy Wind
--Air Slash
+- Scald
+- Flash Cannon
+- Icy Wind
+- Air Slash
 
 Magmortar @ Choice Scarf
 Ability:Flame Body
 Level:80
 Timid Nature
 EVs: 252 SpA / 176 SpD / 80 Spe
--Armor Cannon
--Fiery Wrath
--Scorching Sands
--Thunderbolt
+- Armor Cannon
+- Fiery Wrath
+- Scorching Sands
+- Thunderbolt
 
 Electivire @ Life Orb
 Ability:Motor Drive
 Level:80
 Adamant Nature
 EVs: 252 Atk / 6 HP / 252 Spe
--Close Combat
--Supercell Slam
--Fake Out
--Knock Off
+- Close Combat
+- Supercell Slam
+- Fake Out
+- Knock Off
 
 Cresselia @ Leftovers
 Ability:Levitate
 Level:80
 Modest Nature
 EVs: 252 HP / 4 Def / 252 SpD
--Moonblast
--Lumina Crash
--Calm Mind
--Shadow Ball
+- Moonblast
+- Lumina Crash
+- Calm Mind
+- Shadow Ball
 
 Togekiss @ Assault Vest
 Ability:Serene Grace
 Level:80
 Timid Nature
 EVs: 252 SpA / 6 SpD / 252 Spe
--Air Slash
--Fiery Dance
--Moonblast
--Ancient Power
+- Air Slash
+- Fiery Dance
+- Moonblast
+- Ancient Power
 
 Weavile @ Choice Band
 Ability:Slush Rush
 Level:80
 Adamant Nature
 EVs: 6 HP / 252 Atk / 252 Spe
--Aerial Ace
--Ice Spinner
--Dire Claw
--Knock Off
+- Aerial Ace
+- Ice Spinner
+- Dire Claw
+- Knock Off
 
 === TRAINER_DRAKE_SS ===
 Name: DRAKE
@@ -3463,50 +3463,50 @@ Ability:Flash Fire
 Level:80
 Modest Nature
 EVs: 252 SpA / 6 SpD / 252 Spe
--Searing Shot
--Infernal Parade
--Energy Ball
--Scorching Sands
+- Searing Shot
+- Infernal Parade
+- Energy Ball
+- Scorching Sands
 
 Lugia @ Leftovers
 Ability:Multiscale
 Level:80
 Quiet Nature
 EVs: 252 HP / 6 Def / 252 SpD
--Aeroblast
--Esper Wing
--Dragon Pulse
--Calm Mind
+- Aeroblast
+- Esper Wing
+- Dragon Pulse
+- Calm Mind
 
 Kabutops @ Muscle Band
 Ability:Sharpness
 Level:80
 Adamant Nature
 EVs: 252 Atk / 6 Def / 252 Spe
--Aqua Cutter
--Stone Axe
--Ceaseless Edge
--X-Scissor
+- Aqua Cutter
+- Stone Axe
+- Ceaseless Edge
+- X-Scissor
 
 Umbreon @ Assault Vest
 Ability:Inner Focus
 Level:80
 Calm Nature
 EVs: 252 SpA / 252 SpD / 6 Spe
--Night Shade
--Moonblast
--Shadow Ball
--Lumina Crash
+- Night Shade
+- Moonblast
+- Shadow Ball
+- Lumina Crash
 
 Bellossom @ Rocky Helmet
 Ability:Flower Veil
 Level:80
 Bold Nature
 EVs: 252 HP / 6 Def / 252 SpD
--Moonblast
--Energy Ball
--Strength Sap
--Pollen Puff
+- Moonblast
+- Energy Ball
+- Strength Sap
+- Pollen Puff
 
 Gengar @ Black Sludge
 Ability: Poison Puppeteer
@@ -3533,60 +3533,60 @@ Ability:Sand Stream
 Level:80
 Adamant Nature
 EVs: 252 HP / 6 Atk / 252 Def
--Knock Off
--Stone Edge
--Stealth Rock
--Accelerock
+- Knock Off
+- Stone Edge
+- Stealth Rock
+- Accelerock
 
 Garchomp @ Leftovers
 Ability:Sand Veil
 Level:80
 Adamant Nature
 EVs: 158 HP / 252 Atk / 100 Spe
--Dragon Rush
--Earthquake
--Swords Dance
--Iron Head
+- Dragon Rush
+- Earthquake
+- Swords Dance
+- Iron Head
 
 Heatran @ Assault Vest
 Ability:Flame Body
 Level:80
 Hasty Nature
 EVs: 252 SpA / 252 SpD / 6 Spe
--Magma Storm
--Flash Cannon
--Body Press
--Scorching Sands
+- Magma Storm
+- Flash Cannon
+- Body Press
+- Scorching Sands
 
 Salamence @ Safety Goggles
 Ability:Intimidate
 Level:80
 Adamant Nature
 EVs: 2 HP / 252 Atk / 4 Def / 252 Spe
--Dragon Rush
--Temper Flare
--Air Slash
--Earthquake
+- Dragon Rush
+- Temper Flare
+- Air Slash
+- Earthquake
 
 Terrakion @ Choice Band
 Ability:Justified
 Level:80
 Adamant Nature
 EVs: 252 Atk / 6 Def / 252 Spe
--Stone Edge
--Close Combat
--Iron Head
--Earthquake
+- Stone Edge
+- Close Combat
+- Iron Head
+- Earthquake
 
 Mamoswine @ Loaded Dice
 Ability:Thick Fat
 Level:80
 Adamant Nature
 EVs: 252 Atk / 6 Def / 252 Spe
--Icicle Spear
--Bone Rush
--Rock Blast
--Iron Head
+- Icicle Spear
+- Bone Rush
+- Rock Blast
+- Iron Head
 
 === TRAINER_ALEC ===
 Name: ALEC
@@ -4667,60 +4667,60 @@ Ability: Thick Fat
 Level: 77
 Adamant Nature
 EVs: 252 HP / 252 Atk / 4 SpD
--Body Press
--Heat Crash
--Body Slam
--Rain Dance
+- Body Press
+- Heat Crash
+- Body Slam
+- Rain Dance
 
 Arcanine @ Choice Band
 Ability: Intimidate
 Level: 77
 Jolly Nature
 EVs: 252 Atk / 252 Spe / 4 SpD
--Flare Blitz
--Close Combat
--Extreme Speed
--Play Rough
+- Flare Blitz
+- Close Combat
+- Extreme Speed
+- Play Rough
 
 Venusaur @ Leftovers
 Ability: Chlorophyll
 Level: 77
 Timid Nature
 EVs: 252 SpA / 4 Spe / 252 SpD
--Leaf Storm
--Sludge Bomb
--Earth Power
--Toxic
+- Leaf Storm
+- Sludge Bomb
+- Earth Power
+- Toxic
 
 Alakazam @ Focus Sash
 Ability: Magic Guard
 Level: 77
 Timid Nature
 EVs: 252 SpA / 4 Spe / 252 SpD
--Nasty Plot
--Psychic 
--Focus Blast
--Shadow Ball
+- Nasty Plot
+- Psychic 
+- Focus Blast
+- Shadow Ball
 
 Zapdos @ Wide Lens
 Ability: Static
 Level: 77
 Bold Nature
 EVs: 248 HP / 252 SpA / 8 SpD
--Hurricane
--Volt Switch
--Roost
--Thunder
+- Hurricane
+- Volt Switch
+- Roost
+- Thunder
 
 Psyduck @ Eviolite
 Ability: Swift Swim
 Level: 77
 Modest Nature
 EVs: 252 SpA / 252 Spe / 4 SpD
--Surf
--Nasty Plot
--Ice Beam
--Psychic
+- Surf
+- Nasty Plot
+- Ice Beam
+- Psychic
 
 === TRAINER_ANDREW ===
 Name: ANDREW
@@ -6017,16 +6017,16 @@ AI: Check Bad Move
 Rattata @ Focus Sash
 Level: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
--Endeavor
--Quick Attack
+- Endeavor
+- Quick Attack
 
 Smeargle @ Wide Lens
 Ability: Moody
 Level: 43
--Dark Void
--Sacred Fire
--Surging Strikes
--Judgment
+- Dark Void
+- Sacred Fire
+- Surging Strikes
+- Judgment
 
 === TRAINER_CAROL ===
 Name: CAROL
@@ -6518,28 +6518,28 @@ Torkoal @ Sitrus Berry
 Ability: Drought
 Level: 63
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Shell Smash
--Heat Wave
--Solar Beam
--Curse
+- Shell Smash
+- Heat Wave
+- Solar Beam
+- Curse
 
 Weezing @ Poison Barb
 Ability: Levitate
 Level: 63
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Heat Wave
--Sludge Wave
--Strange Steam
--Smokescreen
+- Heat Wave
+- Sludge Wave
+- Strange Steam
+- Smokescreen
 
 Claydol @ Life Orb
 Level: 63
 Ability: Levitate
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Earth power
--Expanding Force
--Cosmic Power
--Trick
+- Earth power
+- Expanding Force
+- Cosmic Power
+- Trick
 
 === TRAINER_SAMUEL_VR ===
 Name: SAMUEL
@@ -7329,10 +7329,10 @@ Gligar @ Razor Fang
 Ability: Hyper Cutter
 Level: 16
 Careful Nature
--Fury Cutter
--Poison Sting
--Acrobatics
--Stealth Rock
+- Fury Cutter
+- Poison Sting
+- Acrobatics
+- Stealth Rock
 
 Slowpoke (M) @ Sitrus Berry
 Ability: Regenerator  
@@ -7356,9 +7356,9 @@ Beldum @ Sitrus Berry
 Ability: Clear Body
 Level:16
 Jolly Nature
--Tackle
--Metal Claw
--Iron Defense
+- Tackle
+- Metal Claw
+- Iron Defense
 
 === TRAINER_PAXTON ===
 Name: PAXTON
@@ -7420,37 +7420,37 @@ Torkoal @ Sitrus Berry
 Ability: Drought
 Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Rapid Spin
--Lava Plume
--Iron Defense
--Body Slam
+- Rapid Spin
+- Lava Plume
+- Iron Defense
+- Body Slam
 
 Koffing @ Lum Berry
 Ability: Levitate
 Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Self Destruct
--Sludge Bomb
--Assurance
--Toxic
+- Self Destruct
+- Sludge Bomb
+- Assurance
+- Toxic
 
 Baltoy @ Sitrus Berry
 Ability: Levitate
 Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Scorching Sands
--Extrasensory
--Cosmic Power
--Imprison
+- Scorching Sands
+- Extrasensory
+- Cosmic Power
+- Imprison
 
 Numel @ Lum Berry
 Ability: Own Tempo
 Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
--Earth Power 
--Lava Plume
--Focus Energy
--Take Down
+- Earth Power 
+- Lava Plume
+- Focus Energy
+- Take Down
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN
@@ -7483,42 +7483,47 @@ AI: Smart Trainer
 Aggron @ Iron Ball
 Ability: Heavy Metal 
 Level: 58
--Heavy Slam
--Stone Edge
--Dragon Rush
--Bulk Up
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heavy Slam
+- Stone Edge
+- Dragon Rush
+- Bulk Up
 
 Crobat @ Sharp Beak
 Ability: Inner Focus
 Level: 58  
--Venoshock
--Air Slash
--Supersonic
--Toxic
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Venoshock
+- Air Slash
+- Supersonic
+- Toxic
 
 Zangoose @ Muscle Band
 Ability: Immunity  
 Level: 58  
--Close Combat
--Swords Dance
--Crush Claw
--Power Trip
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Close Combat
+- Swords Dance
+- Crush Claw
+- Power Trip
 
 Houndoom @ Expert Belt
 Ability: Unnerve 
 Level: 58 
--Flamethrower
--Dark Pulse
--Nasty Plot
--Torment
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Dark Pulse
+- Nasty Plot
+- Torment
 
 Rhydon @ Rocky Helmet
 Ability: Rock Head
 Level: 58 
--Earthquake
--Rock Blast
--Thunder Punch
--Fire Punch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Blast
+- Thunder Punch
+- Fire Punch
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
 Name: MAXIE
@@ -7533,46 +7538,46 @@ Lairon @ Muscle Band
 Ability:Heavy Metal
 Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
--Iron Head
--Rock Slide
--Body Press
--Stealth Rock
+- Iron Head
+- Rock Slide
+- Body Press
+- Stealth Rock
 
 Zangoose @ Lum Berry
 Ability: Immunity
 Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
--Crush Claw
--Quick Attack
--Hone Claws
--Night Slash
+- Crush Claw
+- Quick Attack
+- Hone Claws
+- Night Slash
 
 Houndoom @ Lum Berry
 Ability: Unnerve
 Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
--Fire Spin
--Torment
--Snarl
--Howl
+- Fire Spin
+- Torment
+- Snarl
+- Howl
 
 Rhyhorn @ Rocky Helmet
 Ability: Rock Head
 Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
--Drill Run
--Rock Blast
--Horn Attack
--Tail Whip
+- Drill Run
+- Rock Blast
+- Horn Attack
+- Tail Whip
 
 Golbat @ Sharp Beak
 Ability: Inner Focus
 Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
--Air Cutter
--Poison Fang
--Bite
--Supersonic
+- Air Cutter
+- Poison Fang
+- Bite
+- Supersonic
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -7710,20 +7715,20 @@ AI: Check Bad Move
 Audino
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
--After You
--Play Nice
+- After You
+- Play Nice
 
 Chansey @ Toxic Orb
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
--Fling
--Copycat
+- Fling
+- Copycat
 
 Blissey @ Flame Orb
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fling
--Copycat
+- Copycat
 
 Slaking
 Level: 28
@@ -8265,30 +8270,30 @@ AI: Basic Trainer
 Aron
 Ability: Sturdy
 Level: 26
--Rock Slide
--Metal Claw
+- Rock Slide
+- Metal Claw
 
 Baltoy
 Ability: Sand Stream
 Level: 26
--Psychic
--Bulldoze
--Rock slide
--Stealth Rock
+- Psychic
+- Bulldoze
+- Rock slide
+- Stealth Rock
 
 Cubone
 Ability:Lightning Rod
 Level: 26
--Stomping Tantrum
--Retaliate
--Mud slap
+- Stomping Tantrum
+- Retaliate
+- Mud slap
 
 Diglett
 Ability: Sand Veil
 Level: 26
--Bulldoze
--Astonish
--Throat Chop
+- Bulldoze
+- Astonish
+- Throat Chop
 
 === TRAINER_BRENDAN_LILYCOVE ===
 Name: SAMUEL
@@ -8304,10 +8309,10 @@ Ability: Regenerator
 Level: 54  
 Quiet Nature  
 IVs: 0 Atk  
--Scald
--Psychic
--Nasty Plot
--Trick Room
+- Scald
+- Psychic
+- Nasty Plot
+- Trick Room
 
 Amoonguss @ Rocky Helmet  
 Ability: Regenerator  
@@ -8322,40 +8327,40 @@ Spiritomb @ Safety Goggles
 Ability: Infiltrator
 Level: 54 
 Quiet Nature    
--Dark Pulse
--Psyshock
--Trick Room
--Will-O-Wisp
+- Dark Pulse
+- Psyshock
+- Trick Room
+- Will-O-Wisp
 
 Gliscor (F) @ Toxic Orb  
 Ability: Poison Heal  
 Level: 54  
 Careful Nature  
 IVs: 0 Atk  
--Taunt
--Earthquake
--Knock Off
--U-Turn
+- Taunt
+- Earthquake
+- Knock Off
+- U-Turn
 
 Metagross @ Assault Vest  
 Ability: Clear Body  
 Level: 54  
 Jolly Nature  
 IVs: 0 Atk  
--Meteor Mash
--Earthquake
--Rock Slide
--Zen Headbutt
+- Meteor Mash
+- Earthquake
+- Rock Slide
+- Zen Headbutt
 
 Honchkrow (M) @ Focus Sash  
 Ability: Moxie  
 Level: 54  
 Jolly Nature  
 IVs: 0 Atk  
--Brave Bird
--Confuse Ray
--Foul Play
--Perish Song
+- Brave Bird
+- Confuse Ray
+- Foul Play
+- Perish Song
 
 === TRAINER_JONAH ===
 Name: JONAH
@@ -9259,37 +9264,37 @@ Torkoal @ Sitrus Berry
 Ability: Drought
 Level: 56
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Rapid Spin
--Heat Wave
--Solar Beam
--Curse
+- Rapid Spin
+- Heat Wave
+- Solar Beam
+- Curse
 
 Weezing @ Poison Barb
 Ability: Levitate
 Level: 56
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Heat Wave
--Sludge Wave
--Strange Steam
--Smokescreen
+- Heat Wave
+- Sludge Wave
+- Strange Steam
+- Smokescreen
 
 Claydol @ Life Orb
 Ability: Levitate
 Level: 56
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Earth power
--Expanding Force
--Cosmic Power
--Power Split
+- Earth power
+- Expanding Force
+- Cosmic Power
+- Power Split
 
 Camerupt @ Focus Sash
 Ability: Own Tempo
 Level: 56
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
--Earthquake
--Eruption
--Yawn
--Fissure
+- Earthquake
+- Eruption
+- Yawn
+- Fissure
 
 === TRAINER_DARCY ===
 Name: DARCY
@@ -9321,26 +9326,29 @@ AI: Basic Trainer
 Rhyperior @ Rocky Helmet
 Ability: Rock Head
 Level: 63
--Earthquake
--Stone Edge
--Stealth Rock
--Breaking Swipe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Stone Edge
+- Stealth Rock
+- Breaking Swipe
 
 Aggron @ Air Balloon
 Ability: Heavy Metal 
 Level: 63
--Heavy Slam
--Stone Edge
--Autotomize
--Ice Punch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heavy Slam
+- Stone Edge
+- Autotomize
+- Ice Punch
  
 Crobat @ Sharp Beak
 Ability: Inner Focus
 Level: 63
--Venoshock
--Air Slash
--Supersonic
--Toxic
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Venoshock
+- Air Slash
+- Supersonic
+- Toxic
 
 === TRAINER_PETE ===
 Name: PETE
@@ -10279,34 +10287,38 @@ AI: Smart Trainer
 Grumpig @ Twisted Spoon
 Ability: Thick Fat
 Level: 40
--Psychic
--Power Gem
--Energy Ball
--Dazzling Gleam
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Power Gem
+- Energy Ball
+- Dazzling Gleam
 
 Delcatty @ Bright powder
 Ability: Wonder Skin
 Level: 40
--Fake Out
--Play Rough
--Double Edge
--Payback
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Play Rough
+- Double Edge
+- Payback
 
 Shelgon @ Metronome
 Ability: Rock Head
 Level: 40
--Dragon Claw
--Fire Fang
--Zen Headbutt
--Thunder Fang
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Claw
+- Fire Fang
+- Zen Headbutt
+- Thunder Fang
 
 Banette @ Assault Vest
 Ability: Cursed Body
 Level: 40
--Sucker Punch
--Gunk Shot
--Poltergeist
--Lash Out
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sucker Punch
+- Gunk Shot
+- Poltergeist
+- Lash Out
 
 === TRAINER_JORDAN ===
 Name: JORDAN
@@ -10320,42 +10332,47 @@ AI: Smart Trainer
 Tropius
 Ability: Chlorophyll
 Level: 42
--Acrobatics
--Leaf Storm
--Zen Headbutt
--Body Press
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Acrobatics
+- Leaf Storm
+- Zen Headbutt
+- Body Press
 
 Dusclops @ Eviolite
 Ability: Pressure
 Level: 42
--Zen Headbutt
--Shadow Punch
--Brick Break
--Thunder Punch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Shadow Punch
+- Brick Break
+- Thunder Punch
 
 Swalot @ Black Sludge
 Ability: Liquid Ooze
 Level: 42
--Gunk Shot
--Bulldoze
--Knock Off
--Ice Punch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gunk Shot
+- Bulldoze
+- Knock Off
+- Ice Punch
 
 Whiscash @ Quick Claw
 Ability: Oblivious
 Level: 42
--Ice Beam
--Surf
--Earthquake
--Rock slide
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Beam
+- Surf
+- Earthquake
+- Rock slide
 
 Golbat @ Sharp Beak
 Ability: Inner Focus
 Level: 42
--Aerial Ace
--Cross Poison
--Knock Off
--Supersonic
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Cross Poison
+- Knock Off
+- Supersonic
 
 === TRAINER_JORDAN2 ===
 Name: JORDAN
@@ -10369,50 +10386,56 @@ AI: Smart Trainer
 Tropius @ Wide Lens
 Ability: Chlorophyll
 Level: 69
--Hurricane
--Leaf Storm
--Zen Headbutt
--Giga Impact
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hurricane
+- Leaf Storm
+- Zen Headbutt
+- Giga Impact
 
-Dusknoir @ Life Orb
+Dusknoir @ Assault Vest
 Ability: Pressure
 Level: 69
--Shadow Sneak
--Poltergeist
--Brick Break
--Thunder Punch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Sneak
+- Poltergeist
+- Brick Break
+- Thunder Punch
 
 Swalot @ Black Sludge
 Ability: Liquid Ooze
 Level: 69
--Gunk Shot
--Earthquake
--Knock Off
--Ice Punch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gunk Shot
+- Earthquake
+- Knock Off
+- Ice Punch
 
 Whiscash @ Choice Specs
 Ability: Oblivious
 Level: 69
--Ice Beam
--Surf
--Earthquake
--Zen Headbutt
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Beam
+- Surf
+- Earthquake
+- Zen Headbutt
 
 Crobat @ Sharp Beak
 Ability: Inner Focus
 Level: 69
--Venoshock
--Air Slash
--Supersonic
--Toxic
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Poison
+- Brave Bird
+- Confuse Ray
+- U-Turn
 
-Rayquaza @ Assault Vest
+Rayquaza @ Life Orb
 Ability: Air Lock
 Level: 69
--Draco Meteor
--Dragon Ascent
--Extreme Speed
--Flamethrower
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Draco Meteor
+- Dragon Ascent
+- Extreme Speed
+- Flamethrower
 
 === TRAINER_GHOSTESS2 ===
 Name: GHOSTESS
@@ -10426,34 +10449,38 @@ AI: Smart Trainer
 Grumpig @ Expert Belt
 Ability: Thick Fat
 Level: 68
--Psychic
--Power Gem
--Energy Ball
--Dazzling Gleam
+IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+- Psychic
+- Power Gem
+- Energy Ball
+- Dazzling Gleam
 
-Delcatty @ Muscle Band
+Delcatty @ Throat Spray
 Ability: Wonder Skin
 Level: 68
--Fake Out
--Play Rough
--Double Edge
--Rock Smash
+IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+- Fake Out
+- Hyper Voice
+- Alluring Voice
+- Calm Mind
 
 Salamence @ Wide Lens
 Ability: Intimidate
 Level: 68
--Fire Blast
--Draco Meteor
--Hurricane
--Hydro Pump
+IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+- Fire Blast
+- Draco Meteor
+- Hurricane
+- Hydro Pump
 
 Banette @ Assault Vest
 Ability: Cursed Body
 Level: 68
--Shadow Sneak
--Gunk Shot
--Poltergeist
--Lash Out
+IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+- Shadow Sneak
+- Gunk Shot
+- Poltergeist
+- Lash Out
 
 === TRAINER_AEROGRUNT_8 ===
 Name: GRUNT
