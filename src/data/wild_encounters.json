@@ -189,7 +189,7 @@
               {
                 "min_level": 4,
                 "max_level": 5,
-                "species": "SPECIES_PATRAT"
+                "species": "SPECIES_VULPIX"
               },
               {
                 "min_level": 4,
@@ -492,7 +492,7 @@
               {
                 "min_level": 5,
                 "max_level": 7,
-                "species": "SPECIES_TIMBURR"
+                "species": "SPECIES_AXEW"
               },
               {
                 "min_level": 5,
@@ -1340,7 +1340,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_TYMPOLE"
+                "species": "SPECIES_SWINUB"
               },
               {
                 "min_level": 10,
@@ -1816,7 +1816,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_ILLUMISE"
+                "species": "SPECIES_PANSEAR"
               }
             ]
           }
@@ -3893,7 +3893,7 @@
               {
                 "min_level": 45,
                 "max_level": 45,
-                "species": "SPECIES_SWINUB"
+                "species": "SPECIES_PILOSWINE"
               },
               {
                 "min_level": 45,
