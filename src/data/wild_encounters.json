@@ -482,12 +482,12 @@
               {
                 "min_level": 5,
                 "max_level": 7,
-                "species": "SPECIES_THROH"
+                "species": "SPECIES_SEEL"
               },
               {
                 "min_level": 5,
                 "max_level": 7,
-                "species": "SPECIES_SAWK"
+                "species": "SPECIES_DROWZEE"
               },
               {
                 "min_level": 5,
@@ -3615,7 +3615,7 @@
               {
                 "min_level": 45,
                 "max_level": 45,
-                "species": "SPECIES_DROWZEE"
+                "species": "SPECIES_THROH"
               },
               {
                 "min_level": 45,
@@ -3660,7 +3660,7 @@
               {
                 "min_level": 45,
                 "max_level": 45,
-                "species": "SPECIES_SEEL"
+                "species": "SPECIES_SAWK"
               },
               {
                 "min_level": 45,
