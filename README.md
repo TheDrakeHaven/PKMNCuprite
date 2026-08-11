@@ -2,7 +2,7 @@
 # PKMNCuprite
 Pokemon Cuprite Project
 This is a ROMHACK made with pokeemerald-expansion for use by friends of Drake. (Based off RHH's pokeemerald-expansion 1.11.0 https://github.com/rh-hideout/pokeemerald-expansion/)
-Pokemon Magnesium includes Pokemon from gen 1 through 5, a total of 649. It includes updated typings and learnsets through gen 9 as well as all current items in pokemon. It does not include Mega evolutions, regional varients, or terastalization. 
+Pokemon Cuprite includes Pokemon from gen 1 through 5, a total of 649. It includes updated typings and learnsets through gen 9 as well as all current items in pokemon. It does not include Mega evolutions, regional varients, or terastalization. 
 
 *ALL POKEMON AND ITEM CHANGES LISTED IN THE DOCUMENTS* (https://docs.google.com/spreadsheets/d/1YvU6ncm37VPC1VMJMn4RTU1fzqiOk0bzHuG5GHtqJRk/edit?usp=sharing)
 
