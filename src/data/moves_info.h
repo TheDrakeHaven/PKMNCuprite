@@ -19223,7 +19223,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Giant chunks of ice damage\n"
             "the foe. It may flinch."),
         .effect = EFFECT_HIT,
-        .power = 100,
+        .power = 120,
         .type = TYPE_ICE,
         .accuracy = 85,
         .pp = 5,
