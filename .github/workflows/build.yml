@@ -34,6 +34,15 @@ jobs:
           COMPARE: 0
         run: make -j${nproc} -O all
 
+      - name: Upload ROM artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokemon-cuprite-rom
+          path: |
+            *.gba
+            *.elf
+          if-no-files-found: warn
+
       - name: Test
         env:
           TEST: 1
