@@ -10618,3 +10618,508 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ALEC_REMATCH ===
+Name: ALEC
+Class: Leader
+Pic: Sailor
+Gender: Male
+Music: Female
+Double Battle: Yes
+AI: Smart Trainer
+
+Landorus @ Assault Vest
+Level: 78
+Ability: Intimidate
+Jolly Nature
+- Earth Power
+- Psychic
+- Knock Off
+- U-turn
+
+Claydol @ Light Clay
+Level: 78
+Ability: Sand Stream
+Lonely Nature
+- Stealth Rock
+- Expanding Force
+- Light Screen
+- Reflect
+
+Bastiodon @ Leftovers
+Level: 78
+Ability: Soundproof
+Relaxed Nature
+- Behemoth Bash
+- Stone Edge
+- MOVE_KINGS_SHIELD
+- Iron Defense
+
+Carracosta @ Wise Glasses
+Level: 78
+Ability: Solid Rock
+Modest Nature
+- Scald
+- Ancient Power
+- Icy Wind
+- Swagger
+
+Aerodactyl @ Life Orb
+Level: 78
+Ability: Unnerve
+Quiet Nature
+- Diamond Storm
+- Hurricane
+- Psychic Fangs
+- Iron Head
+
+Cradily @ Choice Specs
+Level: 78
+Ability: Suction Cups
+Modest Nature
+- Ancient Power
+- Energy Ball
+- Flash Cannon
+- Sludge Bomb
+
+=== TRAINER_GARRETT_REMATCH ===
+Name: GARRETT
+Class: Leader
+Pic: Collector
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+
+Sharpedo @ Choice Band
+Level: 78
+Ability: Drizzle
+Adamant Nature
+- Wave Crash
+- Crunch
+- Flip Turn
+- Psychic Fangs
+
+Swampert @ Rindo Berry
+Level: 78
+Ability: Torrent
+Adamant Nature
+- Spikes
+- High Horsepower
+- Protect
+- Liquidation
+
+Lugia @ Leftovers
+Level: 78
+Ability: Multiscale
+Modest Nature
+- Blizzard
+- Psychic Noise
+- Roost
+- Calm Mind
+
+Palkia @ Choice Specs
+Level: 78
+Ability: Telepathy
+Modest Nature
+- Spacial Rend
+- Hydro Pump
+- Earth Power
+- Thunder
+
+Milotic @ Expert Belt
+Level: 78
+Ability: Marvel Scale
+Modest Nature
+- Springtide Storm
+- Surf
+- Blizzard
+- Rain Dance
+
+Empoleon @ Assault Vest
+Level: 78
+Ability: Torrent
+Modest Nature
+- Flash Cannon
+- Ice Beam
+- Hydro Pump
+- Hurricane
+
+=== TRAINER_SAM_REMATCH ===
+Name: SAM
+Class: Leader
+Pic: Leader Wattson
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+
+Luxray @ Muscle Band
+Level: 78
+Ability: Intimidate
+Adamant Nature
+- Volt Tackle
+- Jaw Lock
+- Play Rough
+- Psychic Fangs
+
+Porygon2 @ Eviolite
+Level: 78
+Ability: Download
+Modest Nature
+- Metal Sound
+- Volt Switch
+- Ion Deluge
+- Fake Out
+
+Magnezone @ Choice Specs
+Level: 78
+Ability: Magnet Pull
+Bold Nature
+- Steel Beam
+- Volt Switch
+- Discharge
+- Electroweb
+
+Electivire @ Choice Band
+Level: 78
+Ability: Motor Drive
+Adamant Nature
+- Close Combat
+- Ice Punch
+- Fire Punch
+- Supercell Slam
+
+Raikou @ Assault Vest
+Level: 78
+Ability: Volt Absorb
+Modest Nature
+- Discharge
+- Shadow Ball
+- Scald
+- Aura Sphere
+
+Thundurus @ Leftovers
+Level: 78
+Ability: Volt Absorb
+Modest Nature
+- Wildbolt Storm
+- Nasty Plot
+- Air Slash
+- Grass Knot
+
+=== TRAINER_JOSE_REMATCH ===
+Name: JOSE
+Class: Leader
+Pic: Gentleman
+Gender: Male
+Music: Female
+Double Battle: Yes
+AI: Smart Trainer
+
+Altaria @ Fairy Feather
+Level: 78
+Ability: Natural Cure
+Naive Nature
+- Safeguard
+- Sing
+- Dragon Pulse
+- Sparkly Swirl
+
+Charizard @ Choice Specs
+Level: 78
+Ability: Berserk
+Quiet Nature
+- Draco Meteor
+- Eruption
+- Flamethrower
+- Air Slash
+
+Dialga @ Assault Vest
+Level: 78
+Ability: Telepathy
+Modest Nature
+- Roar of Time
+- Earth Power
+- Metal Burst
+- Flamethrower
+
+Flygon @ Leftovers
+Level: 78
+Ability: Levitate
+Modest Nature
+- U-turn
+- Dragon Rush
+- Earth Power
+- Dragon Dance
+
+Dragonite @ Rocky Helmet
+Level: 78
+Ability: Marvel Scale
+Brave Nature
+- Dragon Ascent
+- Thunder Wave
+- Air Slash
+- Extreme Speed
+
+Kingdra @ Dragon Fang
+Level: 78
+Ability: Sniper
+Adamant Nature
+- Scale Shot
+- Octazooka
+- Dragon Dance
+- Yawn
+
+=== TRAINER_GRAYSON_REMATCH ===
+Name: GRAYSON
+Class: Leader
+Pic: Black Belt
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+
+Conkeldurr @ Choice Scarf
+Level: 78
+Ability: Iron Fist
+Adamant Nature
+- Knock Off
+- Rock Slide
+- Dynamic Punch
+- Thunder Punch
+
+Machamp @ Black Belt
+Level: 78
+Ability: No Guard
+Adamant Nature
+- Dual Chop
+- Darkest Lariat
+- Fissure
+- Ice Punch
+
+Toxicroak @ Focus Band
+Level: 78
+Ability: Poison Touch
+Adamant Nature
+- Sucker Punch
+- Gunk Shot
+- Drain Punch
+- X-Scissor
+
+Lopunny @ Rocky Helmet
+Level: 78
+Ability: Cute Charm
+Adamant Nature
+- Headbutt
+- Fake Out
+- Drain Punch
+- Play Rough
+
+Heracross @ Focus Sash
+Level: 78
+Ability: Moxie
+Adamant Nature
+- Close Combat
+- Lunge
+- Throat Chop
+- Reversal
+
+Lucario @ Expert Belt
+Level: 78
+Ability: Inner Focus
+Modest Nature
+- Aura Sphere
+- Flash Cannon
+- Shadow Ball
+- Extreme Speed
+
+=== TRAINER_MATTHEW_REMATCH ===
+Name: MATTHEW
+Class: Leader
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+
+Aggron @ Air Balloon
+Level: 78
+Ability: Sturdy
+Adamant Nature
+- Iron Head
+- Stone Edge
+- Stealth Rock
+- Body Press
+
+Skarmory @ Muscle Band
+Level: 78
+Ability: Sturdy
+Adamant Nature
+- Spikes
+- Drill Peck
+- Iron Head
+- Drill Run
+
+Empoleon @ Choice Specs
+Level: 78
+Ability: Competitive
+Modest Nature
+- Scald
+- Flash Cannon
+- Ice Beam
+- Air Slash
+
+Metagross @ Assault Vest
+Level: 78
+Ability: Clear Body
+Adamant Nature
+- Meteor Mash
+- Zen Headbutt
+- Earthquake
+- Thunder Punch
+
+Scizor @ Choice Band
+Level: 78
+Ability: Technician
+Adamant Nature
+- Bullet Punch
+- Megahorn
+- U-turn
+- Metal Claw
+
+Ferrothorn @ Rocky Helmet
+Level: 78
+Ability: Iron Barbs
+Adamant Nature
+- Gyro Ball
+- Power Whip
+- Body Press
+- Iron Defense
+
+=== TRAINER_MARK_REMATCH ===
+Name: MARK
+Class: Leader
+Pic: Parasol Lady
+Gender: Male
+Music: Female
+Double Battle: Yes
+AI: Smart Trainer / Prediction
+
+Ninetales @ Rocky Helmet
+Level: 78
+Ability: Flash Fire
+Modest Nature
+- Fire Blast
+- Will-O-Wisp
+- Moonblast
+- Psychic Terrain
+
+Azumarill @ Choice Band
+Level: 78
+Ability: Huge Power
+Adamant Nature
+- Liquidation
+- Play Rough
+- Aqua Jet
+- Superpower
+
+Gardevoir @ Assault Vest
+Level: 78
+Ability: Telepathy
+Timid Nature
+- Moonblast
+- Psychic
+- Healing Wish
+- Energy Ball
+
+Togekiss @ Leftovers
+Level: 78
+Ability: Serene Grace
+Bold Nature
+- Moonblast
+- Ancient Power
+- Fiery Dance
+- Air Slash
+
+Sylveon @ Choice Specs
+Level: 78
+Ability: Pixilate
+Modest Nature
+- Hyper Voice
+- Psyshock
+- Shadow Ball
+- Moonblast
+
+Mawile @ Occa Berry
+Level: 78
+Ability: Intimidate
+Adamant Nature
+- Play Rough
+- Iron Head
+- Stone Edge
+- Knock Off
+
+=== TRAINER_XANDER_REMATCH ===
+Name: XANDER
+Class: Leader
+Pic: Kindler
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer / Prediction
+
+Gengar @ Black Sludge
+Level: 78
+Ability: Cursed Body
+Modest Nature
+- Astral Barrage
+- Sludge Wave
+- Perish Song
+- Protect
+
+Cofagrigus @ Sitrus Berry
+Level: 78
+Ability: Mummy
+Relaxed Nature
+- Trick Room
+- Will-O-Wisp
+- Shadow Ball
+- Protect
+
+Rotom Wash @ Sitrus Berry
+Level: 78
+Ability: Levitate
+Calm Nature
+- Thunderbolt
+- Hydro Pump
+- Will-O-Wisp
+- Protect
+
+Mewtwo @ Leftovers
+Level: 78
+Ability: Pressure
+Calm Nature
+- Psystrike
+- Aura Sphere
+- Trick Room
+- Nasty Plot
+
+Chandelure @ Choice Specs
+Level: 78
+Ability: Flash Fire
+Quiet Nature
+- Overheat
+- Shadow Ball
+- Energy Ball
+- Dark Pulse
+
+Golurk @ Choice Band
+Level: 78
+Ability: No Guard
+Brave Nature
+- Earthquake
+- Rage Fist
+- Dynamic Punch
+- Ice Punch
+

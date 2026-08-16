@@ -76,7 +76,15 @@ MauvilleCity_Gym_EventScript_DeactivatePuzzle::
 MauvilleCity_Gym_EventScript_Wattson::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_SAM, MauvilleCity_Gym_Text_WattsonIntro, MauvilleCity_Gym_Text_WattsonDefeat, MauvilleCity_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	goto_if_set FLAG_SYS_GAME_CLEAR, MauvilleCity_Gym_EventScript_WattsonRematch
 	goto_if_eq VAR_NEW_MAUVILLE_STATE, 2, MauvilleCity_Gym_EventScript_CompletedNewMauville
+	msgbox MauvilleCity_Gym_Text_WattsonPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
+	release
+	end
+
+MauvilleCity_Gym_EventScript_WattsonRematch::
+	trainerbattle_double TRAINER_SAM_REMATCH, MauvilleCity_Gym_Text_WattsonIntro, MauvilleCity_Gym_Text_WattsonDefeat, GymRematch_Text_NotEnoughPokemon
 	msgbox MauvilleCity_Gym_Text_WattsonPostBattle, MSGBOX_DEFAULT
 	clearflag FLAG_UNUSED_0x265
 	release

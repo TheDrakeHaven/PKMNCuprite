@@ -135,6 +135,14 @@ DewfordTown_Gym_EventScript_StopCountingTrainers::
 DewfordTown_Gym_EventScript_Brawly::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_GARRETT, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
+	goto_if_set FLAG_SYS_GAME_CLEAR, DewfordTown_Gym_EventScript_BrawlyRematch
+	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
+	release
+	end
+
+DewfordTown_Gym_EventScript_BrawlyRematch::
+	trainerbattle_double TRAINER_GARRETT_REMATCH, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, GymRematch_Text_NotEnoughPokemon
 	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
 	clearflag FLAG_UNUSED_0x265
 	release

@@ -20,6 +20,14 @@ FortreeCity_Gym_EventScript_InitRotatingGates::
 FortreeCity_Gym_EventScript_Winona::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_MATTHEW, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	goto_if_set FLAG_SYS_GAME_CLEAR, FortreeCity_Gym_EventScript_WinonaRematch
+	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
+	release
+	end
+
+FortreeCity_Gym_EventScript_WinonaRematch::
+	trainerbattle_double TRAINER_MATTHEW_REMATCH, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, GymRematch_Text_NotEnoughPokemon
 	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
 	clearflag FLAG_UNUSED_0x265
 	release

@@ -419,8 +419,17 @@ PetalburgCity_Gym_EventScript_GiveFacade::
 
 PetalburgGraysonbeat::
 	lock
+	goto_if_set FLAG_SYS_GAME_CLEAR, PetalburgGraysonRematch
 	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
 	closemessage
+	release
+	end
+
+PetalburgGraysonRematch::
+	trainerbattle_double TRAINER_GRAYSON_REMATCH, PetalburgCity_Gym_Text_NormanIntro, PetalburgCity_Gym_Text_NormanDefeat, GymRematch_Text_NotEnoughPokemon
+	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
+	closemessage
+	clearflag FLAG_UNUSED_0x265
 	release
 	end
 

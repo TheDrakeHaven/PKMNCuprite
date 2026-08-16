@@ -56,6 +56,14 @@ MossdeepCity_Gym_EventScript_SetSwitch4Metatiles::
 MossdeepCity_Gym_EventScript_TateAndLiza::
 	setflag FLAG_UNUSED_0x265
 	trainerbattle_single TRAINER_MARK, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, MossdeepCity_Gym_EventScript_TateAndLizaDefeated,
+	goto_if_set FLAG_SYS_GAME_CLEAR, MossdeepCity_Gym_EventScript_TateAndLizaRematch
+	msgbox MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_UNUSED_0x265
+	release
+	end
+
+MossdeepCity_Gym_EventScript_TateAndLizaRematch::
+	trainerbattle_double TRAINER_MARK_REMATCH, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, GymRematch_Text_NotEnoughPokemon
 	msgbox MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_DEFAULT
 	clearflag FLAG_UNUSED_0x265
 	release

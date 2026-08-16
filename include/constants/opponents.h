@@ -571,11 +571,22 @@
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
 
-// NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
+// Post-game gym leader rematches. Unlocked by FLAG_SYS_GAME_CLEAR (set on
+// entering the Hall of Fame), by talking to the leader in their gym again.
+#define TRAINER_ALEC_REMATCH                855
+#define TRAINER_GARRETT_REMATCH             856
+#define TRAINER_SAM_REMATCH                 857
+#define TRAINER_JOSE_REMATCH                858
+#define TRAINER_GRAYSON_REMATCH             859
+#define TRAINER_MATTHEW_REMATCH             860
+#define TRAINER_MARK_REMATCH                861
+#define TRAINER_XANDER_REMATCH              862
+
+// NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 1 additional trainer before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      855
+#define TRAINERS_COUNT                      863
 #define MAX_TRAINERS_COUNT                  864
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 
