@@ -3094,7 +3094,7 @@ Bold Nature
 - Rest
 - Shell Smash
 - Body Press
-- Infestation 
+- Salt Cure 
 
 Leavanny @ Assault Vest
 Ability: Overcoat
@@ -3254,9 +3254,19 @@ Level:80
 Adamant Nature
 EVs: 252 Atk / 4 Def / 252 SpD
 - Thunder Punch
-- Earthquake
+- Stomping Tantrum
 - Poison Jab
-- Bite
+- Crunch
+
+Clefable @ Leftovers
+Ability:Magic Guard
+Level:80
+Modest Nature
+EVs: 252 Def / 4 SpA / 252 SpD
+- Dazzling Gleam
+- Follow Me
+- Psychic
+- Flamethrower
 
 Blastoise @ Assault Vest
 Ability:Anger Shell
@@ -3268,16 +3278,6 @@ EVs: 252 HP / 252 Atk / 4 Spe
 - Zen Headbutt
 - Brick Break
 
-Clefable @ Leftovers
-Ability:Magic Guard
-Level:80
-Modest Nature
-EVs: 252 Def / 4 SpA / 252 SpD
-- Sparkly Swirl
-- Calm Mind
-- Psychic
-- Flamethrower
-
 Dragonite @ Lum Berry
 Ability:Inner Focus
 Level:80
@@ -3286,8 +3286,8 @@ Adamant Nature
 EVs: 252 Atk / 4 SpD / 252 Spe
 - Outrage
 - Dragon Ascent
-- Temper Flare
-- Earthquake
+- Extreme Speed
+- Tailwind
 
 Articuno @ Choice Specs
 Ability:Refrigerate
@@ -3359,15 +3359,15 @@ EVs: 252 HP / 252 Atk / 6 Spe
 - Liquidation
 - Wood Hammer
 
-Pelipper @ Focus Sash
-Ability:Drizzle
+Swampert @ Rindo Berry
+Ability:Solid Rock
 Level:80
-Modest Nature
-EVs: 252 SpA / 6 SpD / 252 Spe
-- Tailwind
-- Hurricane
-- Feather Dance
-- Hydro Pump
+Adamant Nature
+EVs: 252 HP / 252 Atk / 6 Def
+- Spikes
+- High Horsepower
+- Protect
+- Liquidation
 
 Kingdra @ Scope Lens
 Ability:Sniper
@@ -3389,55 +3389,25 @@ Double Battle: No
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
-Empoleon @ Rocky Helmet
-Ability:Competitive
-Level:80
-Modest Nature
-EVs: 252 HP / 142 Def / 114 SpD
-- Scald
-- Flash Cannon
-- Icy Wind
-- Air Slash
-
-Magmortar @ Choice Scarf
-Ability:Flame Body
-Level:80
-Timid Nature
-EVs: 252 SpA / 176 SpD / 80 Spe
-- Armor Cannon
-- Fiery Wrath
-- Scorching Sands
-- Thunderbolt
-
-Electivire @ Life Orb
-Ability:Motor Drive
+Gliscor @ Toxic Orb
+Ability:Poison Heal
 Level:80
 Adamant Nature
-EVs: 252 Atk / 6 HP / 252 Spe
-- Close Combat
-- Supercell Slam
-- Fake Out
-- Knock Off
+EVs: 252 HP / 4 Def / 252 Spe
+- Stealth Rock
+- U-turn
+- Tailwind
+- High Horsepower
 
-Cresselia @ Leftovers
-Ability:Levitate
-Level:80
-Modest Nature
-EVs: 252 HP / 4 Def / 252 SpD
-- Moonblast
-- Lumina Crash
-- Calm Mind
-- Shadow Ball
-
-Togekiss @ Assault Vest
-Ability:Serene Grace
+Darkrai @ Wide Lens
+Ability:Bad Dreams
 Level:80
 Timid Nature
-EVs: 252 SpA / 6 SpD / 252 Spe
-- Air Slash
-- Fiery Dance
-- Moonblast
-- Ancient Power
+EVs: 6 HP / 252 SpA / 252 Spe
+- Dark Pulse
+- Dark Void
+- Calm Mind
+- Will-O-Wisp
 
 Weavile @ Choice Band
 Ability:Slush Rush
@@ -3448,6 +3418,36 @@ EVs: 6 HP / 252 Atk / 252 Spe
 - Ice Spinner
 - Dire Claw
 - Knock Off
+
+Bronzong @ Leftovers
+Ability:Levitate
+Level:80
+Adamant Nature
+EVs: 252 HP / 252 Def / 6 SpD
+- Iron Defense
+- Meteor Mash
+- Body Press
+- Zen Headbutt
+
+Giratina @ Assault Vest
+Ability:Pressure
+Level:80
+Relaxed Nature
+EVs: 252 HP / 6 Def / 252 SpD
+- Shadow Force
+- Icy Wind
+- Iron Head
+- Breaking Swipe
+
+Gallade @ Muscle Band
+Ability:Sharpness
+Level:80
+Jolly Nature
+EVs: 6 HP / 252 Atk / 252 Spe
+- Sacred Sword
+- Psycho Cut
+- Knock Off
+- Tachyon Cutter
 
 === TRAINER_DRAKE_SS ===
 Name: DRAKE
@@ -3464,7 +3464,7 @@ Ability:Flash Fire
 Level:80
 Modest Nature
 EVs: 252 SpA / 6 SpD / 252 Spe
-- Searing Shot
+- Eruption
 - Infernal Parade
 - Energy Ball
 - Scorching Sands
@@ -3489,16 +3489,6 @@ EVs: 252 Atk / 6 Def / 252 Spe
 - Ceaseless Edge
 - X-Scissor
 
-Umbreon @ Assault Vest
-Ability:Inner Focus
-Level:80
-Calm Nature
-EVs: 252 SpA / 252 SpD / 6 Spe
-- Night Shade
-- Moonblast
-- Shadow Ball
-- Lumina Crash
-
 Bellossom @ Rocky Helmet
 Ability:Flower Veil
 Level:80
@@ -3508,6 +3498,16 @@ EVs: 252 HP / 6 Def / 252 SpD
 - Energy Ball
 - Strength Sap
 - Pollen Puff
+
+Umbreon @ Assault Vest
+Ability:Inner Focus
+Level:80
+Modest Nature
+EVs: 252 SpA / 252 SpD / 6 Spe
+- Night Daze
+- Moonblast
+- Shadow Ball
+- Lumina Crash
 
 Gengar @ Black Sludge
 Ability: Poison Puppeteer
@@ -3539,7 +3539,7 @@ EVs: 252 HP / 6 Atk / 252 Def
 - Stealth Rock
 - Accelerock
 
-Garchomp @ Leftovers
+Garchomp @ Life Orb
 Ability:Sand Veil
 Level:80
 Adamant Nature
@@ -3579,15 +3579,15 @@ EVs: 252 Atk / 6 Def / 252 Spe
 - Iron Head
 - Earthquake
 
-Mamoswine @ Loaded Dice
-Ability:Thick Fat
+Jirachi @ Leftovers
+Ability:Serene Grace
 Level:80
-Adamant Nature
-EVs: 252 Atk / 6 Def / 252 Spe
-- Icicle Spear
-- Bone Rush
-- Rock Blast
-- Iron Head
+Modest Nature
+EVs: 6 HP / 252 SpA / 252 Spe
+- Make It Rain
+- Freezing Glare
+- Thunderbolt
+- Dazzling Gleam
 
 === TRAINER_ALEC ===
 Name: ALEC
@@ -10634,7 +10634,7 @@ Level: 78
 Ability: Intimidate
 Jolly Nature
 - Earth Power
-- Psychic
+- Air Slash
 - Knock Off
 - U-turn
 
@@ -10652,18 +10652,18 @@ Level: 78
 Ability: Soundproof
 Relaxed Nature
 - Behemoth Bash
-- Stone Edge
+- Rock Slide
 - MOVE_KINGS_SHIELD
 - Iron Defense
 
-Carracosta @ Wise Glasses
+Rhyperior @ Choice Scarf
 Level: 78
 Ability: Solid Rock
-Modest Nature
-- Scald
-- Ancient Power
-- Icy Wind
-- Swagger
+Adamant Nature
+- Rock Slide
+- Stomping Tantrum
+- Poison Jab
+- Shadow Claw
 
 Aerodactyl @ Life Orb
 Level: 78
@@ -10701,32 +10701,32 @@ Adamant Nature
 - Flip Turn
 - Psychic Fangs
 
-Swampert @ Rindo Berry
+Pelipper @ Focus Sash
 Level: 78
-Ability: Torrent
-Adamant Nature
-- Spikes
-- High Horsepower
-- Protect
-- Liquidation
-
-Lugia @ Leftovers
-Level: 78
-Ability: Multiscale
+Ability: Drizzle
 Modest Nature
-- Blizzard
-- Psychic Noise
-- Roost
-- Calm Mind
+- Tailwind
+- Hurricane
+- Feather Dance
+- Hydro Pump
 
-Palkia @ Choice Specs
+Gyarados @ Life Orb
+Level: 78
+Ability: Intimidate
+Adamant Nature
+- Crunch
+- Dragon Ascent
+- Wave Crash
+- Ice Fang
+
+Palkia @ Wise Glasses
 Level: 78
 Ability: Telepathy
 Modest Nature
 - Spacial Rend
-- Hydro Pump
+- Surf
 - Earth Power
-- Thunder
+- Thunderbolt
 
 Milotic @ Expert Belt
 Level: 78
@@ -10881,7 +10881,7 @@ Music: Male
 Double Battle: Yes
 AI: Smart Trainer
 
-Conkeldurr @ Choice Scarf
+Conkeldurr @ Assault Vest
 Level: 78
 Ability: Iron Fist
 Adamant Nature
@@ -10890,14 +10890,14 @@ Adamant Nature
 - Dynamic Punch
 - Thunder Punch
 
-Machamp @ Black Belt
+Lopunny @ Rocky Helmet
 Level: 78
-Ability: No Guard
+Ability: Cute Charm
 Adamant Nature
-- Dual Chop
-- Darkest Lariat
-- Fissure
-- Ice Punch
+- Headbutt
+- Fake Out
+- Drain Punch
+- Play Rough
 
 Toxicroak @ Focus Band
 Level: 78
@@ -10908,14 +10908,14 @@ Adamant Nature
 - Drain Punch
 - X-Scissor
 
-Lopunny @ Rocky Helmet
+Machamp @ Life Orb
 Level: 78
-Ability: Cute Charm
+Ability: No Guard
 Adamant Nature
-- Headbutt
-- Fake Out
-- Drain Punch
-- Play Rough
+- Dual Chop
+- Darkest Lariat
+- Fissure
+- Ice Punch
 
 Heracross @ Focus Sash
 Level: 78
@@ -11013,7 +11013,7 @@ Ability: Flash Fire
 Modest Nature
 - Fire Blast
 - Will-O-Wisp
-- Moonblast
+- Dazzling Gleam
 - Psychic Terrain
 
 Azumarill @ Choice Band
@@ -11029,7 +11029,7 @@ Gardevoir @ Assault Vest
 Level: 78
 Ability: Telepathy
 Timid Nature
-- Moonblast
+- Dazzling Gleam
 - Psychic
 - Healing Wish
 - Energy Ball
@@ -11038,7 +11038,7 @@ Togekiss @ Leftovers
 Level: 78
 Ability: Serene Grace
 Bold Nature
-- Moonblast
+- Dazzling Gleam
 - Ancient Power
 - Fiery Dance
 - Air Slash
@@ -11050,7 +11050,7 @@ Modest Nature
 - Hyper Voice
 - Psyshock
 - Shadow Ball
-- Moonblast
+- Dazzling Gleam
 
 Mawile @ Occa Berry
 Level: 78
@@ -11076,17 +11076,17 @@ Ability: Cursed Body
 Modest Nature
 - Astral Barrage
 - Sludge Wave
-- Perish Song
+- Toxic Spikes
 - Protect
 
-Cofagrigus @ Sitrus Berry
+Sableye @ Sitrus Berry
 Level: 78
-Ability: Mummy
+Ability: Prankster
 Relaxed Nature
-- Trick Room
+- Icy Wind
 - Will-O-Wisp
-- Shadow Ball
-- Protect
+- Foul Play
+- Taunt
 
 Rotom Wash @ Sitrus Berry
 Level: 78
@@ -11103,7 +11103,7 @@ Ability: Pressure
 Calm Nature
 - Psystrike
 - Aura Sphere
-- Trick Room
+- Shadow Ball
 - Nasty Plot
 
 Chandelure @ Choice Specs
@@ -11115,7 +11115,7 @@ Quiet Nature
 - Energy Ball
 - Dark Pulse
 
-Golurk @ Choice Band
+Golurk @ Assault Vest
 Level: 78
 Ability: No Guard
 Brave Nature
