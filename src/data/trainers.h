@@ -8006,7 +8006,7 @@ F_TRAINER_FEMALE |
 #line 3246
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
 #line 3247
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 3248
         .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
 #line 3249
@@ -8181,7 +8181,7 @@ F_TRAINER_FEMALE |
 #line 3317
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
 #line 3318
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 3319
         .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
 #line 3320
@@ -8354,7 +8354,7 @@ F_TRAINER_FEMALE |
 #line 3387
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
 #line 3388
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 3389
         .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
 #line 3390
@@ -8527,7 +8527,7 @@ F_TRAINER_FEMALE |
 #line 3457
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
 #line 3458
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 3459
         .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
 #line 3460
@@ -8700,7 +8700,7 @@ F_TRAINER_FEMALE |
 #line 3527
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
 #line 3528
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 3529
         .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
 #line 3530

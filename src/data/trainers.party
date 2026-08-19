@@ -3244,7 +3244,7 @@ Class: Gamer
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Double Battle: No
+Double Battle: Yes
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
@@ -3315,7 +3315,7 @@ Class: Gamer
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Double Battle: No
+Double Battle: Yes
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
@@ -3385,7 +3385,7 @@ Class: Gamer
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Double Battle: No
+Double Battle: Yes
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
@@ -3455,7 +3455,7 @@ Class: Gamer
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Double Battle: No
+Double Battle: Yes
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
@@ -3525,7 +3525,7 @@ Class: Gamer
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Double Battle: No
+Double Battle: Yes
 AI: Smart Trainer / Prediction
 Mugshot: Blue
 
