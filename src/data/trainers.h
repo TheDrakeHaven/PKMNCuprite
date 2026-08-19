@@ -27321,16 +27321,16 @@ F_TRAINER_FEMALE |
             },
             {
 #line 10869
-            .species = SPECIES_FLYGON,
+            .species = SPECIES_AMPHAROS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10869
             .heldItem = ITEM_LEFTOVERS,
 #line 10873
-            .ev = TRAINER_PARTY_EVS(252, 252, 6, 0, 0, 0),
+            .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 252, 6),
 #line 10874
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 10871
-            .ability = ABILITY_LEVITATE,
+            .ability = ABILITY_LIGHTNING_ROD,
 #line 10870
             .lvl = 78,
 #line 10872
@@ -27338,10 +27338,10 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 10874
-                MOVE_U_TURN,
-                MOVE_DRAGON_RUSH,
-                MOVE_EARTH_POWER,
-                MOVE_DRAGON_DANCE,
+                MOVE_DRAGON_PULSE,
+                MOVE_ELECTROWEB,
+                MOVE_DAZZLING_GLEAM,
+                MOVE_VOLT_SWITCH,
             },
             },
             {

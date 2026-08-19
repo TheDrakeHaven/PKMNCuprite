@@ -10866,15 +10866,15 @@ EVs: 100 Def / 158 SpA / 252 SpD
 - Metal Burst
 - Flamethrower
 
-Flygon @ Leftovers
+Ampharos @ Leftovers
 Level: 78
-Ability: Levitate
+Ability: Lightning Rod
 Modest Nature
-EVs: 252 HP / 252 Atk / 6 Def
-- U-turn
-- Dragon Rush
-- Earth Power
-- Dragon Dance
+EVs: 252 HP / 252 SpA / 6 SpD
+- Dragon Pulse
+- Electroweb
+- Dazzling Gleam
+- Volt Switch
 
 Dragonite @ Rocky Helmet
 Level: 78
