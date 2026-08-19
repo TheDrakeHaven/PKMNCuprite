@@ -23707,6 +23707,7 @@ static const u16 sGlalieTeachableLearnset[] = {
     MOVE_TRIPLE_AXEL,
     MOVE_HAZE,
     MOVE_GLACIAL_LANCE,
+    MOVE_PSYCHIC_FANGS,
     MOVE_UNAVAILABLE,
 };
 
