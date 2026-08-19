@@ -38,6 +38,8 @@ EverGrandeCity_DrakeChampions_Movement_PlayerApproachWallace:
 	step_end
 
 EverGrandeCity_DrakeChampions_EventScript_Wallace::
+	special HasEnoughMonsForDoubleBattle
+	goto_if_ne VAR_RESULT, PLAYER_HAS_TWO_USABLE_MONS, EverGrandeCity_DrakeChampions_EventScript_NotEnoughPokemon
 	playbgm MUS_ENCOUNTER_CHAMPION, FALSE
 	msgbox EverGrandeCity_DrakeChampions_Text_IntroSpeech, MSGBOX_DEFAULT
 	special HealPlayerParty
@@ -88,4 +90,7 @@ EverGrandeCity_DrakeChampions_Text_PostBattleSpeech:
 	.string "the game…\p"
 	.string "THANK YOU! $"
 
-
+EverGrandeCity_DrakeChampions_EventScript_NotEnoughPokemon::
+	msgbox GymRematch_Text_NotEnoughPokemon, MSGBOX_DEFAULT
+	releaseall
+	end

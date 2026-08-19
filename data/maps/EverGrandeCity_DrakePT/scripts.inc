@@ -41,6 +41,8 @@ EverGrandeCity_DrakesPT_EventScript_Drake::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_ELITE_DRAKE_PT, EverGrandeCity_DrakesPT_EventScript_PostBattleSpeech
+	special HasEnoughMonsForDoubleBattle
+	goto_if_ne VAR_RESULT, PLAYER_HAS_TWO_USABLE_MONS, EverGrandeCity_DrakesPT_EventScript_NotEnoughPokemon
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_DrakesPT_Text_IntroSpeech, MSGBOX_DEFAULT
 	special HealPlayerParty
@@ -79,3 +81,7 @@ EverGrandeCity_DrakesPT_Text_PostBattleSpeech:
 	.string "Next up is Soul Silver! \p"
 	.string "Dont' underestimate him!$"
 
+EverGrandeCity_DrakesPT_EventScript_NotEnoughPokemon::
+	msgbox GymRematch_Text_NotEnoughPokemon, MSGBOX_DEFAULT
+	release
+	end

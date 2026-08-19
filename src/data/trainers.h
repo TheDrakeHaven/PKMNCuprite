@@ -9994,7 +9994,7 @@ F_TRAINER_FEMALE |
 #line 4064
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4061
-            .ability = ABILITY_PRESSURE,
+            .ability = ABILITY_TELEPATHY,
 #line 4062
             .lvl = 67,
 #line 4063
@@ -10002,10 +10002,10 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 4064
-                MOVE_PSYSHOCK,
+                MOVE_PSYSTRIKE,
                 MOVE_AURA_SPHERE,
-                MOVE_TRICK_ROOM,
-                MOVE_NASTY_PLOT,
+                MOVE_THUNDERBOLT,
+                MOVE_ICY_WIND,
             },
             },
         },

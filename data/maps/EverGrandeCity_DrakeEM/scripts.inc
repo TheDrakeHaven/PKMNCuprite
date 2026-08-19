@@ -41,6 +41,8 @@ EverGrandeCity_DrakesEM_EventScript_Drake::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_ELITE_DRAKE_EM, EverGrandeCity_DrakesEM_EventScript_PostBattleSpeech
+	special HasEnoughMonsForDoubleBattle
+	goto_if_ne VAR_RESULT, PLAYER_HAS_TWO_USABLE_MONS, EverGrandeCity_DrakesEM_EventScript_NotEnoughPokemon
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_DrakesEM_Text_IntroSpeech, MSGBOX_DEFAULT
 	special HealPlayerParty
@@ -79,4 +81,7 @@ EverGrandeCity_DrakesEM_Text_PostBattleSpeech:
 	.string "Prepare to fight my POKéMON \n"
 	.string "Platinum team next!$"
 
-
+EverGrandeCity_DrakesEM_EventScript_NotEnoughPokemon::
+	msgbox GymRematch_Text_NotEnoughPokemon, MSGBOX_DEFAULT
+	release
+	end
